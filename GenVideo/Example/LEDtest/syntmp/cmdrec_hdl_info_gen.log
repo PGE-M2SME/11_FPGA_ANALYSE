@@ -1,0 +1,9 @@
+/usr/local/diamond/3.11_x64/synpbase/bin/c_vhdl  -osyn  /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_LEDtest_hdl_.srs  -top  topcount  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  /home/diamond/SharedFolder/Example/LEDtest/dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work /home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd -lib work /home/diamond/SharedFolder/Example/LEDtest/source/typepackage.vhd  -log  /home/diamond/SharedFolder/Example/LEDtest/syntax.log  -fileorder  /home/diamond/SharedFolder/Example/LEDtest/syntmp/hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:/usr/local/diamond/3.11_x64/synpbase/bin/c_vhdl -osyn ../synwork/LEDtest_LEDtest_hdl_.srs -top topcount -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ../dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ../source/count8.vhd -lib work ../source/typepackage.vhd -log ../syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:1
+file:../synwork/LEDtest_LEDtest_hdl_.srs|io:o|time:0|size:-1|exec:0|csum:
+file:../source/count8.vhd|io:i|time:1596709702|size:789|exec:0|csum:DD878F2BC4F58B9C9B6BDAC21A09E757
+file:../source/typepackage.vhd|io:i|time:1596709702|size:2705|exec:0|csum:EC1975C951E440DEC78ACF73B0819BAE
+file:../syntax.log|io:o|time:1611508889|size:949|exec:0|csum:
+file:/usr/local/diamond/3.11_x64/synpbase/linux_a_64/c_vhdl|io:i|time:1554136090|size:10093640|exec:1|csum:FDC3BDAF0FB04CD9D905630D63DABBF1
+file:/usr/local/diamond/3.11_x64/synpbase/bin/c_vhdl|io:i|time:1554135608|size:365|exec:1|csum:4BFE636BF1E789CD3BE436D80F9E4F42

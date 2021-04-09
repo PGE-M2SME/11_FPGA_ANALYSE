@@ -1,0 +1,87 @@
+<Project ModBy="Inserter" Name="/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl" Date="2021-02-16">
+    <Core Name="TestVideoTop_LA0">
+        <Setting>
+            <Capture SamplesPerTrig="1" NumTrigsCap=""/>
+            <Event EventCnt="" CntEnableRun=""/>
+            <TrigSetting PreTrgSamples="" AND_ALL="" PostTrgSamples="" TURadix="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Name="pinde"/>
+                <Sig Name="pinhsync"/>
+                <Sig Name="pinvsync"/>
+                <Bus Name="umires/tv" Radix="0">
+                    <Sig Name="umires/tv:0"/>
+                    <Sig Name="umires/tv:1"/>
+                    <Sig Name="umires/tv:2"/>
+                    <Sig Name="umires/tv:3"/>
+                    <Sig Name="umires/tv:4"/>
+                    <Sig Name="umires/tv:5"/>
+                    <Sig Name="umires/tv:6"/>
+                    <Sig Name="umires/tv:7"/>
+                    <Sig Name="umires/tv:8"/>
+                    <Sig Name="umires/tv:9"/>
+                    <Sig Name="umires/tv:10"/>
+                    <Sig Name="umires/tv:11"/>
+                </Bus>
+                <Sig Name="datadispo"/>
+                <Bus Name="choixmire" Radix="0">
+                    <Sig Name="choixmire:0"/>
+                    <Sig Name="choixmire:1"/>
+                    <Sig Name="choixmire:2"/>
+                    <Sig Name="choixmire:3"/>
+                </Bus>
+                <Bus Name="relojsistemachoix" Radix="0">
+                    <Sig Name="relojsistemachoix:0"/>
+                    <Sig Name="relojsistemachoix:1"/>
+                    <Sig Name="relojsistemachoix:2"/>
+                    <Sig Name="relojsistemachoix:3"/>
+                </Bus>
+                <Bus Name="umires/th" Radix="0">
+                    <Sig Name="umires/th:0"/>
+                    <Sig Name="umires/th:1"/>
+                    <Sig Name="umires/th:2"/>
+                    <Sig Name="umires/th:3"/>
+                    <Sig Name="umires/th:4"/>
+                    <Sig Name="umires/th:5"/>
+                    <Sig Name="umires/th:6"/>
+                    <Sig Name="umires/th:7"/>
+                    <Sig Name="umires/th:8"/>
+                    <Sig Name="umires/th:9"/>
+                    <Sig Name="umires/th:10"/>
+                    <Sig Name="umires/th:11"/>
+                </Bus>
+                <Bus Name="dvidat" Radix="0">
+                    <Sig Name="dvidat:0"/>
+                    <Sig Name="dvidat:1"/>
+                    <Sig Name="dvidat:2"/>
+                    <Sig Name="dvidat:3"/>
+                    <Sig Name="dvidat:4"/>
+                    <Sig Name="dvidat:5"/>
+                    <Sig Name="dvidat:6"/>
+                    <Sig Name="dvidat:7"/>
+                    <Sig Name="dvidat:8"/>
+                    <Sig Name="dvidat:9"/>
+                    <Sig Name="dvidat:10"/>
+                    <Sig Name="dvidat:11"/>
+                    <Sig Name="dvidat:12"/>
+                    <Sig Name="dvidat:13"/>
+                    <Sig Name="dvidat:14"/>
+                    <Sig Name="dvidat:15"/>
+                    <Sig Name="dvidat:16"/>
+                    <Sig Name="dvidat:17"/>
+                    <Sig Name="dvidat:18"/>
+                    <Sig Name="dvidat:19"/>
+                    <Sig Name="dvidat:20"/>
+                    <Sig Name="dvidat:21"/>
+                    <Sig Name="dvidat:22"/>
+                    <Sig Name="dvidat:23"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Operator="6" Name="TU1" ID="1" Value="1" Radix="0"/>
+                <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

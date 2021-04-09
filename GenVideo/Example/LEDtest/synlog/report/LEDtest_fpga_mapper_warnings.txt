@@ -1,0 +1,45 @@
+@W: MT462 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Net clockDivider_inst.clkDivOut appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: BN132 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":27:1:27:6|Removing instance seg_8 because it is equivalent to instance seg_7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT453 |clock period is too long for clock topcount|clk, changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: BN137 :|Found combinational loop during mapping at net seg9
+@W: BN137 :|Found combinational loop during mapping at net seg10
+@W: BN137 :|Found combinational loop during mapping at net seg11
+@W: BN137 :|Found combinational loop during mapping at net seg12
+@W: BN137 :|Found combinational loop during mapping at net seg13
+@W: BN137 :|Found combinational loop during mapping at net seg14
+@W: BN137 :|Found combinational loop during mapping at net seg15
+@W: BN137 :|Found combinational loop during mapping at net seg16
+@W: MT246 :"/home/diamond/SharedFolder/Example/my_pll.v":38:12:38:20|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock my_pll|CLKOK_inferred_clock with period 4.39ns. Please declare a user-defined clock on net my_pll_inst.CLKOK.
+@W: MT420 |Found inferred clock topcount|direction with period 1000.00ns. Please declare a user-defined clock on port direction.
+@W: MT420 |Found inferred clock topcount|clk with period 1.85ns. Please declare a user-defined clock on port clk.

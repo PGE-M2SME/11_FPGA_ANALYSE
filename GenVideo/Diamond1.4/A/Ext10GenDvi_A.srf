@@ -1,0 +1,1531 @@
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: /usr/local/diamond/3.11_x64/synpbase
+#OS: Linux 
+#Hostname: b663e0c4e5c9
+
+# Fri Feb 19 01:22:14 2021
+
+#Implementation: A
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: b663e0c4e5c9
+
+Implementation : A
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: b663e0c4e5c9
+
+Implementation : A
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+@N:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":17:7:17:18|Top entity is set to TestVideoTop.
+Options changed - recompiling
+@W: CD643 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":6:27:6:27|Ignoring use clause - pmi_components not found ...
+@W: CD645 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":7:8:7:15|Ignoring undefined library pmi_work
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":17:7:17:18|Synthesizing work.testvideotop.rtl.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startupddr3 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startupddr2 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startupsdr of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startuppcs of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port ce1us of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port ce1ms of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port ce7 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD280 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":138:10:138:17|Unbound component pmi_fifo mapped to black box
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port almostfull of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port almostempty of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port full of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port empty of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":138:10:138:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box.
+Post processing for work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box
+Running optimization stage 1 on pmi_fifo_work_testvideotop_rtl_0 .......
+@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":177:10:177:12|Synthesizing work.dcs.syn_black_box.
+Post processing for work.dcs.syn_black_box
+Running optimization stage 1 on DCS .......
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":332:10:332:21|Signal relojsistema is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:25:354:31|Signal salida2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:34:354:40|Signal salida3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:43:354:49|Signal salida4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:52:354:58|Signal salida5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":364:37:364:41|Signal clk20 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":371:7:371:14|Signal reloj1hz is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":372:8:372:18|Signal s_pinclk125 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":380:7:380:10|Signal datr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":380:13:380:16|Signal datg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":380:19:380:22|Signal datb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":381:7:381:10|Signal fcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":381:13:381:16|Signal hcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":381:19:381:22|Signal vcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":8:8:8:12|Synthesizing work.mires.mires.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":31:7:31:12|Signal counti is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":32:7:32:14|Signal vertical is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":33:7:33:13|Signal intvcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":34:7:34:7|Signal i is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.mires.mires
+Running optimization stage 1 on mires .......
+@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":21:1:21:9|Signal HVertical is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":20:1:20:9|Signal HContador is floating; a simulation mismatch is possible.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":8:8:8:17|Synthesizing work.simulacion.simulacion.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":43:9:43:16|Signal hlength1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":44:9:44:13|Signal hres1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":45:9:45:12|Signal hfp1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":46:9:46:19|Signal hsyncpulse1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":47:9:47:12|Signal hbp1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":48:9:48:17|Signal hpolsync1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":49:9:49:16|Signal vlength1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":50:9:50:13|Signal vres1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":51:9:51:12|Signal vfp1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":52:9:52:19|Signal vsyncpulse1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":53:9:53:12|Signal vbp1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":54:9:54:17|Signal vpolsync1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":59:9:59:16|Signal hlength2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":60:9:60:13|Signal hres2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":61:9:61:12|Signal hfp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":62:9:62:19|Signal hsyncpulse2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":63:9:63:12|Signal hbp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":64:9:64:17|Signal hpolsync2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":65:9:65:16|Signal vlength2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":66:9:66:13|Signal vres2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":67:9:67:12|Signal vfp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":68:9:68:19|Signal vsyncpulse2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":69:9:69:12|Signal vbp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":70:9:70:17|Signal vpolsync2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":75:9:75:16|Signal hlength3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":76:9:76:13|Signal hres3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":77:9:77:12|Signal hfp3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":78:9:78:19|Signal hsyncpulse3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":79:9:79:12|Signal hbp3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":80:9:80:17|Signal hpolsync3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":81:9:81:16|Signal vlength3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":82:9:82:13|Signal vres3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":83:9:83:12|Signal vfp3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":84:9:84:19|Signal vsyncpulse3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":85:9:85:12|Signal vbp3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":86:9:86:17|Signal vpolsync3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":90:9:90:16|Signal hlength4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":91:9:91:13|Signal hres4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":92:9:92:12|Signal hfp4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":93:9:93:19|Signal hsyncpulse4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":94:9:94:12|Signal hbp4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":95:9:95:17|Signal hpolsync4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":96:9:96:16|Signal vlength4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":97:9:97:13|Signal vres4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":98:9:98:12|Signal vfp4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":99:9:99:19|Signal vsyncpulse4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":100:9:100:12|Signal vbp4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":101:9:101:17|Signal vpolsync4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":106:9:106:16|Signal hlength5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":107:9:107:13|Signal hres5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":108:9:108:12|Signal hfp5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":109:9:109:19|Signal hsyncpulse5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":110:9:110:12|Signal hbp5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":111:9:111:17|Signal hpolsync5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":112:9:112:16|Signal vlength5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":113:9:113:13|Signal vres5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":114:9:114:12|Signal vfp5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":115:9:115:19|Signal vsyncpulse5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":116:9:116:12|Signal vbp5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":117:9:117:17|Signal vpolsync5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":122:9:122:16|Signal hlength6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":123:9:123:13|Signal hres6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":124:9:124:12|Signal hfp6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":125:9:125:19|Signal hsyncpulse6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":126:9:126:12|Signal hbp6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":127:9:127:17|Signal hpolsync6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":128:9:128:16|Signal vlength6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":129:9:129:13|Signal vres6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":130:9:130:12|Signal vfp6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":131:9:131:19|Signal vsyncpulse6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":132:9:132:12|Signal vbp6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":133:9:133:17|Signal vpolsync6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":138:9:138:16|Signal hlength7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":139:9:139:13|Signal hres7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":140:9:140:12|Signal hfp7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":141:9:141:19|Signal hsyncpulse7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":142:9:142:12|Signal hbp7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":143:9:143:17|Signal hpolsync7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":144:9:144:16|Signal vlength7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":145:9:145:13|Signal vres7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":146:9:146:12|Signal vfp7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":147:9:147:19|Signal vsyncpulse7 is undriven. Either assign the signal a value or remove the signal declaration.
+
+Only the first 100 messages of id 'CD638' are reported. To see all messages use 'report_messages -log /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_compiler.srr -id CD638' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CD638} -count unlimited' in the Tcl shell.
+Post processing for work.simulacion.simulacion
+Running optimization stage 1 on simulacion .......
+@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":27:5:27:13|Signal dataDispo is floating; a simulation mismatch is possible.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":6:7:6:12|Synthesizing work.dvi410.rtl.
+@W: CD272 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":205:19:205:37|Comparison (=) of different length arrays is always false!
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":6:7:6:19|Synthesizing work.dvi410request.rtl.
+Post processing for work.dvi410request.rtl
+Running optimization stage 1 on Dvi410Request .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":6:7:6:18|Synthesizing work.dvi410timing.rtl.
+Post processing for work.dvi410timing.rtl
+Running optimization stage 1 on Dvi410Timing .......
+@W: CL271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":27:2:27:3|Pruning unused bits 15 to 6 of bound_sr_6(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":27:2:27:3|Sharing sequential element fifo_rd. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":6:7:6:16|Synthesizing work.dvi410sync.rtl.
+Post processing for work.dvi410sync.rtl
+Running optimization stage 1 on Dvi410Sync .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":6:7:6:15|Synthesizing work.dvi410cnt.rtl.
+Post processing for work.dvi410cnt.rtl
+Running optimization stage 1 on Dvi410Cnt .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":6:7:6:16|Synthesizing work.dvi410conf.rtl.
+Post processing for work.dvi410conf.rtl
+Running optimization stage 1 on Dvi410Conf .......
+Post processing for work.dvi410.rtl
+Running optimization stage 1 on Dvi410 .......
+@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":44:8:44:16|Signal PinTfpClk is floating; a simulation mismatch is possible.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":9:7:9:23|Synthesizing work.i2cmastercommands.rtl.
+@W: CD280 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":51:10:51:17|Unbound component pmi_fifo mapped to black box
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":194:0:194:9|Port almostfull of entity work.pmi_fifo_work_testvideotop_rtl_1 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":194:0:194:9|Port almostempty of entity work.pmi_fifo_work_testvideotop_rtl_1 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":51:10:51:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_1.syn_black_box.
+Post processing for work.pmi_fifo_work_testvideotop_rtl_1.syn_black_box
+Running optimization stage 1 on pmi_fifo_work_testvideotop_rtl_1 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd":6:7:6:21|Synthesizing work.i2cmasterdevice.rtl.
+Post processing for work.i2cmasterdevice.rtl
+Running optimization stage 1 on I2cMasterDevice .......
+Post processing for work.i2cmastercommands.rtl
+Running optimization stage 1 on I2cMasterCommands .......
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Register bit DeviceIdR(0) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Register bit DeviceIdW(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Register bit CmdState(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Register bit CmdState(3) is always 0.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Pruning register bits 3 to 2 of CmdState(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Pruning register bit 0 of DeviceIdR(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Pruning register bit 0 of DeviceIdW(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":33:7:33:11|Synthesizing work.forth.rtl.
+@W: CD280 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":85:10:85:19|Unbound component pmi_ram_dq mapped to black box
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":85:10:85:19|Synthesizing work.pmi_ram_dq_work_testvideotop_rtl_0.syn_black_box.
+Post processing for work.pmi_ram_dq_work_testvideotop_rtl_0.syn_black_box
+Running optimization stage 1 on pmi_ram_dq_work_testvideotop_rtl_0 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd":6:7:6:10|Synthesizing work.uart.rtl.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd":59:7:59:8|Synthesizing work.tx.behavioral.
+Post processing for work.tx.behavioral
+Running optimization stage 1 on Tx .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd":64:7:64:8|Synthesizing work.rx.behavioral.
+Post processing for work.rx.behavioral
+Running optimization stage 1 on Rx .......
+Post processing for work.uart.rtl
+Running optimization stage 1 on uart .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":29:7:29:10|Synthesizing work.ep32.behavioral.
+Post processing for work.ep32.behavioral
+Running optimization stage 1 on ep32 .......
+@W: CL271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Pruning unused bits 31 to 30 of i_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Post processing for work.forth.rtl
+Running optimization stage 1 on Forth .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":60:7:60:12|Synthesizing work.seqblk.behavioral.
+Post processing for work.seqblk.behavioral
+Running optimization stage 1 on SeqBlk .......
+@W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":236:2:236:3|Sharing sequential element StartupDDR3. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd":14:7:14:16|Synthesizing work.pllclkto80.structure.
+@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1967:10:1967:16|Synthesizing work.ehxpllf.syn_black_box.
+Post processing for work.ehxpllf.syn_black_box
+Running optimization stage 1 on EHXPLLF .......
+@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1368:10:1368:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+Running optimization stage 1 on VLO .......
+Post processing for work.pllclkto80.structure
+Running optimization stage 1 on PllClkto80 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd":14:7:14:17|Synthesizing work.pllclkto140.structure.
+Post processing for work.pllclkto140.structure
+Running optimization stage 1 on PllClkto140 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto120.vhd":14:7:14:17|Synthesizing work.pllclkto120.structure.
+Post processing for work.pllclkto120.structure
+Running optimization stage 1 on PllClkto120 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto25.vhd":14:7:14:16|Synthesizing work.pllclkto25.structure.
+Post processing for work.pllclkto25.structure
+Running optimization stage 1 on PllClkto25 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to159.vhd":14:7:14:17|Synthesizing work.pll125to159.structure.
+Post processing for work.pll125to159.structure
+Running optimization stage 1 on Pll125to159 .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd":14:7:14:19|Synthesizing work.pll125toclock.structure.
+Post processing for work.pll125toclock.structure
+Running optimization stage 1 on Pll125toclock .......
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd":14:7:14:20|Synthesizing work.pll125to100x50.structure.
+Post processing for work.pll125to100x50.structure
+Running optimization stage 1 on Pll125to100x50 .......
+Post processing for work.testvideotop.rtl
+Running optimization stage 1 on TestVideoTop .......
+@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":332:10:332:21|Signal relojSistema is floating; a simulation mismatch is possible.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":598:0:598:4|Removing instance uDCS0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":593:0:593:4|Removing instance uDCS1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":411:0:411:7|Removing instance uclock34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":409:0:409:12|Removing instance uclock800x600 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":407:0:407:10|Removing instance uclock1680x because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":405:0:405:14|Removing instance uclock1400x1050 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":403:0:403:12|Removing instance uclock640x480 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":401:0:401:5|Removing instance uclock because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":398:0:398:8|Removing instance uPllclock because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL167 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":608:0:608:5|Input clk100 of instance umires is floating
+@W: CL167 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":523:0:523:3|Input clkdvi of instance uDvi is floating
+Running optimization stage 2 on Pll125to100x50 .......
+Running optimization stage 2 on Pll125toclock .......
+Running optimization stage 2 on Pll125to159 .......
+Running optimization stage 2 on PllClkto25 .......
+Running optimization stage 2 on PllClkto120 .......
+Running optimization stage 2 on PllClkto140 .......
+Running optimization stage 2 on VLO .......
+Running optimization stage 2 on EHXPLLF .......
+Running optimization stage 2 on PllClkto80 .......
+Running optimization stage 2 on SeqBlk .......
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(6) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(7) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(8) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(9) is always 0.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Pruning register bits 9 to 6 of CntUs(9 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on ep32 .......
+@N: CL134 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Found RAM s_stack, depth=32, width=33
+@N: CL134 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Found RAM r_stack, depth=32, width=33
+Running optimization stage 2 on Rx .......
+Running optimization stage 2 on Tx .......
+Running optimization stage 2 on uart .......
+@W: CL246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd":13:4:13:9|Input port bits 31 to 8 of data_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd":10:4:10:9|Input read_i is unused.
+Running optimization stage 2 on pmi_ram_dq_work_testvideotop_rtl_0 .......
+Running optimization stage 2 on Forth .......
+Running optimization stage 2 on I2cMasterDevice .......
+@N: CL201 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd":47:0:47:1|Trying to extract state machine for register State.
+Extracted state machine for register State
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+Running optimization stage 2 on pmi_fifo_work_testvideotop_rtl_1 .......
+Running optimization stage 2 on I2cMasterCommands .......
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Pruning register bit 3 of CmdStateD(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Register bit CmdStateD(2) is always 0.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Pruning register bit 2 of CmdStateD(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":152:0:152:1|Trying to extract state machine for register State.
+Extracted state machine for register State
+State machine has 10 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+@W: CL247 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":19:4:19:11|Input port bit 0 of deviceid(7 downto 0) is unused 
+Running optimization stage 2 on Dvi410Conf .......
+@W: CL246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":28:1:28:3|Input port bits 15 to 12 of dat(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":16:3:16:5|Input HBP is unused.
+@N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":21:3:21:5|Input VBP is unused.
+Running optimization stage 2 on Dvi410Cnt .......
+@N: CL135 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Found sequential shift srst2 with address depth of 3 words and data bit width of 1.
+Running optimization stage 2 on Dvi410Sync .......
+Running optimization stage 2 on Dvi410Timing .......
+Running optimization stage 2 on Dvi410Request .......
+Running optimization stage 2 on Dvi410 .......
+Running optimization stage 2 on simulacion .......
+@W: CL138 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Removing register 'mireID' because it is only assigned 0 or its original value.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(4) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(6) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(7) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(8) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(9) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(10) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(11) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HPolSyncCHoix is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VPolSyncChoix is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(0) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(0) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(1) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(0) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(3) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(1) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(2) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(3) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(5) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(6) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(7) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(5) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(6) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(7) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(4) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(6) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(7) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(8) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(4) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(6) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(7) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(8) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(9) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(10) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(11) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(5) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(6) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(7) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(8) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(9) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(10) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(11) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(1) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(6) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(7) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(8) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(9) is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":253:1:253:2|Pruning unused register Reloj1hz. Make sure that there are no unused intermediate registers.
+@N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":13:2:13:4|Input clk is unused.
+Running optimization stage 2 on mires .......
+@W: CL247 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":12:1:12:2|Input port bit 11 of th(11 downto 0) is unused 
+@W: CL247 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":12:4:12:5|Input port bit 11 of tv(11 downto 0) is unused 
+Running optimization stage 2 on DCS .......
+Running optimization stage 2 on pmi_fifo_work_testvideotop_rtl_0 .......
+Running optimization stage 2 on TestVideoTop .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:11s; Memory used current: 117MB peak: 128MB)
+
+Process took 0h:00m:16s realtime, 0h:00m:11s cputime
+
+Process completed successfully.
+# Fri Feb 19 01:22:32 2021
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: b663e0c4e5c9
+
+Implementation : A
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 19 01:22:33 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:12s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:17s realtime, 0h:00m:12s cputime
+
+Process completed successfully.
+# Fri Feb 19 01:22:33 2021
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: b663e0c4e5c9
+
+Database state : /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/|A
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 19 01:22:35 2021
+
+###########################################################]
+Premap Report
+
+# Fri Feb 19 01:22:35 2021
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: b663e0c4e5c9
+
+Implementation : A
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:24:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A_scck.rpt 
+Printing clock  summary report in "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 119MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing sequential instance uMaster.DeviceIdW[7:1] because it is equivalent to instance uMaster.DeviceIdR[7:1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[8] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[9] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[10] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[11] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[12] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[13] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[14] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[15] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[16] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[17] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[18] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[19] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[20] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[21] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[22] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[23] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":179:2:179:3|Sequential instance uDvi.U_conf.wed is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.dvi_nf is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":42:2:42:3|Sequential instance uDvi.U_gen_req.hs is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.hs0 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.req_row is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":42:2:42:3|Sequential instance uDvi.U_gen_req.vs is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.vs0 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Sequential instance uDvi.U_gen_sync.dvi_if_hs is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Sequential instance uDvi.U_gen_sync.dvi_if_vs is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":72:2:72:3|Sequential instance uDvi.U_gen_sync.hs is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":72:2:72:3|Sequential instance uDvi.U_gen_sync.vs is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":27:2:27:3|Sequential instance uDvi.U_gen_tim.dvi_de is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":179:2:179:3|Sequential instance uDvi.U_conf.dat011A is reduced to a combinational gate by constant propagation.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":190:0:190:8|Removing instance U_gen_req (in view: work.Dvi410(rtl)) of type view:work.Dvi410Request(rtl) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":181:0:181:9|Removing instance U_gen_sync (in view: work.Dvi410(rtl)) of type view:work.Dvi410Sync(rtl) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing sequential instance DatG[7:0] (in view: work.mires(mires)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":540:0:540:10|Removing instance uSimulacion (in view: work.TestVideoTop(rtl)) of type view:work.simulacion(simulacion) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":608:0:608:5|Removing instance umires (in view: work.TestVideoTop(rtl)) of type view:work.mires(mires) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Removing sequential instance boundv[1:0] (in view: work.Dvi410Sync(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Removing sequential instance boundh[1:0] (in view: work.Dvi410Sync(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vss[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vse[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_hss[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_hse[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":133:2:133:3|Removing sequential instance Ce7 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":167:0:167:1|Removing sequential instance Ce1ms (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":198:2:198:3|Removing sequential instance StartupPCS[1:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":214:2:214:3|Removing sequential instance StartupSDR (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":225:2:225:3|Removing sequential instance StartupDDR2_1 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":132:0:132:1|Removing sequential instance Done (in view: work.I2cMasterCommands(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":186:0:186:8|Removing instance U_gen_tim (in view: work.Dvi410(rtl)) of type view:work.Dvi410Timing(rtl) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":177:0:177:8|Removing instance U_gen_cnt (in view: work.Dvi410(rtl)) of type view:work.Dvi410Cnt(rtl) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":42:2:42:3|Removing sequential instance bnd[3:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vsz[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Removing sequential instance cnt_h[11:0] (in view: work.Dvi410Cnt(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Removing sequential instance cnt_v[11:0] (in view: work.Dvi410Cnt(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vln[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_hln[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing sequential instance bnd3[11:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing sequential instance bnd2[11:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing sequential instance bnd1[11:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":133:2:133:3|Removing sequential instance Cnt7[11:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":167:0:167:1|Removing sequential instance CntMs[9:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Removing sequential instance CntUs[5:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Removing sequential instance Ce (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+Encoding state machine State[0:10] (in view: work.I2cMasterDevice(rtl))
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0110 -> 00001000000
+   0111 -> 00010000000
+   1000 -> 00100000000
+   1001 -> 01000000000
+   1010 -> 10000000000
+Encoding state machine State[0:9] (in view: work.I2cMasterCommands(rtl))
+original code -> new code
+   0000 -> 0000000001
+   0001 -> 0000000010
+   0010 -> 0000000100
+   0011 -> 0000001000
+   0100 -> 0000010000
+   0101 -> 0000100000
+   0110 -> 0001000000
+   0111 -> 0010000000
+   1000 -> 0100000000
+   1001 -> 1000000000
+syn_allowed_resources : blockrams=240  set on top level netlist TestVideoTop
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                   Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                   Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------------------------------
+0 -       System                                  200.0 MHz     5.000         system       system_clkgroup         0    
+                                                                                                                        
+0 -       Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0     588  
+========================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                        Clock     Source                            Clock Pin        Non-clock Pin     Non-clock Pin         
+Clock                                   Load      Pin                               Seq Example      Seq Example       Comb Example          
+---------------------------------------------------------------------------------------------------------------------------------------------
+System                                  0         -                                 -                -                 -                     
+                                                                                                                                             
+Pll125to100x50|CLKOK_inferred_clock     588       uPll.PLLInst_0.CLKOK(EHXPLLF)     RdLen[7:0].C     -                 uForth.m_clk.I[0](inv)
+=============================================================================================================================================
+
+@W: MT529 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":97:2:97:3|Found inferred clock Pll125to100x50|CLKOK_inferred_clock which controls 588 sequential elements including uSeq.lCnt32[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 524 clock pin(s) of sequential element(s)
+0 instances converted, 524 sequential instances remain driven by gated/generated clocks
+
+====================================================== Gated/Generated Clocks ======================================================
+Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance     Explanation            
+------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       uPll.PLLInst_0.CLKOK     EHXPLLF                524                    Timer[31:0]         Black box on clock path
+====================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 148MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Fri Feb 19 01:22:38 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Feb 19 01:22:38 2021
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: b663e0c4e5c9
+
+Implementation : A
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:24:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.tload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.spush_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.spopp_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.rload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.reset_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.aload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.tload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.tload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.spush_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.spush_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.spopp_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.spopp_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.rload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.rload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.reset_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.reset_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.aload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.aload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|Found ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[8] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[7] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[5] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[4] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[3] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[2] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[1] because it is equivalent to instance uDvi.U_conf.form_hsz[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[11] because it is equivalent to instance uDvi.U_conf.form_hsz[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[2] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[3] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[4] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[5] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[7] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[8] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[11] because it is equivalent to instance uDvi.DviResH[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[1] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":97:2:97:3|Found counter in view:work.TestVideoTop(rtl) instance uSeq.lCnt32[31:0] 
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance uDvi.U_conf.form_hsz[10] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance uDvi.U_conf.form_hsz[9] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance uDvi.U_conf.form_hsz[6] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance uDvi.U_conf.form_hsz[0] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing sequential instance uDvi.DviResH[10] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing sequential instance uDvi.DviResH[9] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing sequential instance uDvi.DviResH[6] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing sequential instance uDvi.DviResH[0] (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: MF135 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|RAM sync\.r_stack[32:0] (in view: work.ep32(behavioral)) is 32 words by 33 bits.
+@N: MF135 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|RAM sync\.s_stack[32:0] (in view: work.ep32(behavioral)) is 32 words by 33 bits.
+@N: MO231 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Found counter in view:work.ep32(behavioral) instance r[32:0] 
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[6] because it is equivalent to instance uMaster.DeviceIdR[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[5] because it is equivalent to instance uMaster.DeviceIdR[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[7] because it is equivalent to instance uMaster.DeviceIdR[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[3] because it is equivalent to instance uMaster.DeviceIdR[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[2] because it is equivalent to instance uMaster.DeviceIdR[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF179 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":183:58:183:72|Found 8 by 8 bit equality operator ('==') pLowLevelFSM\.un73_state (in view: work.I2cMasterCommands(rtl))
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing sequential instance DeviceIdR[1] (in view: work.I2cMasterCommands(rtl)) because it does not drive other instances.
+@N: MF794 |RAM sync\.r_stack[32:0] required 32 registers during mapping 
+@N: MF794 |RAM sync\.s_stack[32:0] required 32 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 151MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 156MB peak: 165MB)
+
+@N: FA113 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":456:2:456:3|Pipelining module un1_rp1[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Pushed in register rp1[4:0].
+@N: FA113 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":456:2:456:3|Pipelining module un1_sp1[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Pushed in register sp1[4:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 160MB peak: 165MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 162MB peak: 165MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 161MB peak: 165MB)
+
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":156:2:156:3|Removing sequential instance uForth.ItVec (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":241:2:241:3|Removing sequential instance uForth.cpu1.intset (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Removing sequential instance uForth.cpu1.inten (in view: work.TestVideoTop(rtl)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 159MB peak: 165MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 203MB peak: 205MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:30s		   -11.31ns		1482 /       569
+   2		0h:00m:30s		   -11.31ns		1467 /       569
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.slot[1] (in view: work.TestVideoTop(rtl)) with 15 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.slot[0] (in view: work.TestVideoTop(rtl)) with 17 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.system_data_o_0[7] (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.system_data_o_0[2] (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.system_data_o_0[5] (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.system_data_o_0[3] (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.system_data_o_0[0] (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.g0_14 (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.g0_13 (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":423:0:423:5|Replicating instance uForth.g0_6 (in view: work.TestVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 10 LUTs via timing driven replication
+
+   3		0h:00m:35s		    -9.82ns		1492 /       571
+   4		0h:00m:35s		    -9.53ns		1495 /       571
+   5		0h:00m:35s		    -9.64ns		1496 /       571
+   6		0h:00m:35s		    -9.66ns		1497 /       571
+   7		0h:00m:35s		    -9.53ns		1498 /       571
+   8		0h:00m:35s		    -9.71ns		1498 /       571
+
+
+   9		0h:00m:36s		    -6.79ns		1528 /       571
+  10		0h:00m:36s		    -6.56ns		1530 /       571
+  11		0h:00m:37s		    -7.02ns		1533 /       571
+  12		0h:00m:37s		    -6.96ns		1534 /       571
+  13		0h:00m:37s		    -6.82ns		1535 /       571
+  14		0h:00m:37s		    -6.72ns		1536 /       571
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:37s; Memory used current: 204MB peak: 205MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Generating RAM uForth.cpu1.sync\.r_stack[32:0]
+@N: FO126 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Generating RAM uForth.cpu1.sync\.s_stack[32:0]
+@A: BN291 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd":150:0:150:1|Boundary register uMaster.uDevice.lScl.fb (in view: work.TestVideoTop(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:39s; Memory used current: 205MB peak: 206MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:39s; Memory used current: 167MB peak: 206MB)
+
+Writing Analyst data base /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 205MB peak: 207MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:41s; Memory used current: 209MB peak: 212MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 206MB peak: 212MB)
+
+@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Blackbox pmi_fifo_work_testvideotop_rtl_0 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":194:0:194:9|Blackbox pmi_fifo_work_testvideotop_rtl_1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":229:0:229:8|Blackbox pmi_ram_dq_work_testvideotop_rtl_0 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd":68:4:68:12|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock Pll125to100x50|CLKOK_inferred_clock with period 5.00ns. Please declare a user-defined clock on net uPll.Clk50.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Feb 19 01:23:22 2021
+#
+
+
+Top view:               TestVideoTop
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -8.700
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------
+Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     73.0 MHz      5.000         13.700        -8.700     inferred     Inferred_clkgroup_0
+System                                  200.0 MHz     431.6 MHz     5.000         2.317         2.683      system       system_clkgroup    
+===========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               System                               |  5.000       2.683   |  No paths    -      |  No paths    -      |  No paths    -    
+System                               Pll125to100x50|CLKOK_inferred_clock  |  5.000       1.148   |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOK_inferred_clock  System                               |  5.000       -7.344  |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOK_inferred_clock  Pll125to100x50|CLKOK_inferred_clock  |  5.000       -8.700  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Pll125to100x50|CLKOK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                     Arrival           
+Instance                     Reference                               Type        Pin     Net              Time        Slack 
+                             Clock                                                                                          
+----------------------------------------------------------------------------------------------------------------------------
+uForth.cpu1.slot_fast[0]     Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       slot_fast[0]     1.241       -8.700
+uForth.cpu1.slot[1]          Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       slot[1]          1.318       -8.642
+uForth.cpu1.sp[4]            Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       sp[4]            1.421       -8.566
+uForth.cpu1.sp[2]            Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       sp[2]            1.402       -8.547
+uForth.cpu1.i[12]            Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     Q       i[12]            1.069       -8.527
+uForth.cpu1.i[18]            Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     Q       i[18]            1.069       -8.527
+uForth.cpu1.sp[0]            Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       sp[0]            1.379       -8.524
+uForth.cpu1.sp[1]            Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       sp[1]            1.413       -8.481
+uForth.cpu1.sp[3]            Pll125to100x50|CLKOK_inferred_clock     FD1S3IX     Q       sp[3]            1.410       -8.479
+uForth.cpu1.i[24]            Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     Q       i[24]            0.982       -8.440
+============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                                          Required           
+Instance              Reference                               Type        Pin     Net                   Time         Slack 
+                      Clock                                                                                                
+---------------------------------------------------------------------------------------------------------------------------
+uForth.cpu1.t[3]      Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       t_in[3]               4.954        -8.700
+uForth.cpu1.t[30]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       t_in[30]              5.597        -8.642
+uForth.cpu1.i[9]      Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[9]      4.954        -8.640
+uForth.cpu1.i[14]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[14]     4.954        -8.640
+uForth.cpu1.i[17]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[17]     4.954        -8.640
+uForth.cpu1.i[18]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[18]     4.954        -8.640
+uForth.cpu1.i[19]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[19]     4.954        -8.640
+uForth.cpu1.i[20]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[20]     4.954        -8.640
+uForth.cpu1.i[21]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[21]     4.954        -8.640
+uForth.cpu1.i[22]     Pll125to100x50|CLKOK_inferred_clock     FD1P3IX     D       system_data_o[22]     4.954        -8.640
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.046
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.954
+
+    - Propagation time:                      13.653
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -8.700
+
+    Number of logic level(s):                12
+    Starting point:                          uForth.cpu1.slot_fast[0] / Q
+    Ending point:                            uForth.cpu1.t[3] / D
+    The start point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+uForth.cpu1.slot_fast[0]              FD1S3IX      Q        Out     1.241     1.241       -         
+slot_fast[0]                          Net          -        -       -         -           6         
+uForth.cpu1.i_RNICK5U[12]             ORCALUT4     C        In      0.000     1.241       -         
+uForth.cpu1.i_RNICK5U[12]             ORCALUT4     Z        Out     0.923     2.165       -         
+i_RNICK5U[12]                         Net          -        -       -         -           1         
+uForth.cpu1.slot_fast_RNI9JQQ1[1]     PFUMX        ALUT     In      0.000     2.165       -         
+uForth.cpu1.slot_fast_RNI9JQQ1[1]     PFUMX        Z        Out     0.475     2.639       -         
+N_921                                 Net          -        -       -         -           10        
+uForth.cpu1.code_5[0]                 ORCALUT4     B        In      0.000     2.639       -         
+uForth.cpu1.code_5[0]                 ORCALUT4     Z        Out     3.491     6.131       -         
+code[0]                               Net          -        -       -         -           159       
+uForth.un10_peekdat_4_sx              ORCALUT4     C        In      0.000     6.131       -         
+uForth.un10_peekdat_4_sx              ORCALUT4     Z        Out     0.923     7.054       -         
+un10_peekdat_4_sx                     Net          -        -       -         -           1         
+uForth.un10_peekdat_4                 ORCALUT4     D        In      0.000     7.054       -         
+uForth.un10_peekdat_4                 ORCALUT4     Z        Out     1.202     8.256       -         
+un1_peekdat_4                         Net          -        -       -         -           7         
+uForth.pSetReg\.un15_ppwe_0_a3        ORCALUT4     D        In      0.000     8.256       -         
+uForth.pSetReg\.un15_ppwe_0_a3        ORCALUT4     Z        Out     1.591     9.847       -         
+un15_ppwe                             Net          -        -       -         -           60        
+uForth.PeekDat_0_iv_0_1[3]            ORCALUT4     C        In      0.000     9.847       -         
+uForth.PeekDat_0_iv_0_1[3]            ORCALUT4     Z        Out     0.923     10.771      -         
+PeekDat_0_iv_0_1[3]                   Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_bm[3]           ORCALUT4     C        In      0.000     10.771      -         
+uForth.un1_cpu_data_o_bm[3]           ORCALUT4     Z        Out     0.923     11.694      -         
+un1_cpu_data_o_bm[3]                  Net          -        -       -         -           1         
+uForth.un1_cpu_data_o[3]              PFUMX        ALUT     In      0.000     11.694      -         
+uForth.un1_cpu_data_o[3]              PFUMX        Z        Out     0.470     12.164      -         
+un1_cpu_data_o[3]                     Net          -        -       -         -           9         
+uForth.cpu1.t_in_11_bm[3]             ORCALUT4     A        In      0.000     12.164      -         
+uForth.cpu1.t_in_11_bm[3]             ORCALUT4     Z        Out     0.923     13.088      -         
+t_in_11_bm[3]                         Net          -        -       -         -           1         
+uForth.cpu1.t_in_11[3]                PFUMX        ALUT     In      0.000     13.088      -         
+uForth.cpu1.t_in_11[3]                PFUMX        Z        Out     0.163     13.250      -         
+N_707                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in[3]                   ORCALUT4     A        In      0.000     13.250      -         
+uForth.cpu1.t_in[3]                   ORCALUT4     Z        Out     0.403     13.653      -         
+t_in[3]                               Net          -        -       -         -           1         
+uForth.cpu1.t[3]                      FD1P3IX      D        In      0.000     13.653      -         
+====================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.046
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.954
+
+    - Propagation time:                      13.653
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -8.700
+
+    Number of logic level(s):                12
+    Starting point:                          uForth.cpu1.slot_fast[0] / Q
+    Ending point:                            uForth.cpu1.t[3] / D
+    The start point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+uForth.cpu1.slot_fast[0]              FD1S3IX      Q        Out     1.241     1.241       -         
+slot_fast[0]                          Net          -        -       -         -           6         
+uForth.cpu1.i_RNIO6KJ[24]             ORCALUT4     B        In      0.000     1.241       -         
+uForth.cpu1.i_RNIO6KJ[24]             ORCALUT4     Z        Out     0.923     2.165       -         
+i_RNIO6KJ[24]                         Net          -        -       -         -           1         
+uForth.cpu1.slot_fast_RNI9JQQ1[1]     PFUMX        BLUT     In      0.000     2.165       -         
+uForth.cpu1.slot_fast_RNI9JQQ1[1]     PFUMX        Z        Out     0.475     2.639       -         
+N_921                                 Net          -        -       -         -           10        
+uForth.cpu1.code_5[0]                 ORCALUT4     B        In      0.000     2.639       -         
+uForth.cpu1.code_5[0]                 ORCALUT4     Z        Out     3.491     6.131       -         
+code[0]                               Net          -        -       -         -           159       
+uForth.un10_peekdat_4_sx              ORCALUT4     C        In      0.000     6.131       -         
+uForth.un10_peekdat_4_sx              ORCALUT4     Z        Out     0.923     7.054       -         
+un10_peekdat_4_sx                     Net          -        -       -         -           1         
+uForth.un10_peekdat_4                 ORCALUT4     D        In      0.000     7.054       -         
+uForth.un10_peekdat_4                 ORCALUT4     Z        Out     1.202     8.256       -         
+un1_peekdat_4                         Net          -        -       -         -           7         
+uForth.pSetReg\.un15_ppwe_0_a3        ORCALUT4     D        In      0.000     8.256       -         
+uForth.pSetReg\.un15_ppwe_0_a3        ORCALUT4     Z        Out     1.591     9.847       -         
+un15_ppwe                             Net          -        -       -         -           60        
+uForth.PeekDat_0_iv_0_1[3]            ORCALUT4     C        In      0.000     9.847       -         
+uForth.PeekDat_0_iv_0_1[3]            ORCALUT4     Z        Out     0.923     10.771      -         
+PeekDat_0_iv_0_1[3]                   Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_bm[3]           ORCALUT4     C        In      0.000     10.771      -         
+uForth.un1_cpu_data_o_bm[3]           ORCALUT4     Z        Out     0.923     11.694      -         
+un1_cpu_data_o_bm[3]                  Net          -        -       -         -           1         
+uForth.un1_cpu_data_o[3]              PFUMX        ALUT     In      0.000     11.694      -         
+uForth.un1_cpu_data_o[3]              PFUMX        Z        Out     0.470     12.164      -         
+un1_cpu_data_o[3]                     Net          -        -       -         -           9         
+uForth.cpu1.t_in_11_bm[3]             ORCALUT4     A        In      0.000     12.164      -         
+uForth.cpu1.t_in_11_bm[3]             ORCALUT4     Z        Out     0.923     13.088      -         
+t_in_11_bm[3]                         Net          -        -       -         -           1         
+uForth.cpu1.t_in_11[3]                PFUMX        ALUT     In      0.000     13.088      -         
+uForth.cpu1.t_in_11[3]                PFUMX        Z        Out     0.163     13.250      -         
+N_707                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in[3]                   ORCALUT4     A        In      0.000     13.250      -         
+uForth.cpu1.t_in[3]                   ORCALUT4     Z        Out     0.403     13.653      -         
+t_in[3]                               Net          -        -       -         -           1         
+uForth.cpu1.t[3]                      FD1P3IX      D        In      0.000     13.653      -         
+====================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            -0.597
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.597
+
+    - Propagation time:                      14.239
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.642
+
+    Number of logic level(s):                14
+    Starting point:                          uForth.cpu1.slot[1] / Q
+    Ending point:                            uForth.cpu1.t[30] / D
+    The start point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+uForth.cpu1.slot[1]                         FD1S3IX      Q        Out     1.318     1.318       -         
+slot[1]                                     Net          -        -       -         -           13        
+uForth.cpu1.code_2[5]                       ORCALUT4     C        In      0.000     1.318       -         
+uForth.cpu1.code_2[5]                       ORCALUT4     Z        Out     0.923     2.242       -         
+N_920                                       Net          -        -       -         -           1         
+uForth.cpu1.code_3[5]                       ORCALUT4     A        In      0.000     2.242       -         
+uForth.cpu1.code_3[5]                       ORCALUT4     Z        Out     0.923     3.165       -         
+N_926                                       Net          -        -       -         -           1         
+uForth.cpu1.code_5[5]                       PFUMX        BLUT     In      0.000     3.165       -         
+uForth.cpu1.code_5[5]                       PFUMX        Z        Out     0.555     3.720       -         
+code[5]                                     Net          -        -       -         -           25        
+uForth.cpu1.decode\.addr_sel_1_0dflt_sx     ORCALUT4     C        In      0.000     3.720       -         
+uForth.cpu1.decode\.addr_sel_1_0dflt_sx     ORCALUT4     Z        Out     1.135     4.855       -         
+addr_sel_1_0dflt_sx                         Net          -        -       -         -           4         
+uForth.cpu1.decode\.addr_sel_1_0dflt        ORCALUT4     C        In      0.000     4.855       -         
+uForth.cpu1.decode\.addr_sel_1_0dflt        ORCALUT4     Z        Out     1.331     6.187       -         
+addr_sel_1                                  Net          -        -       -         -           29        
+uForth.cpu1.addr[3]                         ORCALUT4     B        In      0.000     6.187       -         
+uForth.cpu1.addr[3]                         ORCALUT4     Z        Out     1.288     7.475       -         
+PpAdd[3]                                    Net          -        -       -         -           19        
+uForth.un10_peekdat_0_a2_0                  ORCALUT4     A        In      0.000     7.475       -         
+uForth.un10_peekdat_0_a2_0                  ORCALUT4     Z        Out     1.293     8.768       -         
+N_172                                       Net          -        -       -         -           20        
+uForth.PeekDat_0_iv_0_o3_0_x[2]             ORCALUT4     A        In      0.000     8.768       -         
+uForth.PeekDat_0_iv_0_o3_0_x[2]             ORCALUT4     Z        Out     0.923     9.691       -         
+PeekDat_0_iv_0_o3_0_x[2]                    Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_m0_i_o4_sx[11]        ORCALUT4     B        In      0.000     9.691       -         
+uForth.un1_cpu_data_o_m0_i_o4_sx[11]        ORCALUT4     Z        Out     0.923     10.615      -         
+un1_cpu_data_o_m0_i_o4_sx[11]               Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_m0_i_o4[11]           ORCALUT4     C        In      0.000     10.615      -         
+uForth.un1_cpu_data_o_m0_i_o4[11]           ORCALUT4     Z        Out     1.240     11.855      -         
+N_20                                        Net          -        -       -         -           11        
+uForth.un1_cpu_data_o_bm[30]                ORCALUT4     B        In      0.000     11.855      -         
+uForth.un1_cpu_data_o_bm[30]                ORCALUT4     Z        Out     0.923     12.779      -         
+un1_cpu_data_o_bm[30]                       Net          -        -       -         -           1         
+uForth.un1_cpu_data_o[30]                   PFUMX        ALUT     In      0.000     12.779      -         
+uForth.un1_cpu_data_o[30]                   PFUMX        Z        Out     0.374     13.153      -         
+un1_cpu_data_o_m2[30]                       Net          -        -       -         -           4         
+uForth.cpu1.t_in_bm[30]                     ORCALUT4     C        In      0.000     13.153      -         
+uForth.cpu1.t_in_bm[30]                     ORCALUT4     Z        Out     0.923     14.076      -         
+t_in_bm[30]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in[30]                        PFUMX        ALUT     In      0.000     14.076      -         
+uForth.cpu1.t_in[30]                        PFUMX        Z        Out     0.163     14.239      -         
+t_in[30]                                    Net          -        -       -         -           1         
+uForth.cpu1.t[30]                           FD1P3IX      D        In      0.000     14.239      -         
+==========================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.046
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.954
+
+    - Propagation time:                      13.594
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.640
+
+    Number of logic level(s):                13
+    Starting point:                          uForth.cpu1.slot[1] / Q
+    Ending point:                            uForth.cpu1.i[9] / D
+    The start point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+uForth.cpu1.slot[1]                         FD1S3IX      Q        Out     1.318     1.318       -         
+slot[1]                                     Net          -        -       -         -           13        
+uForth.cpu1.code_2[5]                       ORCALUT4     C        In      0.000     1.318       -         
+uForth.cpu1.code_2[5]                       ORCALUT4     Z        Out     0.923     2.242       -         
+N_920                                       Net          -        -       -         -           1         
+uForth.cpu1.code_3[5]                       ORCALUT4     A        In      0.000     2.242       -         
+uForth.cpu1.code_3[5]                       ORCALUT4     Z        Out     0.923     3.165       -         
+N_926                                       Net          -        -       -         -           1         
+uForth.cpu1.code_5[5]                       PFUMX        BLUT     In      0.000     3.165       -         
+uForth.cpu1.code_5[5]                       PFUMX        Z        Out     0.555     3.720       -         
+code[5]                                     Net          -        -       -         -           25        
+uForth.cpu1.decode\.addr_sel_1_0dflt_sx     ORCALUT4     C        In      0.000     3.720       -         
+uForth.cpu1.decode\.addr_sel_1_0dflt_sx     ORCALUT4     Z        Out     1.135     4.855       -         
+addr_sel_1_0dflt_sx                         Net          -        -       -         -           4         
+uForth.cpu1.decode\.addr_sel_1_0dflt        ORCALUT4     C        In      0.000     4.855       -         
+uForth.cpu1.decode\.addr_sel_1_0dflt        ORCALUT4     Z        Out     1.331     6.187       -         
+addr_sel_1                                  Net          -        -       -         -           29        
+uForth.cpu1.addr[3]                         ORCALUT4     B        In      0.000     6.187       -         
+uForth.cpu1.addr[3]                         ORCALUT4     Z        Out     1.288     7.475       -         
+PpAdd[3]                                    Net          -        -       -         -           19        
+uForth.un10_peekdat_0_a2_0                  ORCALUT4     A        In      0.000     7.475       -         
+uForth.un10_peekdat_0_a2_0                  ORCALUT4     Z        Out     1.293     8.768       -         
+N_172                                       Net          -        -       -         -           20        
+uForth.PeekDat_0_iv_0_o3_0_x[2]             ORCALUT4     A        In      0.000     8.768       -         
+uForth.PeekDat_0_iv_0_o3_0_x[2]             ORCALUT4     Z        Out     0.923     9.691       -         
+PeekDat_0_iv_0_o3_0_x[2]                    Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_m0_i_o4_sx[11]        ORCALUT4     B        In      0.000     9.691       -         
+uForth.un1_cpu_data_o_m0_i_o4_sx[11]        ORCALUT4     Z        Out     0.923     10.615      -         
+un1_cpu_data_o_m0_i_o4_sx[11]               Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_m0_i_o4[11]           ORCALUT4     C        In      0.000     10.615      -         
+uForth.un1_cpu_data_o_m0_i_o4[11]           ORCALUT4     Z        Out     1.240     11.855      -         
+N_20                                        Net          -        -       -         -           11        
+uForth.un1_cpu_data_o_bm[9]                 ORCALUT4     B        In      0.000     11.855      -         
+uForth.un1_cpu_data_o_bm[9]                 ORCALUT4     Z        Out     0.923     12.779      -         
+un1_cpu_data_o_bm[9]                        Net          -        -       -         -           1         
+uForth.un1_cpu_data_o[9]                    PFUMX        ALUT     In      0.000     12.779      -         
+uForth.un1_cpu_data_o[9]                    PFUMX        Z        Out     0.412     13.191      -         
+un1_cpu_data_o_m2[9]                        Net          -        -       -         -           5         
+uForth.cpu1.i_RNO[9]                        ORCALUT4     A        In      0.000     13.191      -         
+uForth.cpu1.i_RNO[9]                        ORCALUT4     Z        Out     0.403     13.594      -         
+system_data_o[9]                            Net          -        -       -         -           1         
+uForth.cpu1.i[9]                            FD1P3IX      D        In      0.000     13.594      -         
+==========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.046
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.954
+
+    - Propagation time:                      13.594
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.640
+
+    Number of logic level(s):                13
+    Starting point:                          uForth.cpu1.slot[1] / Q
+    Ending point:                            uForth.cpu1.i[23] / D
+    The start point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+uForth.cpu1.slot[1]                         FD1S3IX      Q        Out     1.318     1.318       -         
+slot[1]                                     Net          -        -       -         -           13        
+uForth.cpu1.code_2[5]                       ORCALUT4     C        In      0.000     1.318       -         
+uForth.cpu1.code_2[5]                       ORCALUT4     Z        Out     0.923     2.242       -         
+N_920                                       Net          -        -       -         -           1         
+uForth.cpu1.code_3[5]                       ORCALUT4     A        In      0.000     2.242       -         
+uForth.cpu1.code_3[5]                       ORCALUT4     Z        Out     0.923     3.165       -         
+N_926                                       Net          -        -       -         -           1         
+uForth.cpu1.code_5[5]                       PFUMX        BLUT     In      0.000     3.165       -         
+uForth.cpu1.code_5[5]                       PFUMX        Z        Out     0.555     3.720       -         
+code[5]                                     Net          -        -       -         -           25        
+uForth.cpu1.decode\.addr_sel_1_0dflt_sx     ORCALUT4     C        In      0.000     3.720       -         
+uForth.cpu1.decode\.addr_sel_1_0dflt_sx     ORCALUT4     Z        Out     1.135     4.855       -         
+addr_sel_1_0dflt_sx                         Net          -        -       -         -           4         
+uForth.cpu1.decode\.addr_sel_1_0dflt        ORCALUT4     C        In      0.000     4.855       -         
+uForth.cpu1.decode\.addr_sel_1_0dflt        ORCALUT4     Z        Out     1.331     6.187       -         
+addr_sel_1                                  Net          -        -       -         -           29        
+uForth.cpu1.addr[3]                         ORCALUT4     B        In      0.000     6.187       -         
+uForth.cpu1.addr[3]                         ORCALUT4     Z        Out     1.288     7.475       -         
+PpAdd[3]                                    Net          -        -       -         -           19        
+uForth.un10_peekdat_0_a2_0                  ORCALUT4     A        In      0.000     7.475       -         
+uForth.un10_peekdat_0_a2_0                  ORCALUT4     Z        Out     1.293     8.768       -         
+N_172                                       Net          -        -       -         -           20        
+uForth.PeekDat_0_iv_0_o3_0_x[2]             ORCALUT4     A        In      0.000     8.768       -         
+uForth.PeekDat_0_iv_0_o3_0_x[2]             ORCALUT4     Z        Out     0.923     9.691       -         
+PeekDat_0_iv_0_o3_0_x[2]                    Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_m0_i_o4_sx[11]        ORCALUT4     B        In      0.000     9.691       -         
+uForth.un1_cpu_data_o_m0_i_o4_sx[11]        ORCALUT4     Z        Out     0.923     10.615      -         
+un1_cpu_data_o_m0_i_o4_sx[11]               Net          -        -       -         -           1         
+uForth.un1_cpu_data_o_m0_i_o4[11]           ORCALUT4     C        In      0.000     10.615      -         
+uForth.un1_cpu_data_o_m0_i_o4[11]           ORCALUT4     Z        Out     1.240     11.855      -         
+N_20                                        Net          -        -       -         -           11        
+uForth.un1_cpu_data_o_bm[23]                ORCALUT4     B        In      0.000     11.855      -         
+uForth.un1_cpu_data_o_bm[23]                ORCALUT4     Z        Out     0.923     12.779      -         
+un1_cpu_data_o_bm[23]                       Net          -        -       -         -           1         
+uForth.un1_cpu_data_o[23]                   PFUMX        ALUT     In      0.000     12.779      -         
+uForth.un1_cpu_data_o[23]                   PFUMX        Z        Out     0.412     13.191      -         
+un1_cpu_data_o_m2[23]                       Net          -        -       -         -           5         
+uForth.cpu1.i_RNO[23]                       ORCALUT4     A        In      0.000     13.191      -         
+uForth.cpu1.i_RNO[23]                       ORCALUT4     Z        Out     0.403     13.594      -         
+system_data_o[23]                           Net          -        -       -         -           1         
+uForth.cpu1.i[23]                           FD1P3IX      D        In      0.000     13.594      -         
+==========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                                           Arrival          
+Instance             Reference     Type                                   Pin      Net                  Time        Slack
+                     Clock                                                                                               
+-------------------------------------------------------------------------------------------------------------------------
+uFifoRxRaw           System        pmi_fifo_work_testvideotop_rtl_0       Q[3]     I2cDataR[3]          0.000       1.148
+uForth.uForthMem     System        pmi_ram_dq_work_testvideotop_rtl_0     Q[3]     memory_data_o[3]     0.000       1.148
+uFifoRxRaw           System        pmi_fifo_work_testvideotop_rtl_0       Q[1]     I2cDataR[1]          0.000       1.619
+uFifoRxRaw           System        pmi_fifo_work_testvideotop_rtl_0       Q[0]     I2cDataR[0]          0.000       2.194
+uFifoRxRaw           System        pmi_fifo_work_testvideotop_rtl_0       Q[2]     I2cDataR[2]          0.000       2.194
+uFifoRxRaw           System        pmi_fifo_work_testvideotop_rtl_0       Q[5]     I2cDataR[5]          0.000       2.194
+uForth.uForthMem     System        pmi_ram_dq_work_testvideotop_rtl_0     Q[0]     memory_data_o[0]     0.000       2.194
+uForth.uForthMem     System        pmi_ram_dq_work_testvideotop_rtl_0     Q[2]     memory_data_o[2]     0.000       2.194
+uForth.uForthMem     System        pmi_ram_dq_work_testvideotop_rtl_0     Q[5]     memory_data_o[5]     0.000       2.194
+uForth.uForthMem     System        pmi_ram_dq_work_testvideotop_rtl_0     Q[1]     memory_data_o[1]     0.000       2.224
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                               Required          
+Instance                  Reference     Type        Pin     Net                  Time         Slack
+                          Clock                                                                    
+---------------------------------------------------------------------------------------------------
+uForth.cpu1.t[3]          System        FD1P3IX     D       t_in[3]              4.954        1.148
+uForth.cpu1.t[1]          System        FD1P3IX     D       t_in[1]              5.597        1.619
+uForth.cpu1.t[0]          System        FD1P3IX     D       t_in[0]              5.597        2.194
+uForth.cpu1.t[2]          System        FD1P3IX     D       t_in[2]              5.597        2.194
+uForth.cpu1.t[5]          System        FD1P3IX     D       t_in[5]              5.597        2.194
+uForth.uart1.DatTx[0]     System        FD1P3AX     D       system_data_o[0]     4.954        2.234
+uForth.uart1.DatTx[2]     System        FD1P3AX     D       system_data_o[2]     4.954        2.234
+uForth.uart1.DatTx[3]     System        FD1P3AX     D       system_data_o[3]     4.954        2.234
+uForth.uart1.DatTx[4]     System        FD1P3AX     D       system_data_o[4]     4.954        2.234
+uForth.uart1.DatTx[5]     System        FD1P3AX     D       system_data_o[5]     4.954        2.234
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.046
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.954
+
+    - Propagation time:                      3.806
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.148
+
+    Number of logic level(s):                6
+    Starting point:                          uFifoRxRaw / Q[3]
+    Ending point:                            uForth.cpu1.t[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Pll125to100x50|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                                       Pin      Pin               Arrival     No. of    
+Name                            Type                                 Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------
+uFifoRxRaw                      pmi_fifo_work_testvideotop_rtl_0     Q[3]     Out     0.000     0.000       -         
+I2cDataR[3]                     Net                                  -        -       -         -           1         
+uForth.PeekDat_0_iv_0_0[3]      ORCALUT4                             A        In      0.000     0.000       -         
+uForth.PeekDat_0_iv_0_0[3]      ORCALUT4                             Z        Out     0.923     0.923       -         
+PeekDat_0_iv_0_0[3]             Net                                  -        -       -         -           1         
+uForth.un1_cpu_data_o_bm[3]     ORCALUT4                             B        In      0.000     0.923       -         
+uForth.un1_cpu_data_o_bm[3]     ORCALUT4                             Z        Out     0.923     1.847       -         
+un1_cpu_data_o_bm[3]            Net                                  -        -       -         -           1         
+uForth.un1_cpu_data_o[3]        PFUMX                                ALUT     In      0.000     1.847       -         
+uForth.un1_cpu_data_o[3]        PFUMX                                Z        Out     0.470     2.317       -         
+un1_cpu_data_o[3]               Net                                  -        -       -         -           9         
+uForth.cpu1.t_in_11_bm[3]       ORCALUT4                             A        In      0.000     2.317       -         
+uForth.cpu1.t_in_11_bm[3]       ORCALUT4                             Z        Out     0.923     3.240       -         
+t_in_11_bm[3]                   Net                                  -        -       -         -           1         
+uForth.cpu1.t_in_11[3]          PFUMX                                ALUT     In      0.000     3.240       -         
+uForth.cpu1.t_in_11[3]          PFUMX                                Z        Out     0.163     3.403       -         
+N_707                           Net                                  -        -       -         -           1         
+uForth.cpu1.t_in[3]             ORCALUT4                             A        In      0.000     3.403       -         
+uForth.cpu1.t_in[3]             ORCALUT4                             Z        Out     0.403     3.806       -         
+t_in[3]                         Net                                  -        -       -         -           1         
+uForth.cpu1.t[3]                FD1P3IX                              D        In      0.000     3.806       -         
+======================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 206MB peak: 212MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 206MB peak: 212MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe3_70e-8
+
+Register bits: 571 of 62640 (1%)
+PIC Latch:       0
+I/O cells:       36
+
+
+Details:
+BB:             1
+CCU2C:          149
+DPR16X4C:       36
+FD1P3AX:        97
+FD1P3IX:        155
+FD1P3JX:        2
+FD1S3AX:        58
+FD1S3DX:        33
+FD1S3IX:        201
+FD1S3JX:        21
+GSR:            1
+IB:             2
+IFS1P3DX:       2
+INV:            4
+L6MUX21:        3
+OB:             33
+OFS1P3JX:       2
+ORCALUT4:       1662
+PFUMX:          203
+PUR:            1
+VHI:            9
+VLO:            10
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:43s; Memory used current: 42MB peak: 212MB)
+
+Process took 0h:00m:44s realtime, 0h:00m:43s cputime
+# Fri Feb 19 01:23:23 2021
+
+###########################################################]

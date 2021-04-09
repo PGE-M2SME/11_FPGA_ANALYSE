@@ -1,0 +1,58 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: 632e0673d208
+
+Implementation : LEDtest
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 22
+FID:  path (timestamp)
+0        /home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v (2020-08-06 10:28:22)
+1        /home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v (2020-08-06 10:28:22)
+2        /home/diamond/SharedFolder/Example/LEDtest/source/count4.v (2020-08-06 10:28:22)
+3        /home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd (2020-08-06 10:28:22)
+4        /home/diamond/SharedFolder/Example/LEDtest/source/topcount.v (2020-08-06 10:28:22)
+5        /home/diamond/SharedFolder/Example/LEDtest/source/typepackage.vhd (2020-08-06 10:28:22)
+6        /home/diamond/SharedFolder/Example/my_pll.v (2021-01-24 16:49:42)
+7        /usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v (2019-04-01 16:16:26)
+8        /usr/local/diamond/3.11_x64/synpbase/lib/lucent/pmi_def.v (2019-04-01 16:16:26)
+9        /usr/local/diamond/3.11_x64/synpbase/lib/vhd/arith.vhd (2019-04-01 16:18:47)
+10       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/hyperents.vhd (2019-04-01 16:18:47)
+11       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/location.map (2020-08-06 10:30:17)
+12       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/numeric.vhd (2019-04-01 16:18:47)
+13       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/snps_haps_pkg.vhd (2019-04-01 16:18:47)
+14       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/std.vhd (2019-04-01 16:18:47)
+15       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/std1164.vhd (2019-04-01 16:18:47)
+16       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/umr_capim.vhd (2019-04-01 16:18:47)
+17       /usr/local/diamond/3.11_x64/synpbase/lib/vhd/unsigned.vhd (2019-04-01 16:18:47)
+18       /usr/local/diamond/3.11_x64/synpbase/lib/vlog/hypermods.v (2019-04-01 16:18:47)
+19       /usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_objects.v (2019-04-01 16:18:47)
+20       /usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_pipes.svh (2019-04-01 16:18:47)
+21       /usr/local/diamond/3.11_x64/synpbase/lib/vlog/umr_capim.v (2018-07-12 12:25:32)
+
+*******************************************************************
+Unchanged modules: 7
+MID:  lib.cell.view
+0        work.LEDtest.verilog
+1        work.clockDivider.verilog
+2        work.count4.verilog
+3        work.count8.rtl
+4        work.count8.vhdl
+5        work.my_pll.verilog
+6        work.topcount.verilog

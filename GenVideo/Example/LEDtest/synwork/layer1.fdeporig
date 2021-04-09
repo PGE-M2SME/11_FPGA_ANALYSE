@@ -1,0 +1,30 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.count8|-mpparams|/home/diamond/SharedFolder/Example/LEDtest/synwork/_mh_params|-layerid|1|-orig_srs|/home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/linux_a_64/c_vhdl":1554136090
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/location.map":1596709817
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/std.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/snps_haps_pkg.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/std1164.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/numeric.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/umr_capim.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/arith.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/unsigned.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/hyperents.vhd":1554135527
+#CUR:"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":1596709702
+#CUR:"/home/diamond/SharedFolder/Example/LEDtest/source/typepackage.vhd":1596709702
+0 "/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd" vhdl
+1 "/home/diamond/SharedFolder/Example/LEDtest/source/typepackage.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 1 
+1 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 0 
+
+# Design Unit to File Association
+arch work count8 rtl 0
+module work count8 0
+
+# Unbound Instances to File Association

@@ -1,0 +1,12 @@
+i uPll.CLKOK_i
+m 0 0
+u 86 524
+n ckid0_0 {t:uDvi.U_conf.form_hsz[11:0].C} Black box on clock path
+p {t:uPll.PLLInst_0.CLKOK}{t:uPll.CLKOK_inferred_clock.I[0]}{t:uPll.CLKOK_inferred_clock.OUT[0]}{p:uPll.CLKOK}{t:uPll.CLKOK}{t:Timer[31:0].C}
+e ckid0_1 {t:Timer[31:0].C} sdffr
+d ckid0_0,ckid0_1 {t:uPll.PLLInst_0.CLKOK} EHXPLLF Black box on clock path
+i uPll.LOCK
+m 0 0
+u 0 0
+d ckid0_2 {t:uPll.PLLInst_0.LOCK} EHXPLLF Black box on clock path
+l 0 0 0 0 0

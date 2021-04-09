@@ -1,0 +1,29 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat2018q2p1, Build 055R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "my_pll_inst/CLKOK" 227.8 MHz;
+#FREQUENCY PORT "direction" 1.0 MHz;
+#FREQUENCY PORT "clk" 541.7 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "clk_c" TO CLKNET "direction_c";
+#BLOCK PATH FROM CLKNET "clk_c" TO CLKNET "my_pll_inst/CLKOK";
+#BLOCK PATH FROM CLKNET "direction_c" TO CLKNET "clk_c";
+#BLOCK PATH FROM CLKNET "direction_c" TO CLKNET "my_pll_inst/CLKOK";
+#BLOCK PATH FROM CLKNET "my_pll_inst/CLKOK" TO CLKNET "clk_c";
+#BLOCK PATH FROM CLKNET "my_pll_inst/CLKOK" TO CLKNET "direction_c";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

@@ -1,0 +1,1 @@
+-link -encrypt -top topcount -osyn /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_comp.srs /home/diamond/SharedFolder/Example/LEDtest/synwork/layer0.srs /home/diamond/SharedFolder/Example/LEDtest/synwork/layer1.srs   

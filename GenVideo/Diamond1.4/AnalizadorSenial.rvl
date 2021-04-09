@@ -1,0 +1,92 @@
+<Project ModBy="Inserter" SigType="0" Name="/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl" Date="2021-02-16">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/VHDL" Synthesis="synplify" DeviceFamily="LatticeECP3" DesignName="Ext10GenDvi"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="346114665" Name="TestVideoTop_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="pinclk125" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="65536"/>
+            <Capture Mode="0" MinSamplesPerTrig="256"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_TestVideoTop_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="pinde"/>
+                <Sig Type="SIG" Name="pinhsync"/>
+                <Sig Type="SIG" Name="pinvsync"/>
+                <Bus Name="umires/tv">
+                    <Sig Type="SIG" Name="umires/tv:0"/>
+                    <Sig Type="SIG" Name="umires/tv:1"/>
+                    <Sig Type="SIG" Name="umires/tv:2"/>
+                    <Sig Type="SIG" Name="umires/tv:3"/>
+                    <Sig Type="SIG" Name="umires/tv:4"/>
+                    <Sig Type="SIG" Name="umires/tv:5"/>
+                    <Sig Type="SIG" Name="umires/tv:6"/>
+                    <Sig Type="SIG" Name="umires/tv:7"/>
+                    <Sig Type="SIG" Name="umires/tv:8"/>
+                    <Sig Type="SIG" Name="umires/tv:9"/>
+                    <Sig Type="SIG" Name="umires/tv:10"/>
+                    <Sig Type="SIG" Name="umires/tv:11"/>
+                </Bus>
+                <Sig Type="SIG" Name="datadispo"/>
+                <Bus Name="choixmire">
+                    <Sig Type="SIG" Name="choixmire:0"/>
+                    <Sig Type="SIG" Name="choixmire:1"/>
+                    <Sig Type="SIG" Name="choixmire:2"/>
+                    <Sig Type="SIG" Name="choixmire:3"/>
+                </Bus>
+                <Bus Name="relojsistemachoix">
+                    <Sig Type="SIG" Name="relojsistemachoix:0"/>
+                    <Sig Type="SIG" Name="relojsistemachoix:1"/>
+                    <Sig Type="SIG" Name="relojsistemachoix:2"/>
+                    <Sig Type="SIG" Name="relojsistemachoix:3"/>
+                </Bus>
+                <Bus Name="umires/th">
+                    <Sig Type="SIG" Name="umires/th:0"/>
+                    <Sig Type="SIG" Name="umires/th:1"/>
+                    <Sig Type="SIG" Name="umires/th:2"/>
+                    <Sig Type="SIG" Name="umires/th:3"/>
+                    <Sig Type="SIG" Name="umires/th:4"/>
+                    <Sig Type="SIG" Name="umires/th:5"/>
+                    <Sig Type="SIG" Name="umires/th:6"/>
+                    <Sig Type="SIG" Name="umires/th:7"/>
+                    <Sig Type="SIG" Name="umires/th:8"/>
+                    <Sig Type="SIG" Name="umires/th:9"/>
+                    <Sig Type="SIG" Name="umires/th:10"/>
+                    <Sig Type="SIG" Name="umires/th:11"/>
+                </Bus>
+                <Bus Name="dvidat">
+                    <Sig Type="SIG" Name="dvidat:0"/>
+                    <Sig Type="SIG" Name="dvidat:1"/>
+                    <Sig Type="SIG" Name="dvidat:2"/>
+                    <Sig Type="SIG" Name="dvidat:3"/>
+                    <Sig Type="SIG" Name="dvidat:4"/>
+                    <Sig Type="SIG" Name="dvidat:5"/>
+                    <Sig Type="SIG" Name="dvidat:6"/>
+                    <Sig Type="SIG" Name="dvidat:7"/>
+                    <Sig Type="SIG" Name="dvidat:8"/>
+                    <Sig Type="SIG" Name="dvidat:9"/>
+                    <Sig Type="SIG" Name="dvidat:10"/>
+                    <Sig Type="SIG" Name="dvidat:11"/>
+                    <Sig Type="SIG" Name="dvidat:12"/>
+                    <Sig Type="SIG" Name="dvidat:13"/>
+                    <Sig Type="SIG" Name="dvidat:14"/>
+                    <Sig Type="SIG" Name="dvidat:15"/>
+                    <Sig Type="SIG" Name="dvidat:16"/>
+                    <Sig Type="SIG" Name="dvidat:17"/>
+                    <Sig Type="SIG" Name="dvidat:18"/>
+                    <Sig Type="SIG" Name="dvidat:19"/>
+                    <Sig Type="SIG" Name="dvidat:20"/>
+                    <Sig Type="SIG" Name="dvidat:21"/>
+                    <Sig Type="SIG" Name="dvidat:22"/>
+                    <Sig Type="SIG" Name="dvidat:23"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="datadispo,"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="1" Resource="0"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

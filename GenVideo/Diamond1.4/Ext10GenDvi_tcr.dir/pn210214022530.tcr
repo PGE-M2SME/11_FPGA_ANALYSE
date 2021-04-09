@@ -1,0 +1,14 @@
+#Start recording tcl command: 2/14/2021 01:59:02
+#Project Location: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4; Project name: Ext10GenDvi
+prj_project open "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.ldf"
+prj_run Synthesis -impl A
+prj_run PAR -impl A -task PARTrace
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Synthesis -impl A
+prj_run PAR -impl A -task PARTrace
+prj_run Export -impl A -task Bitgen
+prj_run Synthesis -impl A
+prj_run PAR -impl A -task PARTrace
+prj_run Export -impl A -task Bitgen
+#Stop recording: 2/14/2021 02:25:30

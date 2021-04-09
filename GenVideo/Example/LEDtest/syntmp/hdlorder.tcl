@@ -1,0 +1,1 @@
+project -fileorder "/home/diamond/SharedFolder/Example/LEDtest/source/typepackage.vhd" "/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd" 

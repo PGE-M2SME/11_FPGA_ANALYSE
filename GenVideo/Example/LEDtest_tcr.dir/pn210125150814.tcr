@@ -1,0 +1,6 @@
+#Start recording tcl command: 1/25/2021 15:06:25
+#Project Location: /home/diamond/SharedFolder/Example; Project name: LEDtest
+prj_project open "/home/diamond/SharedFolder/Example/LEDtest.ldf"
+prj_project save
+prj_project close
+#Stop recording: 1/25/2021 15:08:14

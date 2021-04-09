@@ -1,0 +1,22 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/linux_a_64/c_vhdl":1554136090
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/location.map":1596709817
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/std.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/snps_haps_pkg.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/std1164.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/numeric.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/umr_capim.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/arith.vhd":1554135527
+#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/unsigned.vhd":1554135527
+#CUR:"/home/diamond/SharedFolder/Example/LEDtest/source/typepackage.vhd":1596709702
+#CUR:"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":1596709702
+@E8lFkRDCOMFk0DU
+HNLssI$RF
+s	HkMb0DRO	
+R4HkMb0CRs#RC04M
+HbRk08CHsOF0HM
+R4Fbk0kO0RF0kMRCU
+MF8l8CkD
+
+@ 

@@ -1,0 +1,9 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, topcount, 0h:00m:00s,     74 MB
+work, LEDtest, 0h:00m:00s,     74 MB
+work, count4, 0h:00m:00s,     74 MB
+work, clockDivider, 0h:00m:00s,     74 MB
+work, my_pll, 0h:00m:00s,     74 MB
+work, EHXPLLF, 0h:00m:00s,     74 MB
+work, VLO, 0h:00m:00s,     74 MB
+work, Entity: count8 Architecture: rtl, 0h:00m:00s,     70 MB

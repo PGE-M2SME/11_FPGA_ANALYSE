@@ -1,0 +1,8 @@
+/usr/local/diamond/3.11_x64/synpbase/bin/syn_nfilter  -link  -top  topcount  -multisrs  /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_comp.srs  -osyn  /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_mult.srs  -log  /home/diamond/SharedFolder/Example/LEDtest/synlog/LEDtest_multi_srs_gen.srr 
+relcom:/usr/local/diamond/3.11_x64/synpbase/bin/syn_nfilter -link -top topcount -multisrs ../synwork/LEDtest_comp.srs -osyn ../synwork/LEDtest_mult.srs -log ../synlog/LEDtest_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:../synwork/LEDtest_comp.srs|io:i|time:1611508940|size:11575|exec:0|csum:8DDD359EB7E6E2CC4E24CEBFCD8CA90B
+file:../synwork/LEDtest_mult.srs|io:o|time:1611508942|size:4111|exec:0|csum:
+file:../synlog/LEDtest_multi_srs_gen.srr|io:o|time:1611508942|size:1016|exec:0|csum:
+file:/usr/local/diamond/3.11_x64/synpbase/linux_a_64/syn_nfilter|io:i|time:1554136095|size:13311896|exec:1|csum:98436EBE5B2063E67A0107F26BF96360
+file:/usr/local/diamond/3.11_x64/synpbase/bin/syn_nfilter|io:i|time:1554135608|size:366|exec:1|csum:FA02E240C38072139DDDFB111F4F0C5E

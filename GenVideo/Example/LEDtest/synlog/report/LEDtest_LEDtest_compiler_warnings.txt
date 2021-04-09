@@ -1,0 +1,13 @@
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":10:12:10:18|count2t is already declared in this scope.
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":11:12:11:18|count3t is already declared in this scope.
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":10:12:10:18|count2t is already declared in this scope.
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":11:12:11:18|count3t is already declared in this scope.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg16; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg15; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg14; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg13; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg12; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg11; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg10; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg9; possible missing assignment in an if or case statement.
+

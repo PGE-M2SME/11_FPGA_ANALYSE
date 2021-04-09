@@ -1,0 +1,48 @@
+#Start recording tcl command: 2/17/2021 19:46:13
+#Project Location: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4; Project name: Ext10GenDvi
+prj_project open "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.ldf"
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Export -impl A -task Bitgen
+prj_run Map -impl A
+prj_run Export -impl A -task Bitgen
+prj_run Map -impl A
+prj_run Map -impl A
+prj_run Map -impl A
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_src add "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl"
+rvl_project open /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+prj_src remove "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl"
+prj_run Export -impl A -task Bitgen
+rvl_project close -force
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Synthesis -impl A
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+#Stop recording: 2/18/2021 00:37:40

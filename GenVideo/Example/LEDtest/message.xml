@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG921 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v&quot;:10:12:10:18|count2t is already declared in this scope.</Dynamic>
+            <Navigation>CG921</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>count2t is already declared in this scope.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG921 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v&quot;:11:12:11:18|count3t is already declared in this scope.</Dynamic>
+            <Navigation>CG921</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>count3t is already declared in this scope.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG921 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v&quot;:10:12:10:18|count2t is already declared in this scope.</Dynamic>
+            <Navigation>CG921</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>count2t is already declared in this scope.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG921 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v&quot;:11:12:11:18|count3t is already declared in this scope.</Dynamic>
+            <Navigation>CG921</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>count3t is already declared in this scope.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg16; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg16; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg15; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg15; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg14; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg14; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg13; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg13; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg12; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg12; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg11; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg11; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg10; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg10; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Latch generated from always block for signal seg9; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal seg9; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v&quot;:11:0:11:5|Net clockDivider_inst.clkDivOut appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Net clockDivider_inst.clkDivOut appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/count4.v&quot;:9:0:9:5|Found signal identified as System clock which controls 29 sequential elements including counter3.countbi[3:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/count4.v</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found signal identified as System clock which controls 29 sequential elements including counter3.countbi[3:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v&quot;:11:0:11:5|Found inferred clock my_pll|CLKOK_inferred_clock which controls 57 sequential elements including clockDivider_inst.clkDivOut. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock my_pll|CLKOK_inferred_clock which controls 57 sequential elements including clockDivider_inst.clkDivOut. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:13:2:13:3|Found inferred clock topcount|direction which controls 9 sequential elements including my_LEDtest.seg_16. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock topcount|direction which controls 9 sequential elements including my_LEDtest.seg_16. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/count4.v&quot;:9:0:9:5|Found inferred clock topcount|clk which controls 12 sequential elements including counter2.countbi[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/count4.v</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock topcount|clk which controls 12 sequential elements including counter2.countbi[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v&quot;:11:0:11:5|Net clockDivider_inst.clkDivOut appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Net clockDivider_inst.clkDivOut appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:37:2:37:5|ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v&quot;:15:2:15:5|ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v&quot;:27:1:27:6|Removing instance seg_8 because it is equivalent to instance seg_7. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing instance seg_8 because it is equivalent to instance seg_7. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;/home/diamond/SharedFolder/Example/my_pll.v&quot;:38:12:38:20|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>/home/diamond/SharedFolder/Example/my_pll.v</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock my_pll|CLKOK_inferred_clock with period 5.00ns. Please declare a user-defined clock on net my_pll_inst.CLKOK.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock my_pll|CLKOK_inferred_clock with period 5.00ns. Please declare a user-defined clock on net my_pll_inst.CLKOK.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock topcount|direction with period 5.00ns. Please declare a user-defined clock on port direction.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock topcount|direction with period 5.00ns. Please declare a user-defined clock on port direction.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock topcount|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock topcount|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

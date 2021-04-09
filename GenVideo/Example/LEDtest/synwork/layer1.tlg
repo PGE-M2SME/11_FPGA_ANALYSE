@@ -1,0 +1,10 @@
+@N: CD630 :"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":6:7:6:12|Synthesizing work.count8.rtl.
+Post processing for work.count8.rtl
+Running optimization stage 1 on count8 .......
+@A: CL282 :"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":20:4:20:5|Feedback mux created for signal count[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Running optimization stage 2 on count8 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/diamond/SharedFolder/Example/LEDtest/synwork/layer1.rt.csv
+

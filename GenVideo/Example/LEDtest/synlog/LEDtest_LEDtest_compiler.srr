@@ -1,0 +1,203 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: 632e0673d208
+
+Implementation : LEDtest
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: 632e0673d208
+
+Implementation : LEDtest
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+@N:"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":11:7:11:12|Top entity is set to count8.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+
+Process completed successfully.
+# Sun Jan 24 17:21:29 2021
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: 632e0673d208
+
+Implementation : LEDtest
+Synopsys Verilog Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v" (library work)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/pmi_def.v" (library work)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v" (library work)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/count4.v" (library work)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v" (library work)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v" (library work)
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":10:12:10:18|count2t is already declared in this scope.
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":11:12:11:18|count3t is already declared in this scope.
+@I::"/home/diamond/SharedFolder/Example/my_pll.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 73MB)
+
+
+Process completed successfully.
+# Sun Jan 24 17:21:30 2021
+
+###########################################################]
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v" (library work)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/pmi_def.v" (library work)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v" (library work)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/count4.v" (library work)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v" (library work)
+@I::"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v" (library work)
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":10:12:10:18|count2t is already declared in this scope.
+@W: CG921 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":11:12:11:18|count3t is already declared in this scope.
+@I::"/home/diamond/SharedFolder/Example/my_pll.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v":1029:7:1029:9|Synthesizing module VLO in library work.
+Running optimization stage 1 on VLO .......
+@N: CG364 :"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v":1552:7:1552:13|Synthesizing module EHXPLLF in library work.
+Running optimization stage 1 on EHXPLLF .......
+@N: CG364 :"/home/diamond/SharedFolder/Example/my_pll.v":8:7:8:12|Synthesizing module my_pll in library work.
+Running optimization stage 1 on my_pll .......
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":1:7:1:18|Synthesizing module clockDivider in library work.
+Running optimization stage 1 on clockDivider .......
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/count4.v":1:7:1:12|Synthesizing module count4 in library work.
+Running optimization stage 1 on count4 .......
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":1:7:1:13|Synthesizing module LEDtest in library work.
+Running optimization stage 1 on LEDtest .......
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg16; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg15; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg14; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg13; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg12; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg11; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg10; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":13:2:13:3|Latch generated from always block for signal seg9; possible missing assignment in an if or case statement.
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":1:7:1:14|Synthesizing module topcount in library work.
+@N: CG794 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":21:8:21:15|Using module count8 from library work
+Running optimization stage 1 on topcount .......
+Running optimization stage 2 on topcount .......
+Running optimization stage 2 on LEDtest .......
+Running optimization stage 2 on count4 .......
+Running optimization stage 2 on clockDivider .......
+Running optimization stage 2 on my_pll .......
+Running optimization stage 2 on EHXPLLF .......
+Running optimization stage 2 on VLO .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/diamond/SharedFolder/Example/LEDtest/synwork/layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
+
+
+Process completed successfully.
+# Sun Jan 24 17:21:30 2021
+
+###########################################################]
+@N:"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":11:7:11:12|Top entity is set to count8.
+VHDL syntax check successful!
+@N: CD630 :"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":6:7:6:12|Synthesizing work.count8.rtl.
+Post processing for work.count8.rtl
+Running optimization stage 1 on count8 .......
+@A: CL282 :"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":20:4:20:5|Feedback mux created for signal count[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Running optimization stage 2 on count8 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/diamond/SharedFolder/Example/LEDtest/synwork/layer1.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 70MB)
+
+
+Process completed successfully.
+# Sun Jan 24 17:21:31 2021
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: 632e0673d208
+
+Implementation : LEDtest
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_LEDtest_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 24 17:21:31 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_LEDtest_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jan 24 17:21:31 2021
+
+###########################################################]

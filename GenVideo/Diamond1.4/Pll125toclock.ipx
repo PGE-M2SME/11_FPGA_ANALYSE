@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="Pll125toclock" module="PLL" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 02 19 01:20:32.689" version="5.8" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="Pll125toclock.lpc" type="lpc" modified="2021 02 19 01:20:31.000"/>
+		<File name="Pll125toclock.vhd" type="top_level_vhdl" modified="2021 02 19 01:20:31.000"/>
+		<File name="Pll125toclock_tmpl.vhd" type="template_vhdl" modified="2021 02 19 01:20:31.000"/>
+  </Package>
+</DiamondModule>

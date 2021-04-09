@@ -1,0 +1,4 @@
+ckid0_0:@|S:my_pll_inst.PLLInst_0.CLKOK@|E:counter1.countai[7:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:direction@|E:my_LEDtest.seg_16@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_3:@|S:clockDivider_inst.clkDivOut.Q[0]@|E:seg_16@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
+ckid0_4:@|S:clk@|E:counter2.countbi[3:0]@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4

@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":11:7:11:12|Top entity is set to count8.
+@N|Running in 64-bit mode
+@N: CG364 :"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v":1029:7:1029:9|Synthesizing module VLO in library work.
+@N: CG364 :"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v":1552:7:1552:13|Synthesizing module EHXPLLF in library work.
+@N: CG364 :"/home/diamond/SharedFolder/Example/my_pll.v":8:7:8:12|Synthesizing module my_pll in library work.
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":1:7:1:18|Synthesizing module clockDivider in library work.
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/count4.v":1:7:1:12|Synthesizing module count4 in library work.
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":1:7:1:13|Synthesizing module LEDtest in library work.
+@N: CG364 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":1:7:1:14|Synthesizing module topcount in library work.
+@N: CG794 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":21:8:21:15|Using module count8 from library work
+@N:"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":11:7:11:12|Top entity is set to count8.
+@N: CD630 :"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":6:7:6:12|Synthesizing work.count8.rtl.
+@N|Running in 64-bit mode
+

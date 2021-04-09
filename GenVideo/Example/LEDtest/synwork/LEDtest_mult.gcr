@@ -1,0 +1,31 @@
+i my_pll_inst.CLKOK_i
+m 0 0
+u 5 57
+n ckid0_0 {t:counter1.countai[7:0].C} Black box on clock path
+p {t:my_pll_inst.PLLInst_0.CLKOK}{t:my_pll_inst.CLKOK_inferred_clock.I[0]}{t:my_pll_inst.CLKOK_inferred_clock.OUT[0]}{p:my_pll_inst.CLKOK}{t:my_pll_inst.CLKOK}{t:counter1.clk}{p:counter1.clk}{t:counter1.countai[7:0].C}
+e ckid0_0 {t:counter1.countai[7:0].C} dffr
+d ckid0_0 {t:my_pll_inst.PLLInst_0.CLKOK} EHXPLLF Black box on clock path
+i direction
+m 0 0
+u 8 8
+p {p:direction}{t:my_LEDtest.direction}{p:my_LEDtest.direction}{t:my_LEDtest.un1_direction.I[0]}{t:my_LEDtest.un1_direction.OUT[0]}{t:my_LEDtest.seg_16.C}
+e ckid0_1 {t:my_LEDtest.seg_16.C} lat
+c ckid0_1 {p:direction} Unconstrained_port Inferred clock from port
+i clockDivider_inst.clkDivOut
+m 0 0
+u 20 29
+n ckid0_2 {t:counter3.countbi[3:0].C} Clock source is invalid for GCC
+p {t:clockDivider_inst.clkDivOut.Q[0]}{p:clockDivider_inst.clkDivOut}{t:clockDivider_inst.clkDivOut}{t:seg_16.C}
+e ckid0_3 {t:seg_16.C} dff
+d ckid0_2,ckid0_3 {t:clockDivider_inst.clkDivOut.Q[0]} sdffse Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i clk
+m 0 0
+u 3 12
+p {p:clk}{t:counter2.clk}{p:counter2.clk}{t:counter2.countbi[3:0].C}
+e ckid0_4 {t:counter2.countbi[3:0].C} dff
+c ckid0_4 {p:clk} Unconstrained_port Inferred clock from port
+i my_pll_inst.LOCK
+m 0 0
+u 0 0
+d ckid0_5 {t:my_pll_inst.PLLInst_0.LOCK} EHXPLLF Black box on clock path
+l 0 0 0 0 0

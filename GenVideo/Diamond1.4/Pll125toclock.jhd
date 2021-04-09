@@ -1,0 +1,5 @@
+MODULE Pll125toclock DEFIN Pll125toclock.vhd
+	SUBMODULE EHXPLLF
+		INSTANCE PLLInst_0
+	SUBMODULE VLO
+		INSTANCE scuba_vlo_inst

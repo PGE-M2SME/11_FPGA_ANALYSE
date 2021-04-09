@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="PllClkto120" module="PLL" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 02 16 22:31:21.402" version="5.8" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="PllClkto120.lpc" type="lpc" modified="2021 02 16 22:31:20.000"/>
+		<File name="PllClkto120.vhd" type="top_level_vhdl" modified="2021 02 16 22:31:20.000"/>
+		<File name="PllClkto120_tmpl.vhd" type="template_vhdl" modified="2021 02 16 22:31:20.000"/>
+  </Package>
+</DiamondModule>

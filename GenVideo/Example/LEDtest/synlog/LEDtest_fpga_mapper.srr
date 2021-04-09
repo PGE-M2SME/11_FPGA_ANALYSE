@@ -1,0 +1,962 @@
+# Sun Jan 24 17:22:24 2021
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: /usr/local/diamond/3.11_x64/synpbase
+OS: CentOS Linux 7 (Core)
+Hostname: 632e0673d208
+
+Implementation : LEDtest
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:24:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Net clockDivider_inst.clkDivOut appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+@N: MT206 |Auto Constrain mode is enabled
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg7 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg7 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg6 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg6 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg5 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg5 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg4 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg4 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg3 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg3 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg2 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|ROM seg1 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":37:2:37:5|Found ROM seg1 (in view: work.LEDtest(verilog)) with 16 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg16_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg16_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg9_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg9_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg15_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg15_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg14_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg14_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg13_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg13_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg12_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg12_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg11_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg11_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+@W: FA239 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|ROM seg10_2 (in view: work.LEDtest(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/diamond/SharedFolder/Example/LEDtest/source/LEDtest.v":15:2:15:5|Found ROM seg10_2 (in view: work.LEDtest(verilog)) with 8 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+@N: MO230 :"/home/diamond/SharedFolder/Example/LEDtest/source/count8.vhd":20:4:20:5|Found up-down counter in view:work.topcount(verilog) instance counter1.countai[7:0]  
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+@W: BN132 :"/home/diamond/SharedFolder/Example/LEDtest/source/topcount.v":27:1:27:6|Removing instance seg_8 because it is equivalent to instance seg_7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.90ns		  52 /        97
+   2		0h:00m:00s		    -1.90ns		  52 /        97
+   3		0h:00m:00s		    -1.65ns		  52 /        97
+   4		0h:00m:00s		    -1.84ns		  52 /        97
+   5		0h:00m:00s		    -1.90ns		  52 /        97
+   6		0h:00m:00s		    -1.71ns		  52 /        97
+   7		0h:00m:00s		    -1.63ns		  52 /        97
+   8		0h:00m:00s		    -1.63ns		  52 /        97
+   9		0h:00m:00s		    -1.63ns		  52 /        97
+  10		0h:00m:00s		    -1.63ns		  52 /        97
+  11		0h:00m:00s		    -1.63ns		  52 /        97
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[0] (in view: work.topcount(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[2] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[1] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[3] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[4] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[6] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[5] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"/home/diamond/SharedFolder/Example/LEDtest/source/clockDivider.v":11:0:11:5|Replicating instance clockDivider_inst.countValue[7] (in view: work.topcount(verilog)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 8 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+  12		0h:00m:02s		    -1.65ns		  53 /       105
+  13		0h:00m:02s		    -1.53ns		  53 /       105
+  14		0h:00m:02s		    -1.65ns		  53 /       105
+  15		0h:00m:02s		    -1.53ns		  53 /       105
+  16		0h:00m:02s		    -1.65ns		  53 /       105
+  17		0h:00m:02s		    -1.53ns		  53 /       105
+
+
+  18		0h:00m:02s		    -1.65ns		  53 /       105
+  19		0h:00m:02s		    -1.53ns		  53 /       105
+  20		0h:00m:02s		    -1.65ns		  53 /       105
+  21		0h:00m:02s		    -1.53ns		  53 /       105
+  22		0h:00m:02s		    -1.65ns		  53 /       105
+  23		0h:00m:02s		    -1.53ns		  53 /       105
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: MT453 |clock period is too long for clock topcount|clk, changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 108MB peak: 145MB)
+
+Writing Analyst data base /home/diamond/SharedFolder/Example/LEDtest/synwork/LEDtest_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 140MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: /home/diamond/SharedFolder/Example/LEDtest/LEDtest.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 145MB peak: 147MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 147MB)
+
+Warning: Found 8 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net seg9
+1) instance I_113.lat (in view: work.topcount(verilog)), output net seg9 (in view: work.topcount(verilog))
+    net        seg9
+    input  pin I_113.lat/B
+    instance   I_113.lat (cell ORCALUT4)
+    output pin I_113.lat/Z
+    net        seg9
+@W: BN137 :|Found combinational loop during mapping at net seg10
+2) instance I_114.lat (in view: work.topcount(verilog)), output net seg10 (in view: work.topcount(verilog))
+    net        seg10
+    input  pin I_114.lat/B
+    instance   I_114.lat (cell ORCALUT4)
+    output pin I_114.lat/Z
+    net        seg10
+@W: BN137 :|Found combinational loop during mapping at net seg11
+3) instance I_115.lat (in view: work.topcount(verilog)), output net seg11 (in view: work.topcount(verilog))
+    net        seg11
+    input  pin I_115.lat/B
+    instance   I_115.lat (cell ORCALUT4)
+    output pin I_115.lat/Z
+    net        seg11
+@W: BN137 :|Found combinational loop during mapping at net seg12
+4) instance I_116.lat (in view: work.topcount(verilog)), output net seg12 (in view: work.topcount(verilog))
+    net        seg12
+    input  pin I_116.lat/B
+    instance   I_116.lat (cell ORCALUT4)
+    output pin I_116.lat/Z
+    net        seg12
+@W: BN137 :|Found combinational loop during mapping at net seg13
+5) instance I_117.lat (in view: work.topcount(verilog)), output net seg13 (in view: work.topcount(verilog))
+    net        seg13
+    input  pin I_117.lat/B
+    instance   I_117.lat (cell ORCALUT4)
+    output pin I_117.lat/Z
+    net        seg13
+@W: BN137 :|Found combinational loop during mapping at net seg14
+6) instance I_118.lat (in view: work.topcount(verilog)), output net seg14 (in view: work.topcount(verilog))
+    net        seg14
+    input  pin I_118.lat/B
+    instance   I_118.lat (cell ORCALUT4)
+    output pin I_118.lat/Z
+    net        seg14
+@W: BN137 :|Found combinational loop during mapping at net seg15
+7) instance I_119.lat (in view: work.topcount(verilog)), output net seg15 (in view: work.topcount(verilog))
+    net        seg15
+    input  pin I_119.lat/B
+    instance   I_119.lat (cell ORCALUT4)
+    output pin I_119.lat/Z
+    net        seg15
+@W: BN137 :|Found combinational loop during mapping at net seg16
+8) instance I_120.lat (in view: work.topcount(verilog)), output net seg16 (in view: work.topcount(verilog))
+    net        seg16
+    input  pin I_120.lat/B
+    instance   I_120.lat (cell ORCALUT4)
+    output pin I_120.lat/Z
+    net        seg16
+End of loops
+@W: MT246 :"/home/diamond/SharedFolder/Example/my_pll.v":38:12:38:20|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock my_pll|CLKOK_inferred_clock with period 4.39ns. Please declare a user-defined clock on net my_pll_inst.CLKOK.
+@W: MT420 |Found inferred clock topcount|direction with period 1000.00ns. Please declare a user-defined clock on port direction.
+@W: MT420 |Found inferred clock topcount|clk with period 1.85ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Jan 24 17:22:28 2021
+#
+
+
+Top view:               topcount
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.775
+
+                                Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                  Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------------
+my_pll|CLKOK_inferred_clock     227.8 MHz     193.6 MHz     4.390         5.164         -0.775     inferred     Autoconstr_clkgroup_0
+topcount|clk                    541.7 MHz     460.4 MHz     1.846         2.172         -0.326     inferred     Autoconstr_clkgroup_2
+topcount|direction              1.0 MHz       NA            1000.000      NA            NA         inferred     Autoconstr_clkgroup_1
+System                          456.0 MHz     460.4 MHz     2.193         2.172         0.021      system       system_clkgroup      
+=====================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                     Ending                       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------
+System                       System                       |  2.193       0.021   |  No paths    -      |  No paths    -      |  No paths    -    
+System                       my_pll|CLKOK_inferred_clock  |  4.390       1.121   |  No paths    -      |  No paths    -      |  No paths    -    
+System                       topcount|clk                 |  1.846       0.337   |  No paths    -      |  No paths    -      |  No paths    -    
+my_pll|CLKOK_inferred_clock  my_pll|CLKOK_inferred_clock  |  4.390       -0.775  |  No paths    -      |  No paths    -      |  No paths    -    
+topcount|clk                 topcount|clk                 |  1.846       -0.326  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: my_pll|CLKOK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                                   Arrival           
+Instance                                 Reference                       Type        Pin     Net                    Time        Slack 
+                                         Clock                                                                                        
+--------------------------------------------------------------------------------------------------------------------------------------
+clockDivider_inst.countValue_fast[0]     my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue_fast[0]     0.904       -0.775
+clockDivider_inst.countValue[0]          my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue[0]          0.934       -0.728
+clockDivider_inst.countValue_fast[1]     my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue_fast[1]     0.856       -0.727
+clockDivider_inst.countValue_fast[2]     my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue_fast[2]     0.856       -0.727
+clockDivider_inst.countValue_fast[3]     my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue_fast[3]     0.856       -0.727
+clockDivider_inst.countValue[8]          my_pll|CLKOK_inferred_clock     FD1S3IX     Q       countValue[8]          0.904       -0.712
+clockDivider_inst.countValue[9]          my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue[9]          0.904       -0.712
+clockDivider_inst.countValue[10]         my_pll|CLKOK_inferred_clock     FD1S3IX     Q       countValue[10]         0.904       -0.712
+clockDivider_inst.countValue[11]         my_pll|CLKOK_inferred_clock     FD1S3IX     Q       countValue[11]         0.904       -0.712
+clockDivider_inst.countValue_fast[4]     my_pll|CLKOK_inferred_clock     FD1S3AX     Q       countValue_fast[4]     0.856       -0.664
+======================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                                                 Required           
+Instance                             Reference                       Type        Pin     Net                  Time         Slack 
+                                     Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------
+clockDivider_inst.clkDivOut          my_pll|CLKOK_inferred_clock     FD1S3JX     D       clkDivOut8           4.332        -0.775
+clockDivider_inst.countValue[8]      my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[10]     my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[11]     my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[13]     my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[16]     my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[21]     my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[24]     my_pll|CLKOK_inferred_clock     FD1S3IX     CD      countValue8          3.587        0.192 
+clockDivider_inst.countValue[20]     my_pll|CLKOK_inferred_clock     FD1S3AX     D       countValue_3[20]     4.284        0.521 
+clockDivider_inst.clkDivOut          my_pll|CLKOK_inferred_clock     FD1S3JX     PD      fb                   3.587        0.666 
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.390
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.332
+
+    - Propagation time:                      5.107
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.775
+
+    Number of logic level(s):                10
+    Starting point:                          clockDivider_inst.countValue_fast[0] / Q
+    Ending point:                            clockDivider_inst.clkDivOut / D
+    The start point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+clockDivider_inst.countValue_fast[0]             FD1S3AX      Q        Out     0.904     0.904       -         
+countValue_fast[0]                               Net          -        -       -         -           3         
+clockDivider_inst.un3_countValue_axb_0_par_1     CCU2C        A1       In      0.000     0.904       -         
+clockDivider_inst.un3_countValue_axb_0_par_1     CCU2C        COUT     Out     1.049     1.953       -         
+un3_countValue_axb_0_par_1_COUT                  Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_axb_4_par_1     CCU2C        CIN      In      0.000     1.953       -         
+clockDivider_inst.un3_countValue_axb_4_par_1     CCU2C        COUT     Out     0.062     2.015       -         
+un3_countValue_cry_8                             Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_9_0         CCU2C        CIN      In      0.000     2.015       -         
+clockDivider_inst.un3_countValue_cry_9_0         CCU2C        COUT     Out     0.062     2.078       -         
+un3_countValue_cry_10                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_11_0        CCU2C        CIN      In      0.000     2.078       -         
+clockDivider_inst.un3_countValue_cry_11_0        CCU2C        COUT     Out     0.062     2.140       -         
+un3_countValue_cry_12                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_13_0        CCU2C        CIN      In      0.000     2.140       -         
+clockDivider_inst.un3_countValue_cry_13_0        CCU2C        COUT     Out     0.062     2.203       -         
+un3_countValue_cry_14                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_15_0        CCU2C        CIN      In      0.000     2.203       -         
+clockDivider_inst.un3_countValue_cry_15_0        CCU2C        COUT     Out     0.062     2.265       -         
+un3_countValue_cry_16                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_17_0        CCU2C        CIN      In      0.000     2.265       -         
+clockDivider_inst.un3_countValue_cry_17_0        CCU2C        S0       Out     0.956     3.221       -         
+un3_countValue[17]                               Net          -        -       -         -           2         
+clockDivider_inst.clkDivOut8_RNO_3               ORCALUT4     A        In      0.000     3.221       -         
+clockDivider_inst.clkDivOut8_RNO_3               ORCALUT4     Z        Out     0.728     3.950       -         
+clkDivOut8_RNO_3                                 Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8_RNO                 ORCALUT4     D        In      0.000     3.950       -         
+clockDivider_inst.clkDivOut8_RNO                 ORCALUT4     Z        Out     0.728     4.678       -         
+clkDivOut8_1_0                                   Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8                     ORCALUT4     A        In      0.000     4.678       -         
+clockDivider_inst.clkDivOut8                     ORCALUT4     Z        Out     0.428     5.107       -         
+clkDivOut8                                       Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut                      FD1S3JX      D        In      0.000     5.107       -         
+===============================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      4.390
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.332
+
+    - Propagation time:                      5.107
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.775
+
+    Number of logic level(s):                10
+    Starting point:                          clockDivider_inst.countValue_fast[0] / Q
+    Ending point:                            clockDivider_inst.clkDivOut / D
+    The start point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+clockDivider_inst.countValue_fast[0]                FD1S3AX      Q        Out     0.904     0.904       -         
+countValue_fast[0]                                  Net          -        -       -         -           3         
+clockDivider_inst.un3_countValue_axb_0_par_cp_0     CCU2C        A1       In      0.000     0.904       -         
+clockDivider_inst.un3_countValue_axb_0_par_cp_0     CCU2C        COUT     Out     1.049     1.953       -         
+un3_countValue_axb_0_par_cp_0_COUT                  Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_axb_4_par_cp_0     CCU2C        CIN      In      0.000     1.953       -         
+clockDivider_inst.un3_countValue_axb_4_par_cp_0     CCU2C        COUT     Out     0.062     2.015       -         
+un3_countValue_axb_4_par_cp_0_COUT                  Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_axb_12_par_1       CCU2C        CIN      In      0.000     2.015       -         
+clockDivider_inst.un3_countValue_axb_12_par_1       CCU2C        COUT     Out     0.062     2.078       -         
+un3_countValue_axb_12_par_1_COUT                    Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_19_0           CCU2C        CIN      In      0.000     2.078       -         
+clockDivider_inst.un3_countValue_cry_19_0           CCU2C        COUT     Out     0.062     2.140       -         
+un3_countValue_cry_20                               Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_21_0           CCU2C        CIN      In      0.000     2.140       -         
+clockDivider_inst.un3_countValue_cry_21_0           CCU2C        COUT     Out     0.062     2.203       -         
+un3_countValue_cry_22                               Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_23_0           CCU2C        CIN      In      0.000     2.203       -         
+clockDivider_inst.un3_countValue_cry_23_0           CCU2C        COUT     Out     0.062     2.265       -         
+un3_countValue_cry_24                               Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_25_0           CCU2C        CIN      In      0.000     2.265       -         
+clockDivider_inst.un3_countValue_cry_25_0           CCU2C        S1       Out     0.956     3.221       -         
+un3_countValue[26]                                  Net          -        -       -         -           2         
+clockDivider_inst.clkDivOut8_RNO_3                  ORCALUT4     C        In      0.000     3.221       -         
+clockDivider_inst.clkDivOut8_RNO_3                  ORCALUT4     Z        Out     0.728     3.950       -         
+clkDivOut8_RNO_3                                    Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8_RNO                    ORCALUT4     D        In      0.000     3.950       -         
+clockDivider_inst.clkDivOut8_RNO                    ORCALUT4     Z        Out     0.728     4.678       -         
+clkDivOut8_1_0                                      Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8                        ORCALUT4     A        In      0.000     4.678       -         
+clockDivider_inst.clkDivOut8                        ORCALUT4     Z        Out     0.428     5.107       -         
+clkDivOut8                                          Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut                         FD1S3JX      D        In      0.000     5.107       -         
+==================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      4.390
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.332
+
+    - Propagation time:                      5.107
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.775
+
+    Number of logic level(s):                10
+    Starting point:                          clockDivider_inst.countValue_fast[0] / Q
+    Ending point:                            clockDivider_inst.clkDivOut / D
+    The start point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+clockDivider_inst.countValue_fast[0]                FD1S3AX      Q        Out     0.904     0.904       -         
+countValue_fast[0]                                  Net          -        -       -         -           3         
+clockDivider_inst.un3_countValue_axb_0_par_cp_0     CCU2C        A1       In      0.000     0.904       -         
+clockDivider_inst.un3_countValue_axb_0_par_cp_0     CCU2C        COUT     Out     1.049     1.953       -         
+un3_countValue_axb_0_par_cp_0_COUT                  Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_axb_4_par_cp_0     CCU2C        CIN      In      0.000     1.953       -         
+clockDivider_inst.un3_countValue_axb_4_par_cp_0     CCU2C        COUT     Out     0.062     2.015       -         
+un3_countValue_axb_4_par_cp_0_COUT                  Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_axb_12_par_1       CCU2C        CIN      In      0.000     2.015       -         
+clockDivider_inst.un3_countValue_axb_12_par_1       CCU2C        COUT     Out     0.062     2.078       -         
+un3_countValue_axb_12_par_1_COUT                    Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_19_0           CCU2C        CIN      In      0.000     2.078       -         
+clockDivider_inst.un3_countValue_cry_19_0           CCU2C        COUT     Out     0.062     2.140       -         
+un3_countValue_cry_20                               Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_21_0           CCU2C        CIN      In      0.000     2.140       -         
+clockDivider_inst.un3_countValue_cry_21_0           CCU2C        COUT     Out     0.062     2.203       -         
+un3_countValue_cry_22                               Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_23_0           CCU2C        CIN      In      0.000     2.203       -         
+clockDivider_inst.un3_countValue_cry_23_0           CCU2C        COUT     Out     0.062     2.265       -         
+un3_countValue_cry_24                               Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_25_0           CCU2C        CIN      In      0.000     2.265       -         
+clockDivider_inst.un3_countValue_cry_25_0           CCU2C        S0       Out     0.956     3.221       -         
+un3_countValue[25]                                  Net          -        -       -         -           2         
+clockDivider_inst.clkDivOut8_RNO_3                  ORCALUT4     B        In      0.000     3.221       -         
+clockDivider_inst.clkDivOut8_RNO_3                  ORCALUT4     Z        Out     0.728     3.950       -         
+clkDivOut8_RNO_3                                    Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8_RNO                    ORCALUT4     D        In      0.000     3.950       -         
+clockDivider_inst.clkDivOut8_RNO                    ORCALUT4     Z        Out     0.728     4.678       -         
+clkDivOut8_1_0                                      Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8                        ORCALUT4     A        In      0.000     4.678       -         
+clockDivider_inst.clkDivOut8                        ORCALUT4     Z        Out     0.428     5.107       -         
+clkDivOut8                                          Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut                         FD1S3JX      D        In      0.000     5.107       -         
+==================================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      4.390
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.332
+
+    - Propagation time:                      5.060
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.728
+
+    Number of logic level(s):                8
+    Starting point:                          clockDivider_inst.countValue[0] / Q
+    Ending point:                            clockDivider_inst.clkDivOut / D
+    The start point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+clockDivider_inst.countValue[0]              FD1S3AX      Q        Out     0.934     0.934       -         
+countValue[0]                                Net          -        -       -         -           4         
+clockDivider_inst.un3_countValue_cry_0_0     CCU2C        A1       In      0.000     0.934       -         
+clockDivider_inst.un3_countValue_cry_0_0     CCU2C        COUT     Out     1.049     1.983       -         
+un3_countValue_cry_0                         Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_1_0     CCU2C        CIN      In      0.000     1.983       -         
+clockDivider_inst.un3_countValue_cry_1_0     CCU2C        COUT     Out     0.062     2.045       -         
+un3_countValue_cry_2                         Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_3_0     CCU2C        CIN      In      0.000     2.045       -         
+clockDivider_inst.un3_countValue_cry_3_0     CCU2C        COUT     Out     0.062     2.108       -         
+un3_countValue_cry_4                         Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_5_0     CCU2C        CIN      In      0.000     2.108       -         
+clockDivider_inst.un3_countValue_cry_5_0     CCU2C        COUT     Out     0.062     2.170       -         
+un3_countValue_cry_6                         Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_s_7_0       CCU2C        CIN      In      0.000     2.170       -         
+clockDivider_inst.un3_countValue_s_7_0       CCU2C        S0       Out     1.004     3.175       -         
+un3_countValue_s_7_0_S0                      Net          -        -       -         -           3         
+clockDivider_inst.clkDivOut8_RNO_2           ORCALUT4     A        In      0.000     3.175       -         
+clockDivider_inst.clkDivOut8_RNO_2           ORCALUT4     Z        Out     0.728     3.903       -         
+clkDivOut8_RNO_2                             Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8_RNO             ORCALUT4     C        In      0.000     3.903       -         
+clockDivider_inst.clkDivOut8_RNO             ORCALUT4     Z        Out     0.728     4.631       -         
+clkDivOut8_1_0                               Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8                 ORCALUT4     A        In      0.000     4.631       -         
+clockDivider_inst.clkDivOut8                 ORCALUT4     Z        Out     0.428     5.060       -         
+clkDivOut8                                   Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut                  FD1S3JX      D        In      0.000     5.060       -         
+===========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      4.390
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.332
+
+    - Propagation time:                      5.059
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.727
+
+    Number of logic level(s):                10
+    Starting point:                          clockDivider_inst.countValue_fast[1] / Q
+    Ending point:                            clockDivider_inst.clkDivOut / D
+    The start point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+    The end   point is clocked by            my_pll|CLKOK_inferred_clock [rising] on pin CK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+clockDivider_inst.countValue_fast[1]             FD1S3AX      Q        Out     0.856     0.856       -         
+countValue_fast[1]                               Net          -        -       -         -           2         
+clockDivider_inst.un3_countValue_axb_0_par_1     CCU2C        B1       In      0.000     0.856       -         
+clockDivider_inst.un3_countValue_axb_0_par_1     CCU2C        COUT     Out     1.049     1.905       -         
+un3_countValue_axb_0_par_1_COUT                  Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_axb_4_par_1     CCU2C        CIN      In      0.000     1.905       -         
+clockDivider_inst.un3_countValue_axb_4_par_1     CCU2C        COUT     Out     0.062     1.967       -         
+un3_countValue_cry_8                             Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_9_0         CCU2C        CIN      In      0.000     1.967       -         
+clockDivider_inst.un3_countValue_cry_9_0         CCU2C        COUT     Out     0.062     2.030       -         
+un3_countValue_cry_10                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_11_0        CCU2C        CIN      In      0.000     2.030       -         
+clockDivider_inst.un3_countValue_cry_11_0        CCU2C        COUT     Out     0.062     2.092       -         
+un3_countValue_cry_12                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_13_0        CCU2C        CIN      In      0.000     2.092       -         
+clockDivider_inst.un3_countValue_cry_13_0        CCU2C        COUT     Out     0.062     2.155       -         
+un3_countValue_cry_14                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_15_0        CCU2C        CIN      In      0.000     2.155       -         
+clockDivider_inst.un3_countValue_cry_15_0        CCU2C        COUT     Out     0.062     2.217       -         
+un3_countValue_cry_16                            Net          -        -       -         -           1         
+clockDivider_inst.un3_countValue_cry_17_0        CCU2C        CIN      In      0.000     2.217       -         
+clockDivider_inst.un3_countValue_cry_17_0        CCU2C        S0       Out     0.956     3.173       -         
+un3_countValue[17]                               Net          -        -       -         -           2         
+clockDivider_inst.clkDivOut8_RNO_3               ORCALUT4     A        In      0.000     3.173       -         
+clockDivider_inst.clkDivOut8_RNO_3               ORCALUT4     Z        Out     0.728     3.902       -         
+clkDivOut8_RNO_3                                 Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8_RNO                 ORCALUT4     D        In      0.000     3.902       -         
+clockDivider_inst.clkDivOut8_RNO                 ORCALUT4     Z        Out     0.728     4.630       -         
+clkDivOut8_1_0                                   Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut8                     ORCALUT4     A        In      0.000     4.630       -         
+clockDivider_inst.clkDivOut8                     ORCALUT4     Z        Out     0.428     5.059       -         
+clkDivOut8                                       Net          -        -       -         -           1         
+clockDivider_inst.clkDivOut                      FD1S3JX      D        In      0.000     5.059       -         
+===============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: topcount|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                            Arrival           
+Instance                Reference        Type        Pin     Net            Time        Slack 
+                        Clock                                                                 
+----------------------------------------------------------------------------------------------
+counter2.countai[0]     topcount|clk     FD1S3IX     Q       countai[0]     0.958       -0.326
+counter2.countai[1]     topcount|clk     FD1S3IX     Q       countai[1]     0.934       -0.302
+counter2.countai[2]     topcount|clk     FD1S3IX     Q       countai[2]     0.934       -0.302
+counter2.countai[3]     topcount|clk     FD1S3IX     Q       countai[3]     0.856       0.505 
+counter2.countbi[0]     topcount|clk     FD1S3AX     Q       countbi[0]     0.802       0.939 
+counter2.countbi[1]     topcount|clk     FD1S3AX     Q       countbi[1]     0.802       0.939 
+counter2.countbi[2]     topcount|clk     FD1S3AX     Q       countbi[2]     0.802       0.939 
+counter2.countbi[3]     topcount|clk     FD1S3AX     Q       countbi[3]     0.802       0.939 
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                      Required           
+Instance                Reference        Type         Pin     Net                     Time         Slack 
+                        Clock                                                                            
+---------------------------------------------------------------------------------------------------------
+counter2.countai[3]     topcount|clk     FD1S3IX      D       un1_countai[3]          1.789        -0.326
+counter2.countai[0]     topcount|clk     FD1S3IX      D       countai_i[0]            1.741        0.357 
+counter2.countai[1]     topcount|clk     FD1S3IX      D       un1_countai[1]          1.789        0.403 
+counter2.countai[2]     topcount|clk     FD1S3IX      D       un1_countai[2]          1.789        0.403 
+counter2.countbi[0]     topcount|clk     FD1S3AX      D       countai[0]              1.741        0.783 
+counter2.countbi[1]     topcount|clk     FD1S3AX      D       countai[1]              1.741        0.807 
+counter2.countbi[2]     topcount|clk     FD1S3AX      D       countai[2]              1.741        0.807 
+counter2.countbi[3]     topcount|clk     FD1S3AX      D       countai[3]              1.741        0.885 
+counter2_countio[0]     topcount|clk     OFS1P3DX     D       counter2.countbi[0]     1.741        0.939 
+counter2_countio[1]     topcount|clk     OFS1P3DX     D       counter2.countbi[1]     1.741        0.939 
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.846
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.789
+
+    - Propagation time:                      2.114
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.326
+
+    Number of logic level(s):                2
+    Starting point:                          counter2.countai[0] / Q
+    Ending point:                            counter2.countai[3] / D
+    The start point is clocked by            topcount|clk [rising] on pin CK
+    The end   point is clocked by            topcount|clk [rising] on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+counter2.countai[0]               FD1S3IX      Q        Out     0.958     0.958       -         
+countai[0]                        Net          -        -       -         -           5         
+counter2.un1_countai_axbxc3_1     ORCALUT4     A        In      0.000     0.958       -         
+counter2.un1_countai_axbxc3_1     ORCALUT4     Z        Out     0.728     1.686       -         
+un1_countai_axbxc3_1              Net          -        -       -         -           1         
+counter2.un1_countai_axbxc3       ORCALUT4     D        In      0.000     1.686       -         
+counter2.un1_countai_axbxc3       ORCALUT4     Z        Out     0.428     2.114       -         
+un1_countai[3]                    Net          -        -       -         -           1         
+counter2.countai[3]               FD1S3IX      D        In      0.000     2.114       -         
+================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      1.846
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.789
+
+    - Propagation time:                      2.090
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.302
+
+    Number of logic level(s):                2
+    Starting point:                          counter2.countai[1] / Q
+    Ending point:                            counter2.countai[3] / D
+    The start point is clocked by            topcount|clk [rising] on pin CK
+    The end   point is clocked by            topcount|clk [rising] on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+counter2.countai[1]               FD1S3IX      Q        Out     0.934     0.934       -         
+countai[1]                        Net          -        -       -         -           4         
+counter2.un1_countai_axbxc3_1     ORCALUT4     B        In      0.000     0.934       -         
+counter2.un1_countai_axbxc3_1     ORCALUT4     Z        Out     0.728     1.662       -         
+un1_countai_axbxc3_1              Net          -        -       -         -           1         
+counter2.un1_countai_axbxc3       ORCALUT4     D        In      0.000     1.662       -         
+counter2.un1_countai_axbxc3       ORCALUT4     Z        Out     0.428     2.090       -         
+un1_countai[3]                    Net          -        -       -         -           1         
+counter2.countai[3]               FD1S3IX      D        In      0.000     2.090       -         
+================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      1.846
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.789
+
+    - Propagation time:                      2.090
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.302
+
+    Number of logic level(s):                2
+    Starting point:                          counter2.countai[2] / Q
+    Ending point:                            counter2.countai[3] / D
+    The start point is clocked by            topcount|clk [rising] on pin CK
+    The end   point is clocked by            topcount|clk [rising] on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+counter2.countai[2]               FD1S3IX      Q        Out     0.934     0.934       -         
+countai[2]                        Net          -        -       -         -           4         
+counter2.un1_countai_axbxc3_1     ORCALUT4     C        In      0.000     0.934       -         
+counter2.un1_countai_axbxc3_1     ORCALUT4     Z        Out     0.728     1.662       -         
+un1_countai_axbxc3_1              Net          -        -       -         -           1         
+counter2.un1_countai_axbxc3       ORCALUT4     D        In      0.000     1.662       -         
+counter2.un1_countai_axbxc3       ORCALUT4     Z        Out     0.428     2.090       -         
+un1_countai[3]                    Net          -        -       -         -           1         
+counter2.countai[3]               FD1S3IX      D        In      0.000     2.090       -         
+================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      1.846
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.741
+
+    - Propagation time:                      1.384
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.357
+
+    Number of logic level(s):                1
+    Starting point:                          counter2.countai[0] / Q
+    Ending point:                            counter2.countai[0] / D
+    The start point is clocked by            topcount|clk [rising] on pin CK
+    The end   point is clocked by            topcount|clk [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+counter2.countai[0]         FD1S3IX     Q        Out     0.958     0.958       -         
+countai[0]                  Net         -        -       -         -           5         
+counter2.countai_RNO[0]     INV         A        In      0.000     0.958       -         
+counter2.countai_RNO[0]     INV         Z        Out     0.426     1.384       -         
+countai_i[0]                Net         -        -       -         -           1         
+counter2.countai[0]         FD1S3IX     D        In      0.000     1.384       -         
+=========================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      1.846
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.789
+
+    - Propagation time:                      1.386
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.403
+
+    Number of logic level(s):                1
+    Starting point:                          counter2.countai[0] / Q
+    Ending point:                            counter2.countai[1] / D
+    The start point is clocked by            topcount|clk [rising] on pin CK
+    The end   point is clocked by            topcount|clk [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+counter2.countai[0]             FD1S3IX      Q        Out     0.958     0.958       -         
+countai[0]                      Net          -        -       -         -           5         
+counter2.un1_countai_axbxc1     ORCALUT4     B        In      0.000     0.958       -         
+counter2.un1_countai_axbxc1     ORCALUT4     Z        Out     0.428     1.386       -         
+un1_countai[1]                  Net          -        -       -         -           1         
+counter2.countai[1]             FD1S3IX      D        In      0.000     1.386       -         
+==============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                          Arrival          
+Instance                Reference     Type         Pin     Net            Time        Slack
+                        Clock                                                              
+-------------------------------------------------------------------------------------------
+counter3.countai[0]     System        FD1S3IX      Q       countai[0]     0.958       0.021
+counter3.count[0]       System        FD1S3AX      Q       countt[0]      1.018       0.039
+counter3.count[1]       System        FD1S3AX      Q       countt[1]      1.018       0.039
+counter3.count[2]       System        FD1S3AX      Q       countt[2]      1.018       0.039
+counter3.countai[1]     System        FD1S3IX      Q       countai[1]     0.934       0.045
+counter3.countai[2]     System        FD1S3IX      Q       countai[2]     0.934       0.045
+directionR_0io          System        IFS1P3DX     Q       directionR     1.024       0.337
+counter3.count[3]       System        FD1S3AX      Q       countt[3]      0.976       0.415
+counter3.countai[3]     System        FD1S3IX      Q       countai[3]     0.856       0.851
+counter3.countbi[0]     System        FD1S3AX      Q       countbi[0]     0.802       1.286
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                              Required          
+Instance                Reference     Type         Pin     Net                Time         Slack
+                        Clock                                                                   
+------------------------------------------------------------------------------------------------
+counter3.countai[3]     System        FD1S3IX      D       un1_countai[3]     2.135        0.021
+seg_9_0io               System        OFS1P3DX     D       N_1                2.087        0.039
+seg_10_0io              System        OFS1P3DX     D       N_2                2.087        0.039
+seg_11_0io              System        OFS1P3DX     D       N_3                2.087        0.039
+seg_12_0io              System        OFS1P3DX     D       N_4                2.087        0.039
+seg_13_0io              System        OFS1P3DX     D       N_5                2.087        0.039
+seg_14_0io              System        OFS1P3DX     D       N_6                2.087        0.039
+seg_15_0io              System        OFS1P3DX     D       N_7                2.087        0.039
+seg_16_0io              System        OFS1P3DX     D       N_8                2.087        0.039
+counter2.countai[1]     System        FD1S3IX      D       un1_countai[1]     1.789        0.337
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.193
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         2.135
+
+    - Propagation time:                      2.114
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.021
+
+    Number of logic level(s):                2
+    Starting point:                          counter3.countai[0] / Q
+    Ending point:                            counter3.countai[3] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+counter3.countai[0]               FD1S3IX      Q        Out     0.958     0.958       -         
+countai[0]                        Net          -        -       -         -           5         
+counter3.un1_countai_axbxc3_1     ORCALUT4     A        In      0.000     0.958       -         
+counter3.un1_countai_axbxc3_1     ORCALUT4     Z        Out     0.728     1.686       -         
+un1_countai_axbxc3_1              Net          -        -       -         -           1         
+counter3.un1_countai_axbxc3       ORCALUT4     D        In      0.000     1.686       -         
+counter3.un1_countai_axbxc3       ORCALUT4     Z        Out     0.428     2.114       -         
+un1_countai[3]                    Net          -        -       -         -           1         
+counter3.countai[3]               FD1S3IX      D        In      0.000     2.114       -         
+================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 147MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 147MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe3_70e-6
+
+Register bits: 105 of 62640 (0%)
+PIC Latch:       0
+I/O cells:       32
+
+
+Details:
+CCU2C:          27
+EHXPLLF:        1
+FD1S3AX:        46
+FD1S3DX:        16
+FD1S3IX:        15
+FD1S3JX:        1
+GSR:            1
+IB:             3
+IFS1P3DX:       1
+INV:            5
+OB:             29
+OFS1P3DX:       24
+OFS1P3IX:       2
+ORCALUT4:       56
+PUR:            1
+VHI:            5
+VLO:            7
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 33MB peak: 147MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Sun Jan 24 17:22:28 2021
+
+###########################################################]

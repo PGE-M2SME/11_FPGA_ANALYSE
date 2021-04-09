@@ -1,0 +1,47 @@
+#Start recording tcl command: 2/16/2021 18:16:36
+#Project Location: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4; Project name: Ext10GenDvi
+prj_project open "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.ldf"
+prj_src add "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd"
+prj_run Synthesis -impl A
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Synthesis -impl A
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_src add "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl"
+rvl_project open /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+rvl_trace add_sig  {datadispo}
+rvl_tu set -name TU1 -set_sig {datadispo }
+rvl_project save -overwrite /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+rvl_trace del_sig {umires/datrgb}
+rvl_trace del_sig {umires/reqnewrow}
+rvl_trace add_sig  {relojsistema}
+rvl_trace add_sig  {{choixmire[3:0]}}
+rvl_project save -overwrite /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+prj_run Export -impl A -task Bitgen
+rvl_trace del_sig {relojsistema}
+rvl_trace del_sig {umires/vcnt}
+rvl_trace add_sig  {{relojsistemachoix[3:0]}}
+rvl_trace add_sig  {{umires/th[11:0]}}
+rvl_project save -overwrite /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+rvl_project save -overwrite /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+prj_run Export -impl A -task Bitgen
+rvl_trace add_sig  {{dvidat[23:0]}}
+rvl_project save -overwrite /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_src remove "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/AnalizadorSenial.rvl"
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+prj_run Export -impl A -task Bitgen
+#Stop recording: 2/16/2021 21:43:32

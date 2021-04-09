@@ -1,0 +1,29 @@
+@P:  Worst Slack : -0.775
+@P:  my_pll|CLKOK_inferred_clock - Estimated Frequency : 193.6 MHz
+@P:  my_pll|CLKOK_inferred_clock - Requested Frequency : 227.8 MHz
+@P:  my_pll|CLKOK_inferred_clock - Estimated Period : 5.164
+@P:  my_pll|CLKOK_inferred_clock - Requested Period : 4.390
+@P:  my_pll|CLKOK_inferred_clock - Slack : -0.775
+@P:  topcount|clk - Estimated Frequency : 460.4 MHz
+@P:  topcount|clk - Requested Frequency : 541.7 MHz
+@P:  topcount|clk - Estimated Period : 2.172
+@P:  topcount|clk - Requested Period : 1.846
+@P:  topcount|clk - Slack : -0.326
+@P:  topcount|direction - Estimated Frequency : NA
+@P:  topcount|direction - Requested Frequency : 1.0 MHz
+@P:  topcount|direction - Estimated Period : NA
+@P:  topcount|direction - Requested Period : 1000.000
+@P:  topcount|direction - Slack : NA
+@P:  System - Estimated Frequency : 460.4 MHz
+@P:  System - Requested Frequency : 456.0 MHz
+@P:  System - Estimated Period : 2.172
+@P:  System - Requested Period : 2.193
+@P:  System - Slack : 0.021
+@P:  Total Area : 61.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:03s

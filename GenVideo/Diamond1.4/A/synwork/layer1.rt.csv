@@ -1,0 +1,14 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, pmi_fifo_8s_16s_16s_0s_252s_4s_noreg_ECP3_pmi_fifo_LUT_6_layer1, 0h:00m:00s,     80 MB
+work, testvideotop_la0, 0h:00m:00s,     80 MB
+work, pmi_ram_dp_Z5_layer1, 0h:00m:00s,     80 MB
+work, rvl_tm_Z4_layer1, 0h:00m:00s,    102 MB
+work, testvideotop_la0_trig, 0h:00m:00s,    102 MB
+work, rvl_tcnt_1s_3s_1_0s, 0h:00m:00s,    102 MB
+work, pmi_distributed_dpram_2s_1s_2s_reg_none_binary_ECP3_pmi_distributed_dpram_3_layer1, 0h:00m:00s,    102 MB
+work, rvl_te_Z2_layer1, 0h:00m:00s,    102 MB
+work, rvl_tu_1s_0s_0s_0s_1s, 0h:00m:00s,    102 MB
+work, rvl_decode_1s_1s, 0h:00m:00s,    102 MB
+work, rvl_jtag_int_60s_1s_0s_0s_6s_60s_60s, 0h:00m:00s,    102 MB
+work, jtagconn16, 0h:00m:00s,    102 MB
+work, pmi_ram_dq_Z1_layer1, 0h:00m:00s,    102 MB

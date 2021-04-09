@@ -1,0 +1,106 @@
+----------------------------------------------------------------------
+Report for cell topcount.verilog
+
+Register bits: 105 of 62640 (0%)
+PIC Latch:       0
+I/O cells:       32
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       27       100.0
+                            EHXPLLF        1       100.0
+                            FD1S3AX       46       100.0
+                            FD1S3DX       16       100.0
+                            FD1S3IX       15       100.0
+                            FD1S3JX        1       100.0
+                                GSR        1       100.0
+                                 IB        3       100.0
+                           IFS1P3DX        1       100.0
+                                INV        5       100.0
+                                 OB       29       100.0
+                           OFS1P3DX       24       100.0
+                           OFS1P3IX        2       100.0
+                           ORCALUT4       56       100.0
+                                PUR        1       100.0
+                                VHI        5       100.0
+                                VLO        7       100.0
+SUB MODULES 
+                            LEDtest        1       100.0
+                       clockDivider        1       100.0
+                           count4_0        1       100.0
+                           count4_1        1       100.0
+                             count8        1       100.0
+                             my_pll        1       100.0
+                            
+                         TOTAL           246           
+----------------------------------------------------------------------
+Report for cell count8.netlist
+     Instance path:  counter1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5        18.5
+                            FD1S3DX       16       100.0
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL            23           
+----------------------------------------------------------------------
+Report for cell LEDtest.netlist
+     Instance path:  my_LEDtest
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       15        26.8
+                                VLO        1        14.3
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell count4_0.netlist
+  Original Cell name count4
+     Instance path:  counter3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        8        17.4
+                            FD1S3IX        4        26.7
+                                INV        1        20.0
+                           ORCALUT4        4         7.1
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL            19           
+----------------------------------------------------------------------
+Report for cell count4_1.netlist
+  Original Cell name count4
+     Instance path:  counter2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        4         8.7
+                            FD1S3IX        4        26.7
+                                INV        1        20.0
+                           ORCALUT4        4         7.1
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL            15           
+----------------------------------------------------------------------
+Report for cell clockDivider.netlist
+     Instance path:  clockDivider_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       22        81.5
+                            FD1S3AX       33        71.7
+                            FD1S3IX        7        46.7
+                            FD1S3JX        1       100.0
+                                INV        2        40.0
+                           ORCALUT4       25        44.6
+                                VHI        1        20.0
+                                VLO        1        14.3
+                            
+                         TOTAL            92           
+----------------------------------------------------------------------
+Report for cell my_pll.netlist
+     Instance path:  my_pll_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLF        1       100.0
+                                VLO        1        14.3
+                            
+                         TOTAL             2           

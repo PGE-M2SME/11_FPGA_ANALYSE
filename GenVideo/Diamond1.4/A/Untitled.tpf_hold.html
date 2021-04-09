@@ -1,0 +1,551 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+<!--
+.blink {text-decoration:blink}
+.ms  {font-size: 9pt; font-family: monospace; font-weight: normal}
+.msb {font-size: 9pt; font-family: monospace; font-weight: bold  }
+-->
+</STYLE>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY><B>
+</B>
+<BR><PRE><A name="Report Header"></A>
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.3.469
+Fri Feb 19 01:56:31 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design file:     TestVideoTop
+Device,speed:    LFE3-70E,M
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+
+
+</A><A name="FREQUENCY NET 'PinClk125_c' 125.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "PinClk125_c" 125.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY NET 'Clk50' 50.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "Clk50" 50.000000 MHz ;
+            10 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:SLICE_315">uFifoRxRaw/FF_20</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_315">uFifoRxRaw/FF_20</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay SLICE_315 to SLICE_315 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R37C55A.CLK,R37C55A.Q0,SLICE_315:ROUTE, 0.042,R37C55A.Q0,R37C55A.D0,Full:CTOF_DEL, 0.056,R37C55A.D0,R37C55A.F0,SLICE_315:ROUTE, 0.000,R37C55A.F0,R37C55A.DI0,uFifoRxRaw/full_d">Data path</A> SLICE_315 to SLICE_315:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R37C55A.CLK to     R37C55A.Q0 <A href="#@comp:SLICE_315">SLICE_315</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:Full:R37C55A.Q0:R37C55A.D0:0.042">     R37C55A.Q0 to R37C55A.D0    </A> <A href="#@net:Full">Full</A>
+CTOF_DEL    ---     0.056     R37C55A.D0 to     R37C55A.F0 <A href="#@comp:SLICE_315">SLICE_315</A>
+ROUTE         1     0.000<A href="#@net:uFifoRxRaw/full_d:R37C55A.F0:R37C55A.DI0:0.000">     R37C55A.F0 to R37C55A.DI0   </A> <A href="#@net:uFifoRxRaw/full_d">uFifoRxRaw/full_d</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R37C55A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to SLICE_315:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R37C55A.CLK:0.477"> PLL_R43C5.CLKOK to R37C55A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R37C55A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to SLICE_315:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R37C55A.CLK:0.477"> PLL_R43C5.CLKOK to R37C55A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_468">uForth/cpu1/sync.r_stackrff_26</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_468">uForth/cpu1/sync.r_stackrff_26</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_468 to uForth/cpu1/SLICE_468 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R29C83A.CLK,R29C83A.Q0,uForth/cpu1/SLICE_468:ROUTE, 0.042,R29C83A.Q0,R29C83A.D0,uForth/cpu1/r_stackro_26:CTOF_DEL, 0.056,R29C83A.D0,R29C83A.F0,uForth/cpu1/SLICE_468:ROUTE, 0.000,R29C83A.F0,R29C83A.DI0,uForth/cpu1/fb_0_42">Data path</A> uForth/cpu1/SLICE_468 to uForth/cpu1/SLICE_468:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R29C83A.CLK to     R29C83A.Q0 <A href="#@comp:uForth/cpu1/SLICE_468">uForth/cpu1/SLICE_468</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/r_stackro_26:R29C83A.Q0:R29C83A.D0:0.042">     R29C83A.Q0 to R29C83A.D0    </A> <A href="#@net:uForth/cpu1/r_stackro_26">uForth/cpu1/r_stackro_26</A>
+CTOF_DEL    ---     0.056     R29C83A.D0 to     R29C83A.F0 <A href="#@comp:uForth/cpu1/SLICE_468">uForth/cpu1/SLICE_468</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_42:R29C83A.F0:R29C83A.DI0:0.000">     R29C83A.F0 to R29C83A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_42">uForth/cpu1/fb_0_42</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R29C83A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_468:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R29C83A.CLK:0.477"> PLL_R43C5.CLKOK to R29C83A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R29C83A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_468:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R29C83A.CLK:0.477"> PLL_R43C5.CLKOK to R29C83A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_477">uForth/cpu1/sync.s_stackrff_8</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_477">uForth/cpu1/sync.s_stackrff_8</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_477 to uForth/cpu1/SLICE_477 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R41C58A.CLK,R41C58A.Q0,uForth/cpu1/SLICE_477:ROUTE, 0.042,R41C58A.Q0,R41C58A.D0,uForth/cpu1/s_stackro_8:CTOF_DEL, 0.056,R41C58A.D0,R41C58A.F0,uForth/cpu1/SLICE_477:ROUTE, 0.000,R41C58A.F0,R41C58A.DI0,uForth/cpu1/fb_0_23">Data path</A> uForth/cpu1/SLICE_477 to uForth/cpu1/SLICE_477:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R41C58A.CLK to     R41C58A.Q0 <A href="#@comp:uForth/cpu1/SLICE_477">uForth/cpu1/SLICE_477</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_8:R41C58A.Q0:R41C58A.D0:0.042">     R41C58A.Q0 to R41C58A.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_8">uForth/cpu1/s_stackro_8</A>
+CTOF_DEL    ---     0.056     R41C58A.D0 to     R41C58A.F0 <A href="#@comp:uForth/cpu1/SLICE_477">uForth/cpu1/SLICE_477</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_23:R41C58A.F0:R41C58A.DI0:0.000">     R41C58A.F0 to R41C58A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_23">uForth/cpu1/fb_0_23</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R41C58A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_477:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R41C58A.CLK:0.477"> PLL_R43C5.CLKOK to R41C58A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R41C58A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_477:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R41C58A.CLK:0.477"> PLL_R43C5.CLKOK to R41C58A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_482">uForth/cpu1/sync.s_stackrff_18</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_482">uForth/cpu1/sync.s_stackrff_18</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_482 to uForth/cpu1/SLICE_482 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R44C61B.CLK,R44C61B.Q0,uForth/cpu1/SLICE_482:ROUTE, 0.042,R44C61B.Q0,R44C61B.D0,uForth/cpu1/s_stackro_18:CTOF_DEL, 0.056,R44C61B.D0,R44C61B.F0,uForth/cpu1/SLICE_482:ROUTE, 0.000,R44C61B.F0,R44C61B.DI0,uForth/cpu1/fb_0_18">Data path</A> uForth/cpu1/SLICE_482 to uForth/cpu1/SLICE_482:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R44C61B.CLK to     R44C61B.Q0 <A href="#@comp:uForth/cpu1/SLICE_482">uForth/cpu1/SLICE_482</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_18:R44C61B.Q0:R44C61B.D0:0.042">     R44C61B.Q0 to R44C61B.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_18">uForth/cpu1/s_stackro_18</A>
+CTOF_DEL    ---     0.056     R44C61B.D0 to     R44C61B.F0 <A href="#@comp:uForth/cpu1/SLICE_482">uForth/cpu1/SLICE_482</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_18:R44C61B.F0:R44C61B.DI0:0.000">     R44C61B.F0 to R44C61B.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_18">uForth/cpu1/fb_0_18</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R44C61B.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_482:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R44C61B.CLK:0.477"> PLL_R43C5.CLKOK to R44C61B.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R44C61B.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_482:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R44C61B.CLK:0.477"> PLL_R43C5.CLKOK to R44C61B.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_483">uForth/cpu1/sync.s_stackrff_20</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_483">uForth/cpu1/sync.s_stackrff_20</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_483 to uForth/cpu1/SLICE_483 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R44C59A.CLK,R44C59A.Q0,uForth/cpu1/SLICE_483:ROUTE, 0.042,R44C59A.Q0,R44C59A.D0,uForth/cpu1/s_stackro_20:CTOF_DEL, 0.056,R44C59A.D0,R44C59A.F0,uForth/cpu1/SLICE_483:ROUTE, 0.000,R44C59A.F0,R44C59A.DI0,uForth/cpu1/fb_0_5">Data path</A> uForth/cpu1/SLICE_483 to uForth/cpu1/SLICE_483:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R44C59A.CLK to     R44C59A.Q0 <A href="#@comp:uForth/cpu1/SLICE_483">uForth/cpu1/SLICE_483</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_20:R44C59A.Q0:R44C59A.D0:0.042">     R44C59A.Q0 to R44C59A.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_20">uForth/cpu1/s_stackro_20</A>
+CTOF_DEL    ---     0.056     R44C59A.D0 to     R44C59A.F0 <A href="#@comp:uForth/cpu1/SLICE_483">uForth/cpu1/SLICE_483</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_5:R44C59A.F0:R44C59A.DI0:0.000">     R44C59A.F0 to R44C59A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_5">uForth/cpu1/fb_0_5</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R44C59A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_483:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R44C59A.CLK:0.477"> PLL_R43C5.CLKOK to R44C59A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R44C59A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_483:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R44C59A.CLK:0.477"> PLL_R43C5.CLKOK to R44C59A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_476">uForth/cpu1/sync.s_stackrff_6</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_476">uForth/cpu1/sync.s_stackrff_6</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_476 to uForth/cpu1/SLICE_476 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R42C61B.CLK,R42C61B.Q0,uForth/cpu1/SLICE_476:ROUTE, 0.042,R42C61B.Q0,R42C61B.D0,uForth/cpu1/s_stackro_6:CTOF_DEL, 0.056,R42C61B.D0,R42C61B.F0,uForth/cpu1/SLICE_476:ROUTE, 0.000,R42C61B.F0,R42C61B.DI0,uForth/cpu1/fb_0_21">Data path</A> uForth/cpu1/SLICE_476 to uForth/cpu1/SLICE_476:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R42C61B.CLK to     R42C61B.Q0 <A href="#@comp:uForth/cpu1/SLICE_476">uForth/cpu1/SLICE_476</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_6:R42C61B.Q0:R42C61B.D0:0.042">     R42C61B.Q0 to R42C61B.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_6">uForth/cpu1/s_stackro_6</A>
+CTOF_DEL    ---     0.056     R42C61B.D0 to     R42C61B.F0 <A href="#@comp:uForth/cpu1/SLICE_476">uForth/cpu1/SLICE_476</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_21:R42C61B.F0:R42C61B.DI0:0.000">     R42C61B.F0 to R42C61B.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_21">uForth/cpu1/fb_0_21</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R42C61B.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_476:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R42C61B.CLK:0.477"> PLL_R43C5.CLKOK to R42C61B.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R42C61B.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_476:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R42C61B.CLK:0.477"> PLL_R43C5.CLKOK to R42C61B.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_474">uForth/cpu1/sync.s_stackrff_2</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_474">uForth/cpu1/sync.s_stackrff_2</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_474 to uForth/cpu1/SLICE_474 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R44C61A.CLK,R44C61A.Q0,uForth/cpu1/SLICE_474:ROUTE, 0.042,R44C61A.Q0,R44C61A.D0,uForth/cpu1/s_stackro_2:CTOF_DEL, 0.056,R44C61A.D0,R44C61A.F0,uForth/cpu1/SLICE_474:ROUTE, 0.000,R44C61A.F0,R44C61A.DI0,uForth/cpu1/fb_0_29">Data path</A> uForth/cpu1/SLICE_474 to uForth/cpu1/SLICE_474:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R44C61A.CLK to     R44C61A.Q0 <A href="#@comp:uForth/cpu1/SLICE_474">uForth/cpu1/SLICE_474</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_2:R44C61A.Q0:R44C61A.D0:0.042">     R44C61A.Q0 to R44C61A.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_2">uForth/cpu1/s_stackro_2</A>
+CTOF_DEL    ---     0.056     R44C61A.D0 to     R44C61A.F0 <A href="#@comp:uForth/cpu1/SLICE_474">uForth/cpu1/SLICE_474</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_29:R44C61A.F0:R44C61A.DI0:0.000">     R44C61A.F0 to R44C61A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_29">uForth/cpu1/fb_0_29</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R44C61A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_474:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R44C61A.CLK:0.477"> PLL_R43C5.CLKOK to R44C61A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R44C61A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_474:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R44C61A.CLK:0.477"> PLL_R43C5.CLKOK to R44C61A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_481">uForth/cpu1/sync.s_stackrff_16</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_481">uForth/cpu1/sync.s_stackrff_16</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_481 to uForth/cpu1/SLICE_481 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R40C59A.CLK,R40C59A.Q0,uForth/cpu1/SLICE_481:ROUTE, 0.042,R40C59A.Q0,R40C59A.D0,uForth/cpu1/s_stackro_16:CTOF_DEL, 0.056,R40C59A.D0,R40C59A.F0,uForth/cpu1/SLICE_481:ROUTE, 0.000,R40C59A.F0,R40C59A.DI0,uForth/cpu1/fb_0_16">Data path</A> uForth/cpu1/SLICE_481 to uForth/cpu1/SLICE_481:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R40C59A.CLK to     R40C59A.Q0 <A href="#@comp:uForth/cpu1/SLICE_481">uForth/cpu1/SLICE_481</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_16:R40C59A.Q0:R40C59A.D0:0.042">     R40C59A.Q0 to R40C59A.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_16">uForth/cpu1/s_stackro_16</A>
+CTOF_DEL    ---     0.056     R40C59A.D0 to     R40C59A.F0 <A href="#@comp:uForth/cpu1/SLICE_481">uForth/cpu1/SLICE_481</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_16:R40C59A.F0:R40C59A.DI0:0.000">     R40C59A.F0 to R40C59A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_16">uForth/cpu1/fb_0_16</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R40C59A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_481:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R40C59A.CLK:0.477"> PLL_R43C5.CLKOK to R40C59A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R40C59A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_481:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R40C59A.CLK:0.477"> PLL_R43C5.CLKOK to R40C59A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_484">uForth/cpu1/sync.s_stackrff_22</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_484">uForth/cpu1/sync.s_stackrff_22</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_484 to uForth/cpu1/SLICE_484 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R42C58A.CLK,R42C58A.Q0,uForth/cpu1/SLICE_484:ROUTE, 0.042,R42C58A.Q0,R42C58A.D0,uForth/cpu1/s_stackro_22:CTOF_DEL, 0.056,R42C58A.D0,R42C58A.F0,uForth/cpu1/SLICE_484:ROUTE, 0.000,R42C58A.F0,R42C58A.DI0,uForth/cpu1/fb_0_7">Data path</A> uForth/cpu1/SLICE_484 to uForth/cpu1/SLICE_484:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R42C58A.CLK to     R42C58A.Q0 <A href="#@comp:uForth/cpu1/SLICE_484">uForth/cpu1/SLICE_484</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/s_stackro_22:R42C58A.Q0:R42C58A.D0:0.042">     R42C58A.Q0 to R42C58A.D0    </A> <A href="#@net:uForth/cpu1/s_stackro_22">uForth/cpu1/s_stackro_22</A>
+CTOF_DEL    ---     0.056     R42C58A.D0 to     R42C58A.F0 <A href="#@comp:uForth/cpu1/SLICE_484">uForth/cpu1/SLICE_484</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_7:R42C58A.F0:R42C58A.DI0:0.000">     R42C58A.F0 to R42C58A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_7">uForth/cpu1/fb_0_7</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R42C58A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_484:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R42C58A.CLK:0.477"> PLL_R43C5.CLKOK to R42C58A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R42C58A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_484:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R42C58A.CLK:0.477"> PLL_R43C5.CLKOK to R42C58A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.203ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_469">uForth/cpu1/sync.r_stackrff_28</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_469">uForth/cpu1/sync.r_stackrff_28</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               0.192ns  (78.1% logic, 21.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.192ns physical path delay uForth/cpu1/SLICE_469 to uForth/cpu1/SLICE_469 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.203ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.094,R29C81A.CLK,R29C81A.Q0,uForth/cpu1/SLICE_469:ROUTE, 0.042,R29C81A.Q0,R29C81A.D0,uForth/cpu1/r_stackro_28:CTOF_DEL, 0.056,R29C81A.D0,R29C81A.F0,uForth/cpu1/SLICE_469:ROUTE, 0.000,R29C81A.F0,R29C81A.DI0,uForth/cpu1/fb_0_33">Data path</A> uForth/cpu1/SLICE_469 to uForth/cpu1/SLICE_469:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.094    R29C81A.CLK to     R29C81A.Q0 <A href="#@comp:uForth/cpu1/SLICE_469">uForth/cpu1/SLICE_469</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.042<A href="#@net:uForth/cpu1/r_stackro_28:R29C81A.Q0:R29C81A.D0:0.042">     R29C81A.Q0 to R29C81A.D0    </A> <A href="#@net:uForth/cpu1/r_stackro_28">uForth/cpu1/r_stackro_28</A>
+CTOF_DEL    ---     0.056     R29C81A.D0 to     R29C81A.F0 <A href="#@comp:uForth/cpu1/SLICE_469">uForth/cpu1/SLICE_469</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/fb_0_33:R29C81A.F0:R29C81A.DI0:0.000">     R29C81A.F0 to R29C81A.DI0   </A> <A href="#@net:uForth/cpu1/fb_0_33">uForth/cpu1/fb_0_33</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    0.192   (78.1% logic, 21.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R29C81A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_469:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R29C81A.CLK:0.477"> PLL_R43C5.CLKOK to R29C81A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 0.477,PLL_R43C5.CLKOK,R29C81A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_469:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     0.477<A href="#@net:Clk50:PLL_R43C5.CLKOK:R29C81A.CLK:0.477"> PLL_R43C5.CLKOK to R29C81A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    0.477   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+</A><A name="FREQUENCY NET 'uPll/CLKOP' 100.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "uPll/CLKOP" 100.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY PORT 'PinClk125' 125.000000 MH"></A>================================================================================
+Preference: FREQUENCY PORT "PinClk125" 125.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+<A name="Report Summary"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "PinClk125_c" 125.000000  |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "Clk50" 50.000000 MHz ;   |     0.000 ns|     0.203 ns|   2  
+                                        |             |             |
+FREQUENCY NET "uPll/CLKOP" 100.000000   |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY PORT "PinClk125" 125.000000   |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="Clock Domains Analysis"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+No clock domain analysis is done. To analyze clock domains, please remove the BLOCK INTERCLOCKDOMAIN PATHS preference.
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1326421 paths, 43 nets, and 9368 connections (92.43% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)

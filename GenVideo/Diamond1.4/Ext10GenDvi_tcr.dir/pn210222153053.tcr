@@ -1,0 +1,11 @@
+#Start recording tcl command: 2/22/2021 15:22:58
+#Project Location: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4; Project name: Ext10GenDvi
+/home/diamond/SharedFolder/controlDCS
+controlDCS
+#Start recording tcl command: 2/22/2021 15:30:53
+#Project Location: /home/diamond/SharedFolder/controlDCS; Project name: controlDCS
+prj_project open "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.ldf"
+prj_project close
+prj_project new -name "controlDCS" -impl "impl1" -dev LFE3-70E-8FN672C -synthesis "synplify"
+prj_project save
+#Stop recording: 2/22/2021 15:30:53

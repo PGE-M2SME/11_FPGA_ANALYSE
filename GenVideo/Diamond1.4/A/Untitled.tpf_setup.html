@@ -1,0 +1,653 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+<!--
+.blink {text-decoration:blink}
+.ms  {font-size: 9pt; font-family: monospace; font-weight: normal}
+.msb {font-size: 9pt; font-family: monospace; font-weight: bold  }
+-->
+</STYLE>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY><B>
+</B>
+<BR><PRE><A name="Report Header"></A>
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.3.469
+Fri Feb 19 01:56:30 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design file:     TestVideoTop
+Device,speed:    LFE3-70E,8
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+
+
+</A><A name="FREQUENCY NET 'PinClk125_c' 125.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "PinClk125_c" 125.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY NET 'Clk50' 50.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "Clk50" 50.000000 MHz ;
+            10 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+<font color=#000000> 
+
+Passed: The following path meets requirements by 1.839ns (weighted slack = 3.678ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7</A>(ASIC)  (from <A href="#@net:Clk50">Clk50</A> -)
+   Destination:    FF         Data in        <A href="#@comp:uForth/cpu1/SLICE_500">uForth/cpu1/t[3]</A>  (to <A href="#@net:Clk50">Clk50</A> +)
+
+   Delay:               7.986ns  (45.4% logic, 54.6% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.986ns physical path delay uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7 to uForth/cpu1/SLICE_500 meets
+     10.000ns delay constraint less
+      0.114ns skew and
+      0.061ns DIN_SET requirement (totaling 9.825ns) by 1.839ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:C2Q_DEL, 2.784,EBR_R25C59.CLKA,EBR_R25C59.DOA3,uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7:ROUTE, 1.058,EBR_R25C59.DOA3,R28C56D.C0,uForth/memory_data_o[3]:CTOF_DEL, 0.147,R28C56D.C0,R28C56D.F0,uForth/SLICE_1068:ROUTE, 0.739,R28C56D.F0,R29C55B.A0,uForth/un1_cpu_data_o_m0[3]:CTOOFX_DEL, 0.273,R29C55B.A0,R29C55B.OFX0,SLICE_321:ROUTE, 1.788,R29C55B.OFX0,R36C60C.D1,un1_cpu_data_o[3]:CTOOFX_DEL, 0.273,R36C60C.D1,R36C60C.OFX0,uForth/cpu1/t_in_11[3]/SLICE_614:ROUTE, 0.777,R36C60C.OFX0,R31C60A.D0,uForth/cpu1/N_707:CTOF_DEL, 0.147,R31C60A.D0,R31C60A.F0,uForth/cpu1/SLICE_500:ROUTE, 0.000,R31C60A.F0,R31C60A.DI0,uForth/cpu1/t_in[3]">Data path</A> uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7 to uForth/cpu1/SLICE_500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+C2Q_DEL     ---     2.784 EBR_R25C59.CLKA to EBR_R25C59.DOA3 <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         1     1.058<A href="#@net:uForth/memory_data_o[3]:EBR_R25C59.DOA3:R28C56D.C0:1.058"> EBR_R25C59.DOA3 to R28C56D.C0    </A> <A href="#@net:uForth/memory_data_o[3]">uForth/memory_data_o[3]</A>
+CTOF_DEL    ---     0.147     R28C56D.C0 to     R28C56D.F0 <A href="#@comp:uForth/SLICE_1068">uForth/SLICE_1068</A>
+ROUTE         1     0.739<A href="#@net:uForth/un1_cpu_data_o_m0[3]:R28C56D.F0:R29C55B.A0:0.739">     R28C56D.F0 to R29C55B.A0    </A> <A href="#@net:uForth/un1_cpu_data_o_m0[3]">uForth/un1_cpu_data_o_m0[3]</A>
+CTOOFX_DEL  ---     0.273     R29C55B.A0 to   R29C55B.OFX0 <A href="#@comp:SLICE_321">SLICE_321</A>
+ROUTE         9     1.788<A href="#@net:un1_cpu_data_o[3]:R29C55B.OFX0:R36C60C.D1:1.788">   R29C55B.OFX0 to R36C60C.D1    </A> <A href="#@net:un1_cpu_data_o[3]">un1_cpu_data_o[3]</A>
+CTOOFX_DEL  ---     0.273     R36C60C.D1 to   R36C60C.OFX0 <A href="#@comp:uForth/cpu1/t_in_11[3]/SLICE_614">uForth/cpu1/t_in_11[3]/SLICE_614</A>
+ROUTE         1     0.777<A href="#@net:uForth/cpu1/N_707:R36C60C.OFX0:R31C60A.D0:0.777">   R36C60C.OFX0 to R31C60A.D0    </A> <A href="#@net:uForth/cpu1/N_707">uForth/cpu1/N_707</A>
+CTOF_DEL    ---     0.147     R31C60A.D0 to     R31C60A.F0 <A href="#@comp:uForth/cpu1/SLICE_500">uForth/cpu1/SLICE_500</A>
+ROUTE         1     0.000<A href="#@net:uForth/cpu1/t_in[3]:R31C60A.F0:R31C60A.DI0:0.000">     R31C60A.F0 to R31C60A.DI0   </A> <A href="#@net:uForth/cpu1/t_in[3]">uForth/cpu1/t_in[3]</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    7.986   (45.4% logic, 54.6% route), 5 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C59.CLKA,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C59.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C59.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R31C60A.CLK,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R31C60A.CLK:1.072"> PLL_R43C5.CLKOK to R31C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.008ns (weighted slack = 4.016ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_420">uForth/cpu1/i[21]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.213ns  (15.2% logic, 84.8% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.213ns physical path delay uForth/cpu1/SLICE_420 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.008ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R27C62B.CLK,R27C62B.Q1,uForth/cpu1/SLICE_420:ROUTE, 0.745,R27C62B.Q1,R26C60A.A0,uForth/cpu1/i[21]:CTOOFX_DEL, 0.273,R26C60A.A0,R26C60A.OFX0,uForth/cpu1/code_3[3]/SLICE_764:ROUTE, 0.955,R26C60A.OFX0,R28C67B.B1,uForth/cpu1/N_924:CTOF_DEL, 0.147,R28C67B.B1,R28C67B.F1,uForth/cpu1/SLICE_780:ROUTE, 1.540,R28C67B.F1,R37C68A.B0,uForth/cpu1/code[3]:CTOF_DEL, 0.147,R37C68A.B0,R37C68A.F0,uForth/SLICE_968:ROUTE, 0.576,R37C68A.F0,R36C68D.B0,uForth/addr_1[3]:CTOF_DEL, 0.147,R36C68D.B0,R36C68D.F0,uForth/SLICE_1327:ROUTE, 0.828,R36C68D.F0,R32C68D.B1,uForth/un22_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.B1,R32C68D.F1,uForth/SLICE_978:ROUTE, 0.367,R32C68D.F1,R32C68D.A0,uForth/un5_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.A0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.951,R32C68D.F0,EBR_R25C74.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_420 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R27C62B.CLK to     R27C62B.Q1 <A href="#@comp:uForth/cpu1/SLICE_420">uForth/cpu1/SLICE_420</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.745<A href="#@net:uForth/cpu1/i[21]:R27C62B.Q1:R26C60A.A0:0.745">     R27C62B.Q1 to R26C60A.A0    </A> <A href="#@net:uForth/cpu1/i[21]">uForth/cpu1/i[21]</A>
+CTOOFX_DEL  ---     0.273     R26C60A.A0 to   R26C60A.OFX0 <A href="#@comp:uForth/cpu1/code_3[3]/SLICE_764">uForth/cpu1/code_3[3]/SLICE_764</A>
+ROUTE         3     0.955<A href="#@net:uForth/cpu1/N_924:R26C60A.OFX0:R28C67B.B1:0.955">   R26C60A.OFX0 to R28C67B.B1    </A> <A href="#@net:uForth/cpu1/N_924">uForth/cpu1/N_924</A>
+CTOF_DEL    ---     0.147     R28C67B.B1 to     R28C67B.F1 <A href="#@comp:uForth/cpu1/SLICE_780">uForth/cpu1/SLICE_780</A>
+ROUTE        27     1.540<A href="#@net:uForth/cpu1/code[3]:R28C67B.F1:R37C68A.B0:1.540">     R28C67B.F1 to R37C68A.B0    </A> <A href="#@net:uForth/cpu1/code[3]">uForth/cpu1/code[3]</A>
+CTOF_DEL    ---     0.147     R37C68A.B0 to     R37C68A.F0 <A href="#@comp:uForth/SLICE_968">uForth/SLICE_968</A>
+ROUTE         6     0.576<A href="#@net:uForth/addr_1[3]:R37C68A.F0:R36C68D.B0:0.576">     R37C68A.F0 to R36C68D.B0    </A> <A href="#@net:uForth/addr_1[3]">uForth/addr_1[3]</A>
+CTOF_DEL    ---     0.147     R36C68D.B0 to     R36C68D.F0 <A href="#@comp:uForth/SLICE_1327">uForth/SLICE_1327</A>
+ROUTE         1     0.828<A href="#@net:uForth/un22_system_data_o_0_a2_sx:R36C68D.F0:R32C68D.B1:0.828">     R36C68D.F0 to R32C68D.B1    </A> <A href="#@net:uForth/un22_system_data_o_0_a2_sx">uForth/un22_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.B1 to     R32C68D.F1 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         2     0.367<A href="#@net:uForth/un5_system_data_o_0_a2_sx:R32C68D.F1:R32C68D.A0:0.367">     R32C68D.F1 to R32C68D.A0    </A> <A href="#@net:uForth/un5_system_data_o_0_a2_sx">uForth/un5_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.A0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.951<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C74.WEA:1.951">     R32C68D.F0 to EBR_R25C74.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.213   (15.2% logic, 84.8% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R27C62B.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_420:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R27C62B.CLK:1.072"> PLL_R43C5.CLKOK to R27C62B.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C74.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C74.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C74.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.019ns (weighted slack = 4.038ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_420">uForth/cpu1/i[21]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.202ns  (15.3% logic, 84.7% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.202ns physical path delay uForth/cpu1/SLICE_420 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.019ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R27C62B.CLK,R27C62B.Q1,uForth/cpu1/SLICE_420:ROUTE, 0.745,R27C62B.Q1,R26C60A.A0,uForth/cpu1/i[21]:CTOOFX_DEL, 0.273,R26C60A.A0,R26C60A.OFX0,uForth/cpu1/code_3[3]/SLICE_764:ROUTE, 0.955,R26C60A.OFX0,R28C67B.B1,uForth/cpu1/N_924:CTOF_DEL, 0.147,R28C67B.B1,R28C67B.F1,uForth/cpu1/SLICE_780:ROUTE, 1.540,R28C67B.F1,R37C68A.B0,uForth/cpu1/code[3]:CTOF_DEL, 0.147,R37C68A.B0,R37C68A.F0,uForth/SLICE_968:ROUTE, 0.576,R37C68A.F0,R36C68D.B0,uForth/addr_1[3]:CTOF_DEL, 0.147,R36C68D.B0,R36C68D.F0,uForth/SLICE_1327:ROUTE, 0.828,R36C68D.F0,R32C68D.B1,uForth/un22_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.B1,R32C68D.F1,uForth/SLICE_978:ROUTE, 0.367,R32C68D.F1,R32C68D.A0,uForth/un5_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.A0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.940,R32C68D.F0,EBR_R25C71.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_420 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R27C62B.CLK to     R27C62B.Q1 <A href="#@comp:uForth/cpu1/SLICE_420">uForth/cpu1/SLICE_420</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.745<A href="#@net:uForth/cpu1/i[21]:R27C62B.Q1:R26C60A.A0:0.745">     R27C62B.Q1 to R26C60A.A0    </A> <A href="#@net:uForth/cpu1/i[21]">uForth/cpu1/i[21]</A>
+CTOOFX_DEL  ---     0.273     R26C60A.A0 to   R26C60A.OFX0 <A href="#@comp:uForth/cpu1/code_3[3]/SLICE_764">uForth/cpu1/code_3[3]/SLICE_764</A>
+ROUTE         3     0.955<A href="#@net:uForth/cpu1/N_924:R26C60A.OFX0:R28C67B.B1:0.955">   R26C60A.OFX0 to R28C67B.B1    </A> <A href="#@net:uForth/cpu1/N_924">uForth/cpu1/N_924</A>
+CTOF_DEL    ---     0.147     R28C67B.B1 to     R28C67B.F1 <A href="#@comp:uForth/cpu1/SLICE_780">uForth/cpu1/SLICE_780</A>
+ROUTE        27     1.540<A href="#@net:uForth/cpu1/code[3]:R28C67B.F1:R37C68A.B0:1.540">     R28C67B.F1 to R37C68A.B0    </A> <A href="#@net:uForth/cpu1/code[3]">uForth/cpu1/code[3]</A>
+CTOF_DEL    ---     0.147     R37C68A.B0 to     R37C68A.F0 <A href="#@comp:uForth/SLICE_968">uForth/SLICE_968</A>
+ROUTE         6     0.576<A href="#@net:uForth/addr_1[3]:R37C68A.F0:R36C68D.B0:0.576">     R37C68A.F0 to R36C68D.B0    </A> <A href="#@net:uForth/addr_1[3]">uForth/addr_1[3]</A>
+CTOF_DEL    ---     0.147     R36C68D.B0 to     R36C68D.F0 <A href="#@comp:uForth/SLICE_1327">uForth/SLICE_1327</A>
+ROUTE         1     0.828<A href="#@net:uForth/un22_system_data_o_0_a2_sx:R36C68D.F0:R32C68D.B1:0.828">     R36C68D.F0 to R32C68D.B1    </A> <A href="#@net:uForth/un22_system_data_o_0_a2_sx">uForth/un22_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.B1 to     R32C68D.F1 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         2     0.367<A href="#@net:uForth/un5_system_data_o_0_a2_sx:R32C68D.F1:R32C68D.A0:0.367">     R32C68D.F1 to R32C68D.A0    </A> <A href="#@net:uForth/un5_system_data_o_0_a2_sx">uForth/un5_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.A0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.940<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C71.WEA:1.940">     R32C68D.F0 to EBR_R25C71.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.202   (15.3% logic, 84.7% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R27C62B.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_420:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R27C62B.CLK:1.072"> PLL_R43C5.CLKOK to R27C62B.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C71.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C71.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C71.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.086ns (weighted slack = 4.172ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/slot[1]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.135ns  (15.4% logic, 84.6% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.135ns physical path delay uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.086ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R24C60A.CLK,R24C60A.Q1,uForth/cpu1/SLICE_489:ROUTE, 0.667,R24C60A.Q1,R26C60A.B0,uForth/cpu1/slot[1]:CTOOFX_DEL, 0.273,R26C60A.B0,R26C60A.OFX0,uForth/cpu1/code_3[3]/SLICE_764:ROUTE, 0.955,R26C60A.OFX0,R28C67B.B1,uForth/cpu1/N_924:CTOF_DEL, 0.147,R28C67B.B1,R28C67B.F1,uForth/cpu1/SLICE_780:ROUTE, 1.540,R28C67B.F1,R37C68A.B0,uForth/cpu1/code[3]:CTOF_DEL, 0.147,R37C68A.B0,R37C68A.F0,uForth/SLICE_968:ROUTE, 0.576,R37C68A.F0,R36C68D.B0,uForth/addr_1[3]:CTOF_DEL, 0.147,R36C68D.B0,R36C68D.F0,uForth/SLICE_1327:ROUTE, 0.828,R36C68D.F0,R32C68D.B1,uForth/un22_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.B1,R32C68D.F1,uForth/SLICE_978:ROUTE, 0.367,R32C68D.F1,R32C68D.A0,uForth/un5_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.A0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.951,R32C68D.F0,EBR_R25C74.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R24C60A.CLK to     R24C60A.Q1 <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/SLICE_489</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE        13     0.667<A href="#@net:uForth/cpu1/slot[1]:R24C60A.Q1:R26C60A.B0:0.667">     R24C60A.Q1 to R26C60A.B0    </A> <A href="#@net:uForth/cpu1/slot[1]">uForth/cpu1/slot[1]</A>
+CTOOFX_DEL  ---     0.273     R26C60A.B0 to   R26C60A.OFX0 <A href="#@comp:uForth/cpu1/code_3[3]/SLICE_764">uForth/cpu1/code_3[3]/SLICE_764</A>
+ROUTE         3     0.955<A href="#@net:uForth/cpu1/N_924:R26C60A.OFX0:R28C67B.B1:0.955">   R26C60A.OFX0 to R28C67B.B1    </A> <A href="#@net:uForth/cpu1/N_924">uForth/cpu1/N_924</A>
+CTOF_DEL    ---     0.147     R28C67B.B1 to     R28C67B.F1 <A href="#@comp:uForth/cpu1/SLICE_780">uForth/cpu1/SLICE_780</A>
+ROUTE        27     1.540<A href="#@net:uForth/cpu1/code[3]:R28C67B.F1:R37C68A.B0:1.540">     R28C67B.F1 to R37C68A.B0    </A> <A href="#@net:uForth/cpu1/code[3]">uForth/cpu1/code[3]</A>
+CTOF_DEL    ---     0.147     R37C68A.B0 to     R37C68A.F0 <A href="#@comp:uForth/SLICE_968">uForth/SLICE_968</A>
+ROUTE         6     0.576<A href="#@net:uForth/addr_1[3]:R37C68A.F0:R36C68D.B0:0.576">     R37C68A.F0 to R36C68D.B0    </A> <A href="#@net:uForth/addr_1[3]">uForth/addr_1[3]</A>
+CTOF_DEL    ---     0.147     R36C68D.B0 to     R36C68D.F0 <A href="#@comp:uForth/SLICE_1327">uForth/SLICE_1327</A>
+ROUTE         1     0.828<A href="#@net:uForth/un22_system_data_o_0_a2_sx:R36C68D.F0:R32C68D.B1:0.828">     R36C68D.F0 to R32C68D.B1    </A> <A href="#@net:uForth/un22_system_data_o_0_a2_sx">uForth/un22_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.B1 to     R32C68D.F1 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         2     0.367<A href="#@net:uForth/un5_system_data_o_0_a2_sx:R32C68D.F1:R32C68D.A0:0.367">     R32C68D.F1 to R32C68D.A0    </A> <A href="#@net:uForth/un5_system_data_o_0_a2_sx">uForth/un5_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.A0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.951<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C74.WEA:1.951">     R32C68D.F0 to EBR_R25C74.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.135   (15.4% logic, 84.6% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R24C60A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_489:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R24C60A.CLK:1.072"> PLL_R43C5.CLKOK to R24C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C74.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C74.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C74.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.086ns (weighted slack = 4.172ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/slot[1]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.135ns  (15.4% logic, 84.6% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.135ns physical path delay uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.086ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R24C60A.CLK,R24C60A.Q1,uForth/cpu1/SLICE_489:ROUTE, 0.667,R24C60A.Q1,R26C60A.B1,uForth/cpu1/slot[1]:CTOOFX_DEL, 0.273,R26C60A.B1,R26C60A.OFX0,uForth/cpu1/code_3[3]/SLICE_764:ROUTE, 0.955,R26C60A.OFX0,R28C67B.B1,uForth/cpu1/N_924:CTOF_DEL, 0.147,R28C67B.B1,R28C67B.F1,uForth/cpu1/SLICE_780:ROUTE, 1.540,R28C67B.F1,R37C68A.B0,uForth/cpu1/code[3]:CTOF_DEL, 0.147,R37C68A.B0,R37C68A.F0,uForth/SLICE_968:ROUTE, 0.576,R37C68A.F0,R36C68D.B0,uForth/addr_1[3]:CTOF_DEL, 0.147,R36C68D.B0,R36C68D.F0,uForth/SLICE_1327:ROUTE, 0.828,R36C68D.F0,R32C68D.B1,uForth/un22_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.B1,R32C68D.F1,uForth/SLICE_978:ROUTE, 0.367,R32C68D.F1,R32C68D.A0,uForth/un5_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.A0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.951,R32C68D.F0,EBR_R25C74.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R24C60A.CLK to     R24C60A.Q1 <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/SLICE_489</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE        13     0.667<A href="#@net:uForth/cpu1/slot[1]:R24C60A.Q1:R26C60A.B1:0.667">     R24C60A.Q1 to R26C60A.B1    </A> <A href="#@net:uForth/cpu1/slot[1]">uForth/cpu1/slot[1]</A>
+CTOOFX_DEL  ---     0.273     R26C60A.B1 to   R26C60A.OFX0 <A href="#@comp:uForth/cpu1/code_3[3]/SLICE_764">uForth/cpu1/code_3[3]/SLICE_764</A>
+ROUTE         3     0.955<A href="#@net:uForth/cpu1/N_924:R26C60A.OFX0:R28C67B.B1:0.955">   R26C60A.OFX0 to R28C67B.B1    </A> <A href="#@net:uForth/cpu1/N_924">uForth/cpu1/N_924</A>
+CTOF_DEL    ---     0.147     R28C67B.B1 to     R28C67B.F1 <A href="#@comp:uForth/cpu1/SLICE_780">uForth/cpu1/SLICE_780</A>
+ROUTE        27     1.540<A href="#@net:uForth/cpu1/code[3]:R28C67B.F1:R37C68A.B0:1.540">     R28C67B.F1 to R37C68A.B0    </A> <A href="#@net:uForth/cpu1/code[3]">uForth/cpu1/code[3]</A>
+CTOF_DEL    ---     0.147     R37C68A.B0 to     R37C68A.F0 <A href="#@comp:uForth/SLICE_968">uForth/SLICE_968</A>
+ROUTE         6     0.576<A href="#@net:uForth/addr_1[3]:R37C68A.F0:R36C68D.B0:0.576">     R37C68A.F0 to R36C68D.B0    </A> <A href="#@net:uForth/addr_1[3]">uForth/addr_1[3]</A>
+CTOF_DEL    ---     0.147     R36C68D.B0 to     R36C68D.F0 <A href="#@comp:uForth/SLICE_1327">uForth/SLICE_1327</A>
+ROUTE         1     0.828<A href="#@net:uForth/un22_system_data_o_0_a2_sx:R36C68D.F0:R32C68D.B1:0.828">     R36C68D.F0 to R32C68D.B1    </A> <A href="#@net:uForth/un22_system_data_o_0_a2_sx">uForth/un22_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.B1 to     R32C68D.F1 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         2     0.367<A href="#@net:uForth/un5_system_data_o_0_a2_sx:R32C68D.F1:R32C68D.A0:0.367">     R32C68D.F1 to R32C68D.A0    </A> <A href="#@net:uForth/un5_system_data_o_0_a2_sx">uForth/un5_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.A0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.951<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C74.WEA:1.951">     R32C68D.F0 to EBR_R25C74.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.135   (15.4% logic, 84.6% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R24C60A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_489:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R24C60A.CLK:1.072"> PLL_R43C5.CLKOK to R24C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C74.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C74.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C74.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.097ns (weighted slack = 4.194ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/slot[1]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.124ns  (15.4% logic, 84.6% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.124ns physical path delay uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.097ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R24C60A.CLK,R24C60A.Q1,uForth/cpu1/SLICE_489:ROUTE, 0.667,R24C60A.Q1,R26C60A.B0,uForth/cpu1/slot[1]:CTOOFX_DEL, 0.273,R26C60A.B0,R26C60A.OFX0,uForth/cpu1/code_3[3]/SLICE_764:ROUTE, 0.955,R26C60A.OFX0,R28C67B.B1,uForth/cpu1/N_924:CTOF_DEL, 0.147,R28C67B.B1,R28C67B.F1,uForth/cpu1/SLICE_780:ROUTE, 1.540,R28C67B.F1,R37C68A.B0,uForth/cpu1/code[3]:CTOF_DEL, 0.147,R37C68A.B0,R37C68A.F0,uForth/SLICE_968:ROUTE, 0.576,R37C68A.F0,R36C68D.B0,uForth/addr_1[3]:CTOF_DEL, 0.147,R36C68D.B0,R36C68D.F0,uForth/SLICE_1327:ROUTE, 0.828,R36C68D.F0,R32C68D.B1,uForth/un22_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.B1,R32C68D.F1,uForth/SLICE_978:ROUTE, 0.367,R32C68D.F1,R32C68D.A0,uForth/un5_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.A0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.940,R32C68D.F0,EBR_R25C71.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R24C60A.CLK to     R24C60A.Q1 <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/SLICE_489</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE        13     0.667<A href="#@net:uForth/cpu1/slot[1]:R24C60A.Q1:R26C60A.B0:0.667">     R24C60A.Q1 to R26C60A.B0    </A> <A href="#@net:uForth/cpu1/slot[1]">uForth/cpu1/slot[1]</A>
+CTOOFX_DEL  ---     0.273     R26C60A.B0 to   R26C60A.OFX0 <A href="#@comp:uForth/cpu1/code_3[3]/SLICE_764">uForth/cpu1/code_3[3]/SLICE_764</A>
+ROUTE         3     0.955<A href="#@net:uForth/cpu1/N_924:R26C60A.OFX0:R28C67B.B1:0.955">   R26C60A.OFX0 to R28C67B.B1    </A> <A href="#@net:uForth/cpu1/N_924">uForth/cpu1/N_924</A>
+CTOF_DEL    ---     0.147     R28C67B.B1 to     R28C67B.F1 <A href="#@comp:uForth/cpu1/SLICE_780">uForth/cpu1/SLICE_780</A>
+ROUTE        27     1.540<A href="#@net:uForth/cpu1/code[3]:R28C67B.F1:R37C68A.B0:1.540">     R28C67B.F1 to R37C68A.B0    </A> <A href="#@net:uForth/cpu1/code[3]">uForth/cpu1/code[3]</A>
+CTOF_DEL    ---     0.147     R37C68A.B0 to     R37C68A.F0 <A href="#@comp:uForth/SLICE_968">uForth/SLICE_968</A>
+ROUTE         6     0.576<A href="#@net:uForth/addr_1[3]:R37C68A.F0:R36C68D.B0:0.576">     R37C68A.F0 to R36C68D.B0    </A> <A href="#@net:uForth/addr_1[3]">uForth/addr_1[3]</A>
+CTOF_DEL    ---     0.147     R36C68D.B0 to     R36C68D.F0 <A href="#@comp:uForth/SLICE_1327">uForth/SLICE_1327</A>
+ROUTE         1     0.828<A href="#@net:uForth/un22_system_data_o_0_a2_sx:R36C68D.F0:R32C68D.B1:0.828">     R36C68D.F0 to R32C68D.B1    </A> <A href="#@net:uForth/un22_system_data_o_0_a2_sx">uForth/un22_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.B1 to     R32C68D.F1 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         2     0.367<A href="#@net:uForth/un5_system_data_o_0_a2_sx:R32C68D.F1:R32C68D.A0:0.367">     R32C68D.F1 to R32C68D.A0    </A> <A href="#@net:uForth/un5_system_data_o_0_a2_sx">uForth/un5_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.A0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.940<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C71.WEA:1.940">     R32C68D.F0 to EBR_R25C71.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.124   (15.4% logic, 84.6% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R24C60A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_489:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R24C60A.CLK:1.072"> PLL_R43C5.CLKOK to R24C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C71.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C71.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C71.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.097ns (weighted slack = 4.194ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/slot[1]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.124ns  (15.4% logic, 84.6% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.124ns physical path delay uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.097ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R24C60A.CLK,R24C60A.Q1,uForth/cpu1/SLICE_489:ROUTE, 0.667,R24C60A.Q1,R26C60A.B1,uForth/cpu1/slot[1]:CTOOFX_DEL, 0.273,R26C60A.B1,R26C60A.OFX0,uForth/cpu1/code_3[3]/SLICE_764:ROUTE, 0.955,R26C60A.OFX0,R28C67B.B1,uForth/cpu1/N_924:CTOF_DEL, 0.147,R28C67B.B1,R28C67B.F1,uForth/cpu1/SLICE_780:ROUTE, 1.540,R28C67B.F1,R37C68A.B0,uForth/cpu1/code[3]:CTOF_DEL, 0.147,R37C68A.B0,R37C68A.F0,uForth/SLICE_968:ROUTE, 0.576,R37C68A.F0,R36C68D.B0,uForth/addr_1[3]:CTOF_DEL, 0.147,R36C68D.B0,R36C68D.F0,uForth/SLICE_1327:ROUTE, 0.828,R36C68D.F0,R32C68D.B1,uForth/un22_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.B1,R32C68D.F1,uForth/SLICE_978:ROUTE, 0.367,R32C68D.F1,R32C68D.A0,uForth/un5_system_data_o_0_a2_sx:CTOF_DEL, 0.147,R32C68D.A0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.940,R32C68D.F0,EBR_R25C71.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R24C60A.CLK to     R24C60A.Q1 <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/SLICE_489</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE        13     0.667<A href="#@net:uForth/cpu1/slot[1]:R24C60A.Q1:R26C60A.B1:0.667">     R24C60A.Q1 to R26C60A.B1    </A> <A href="#@net:uForth/cpu1/slot[1]">uForth/cpu1/slot[1]</A>
+CTOOFX_DEL  ---     0.273     R26C60A.B1 to   R26C60A.OFX0 <A href="#@comp:uForth/cpu1/code_3[3]/SLICE_764">uForth/cpu1/code_3[3]/SLICE_764</A>
+ROUTE         3     0.955<A href="#@net:uForth/cpu1/N_924:R26C60A.OFX0:R28C67B.B1:0.955">   R26C60A.OFX0 to R28C67B.B1    </A> <A href="#@net:uForth/cpu1/N_924">uForth/cpu1/N_924</A>
+CTOF_DEL    ---     0.147     R28C67B.B1 to     R28C67B.F1 <A href="#@comp:uForth/cpu1/SLICE_780">uForth/cpu1/SLICE_780</A>
+ROUTE        27     1.540<A href="#@net:uForth/cpu1/code[3]:R28C67B.F1:R37C68A.B0:1.540">     R28C67B.F1 to R37C68A.B0    </A> <A href="#@net:uForth/cpu1/code[3]">uForth/cpu1/code[3]</A>
+CTOF_DEL    ---     0.147     R37C68A.B0 to     R37C68A.F0 <A href="#@comp:uForth/SLICE_968">uForth/SLICE_968</A>
+ROUTE         6     0.576<A href="#@net:uForth/addr_1[3]:R37C68A.F0:R36C68D.B0:0.576">     R37C68A.F0 to R36C68D.B0    </A> <A href="#@net:uForth/addr_1[3]">uForth/addr_1[3]</A>
+CTOF_DEL    ---     0.147     R36C68D.B0 to     R36C68D.F0 <A href="#@comp:uForth/SLICE_1327">uForth/SLICE_1327</A>
+ROUTE         1     0.828<A href="#@net:uForth/un22_system_data_o_0_a2_sx:R36C68D.F0:R32C68D.B1:0.828">     R36C68D.F0 to R32C68D.B1    </A> <A href="#@net:uForth/un22_system_data_o_0_a2_sx">uForth/un22_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.B1 to     R32C68D.F1 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         2     0.367<A href="#@net:uForth/un5_system_data_o_0_a2_sx:R32C68D.F1:R32C68D.A0:0.367">     R32C68D.F1 to R32C68D.A0    </A> <A href="#@net:uForth/un5_system_data_o_0_a2_sx">uForth/un5_system_data_o_0_a2_sx</A>
+CTOF_DEL    ---     0.147     R32C68D.A0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.940<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C71.WEA:1.940">     R32C68D.F0 to EBR_R25C71.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.124   (15.4% logic, 84.6% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R24C60A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_489:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R24C60A.CLK:1.072"> PLL_R43C5.CLKOK to R24C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C71.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C71.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C71.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.133ns (weighted slack = 4.266ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/slot[1]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.088ns  (15.5% logic, 84.5% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.088ns physical path delay uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.133ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R24C60A.CLK,R24C60A.Q1,uForth/cpu1/SLICE_489:ROUTE, 0.740,R24C60A.Q1,R26C60C.C0,uForth/cpu1/slot[1]:CTOF_DEL, 0.147,R26C60C.C0,R26C60C.F0,uForth/cpu1/SLICE_1287:ROUTE, 0.535,R26C60C.F0,R24C60B.C0,uForth/cpu1/N_920:CTOOFX_DEL, 0.273,R24C60B.C0,R24C60B.OFX0,uForth/cpu1/code_5[5]/SLICE_757:ROUTE, 1.688,R24C60B.OFX0,R36C62A.C0,uForth/cpu1/code[5]:CTOF_DEL, 0.147,R36C62A.C0,R36C62A.F0,uForth/cpu1/SLICE_783:ROUTE, 0.536,R36C62A.F0,R36C62A.B1,uForth/cpu1/pload22_0:CTOF_DEL, 0.147,R36C62A.B1,R36C62A.F1,uForth/cpu1/SLICE_783:ROUTE, 0.554,R36C62A.F1,R37C65B.D1,uForth/cpu1/pload22_sx:CTOF_DEL, 0.147,R37C65B.D1,R37C65B.F1,SLICE_828:ROUTE, 0.833,R37C65B.F1,R32C68D.D0,uForth.cpu_m_write:CTOF_DEL, 0.147,R32C68D.D0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.951,R32C68D.F0,EBR_R25C74.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R24C60A.CLK to     R24C60A.Q1 <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/SLICE_489</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE        13     0.740<A href="#@net:uForth/cpu1/slot[1]:R24C60A.Q1:R26C60C.C0:0.740">     R24C60A.Q1 to R26C60C.C0    </A> <A href="#@net:uForth/cpu1/slot[1]">uForth/cpu1/slot[1]</A>
+CTOF_DEL    ---     0.147     R26C60C.C0 to     R26C60C.F0 <A href="#@comp:uForth/cpu1/SLICE_1287">uForth/cpu1/SLICE_1287</A>
+ROUTE         1     0.535<A href="#@net:uForth/cpu1/N_920:R26C60C.F0:R24C60B.C0:0.535">     R26C60C.F0 to R24C60B.C0    </A> <A href="#@net:uForth/cpu1/N_920">uForth/cpu1/N_920</A>
+CTOOFX_DEL  ---     0.273     R24C60B.C0 to   R24C60B.OFX0 <A href="#@comp:uForth/cpu1/code_5[5]/SLICE_757">uForth/cpu1/code_5[5]/SLICE_757</A>
+ROUTE        25     1.688<A href="#@net:uForth/cpu1/code[5]:R24C60B.OFX0:R36C62A.C0:1.688">   R24C60B.OFX0 to R36C62A.C0    </A> <A href="#@net:uForth/cpu1/code[5]">uForth/cpu1/code[5]</A>
+CTOF_DEL    ---     0.147     R36C62A.C0 to     R36C62A.F0 <A href="#@comp:uForth/cpu1/SLICE_783">uForth/cpu1/SLICE_783</A>
+ROUTE         2     0.536<A href="#@net:uForth/cpu1/pload22_0:R36C62A.F0:R36C62A.B1:0.536">     R36C62A.F0 to R36C62A.B1    </A> <A href="#@net:uForth/cpu1/pload22_0">uForth/cpu1/pload22_0</A>
+CTOF_DEL    ---     0.147     R36C62A.B1 to     R36C62A.F1 <A href="#@comp:uForth/cpu1/SLICE_783">uForth/cpu1/SLICE_783</A>
+ROUTE         2     0.554<A href="#@net:uForth/cpu1/pload22_sx:R36C62A.F1:R37C65B.D1:0.554">     R36C62A.F1 to R37C65B.D1    </A> <A href="#@net:uForth/cpu1/pload22_sx">uForth/cpu1/pload22_sx</A>
+CTOF_DEL    ---     0.147     R37C65B.D1 to     R37C65B.F1 <A href="#@comp:SLICE_828">SLICE_828</A>
+ROUTE        63     0.833<A href="#@net:uForth.cpu_m_write:R37C65B.F1:R32C68D.D0:0.833">     R37C65B.F1 to R32C68D.D0    </A> <A href="#@net:uForth.cpu_m_write">uForth.cpu_m_write</A>
+CTOF_DEL    ---     0.147     R32C68D.D0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.951<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C74.WEA:1.951">     R32C68D.F0 to EBR_R25C74.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.088   (15.5% logic, 84.5% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R24C60A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_489:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R24C60A.CLK:1.072"> PLL_R43C5.CLKOK to R24C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C74.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C74.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C74.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.144ns (weighted slack = 4.288ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/slot[1]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.077ns  (15.5% logic, 84.5% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.077ns physical path delay uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.144ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R24C60A.CLK,R24C60A.Q1,uForth/cpu1/SLICE_489:ROUTE, 0.740,R24C60A.Q1,R26C60C.C0,uForth/cpu1/slot[1]:CTOF_DEL, 0.147,R26C60C.C0,R26C60C.F0,uForth/cpu1/SLICE_1287:ROUTE, 0.535,R26C60C.F0,R24C60B.C0,uForth/cpu1/N_920:CTOOFX_DEL, 0.273,R24C60B.C0,R24C60B.OFX0,uForth/cpu1/code_5[5]/SLICE_757:ROUTE, 1.688,R24C60B.OFX0,R36C62A.C0,uForth/cpu1/code[5]:CTOF_DEL, 0.147,R36C62A.C0,R36C62A.F0,uForth/cpu1/SLICE_783:ROUTE, 0.536,R36C62A.F0,R36C62A.B1,uForth/cpu1/pload22_0:CTOF_DEL, 0.147,R36C62A.B1,R36C62A.F1,uForth/cpu1/SLICE_783:ROUTE, 0.554,R36C62A.F1,R37C65B.D1,uForth/cpu1/pload22_sx:CTOF_DEL, 0.147,R37C65B.D1,R37C65B.F1,SLICE_828:ROUTE, 0.833,R37C65B.F1,R32C68D.D0,uForth.cpu_m_write:CTOF_DEL, 0.147,R32C68D.D0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.940,R32C68D.F0,EBR_R25C71.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_489 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R24C60A.CLK to     R24C60A.Q1 <A href="#@comp:uForth/cpu1/SLICE_489">uForth/cpu1/SLICE_489</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE        13     0.740<A href="#@net:uForth/cpu1/slot[1]:R24C60A.Q1:R26C60C.C0:0.740">     R24C60A.Q1 to R26C60C.C0    </A> <A href="#@net:uForth/cpu1/slot[1]">uForth/cpu1/slot[1]</A>
+CTOF_DEL    ---     0.147     R26C60C.C0 to     R26C60C.F0 <A href="#@comp:uForth/cpu1/SLICE_1287">uForth/cpu1/SLICE_1287</A>
+ROUTE         1     0.535<A href="#@net:uForth/cpu1/N_920:R26C60C.F0:R24C60B.C0:0.535">     R26C60C.F0 to R24C60B.C0    </A> <A href="#@net:uForth/cpu1/N_920">uForth/cpu1/N_920</A>
+CTOOFX_DEL  ---     0.273     R24C60B.C0 to   R24C60B.OFX0 <A href="#@comp:uForth/cpu1/code_5[5]/SLICE_757">uForth/cpu1/code_5[5]/SLICE_757</A>
+ROUTE        25     1.688<A href="#@net:uForth/cpu1/code[5]:R24C60B.OFX0:R36C62A.C0:1.688">   R24C60B.OFX0 to R36C62A.C0    </A> <A href="#@net:uForth/cpu1/code[5]">uForth/cpu1/code[5]</A>
+CTOF_DEL    ---     0.147     R36C62A.C0 to     R36C62A.F0 <A href="#@comp:uForth/cpu1/SLICE_783">uForth/cpu1/SLICE_783</A>
+ROUTE         2     0.536<A href="#@net:uForth/cpu1/pload22_0:R36C62A.F0:R36C62A.B1:0.536">     R36C62A.F0 to R36C62A.B1    </A> <A href="#@net:uForth/cpu1/pload22_0">uForth/cpu1/pload22_0</A>
+CTOF_DEL    ---     0.147     R36C62A.B1 to     R36C62A.F1 <A href="#@comp:uForth/cpu1/SLICE_783">uForth/cpu1/SLICE_783</A>
+ROUTE         2     0.554<A href="#@net:uForth/cpu1/pload22_sx:R36C62A.F1:R37C65B.D1:0.554">     R36C62A.F1 to R37C65B.D1    </A> <A href="#@net:uForth/cpu1/pload22_sx">uForth/cpu1/pload22_sx</A>
+CTOF_DEL    ---     0.147     R37C65B.D1 to     R37C65B.F1 <A href="#@comp:SLICE_828">SLICE_828</A>
+ROUTE        63     0.833<A href="#@net:uForth.cpu_m_write:R37C65B.F1:R32C68D.D0:0.833">     R37C65B.F1 to R32C68D.D0    </A> <A href="#@net:uForth.cpu_m_write">uForth.cpu_m_write</A>
+CTOF_DEL    ---     0.147     R32C68D.D0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.940<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C71.WEA:1.940">     R32C68D.F0 to EBR_R25C71.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.077   (15.5% logic, 84.5% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R24C60A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_489:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R24C60A.CLK:1.072"> PLL_R43C5.CLKOK to R24C60A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C71.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C71.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C71.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 2.177ns (weighted slack = 4.354ns)
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:uForth/cpu1/SLICE_418">uForth/cpu1/i[17]</A>  (from <A href="#@net:Clk50">Clk50</A> +)
+   Destination:    DP16KC     Port           <A href="#@comp:uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1">uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1</A>(ASIC)  (to <A href="#@net:Clk50">Clk50</A> -)
+
+   Delay:               8.044ns  (15.6% logic, 84.4% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.044ns physical path delay uForth/cpu1/SLICE_418 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1 meets
+     10.000ns delay constraint less
+     -0.114ns skew and
+     -0.107ns WE_SET requirement (totaling 10.221ns) by 2.177ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:REG_DEL, 0.243,R28C59A.CLK,R28C59A.Q1,uForth/cpu1/SLICE_418:ROUTE, 0.696,R28C59A.Q1,R26C60C.D0,uForth/cpu1/i[17]:CTOF_DEL, 0.147,R26C60C.D0,R26C60C.F0,uForth/cpu1/SLICE_1287:ROUTE, 0.535,R26C60C.F0,R24C60B.C0,uForth/cpu1/N_920:CTOOFX_DEL, 0.273,R24C60B.C0,R24C60B.OFX0,uForth/cpu1/code_5[5]/SLICE_757:ROUTE, 1.688,R24C60B.OFX0,R36C62A.C0,uForth/cpu1/code[5]:CTOF_DEL, 0.147,R36C62A.C0,R36C62A.F0,uForth/cpu1/SLICE_783:ROUTE, 0.536,R36C62A.F0,R36C62A.B1,uForth/cpu1/pload22_0:CTOF_DEL, 0.147,R36C62A.B1,R36C62A.F1,uForth/cpu1/SLICE_783:ROUTE, 0.554,R36C62A.F1,R37C65B.D1,uForth/cpu1/pload22_sx:CTOF_DEL, 0.147,R37C65B.D1,R37C65B.F1,SLICE_828:ROUTE, 0.833,R37C65B.F1,R32C68D.D0,uForth.cpu_m_write:CTOF_DEL, 0.147,R32C68D.D0,R32C68D.F0,uForth/SLICE_978:ROUTE, 1.951,R32C68D.F0,EBR_R25C74.WEA,uForth/memory_we">Data path</A> uForth/cpu1/SLICE_418 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.243    R28C59A.CLK to     R28C59A.Q1 <A href="#@comp:uForth/cpu1/SLICE_418">uForth/cpu1/SLICE_418</A> (from <A href="#@net:Clk50">Clk50</A>)
+ROUTE         2     0.696<A href="#@net:uForth/cpu1/i[17]:R28C59A.Q1:R26C60C.D0:0.696">     R28C59A.Q1 to R26C60C.D0    </A> <A href="#@net:uForth/cpu1/i[17]">uForth/cpu1/i[17]</A>
+CTOF_DEL    ---     0.147     R26C60C.D0 to     R26C60C.F0 <A href="#@comp:uForth/cpu1/SLICE_1287">uForth/cpu1/SLICE_1287</A>
+ROUTE         1     0.535<A href="#@net:uForth/cpu1/N_920:R26C60C.F0:R24C60B.C0:0.535">     R26C60C.F0 to R24C60B.C0    </A> <A href="#@net:uForth/cpu1/N_920">uForth/cpu1/N_920</A>
+CTOOFX_DEL  ---     0.273     R24C60B.C0 to   R24C60B.OFX0 <A href="#@comp:uForth/cpu1/code_5[5]/SLICE_757">uForth/cpu1/code_5[5]/SLICE_757</A>
+ROUTE        25     1.688<A href="#@net:uForth/cpu1/code[5]:R24C60B.OFX0:R36C62A.C0:1.688">   R24C60B.OFX0 to R36C62A.C0    </A> <A href="#@net:uForth/cpu1/code[5]">uForth/cpu1/code[5]</A>
+CTOF_DEL    ---     0.147     R36C62A.C0 to     R36C62A.F0 <A href="#@comp:uForth/cpu1/SLICE_783">uForth/cpu1/SLICE_783</A>
+ROUTE         2     0.536<A href="#@net:uForth/cpu1/pload22_0:R36C62A.F0:R36C62A.B1:0.536">     R36C62A.F0 to R36C62A.B1    </A> <A href="#@net:uForth/cpu1/pload22_0">uForth/cpu1/pload22_0</A>
+CTOF_DEL    ---     0.147     R36C62A.B1 to     R36C62A.F1 <A href="#@comp:uForth/cpu1/SLICE_783">uForth/cpu1/SLICE_783</A>
+ROUTE         2     0.554<A href="#@net:uForth/cpu1/pload22_sx:R36C62A.F1:R37C65B.D1:0.554">     R36C62A.F1 to R37C65B.D1    </A> <A href="#@net:uForth/cpu1/pload22_sx">uForth/cpu1/pload22_sx</A>
+CTOF_DEL    ---     0.147     R37C65B.D1 to     R37C65B.F1 <A href="#@comp:SLICE_828">SLICE_828</A>
+ROUTE        63     0.833<A href="#@net:uForth.cpu_m_write:R37C65B.F1:R32C68D.D0:0.833">     R37C65B.F1 to R32C68D.D0    </A> <A href="#@net:uForth.cpu_m_write">uForth.cpu_m_write</A>
+CTOF_DEL    ---     0.147     R32C68D.D0 to     R32C68D.F0 <A href="#@comp:uForth/SLICE_978">uForth/SLICE_978</A>
+ROUTE         8     1.951<A href="#@net:uForth/memory_we:R32C68D.F0:EBR_R25C74.WEA:1.951">     R32C68D.F0 to EBR_R25C74.WEA</A> <A href="#@net:uForth/memory_we">uForth/memory_we</A> (to <A href="#@net:Clk50">Clk50</A>)
+                  --------
+                    8.044   (15.6% logic, 84.4% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.072,PLL_R43C5.CLKOK,R28C59A.CLK,Clk50">Source Clock Path</A> uPll/PLLInst_0 to uForth/cpu1/SLICE_418:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.072<A href="#@net:Clk50:PLL_R43C5.CLKOK:R28C59A.CLK:1.072"> PLL_R43C5.CLKOK to R28C59A.CLK   </A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.072   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'Clk50' 50.000000 MHz ;:ROUTE, 1.186,PLL_R43C5.CLKOK,EBR_R25C74.CLKA,Clk50">Destination Clock Path</A> uPll/PLLInst_0 to uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       420     1.186<A href="#@net:Clk50:PLL_R43C5.CLKOK:EBR_R25C74.CLKA:1.186"> PLL_R43C5.CLKOK to EBR_R25C74.CLKA</A> <A href="#@net:Clk50">Clk50</A>
+                  --------
+                    1.186   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report:   61.267MHz is the maximum frequency for this preference.
+
+
+</A><A name="FREQUENCY NET 'uPll/CLKOP' 100.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "uPll/CLKOP" 100.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY PORT 'PinClk125' 125.000000 MH"></A>================================================================================
+Preference: FREQUENCY PORT "PinClk125" 125.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 6.840ns
+         The internal maximum frequency of the following component is 862.069 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    SLICE      WCK            <A href="#@comp:uFifoRxRaw/fifo_pfu_0_0.1">uFifoRxRaw/fifo_pfu_0_0.1</A>
+
+   Delay:               1.160ns -- based on Minimum Pulse Width
+
+Report:  862.069MHz is the maximum frequency for this preference.
+
+<A name="Report Summary"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "PinClk125_c" 125.000000  |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "Clk50" 50.000000 MHz ;   |   50.000 MHz|   61.267 MHz|   5  
+                                        |             |             |
+FREQUENCY NET "uPll/CLKOP" 100.000000   |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY PORT "PinClk125" 125.000000   |             |             |
+MHz ;                                   |  125.000 MHz|  862.069 MHz|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="Clock Domains Analysis"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+No clock domain analysis is done. To analyze clock domains, please remove the BLOCK INTERCLOCKDOMAIN PATHS preference.
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1326421 paths, 43 nets, and 9368 connections (92.43% coverage)
+
