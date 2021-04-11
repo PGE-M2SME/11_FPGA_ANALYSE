@@ -6,15 +6,22 @@
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 524 clock pin(s) of sequential element(s)
-0 instances converted, 524 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 631 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 231 clock pin(s) of sequential element(s)
+0 instances converted, 231 sequential instances remain driven by gated/generated clocks
 
-====================================================== Gated/Generated Clocks ======================================================
-Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance     Explanation            
-------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_1       uPll.PLLInst_0.CLKOK     EHXPLLF                524                    Timer[31:0]         Black box on clock path
-====================================================================================================================================
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance
+--------------------------------------------------------------------------------------------
+@KP:ckid0_1       uPll.PLLInst_0.CLKOK     EHXPLLF                631        Timer[31:0]    
+============================================================================================
+======================================================================== Gated/Generated Clocks ========================================================================
+Clock Tree ID     Driving Element               Drive Element Type     Unconverted Fanout     Sample Instance                 Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       nogcc_PinTfpClkP.Q[0]         lat                    222                    umires.RGB[23]                  Clock source is invalid for GCC           
+@KP:ckid0_2       uSimulacion.Reloj1hz.Q[0]     dffe                   7                      uSimulacion.VFPChoix_1[1:0]     Derived clock on input (not legal for GCC)
+@KP:ckid0_4       un74_relojsistema.OUT         or                     2                      nogcc_PinTfpClkP                Clock source is invalid for GCC           
+========================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######

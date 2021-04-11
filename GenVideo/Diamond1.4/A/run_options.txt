@@ -1,11 +1,11 @@
 #--  Synopsys, Inc.
-#--  Version N-2018.03L-SP1-1
+#--  Version Q-2020.03L-SP1
 #--  Project file /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/run_options.txt
-#--  Written on Fri Feb 19 01:22:14 2021
+#--  Written on Sun Apr 11 18:59:34 2021
 
 
 #project files
-add_file -vhdl -lib work "/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd"
+add_file -vhdl -lib work "/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd"
@@ -29,10 +29,8 @@ add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_Custum
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto120.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd"
-add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd"
 add_file -vhdl -lib work "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto34.vhd"
-
 
 
 #implementation: "A"
@@ -56,6 +54,7 @@ set_option -top_module "TestVideoTop"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
 
 # mapper_without_write_options
 set_option -frequency 200
@@ -76,6 +75,7 @@ set_option -rw_check_on_ram 1
 set_option -update_models_cp 0
 set_option -syn_edif_array_rename 1
 set_option -Write_declared_clocks_only 1
+set_option -seqshift_no_replicate 0
 
 # NFilter
 set_option -no_sequential_opt 0

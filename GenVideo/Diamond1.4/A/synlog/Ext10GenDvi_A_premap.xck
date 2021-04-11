@@ -1,1 +1,4 @@
+ckid0_0:@|S:nogcc_PinTfpClkP.Q[0]@|E:umires.RGB[23]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
 ckid0_1:@|S:uPll.PLLInst_0.CLKOK@|E:Timer[31:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_2:@|S:uSimulacion.Reloj1hz.Q[0]@|E:uSimulacion.VFPChoix_1[1:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_4:@|S:un74_relojsistema.OUT@|E:nogcc_PinTfpClkP@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4

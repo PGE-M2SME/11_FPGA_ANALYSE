@@ -6,15 +6,15 @@
 -->
 </STYLE>
 </HEAD>
-<PRE><A name="Par"></A>PAR: Place And Route Diamond (64-bit) 3.11.3.469.
+<PRE><A name="Par"></A>PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Feb 19 01:44:50 2021
+Sun Apr 11 19:01:42 2021
 
-/usr/local/diamond/3.11_x64/ispfpga/bin/lin64/par -f Ext10GenDvi_A.p2t
+/usr/local/diamond/3.12/ispfpga/bin/lin64/par -f Ext10GenDvi_A.p2t
 Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir Ext10GenDvi_A.prf -gui -msgset
 /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml
 
@@ -25,22 +25,22 @@ Preference file: Ext10GenDvi_A.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            3.678        0            0.203        0            01:40        Completed
+<span style="background-color:red">5_1   *      0            -0.133       226          0.203        0            01:39        Completed</span>
 * : Design saved.
 
-Total (real) run time for 1-seed: 1 mins 41 secs 
+Total (real) run time for 1-seed: 1 mins 40 secs 
 
 par done!
 
 Note: user must run &apos;Trace&apos; for timing closure signoff.
 
 Lattice Place and Route Report for Design &quot;Ext10GenDvi_A_map.ncd&quot;
-Fri Feb 19 01:44:50 2021
+Sun Apr 11 19:01:42 2021
 
 
 <A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
-PAR: Place And Route Diamond (64-bit) 3.11.3.469.
-Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir/5_1.ncd Ext10GenDvi_A.prf
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1 Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir/5_1.ncd Ext10GenDvi_A.prf
 Preference file: Ext10GenDvi_A.prf.
 Placement level-cost: 5-1.
 Routing Iterations: 6
@@ -52,7 +52,7 @@ Vendor:      LATTICE
 Device:      LFE3-70E
 Package:     FPBGA672
 Performance: 8
-Loading device for application par from file &apos;ep5c97x146.nph&apos; in environment: /usr/local/diamond/3.11_x64/ispfpga.
+Loading device for application par from file &apos;ep5c97x146.nph&apos; in environment: /usr/local/diamond/3.12/ispfpga.
 Package Status:                     Final          Version 1.65.
 Performance Hardware Data Status:   Final          Version 35.22.
 License checked out.
@@ -64,57 +64,62 @@ Ignore Preference Error(s):  True
 
    PIO (prelim)      36/524           6% used
                      36/380           9% bonded
-   IOLOGIC            4/520          &lt;1% used
+   IOLOGIC            8/520           1% used
 
-   SLICE           1325/33264         3% used
+   SLICE           2637/33264         7% used
 
    GSR                1/1           100% used
    EBR                8/240           3% used
-   PLL                1/10           10% used
+   PLL                3/10           30% used
+   MULT18             8/128           6% used
 
 
 Set delay estimator push_ratio: 95
-Number of Signals: 3126
-Number of Connections: 10135
+Number of Signals: 5728
+Number of Connections: 17947
 
 Pin Constraint Summary:
    33 out of 36 pins locked (91% locked).
 
 WARNING - par: The signal &quot;PinClk125_c&quot; (driven by PIO comp &quot;PinClk125&quot;) is required to use a clock tree by the user preference.  However the only load of this signal is the CLKI input of a PLL comp &quot;uPll/PLLInst_0&quot;.  It is highly recommended that you don&apos;t assign this signal to any primary and/or secondary clock, so that the software can automatically choose a direct path for the PLL CLKI input.
-The following 3 signals are selected as primary clocks :
-    Clk50 (driver: uPll/PLLInst_0, clk load #: 420; quadrants: TL/TR/BL/BR)
-    PinClk125_c (driver: PinClk125, clk load #: 1; quadrant: TL)
-    uPll/CLKOP (driver: uPll/PLLInst_0, clk load #: 1; quadrant: TL)
 
-The following 2 signals are selected as DCS clocks :
+The following 6 signals are selected as primary clocks :
+    Clk100 (driver: uPll/PLLInst_0, clk load #: 3; quadrants: TL/TR/BL/BR)
+    Clk159 (driver: uclock/PLLInst_0, clk load #: 1; quadrants: TL/TR/BL/BR)
+    Clk25 (driver: uclock640x480/PLLInst_0, clk load #: 1; quadrants: TL/TR/BL/BR)
+    Clk50 (driver: uPll/PLLInst_0, clk load #: 426; quadrants: TL/TR/BL/BR)
     PinClk125_c (driver: PinClk125, clk load #: 1; quadrant: TL)
-    uPll/CLKOP (driver: uPll/PLLInst_0, clk load #: 1; quadrant: TL)
+    PinTfpClkP_i (driver: SLICE_2263, clk load #: 103; quadrants: TL/TR/BL/BR)
+
+The following 1 signal is selected as DCS clock :
+    PinClk125_c (driver: PinClk125, clk load #: 1; quadrant: TL)
 
 The following 3 signals are selected to use the secondary clock resources :
-    N_26_i (driver: uForth/SLICE_980, clk load #: 0, sr load #: 0, ce load #: 31)
-    SRst (driver: uSeq/SLICE_369, clk load #: 0, sr load #: 205, ce load #: 0)
-    uForth/cpu1/tload_1 (driver: uForth/cpu1/SLICE_788, clk load #: 0, sr load #: 0, ce load #: 24)
+    SRst (driver: uSeq/SLICE_1417, clk load #: 0, sr load #: 186, ce load #: 0)
+    pSetReg.un2_ppwe (driver: uForth/SLICE_2315, clk load #: 0, sr load #: 0, ce load #: 22)
+    uSimulacion/un2_sumatoria_i (driver: uSimulacion/SLICE_1674, clk load #: 0, sr load #: 10, ce load #: 0)
 
 Signal SRst is selected as Global Set/Reset.
 .
 Starting Placer Phase 0.
 ...........
-Finished Placer Phase 0.  REAL time: 20 secs 
+Finished Placer Phase 0.  REAL time: 16 secs 
+
 
 .   
 Starting Placer Phase 1.
-.........................
-Placer score = 981165.
-Finished Placer Phase 1.  REAL time: 49 secs 
+........................
+Placer score = 1566471.
+Finished Placer Phase 1.  REAL time: 42 secs 
 
 Starting Placer Phase 2.
 .
-Starting Placer Optimization. REAL time: 52 secs 
+Starting Placer Optimization. REAL time: 46 secs 
 .   
 ..  ..
 .   
-Placer score =  3005899
-Finished Placer Phase 2.  REAL time: 54 secs 
+Placer score =  3129208
+Finished Placer Phase 2.  REAL time: 49 secs 
 
 
 
@@ -123,47 +128,55 @@ Finished Placer Phase 2.  REAL time: 54 secs
 Global Clock Resources:
   CLK_PIN    : 0 out of 6 (0%)
   General PIO: 1 out of 520 (0%)
-  PLL        : 1 out of 10 (10%)
+  PLL        : 3 out of 10 (30%)
   DCS        : 0 out of 8 (0%)
 
 Quadrant TL Clocks:
   PRIMARY &quot;PinClk125_c&quot; from comp &quot;PinClk125&quot; on PIO site &quot;M3 (PL43E_C)&quot;, clk load = 1
-  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 337
-  PRIMARY &quot;uPll/CLKOP&quot; from CLKOP on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 1
-  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_369&quot; on site &quot;R87C74A&quot;, clk load = 0, ce load = 0, sr load = 162
-  SECONDARY &quot;N_26_i&quot; from F0 on comp &quot;uForth/SLICE_980&quot; on site &quot;R85C75B&quot;, clk load = 0, ce load = 31, sr load = 0
-  SECONDARY &quot;uForth/cpu1/tload_1&quot; from F1 on comp &quot;uForth/cpu1/SLICE_788&quot; on site &quot;R3C75A&quot;, clk load = 0, ce load = 24, sr load = 0
+  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 192
+  PRIMARY &quot;Clk100&quot; from CLKOP on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 1
+  PRIMARY &quot;PinTfpClkP_i&quot; from F0 on comp &quot;SLICE_2263&quot; on site &quot;R26C73D&quot;, clk load = 7
+  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_1417&quot; on site &quot;R87C74C&quot;, clk load = 0, ce load = 0, sr load = 109
+  SECONDARY &quot;pSetReg.un2_ppwe&quot; from F1 on comp &quot;uForth/SLICE_2315&quot; on site &quot;R87C74A&quot;, clk load = 0, ce load = 14, sr load = 0
 
-  PRIMARY  : 3 out of 8 (37%)
+  PRIMARY  : 4 out of 8 (50%)
      DCS   : 0 out of 2 (0%)
      DCC   : 0 out of 6 (0%)
-  SECONDARY: 3 out of 8 (37%)
+  SECONDARY: 2 out of 8 (25%)
 
 Quadrant TR Clocks:
-  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 69
-  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_369&quot; on site &quot;R87C74A&quot;, clk load = 0, ce load = 0, sr load = 34
+  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 67
+  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_1417&quot; on site &quot;R87C74C&quot;, clk load = 0, ce load = 0, sr load = 26
+  SECONDARY &quot;uSimulacion/un2_sumatoria_i&quot; from F1 on comp &quot;uSimulacion/SLICE_1674&quot; on site &quot;R2C75B&quot;, clk load = 0, ce load = 0, sr load = 0
 
   PRIMARY  : 1 out of 8 (12%)
      DCS   : 0 out of 2 (0%)
      DCC   : 0 out of 6 (0%)
-  SECONDARY: 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
 
 Quadrant BL Clocks:
-  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 13
-  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_369&quot; on site &quot;R87C74A&quot;, clk load = 0, ce load = 0, sr load = 9
+  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 124
+  PRIMARY &quot;Clk25&quot; from CLKOP on comp &quot;uclock640x480/PLLInst_0&quot; on PLL site &quot;PLL_R79C5&quot;, clk load = 1
+  PRIMARY &quot;Clk159&quot; from CLKOP on comp &quot;uclock/PLLInst_0&quot; on PLL site &quot;PLL_R70C5&quot;, clk load = 1
+  PRIMARY &quot;Clk100&quot; from CLKOP on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 2
+  PRIMARY &quot;PinTfpClkP_i&quot; from F0 on comp &quot;SLICE_2263&quot; on site &quot;R26C73D&quot;, clk load = 96
+  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_1417&quot; on site &quot;R87C74C&quot;, clk load = 0, ce load = 0, sr load = 43
+  SECONDARY &quot;pSetReg.un2_ppwe&quot; from F1 on comp &quot;uForth/SLICE_2315&quot; on site &quot;R87C74A&quot;, clk load = 0, ce load = 8, sr load = 0
 
-  PRIMARY  : 1 out of 8 (12%)
+  PRIMARY  : 5 out of 8 (62%)
      DCS   : 0 out of 2 (0%)
      DCC   : 0 out of 6 (0%)
-  SECONDARY: 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
 
 Quadrant BR Clocks:
-  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 1
+  PRIMARY &quot;Clk50&quot; from CLKOK on comp &quot;uPll/PLLInst_0&quot; on PLL site &quot;PLL_R43C5&quot;, clk load = 43
+  SECONDARY &quot;SRst&quot; from Q0 on comp &quot;uSeq/SLICE_1417&quot; on site &quot;R87C74C&quot;, clk load = 0, ce load = 0, sr load = 8
+  SECONDARY &quot;uSimulacion/un2_sumatoria_i&quot; from F1 on comp &quot;uSimulacion/SLICE_1674&quot; on site &quot;R2C75B&quot;, clk load = 0, ce load = 0, sr load = 10
 
   PRIMARY  : 1 out of 8 (12%)
      DCS   : 0 out of 2 (0%)
      DCC   : 0 out of 6 (0%)
-  SECONDARY: 0 out of 8 (0%)
+  SECONDARY: 2 out of 8 (25%)
 
 Edge Clocks:
   No edge clock selected.
@@ -197,27 +210,54 @@ I/O Bank Usage Summary:
 
 DSP Slice #:           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
 # of MULT9X9C                                                                                                        
-# of MULT18X18C                                                                                                      
+# of MULT18X18C                             1  1        1                                                            
 # of ALU24A                                                                                                          
 # of ALU54A                                                                                                          
 
 DSP Slice #:          33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64
 # of MULT9X9C                                                                                                        
-# of MULT18X18C                                                                                                      
+# of MULT18X18C                             1  1  1  1  1                                                            
 # of ALU24A                                                                                                          
 # of ALU54A                                                                                                          
 
+DSP Slice  8         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R34C34         MULT18X18C             MULT18          umires/un1_th_6[31:17]    
+
+DSP Slice  9         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R34C39         MULT18X18C             MULT18          umires/un1_tv_2[31:17]    
+
+DSP Slice 12         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R34C52         MULT18X18C             MULT18          umires/un1_th_4[31:17]    
+
+DSP Slice 40         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R52C34         MULT18X18C             MULT18           umires/un1_th[31:17]     
+
+DSP Slice 41         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R52C39         MULT18X18C             MULT18           umires/un1_tv[31:17]     
+
+DSP Slice 42         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R52C42         MULT18X18C             MULT18          umires/un1_tv_6[31:17]    
+
+DSP Slice 43         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R52C48         MULT18X18C             MULT18          umires/un1_tv_4[31:17]    
+
+DSP Slice 44         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R52C52         MULT18X18C             MULT18          umires/un1_th_3[31:17]    
+
 ------------------------------ End of DSP Report -------------------------------
-Total placer CPU time: 53 secs 
+Total placer CPU time: 49 secs 
 
 Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
 
-0 connections routed; 10135 unrouted.
+0 connections routed; 17947 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 1 mins 21 secs 
+WARNING - par: The following clock signals will be routed by using generic routing resource and may suffer from excessive delay and/or skew.
+   Signal=uSimulacion/Reloj1hz loads=5 clock_loads=4
 
-Start NBR router at Fri Feb 19 01:46:11 UTC 2021
+Completed router resource preassignment. Real time: 1 mins 13 secs 
+
+Start NBR router at Sun Apr 11 19:02:56 UTC 2021
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -232,87 +272,96 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at Fri Feb 19 01:46:12 UTC 2021
+Start NBR special constraint process at Sun Apr 11 19:02:57 UTC 2021
 
-Start NBR section for initial routing at Fri Feb 19 01:46:12 UTC 2021
+Start NBR section for initial routing at Sun Apr 11 19:02:57 UTC 2021
 Level 1, iteration 1
-0(0.00%) conflict; 8155(80.46%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 4.857ns/0.000ns; real time: 1 mins 23 secs 
+153(0.00%) conflicts; 14525(80.93%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.077ns/0.000ns; real time: 1 mins 17 secs 
 Level 2, iteration 1
-0(0.00%) conflict; 8145(80.37%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 4.944ns/0.000ns; real time: 1 mins 24 secs 
+128(0.00%) conflicts; 14134(78.75%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.031ns/0.000ns; real time: 1 mins 18 secs 
 Level 3, iteration 1
-0(0.00%) conflict; 8141(80.33%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 5.102ns/0.000ns; real time: 1 mins 24 secs 
+82(0.00%) conflicts; 13730(76.50%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.009ns/0.000ns; real time: 1 mins 18 secs 
 Level 4, iteration 1
-509(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 2.980ns/0.000ns; real time: 1 mins 27 secs 
+690(0.02%) conflicts; 0(0.00%) untouched conn; 588 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.042ns/-0.588ns; real time: 1 mins 24 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at Fri Feb 19 01:46:18 UTC 2021
+Start NBR section for normal routing at Sun Apr 11 19:03:07 UTC 2021
 Level 1, iteration 1
-2(0.00%) conflicts; 852(8.41%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 2.818ns/0.000ns; real time: 1 mins 28 secs 
+74(0.00%) conflicts; 1099(6.12%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.047ns/0.000ns; real time: 1 mins 25 secs 
+Level 1, iteration 2
+49(0.00%) conflicts; 1114(6.21%) untouched conns; 14 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.001ns/-0.014ns; real time: 1 mins 26 secs 
+Level 2, iteration 1
+39(0.00%) conflicts; 1100(6.13%) untouched conns; 658 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.047ns/-0.658ns; real time: 1 mins 26 secs 
+Level 3, iteration 1
+30(0.00%) conflicts; 1097(6.11%) untouched conns; 434 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.031ns/-0.434ns; real time: 1 mins 26 secs 
 Level 4, iteration 1
-341(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.528ns/0.000ns; real time: 1 mins 29 secs 
+349(0.01%) conflicts; 0(0.00%) untouched conn; 668 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.046ns/-0.668ns; real time: 1 mins 28 secs 
 Level 4, iteration 2
-174(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 30 secs 
+124(0.00%) conflicts; 0(0.00%) untouched conn; 1943 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.943ns; real time: 1 mins 28 secs 
 Level 4, iteration 3
-58(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 31 secs 
+48(0.00%) conflicts; 0(0.00%) untouched conn; 1943 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.943ns; real time: 1 mins 29 secs 
 Level 4, iteration 4
-34(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 31 secs 
+19(0.00%) conflicts; 0(0.00%) untouched conn; 1943 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.943ns; real time: 1 mins 29 secs 
 Level 4, iteration 5
-12(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 31 secs 
+17(0.00%) conflicts; 0(0.00%) untouched conn; 1991 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.991ns; real time: 1 mins 29 secs 
 Level 4, iteration 6
-5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 31 secs 
+6(0.00%) conflicts; 0(0.00%) untouched conn; 1991 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.991ns; real time: 1 mins 29 secs 
 Level 4, iteration 7
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 32 secs 
-Level 4, iteration 8
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 32 secs 
-Level 4, iteration 9
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 32 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 1991 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.991ns; real time: 1 mins 30 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at Fri Feb 19 01:46:22 UTC 2021
-
-Start NBR section for re-routing at Fri Feb 19 01:46:24 UTC 2021
+Start NBR section for performance tuning (iteration 1) at Sun Apr 11 19:03:12 UTC 2021
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 3.678ns/0.000ns; real time: 1 mins 34 secs 
+6(0.00%) conflicts; 0(0.00%) untouched conn; 2039 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.139ns/-2.039ns; real time: 1 mins 30 secs 
 
-Start NBR section for post-routing at Fri Feb 19 01:46:24 UTC 2021
+Start NBR section for re-routing at Sun Apr 11 19:03:13 UTC 2021
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 1991 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -0.133ns/-1.991ns; real time: 1 mins 31 secs 
+
+Start NBR section for post-routing at Sun Apr 11 19:03:13 UTC 2021
 
 End NBR router with 0 unrouted connection
 
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack&lt;setup&gt; : 3.678ns
-  Timing score&lt;setup&gt; : 0
+  Number of connections with timing violations : 20 (0.11%)
+  Estimated worst slack&lt;setup&gt; : -0.133ns
+  Timing score&lt;setup&gt; : 226
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 1 mins 37 secs 
-Total REAL time: 1 mins 38 secs 
+WARNING - par: The following clock signals will be routed by using generic routing resource and may suffer from excessive delay and/or skew.
+   Signal=uSimulacion/Reloj1hz loads=5 clock_loads=4
+
+Total CPU time 1 mins 36 secs 
+Total REAL time: 1 mins 37 secs 
 Completely routed.
-End of route.  10135 routed (100.00%); 0 unrouted.
+End of route.  17947 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
-Timing score: 0 
+Timing score: 226 
 
 Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
 
@@ -322,14 +371,14 @@ All signals are completely routed.
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack&lt;setup/&lt;ns&gt;&gt; = 3.678
-PAR_SUMMARY::Timing score&lt;setup/&lt;ns&gt;&gt; = 0.000
+PAR_SUMMARY::Worst  slack&lt;setup/&lt;ns&gt;&gt; = -0.133
+PAR_SUMMARY::Timing score&lt;setup/&lt;ns&gt;&gt; = 0.226
 PAR_SUMMARY::Worst  slack&lt;hold /&lt;ns&gt;&gt; = 0.203
 PAR_SUMMARY::Timing score&lt;hold /&lt;ns&gt;&gt; = 0.000
 PAR_SUMMARY::Number of errors = 0
 
 Total CPU  time to completion: 1 mins 39 secs 
-Total REAL time to completion: 1 mins 41 secs 
+Total REAL time to completion: 1 mins 40 secs 
 
 par done!
 

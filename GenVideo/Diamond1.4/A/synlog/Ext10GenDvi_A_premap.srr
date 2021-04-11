@@ -1,112 +1,59 @@
-# Fri Feb 19 01:22:35 2021
+# Sun Apr 11 18:59:49 2021
 
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03L-SP1-1
-Install: /usr/local/diamond/3.11_x64/synpbase
+Build: Q-2020.03L-SP1
+Install: /usr/local/diamond/3.12/synpbase
 OS: CentOS Linux 7 (Core)
-Hostname: b663e0c4e5c9
+Hostname: ee788b037f06
+max virtual memory: unlimited (bytes)
+max user processes: unlimited
+max stack size: 8388608 (bytes)
+
 
 Implementation : A
-Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:24:52
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 10:35:33, @1018937
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 204MB)
 
 @A: MF827 |No constraint file specified.
-@N: MF284 |Setting synthesis effort to medium for the design
 @L: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A_scck.rpt 
-Printing clock  summary report in "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A_scck.rpt" file 
+See clock summary report "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 216MB peak: 216MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 216MB peak: 216MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 229MB peak: 229MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 119MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
 
-@N: MF284 |Setting synthesis effort to medium for the design
+@N: FX493 |Applying initial value "000000000000000000000000" on instance RGB[23:0].
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing sequential instance uMaster.DeviceIdW[7:1] because it is equivalent to instance uMaster.DeviceIdR[7:1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: MH105 |UMR3 is only supported for HAPS-80.
-@N: MH105 |UMR3 is only supported for HAPS-80.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[0] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[1] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[2] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[3] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[4] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[5] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[6] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[7] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[8] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[9] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[10] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[11] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[12] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[13] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[14] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[15] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[16] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[17] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[18] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[19] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[20] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[21] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[22] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Sequential instance umires.RGB[23] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":179:2:179:3|Sequential instance uDvi.U_conf.wed is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.dvi_nf is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":42:2:42:3|Sequential instance uDvi.U_gen_req.hs is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.hs0 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.req_row is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":42:2:42:3|Sequential instance uDvi.U_gen_req.vs is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":86:2:86:3|Sequential instance uDvi.U_gen_req.vs0 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Sequential instance uDvi.U_gen_sync.dvi_if_hs is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Sequential instance uDvi.U_gen_sync.dvi_if_vs is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":72:2:72:3|Sequential instance uDvi.U_gen_sync.hs is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":72:2:72:3|Sequential instance uDvi.U_gen_sync.vs is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":27:2:27:3|Sequential instance uDvi.U_gen_tim.dvi_de is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":179:2:179:3|Sequential instance uDvi.U_conf.dat011A is reduced to a combinational gate by constant propagation.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":190:0:190:8|Removing instance U_gen_req (in view: work.Dvi410(rtl)) of type view:work.Dvi410Request(rtl) because it does not drive other instances.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":181:0:181:9|Removing instance U_gen_sync (in view: work.Dvi410(rtl)) of type view:work.Dvi410Sync(rtl) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing sequential instance DatG[7:0] (in view: work.mires(mires)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":540:0:540:10|Removing instance uSimulacion (in view: work.TestVideoTop(rtl)) of type view:work.simulacion(simulacion) because it does not drive other instances.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":608:0:608:5|Removing instance umires (in view: work.TestVideoTop(rtl)) of type view:work.mires(mires) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Removing sequential instance boundv[1:0] (in view: work.Dvi410Sync(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":28:2:28:3|Removing sequential instance boundh[1:0] (in view: work.Dvi410Sync(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vss[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vse[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_hss[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_hse[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":408:0:408:14|Removing instance uclock1400x1050 (in view: work.TestVideoTop(rtl)) of type view:work.PllClkto120(structure) because it does not drive other instances.
+@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":412:0:412:12|Removing instance uclock800x600 (in view: work.TestVideoTop(rtl)) of type view:work.PllClkto80_1(structure) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":133:2:133:3|Removing sequential instance Ce7 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":167:0:167:1|Removing sequential instance Ce1ms (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":198:2:198:3|Removing sequential instance StartupPCS[1:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":214:2:214:3|Removing sequential instance StartupSDR (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":225:2:225:3|Removing sequential instance StartupDDR2_1 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":225:2:225:3|Removing sequential instance StartupDDR2 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":132:0:132:1|Removing sequential instance Done (in view: work.I2cMasterCommands(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":186:0:186:8|Removing instance U_gen_tim (in view: work.Dvi410(rtl)) of type view:work.Dvi410Timing(rtl) because it does not drive other instances.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":177:0:177:8|Removing instance U_gen_cnt (in view: work.Dvi410(rtl)) of type view:work.Dvi410Cnt(rtl) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":42:2:42:3|Removing sequential instance bnd[3:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vsz[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Removing sequential instance cnt_h[11:0] (in view: work.Dvi410Cnt(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Removing sequential instance cnt_v[11:0] (in view: work.Dvi410Cnt(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_vln[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing sequential instance form_hln[11:0] (in view: work.Dvi410Conf(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing sequential instance bnd3[11:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing sequential instance bnd2[11:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing sequential instance bnd1[11:0] (in view: work.Dvi410Request(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing sequential instance FCnt[8:0] (in view: work.mires(mires)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":133:2:133:3|Removing sequential instance Cnt7[11:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":167:0:167:1|Removing sequential instance CntMs[9:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
 @N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Removing sequential instance CntUs[5:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
@@ -124,49 +71,60 @@ original code -> new code
    1000 -> 00100000000
    1001 -> 01000000000
    1010 -> 10000000000
-Encoding state machine State[0:9] (in view: work.I2cMasterCommands(rtl))
-original code -> new code
-   0000 -> 0000000001
-   0001 -> 0000000010
-   0010 -> 0000000100
-   0011 -> 0000001000
-   0100 -> 0000010000
-   0101 -> 0000100000
-   0110 -> 0001000000
-   0111 -> 0010000000
-   1000 -> 0100000000
-   1001 -> 1000000000
-syn_allowed_resources : blockrams=240  set on top level netlist TestVideoTop
+@N: FX493 |Applying initial value "1" on instance State[10].
+@N: FX493 |Applying initial value "0" on instance State[9].
+@N: FX493 |Applying initial value "0" on instance State[8].
+@N: FX493 |Applying initial value "0" on instance State[7].
+@N: FX493 |Applying initial value "0" on instance State[6].
+@N: FX493 |Applying initial value "0" on instance State[5].
+@N: FX493 |Applying initial value "0" on instance State[4].
+@N: FX493 |Applying initial value "0" on instance State[3].
+@N: FX493 |Applying initial value "0" on instance State[2].
+@N: FX493 |Applying initial value "0" on instance State[1].
+@N: FX493 |Applying initial value "0" on instance State[0].
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
 
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist TestVideoTop 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+@N: MT611 :|Automatically generated clock TestVideoTop|PinTfpClkP_inferred_clock is not used and is being removed
 
 
 Clock Summary
 ******************
 
-          Start                                   Requested     Requested     Clock        Clock                   Clock
-Level     Clock                                   Frequency     Period        Type         Group                   Load 
-------------------------------------------------------------------------------------------------------------------------
-0 -       System                                  200.0 MHz     5.000         system       system_clkgroup         0    
-                                                                                                                        
-0 -       Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0     588  
-========================================================================================================================
+          Start                                   Requested     Requested     Clock                                                  Clock                   Clock
+Level     Clock                                   Frequency     Period        Type                                                   Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     5.000         inferred                                               Inferred_clkgroup_0     695  
+1 .         simulacion|Reloj1hz_derived_clock     200.0 MHz     5.000         derived (from Pll125to100x50|CLKOK_inferred_clock)     Inferred_clkgroup_0     7    
+==================================================================================================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                                        Clock     Source                            Clock Pin        Non-clock Pin     Non-clock Pin         
-Clock                                   Load      Pin                               Seq Example      Seq Example       Comb Example          
----------------------------------------------------------------------------------------------------------------------------------------------
-System                                  0         -                                 -                -                 -                     
-                                                                                                                                             
-Pll125to100x50|CLKOK_inferred_clock     588       uPll.PLLInst_0.CLKOK(EHXPLLF)     RdLen[7:0].C     -                 uForth.m_clk.I[0](inv)
-=============================================================================================================================================
+                                        Clock     Source                              Clock Pin                           Non-clock Pin     Non-clock Pin         
+Clock                                   Load      Pin                                 Seq Example                         Seq Example       Comb Example          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pll125to100x50|CLKOK_inferred_clock     695       uPll.PLLInst_0.CLKOK(EHXPLLF)       RdLen[7:0].C                        -                 uForth.m_clk.I[0](inv)
+simulacion|Reloj1hz_derived_clock       7         uSimulacion.Reloj1hz.Q[0](dffe)     uSimulacion.temporizador[4:0].C     -                 -                     
+==================================================================================================================================================================
 
-@W: MT529 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":97:2:97:3|Found inferred clock Pll125to100x50|CLKOK_inferred_clock which controls 588 sequential elements including uSeq.lCnt32[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT531 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Found signal identified as System clock which controls 224 sequential elements including uDvi.U_gen_cnt.srst2_0.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":97:2:97:3|Found inferred clock Pll125to100x50|CLKOK_inferred_clock which controls 695 sequential elements including uSeq.lCnt32[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -179,15 +137,22 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 524 clock pin(s) of sequential element(s)
-0 instances converted, 524 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 631 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 231 clock pin(s) of sequential element(s)
+0 instances converted, 231 sequential instances remain driven by gated/generated clocks
 
-====================================================== Gated/Generated Clocks ======================================================
-Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance     Explanation            
-------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_1       uPll.PLLInst_0.CLKOK     EHXPLLF                524                    Timer[31:0]         Black box on clock path
-====================================================================================================================================
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance
+--------------------------------------------------------------------------------------------
+@KP:ckid0_1       uPll.PLLInst_0.CLKOK     EHXPLLF                631        Timer[31:0]    
+============================================================================================
+======================================================================== Gated/Generated Clocks ========================================================================
+Clock Tree ID     Driving Element               Drive Element Type     Unconverted Fanout     Sample Instance                 Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       nogcc_PinTfpClkP.Q[0]         lat                    222                    umires.RGB[23]                  Clock source is invalid for GCC           
+@KP:ckid0_2       uSimulacion.Reloj1hz.Q[0]     dffe                   7                      uSimulacion.VFPChoix_1[1:0]     Derived clock on input (not legal for GCC)
+@KP:ckid0_4       un74_relojsistema.OUT         or                     2                      nogcc_PinTfpClkP                Clock source is invalid for GCC           
+========================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######
@@ -195,21 +160,19 @@ Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fa
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
-None
-None
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 148MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Fri Feb 19 01:22:38 2021
+# Sun Apr 11 18:59:51 2021
 
 ###########################################################]

@@ -602,7 +602,7 @@ uDCS0: DCS
 GENERIC MAP( DCSMODE =>"POS"  )
 PORT MAP( CLK0 => Clk140,   CLK1  => Clk100,    SEL  => Selection,    DCSOUT => salida0 ); 
 
-   
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- MIRES COMPONENT 
@@ -667,28 +667,28 @@ umires : mires port map (
 	 	VPolSync	            <= VPolSyncChoix; --	Vertical sync pulse polarity (1 = positive, 0 = negative)
 		choixMire  			<=  mireID;
 		
-		pSIMULACIONpulso: process (relojSistemaChoix)
-
-begin
-				if  (relojSistemaChoix = X"2" ) 	then 
-				Selection  <=   '0';	
-				elsif  (relojSistemaChoix = X"9" ) 	then 
-				Selection <= '1';
-				end if;			
- end process pSIMULACIONpulso;
+		
+		--pSIMULACIONpulso: process (relojSistemaChoix)
+--begin
+				--if  (relojSistemaChoix = X"2" ) 	then 
+				--Selection  <=   '0';	
+				--elsif  (relojSistemaChoix = X"9" ) 	then 
+				--Selection <= '1';
+				--end if;			
+ --end process pSIMULACIONpulso;
 				
 								
 			
-			--relojSistema <= Clk25 when relojSistemaChoix = X"0" else
-									  --Clk34  when relojSistemaChoix = X"1" else
-									  --Clk40   when relojSistemaChoix = X"2" else
-			                            --Clk60   when relojSistemaChoix = X"3" else
-									  --Clk70    when relojSistemaChoix = X"4" else
-									  --Clk80    when relojSistemaChoix = X"5" else
-									  --Clk100   when relojSistemaChoix = X"6" else
-									  --Clk120   when relojSistemaChoix = X"7" else
-									  --Clk140   when relojSistemaChoix = X"8" else
-									  --Clk159    when relojSistemaChoix = X"9";
+			relojSistema <= Clk25 when relojSistemaChoix = X"0" else
+									  Clk34  when relojSistemaChoix = X"1" else
+									  Clk40   when relojSistemaChoix = X"2" else
+			                            Clk60   when relojSistemaChoix = X"3" else
+									  Clk70    when relojSistemaChoix = X"4" else
+									  Clk80    when relojSistemaChoix = X"5" else
+									  Clk100   when relojSistemaChoix = X"6" else
+									  Clk120   when relojSistemaChoix = X"7" else
+									  Clk140   when relojSistemaChoix = X"8" else
+									  Clk159    when relojSistemaChoix = X"9";
 									  
 		--if  (relojSistemaChoix = X"0" ) 	then
 		 --Selection <= "110000";
@@ -842,8 +842,8 @@ begin
 --PinTfpClkN <= not (Clk100); --volver a esto si no funciona
 
 
-PinTfpClkP <= relojSIstema;
-PinTfpClkN <= not (relojSIstema);
+PinTfpClkP <= relojSistema;
+PinTfpClkN <= not (relojSistema);
 
 
 --uVGA : vga GENERIC MAP(

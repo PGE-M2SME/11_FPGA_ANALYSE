@@ -1,12 +1,12 @@
-PAR: Place And Route Diamond (64-bit) 3.11.3.469.
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Feb 19 01:44:50 2021
+Sun Apr 11 19:01:42 2021
 
-/usr/local/diamond/3.11_x64/ispfpga/bin/lin64/par -f Ext10GenDvi_A.p2t
+/usr/local/diamond/3.12/ispfpga/bin/lin64/par -f Ext10GenDvi_A.p2t
 Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir Ext10GenDvi_A.prf -gui -msgset
 /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml
 
@@ -16,11 +16,11 @@ Preference file: Ext10GenDvi_A.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            3.678        0            0.203        0            01:40        Completed
+5_1   *      0            -0.133       226          0.203        0            01:39        Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 1 mins 41 secs 
+Total (real) run time for 1-seed: 1 mins 40 secs 
 
 par done!
 

@@ -1,16 +1,16 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-layerid|0|-orig_srs|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs|-top|TestVideoTop|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/linux_a_64/c_vhdl":1554136090
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/location.map":1596709817
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/std.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/snps_haps_pkg.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/std1164.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/numeric.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/umr_capim.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/arith.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/unsigned.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vhd/hyperents.vhd":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1542270737
+#OPTIONS:"|-layerid|0|-orig_srs|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs|-top|TestVideoTop|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/diamond/3.12/synpbase/linux_a_64/c_vhdl":1604079996
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/location.map":1604366779
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/std.vhd":1604079922
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/snps_haps_pkg.vhd":1604079923
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/std1164.vhd":1604079923
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/numeric.vhd":1604079920
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/umr_capim.vhd":1604079923
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/arith.vhd":1604079917
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/unsigned.vhd":1604079923
+#CUR:"/usr/local/diamond/3.12/synpbase/lib/vhd/hyperents.vhd":1604079919
+#CUR:"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":1542270737
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd":1611702804
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":1611702804
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd":1611702804
@@ -22,8 +22,8 @@
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":1611702804
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":1611702804
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/vga.vhd":1611702804
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":1613694727
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":1613693436
+#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":1618167560
+#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":1618167560
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":1611702804
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd":1611702804
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":1611702804
@@ -34,10 +34,9 @@
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto120.vhd":1613514680
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd":1613514893
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd":1613515107
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd":1613697631
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":1613697717
+#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":1618167276
 #CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto34.vhd":1613523348
-0 "/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd" vhdl
+0 "/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd" vhdl
 1 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd" vhdl
 2 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd" vhdl
 3 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd" vhdl
@@ -61,9 +60,8 @@
 21 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto120.vhd" vhdl
 22 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd" vhdl
 23 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd" vhdl
-24 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd" vhdl
-25 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd" vhdl
-26 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto34.vhd" vhdl
+24 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd" vhdl
+25 "/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto34.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
@@ -90,38 +88,36 @@
 21 0 
 22 0 
 23 0 
-24 0 
-25 17 24 19 20 21 22 23 5 16 14 18 13 12 0 
-26 0 
+24 17 19 20 21 22 23 5 16 14 18 13 12 0 
+25 0 
 
 # Dependency Lists (Users Of)
-0 26 25 24 23 22 21 20 19 17 
+0 25 24 23 22 21 20 19 17 
 1 14 
 2 16 
 3 15 
 4 15 
-5 25 
+5 24 
 6 18 
 7 18 
 8 18 
 9 18 
 10 18 
 11 -1
-12 25 
-13 25 
-14 25 
+12 24 
+13 24 
+14 24 
 15 16 
-16 25 
-17 25 
-18 25 
-19 25 
-20 25 
-21 25 
-22 25 
-23 25 
-24 25 
+16 24 
+17 24 
+18 24 
+19 24 
+20 24 
+21 24 
+22 24 
+23 24 
+24 -1
 25 -1
-26 -1
 
 # Design Unit to File Association
 arch work i2cmasterdevice rtl 1
@@ -176,11 +172,8 @@ module work pllclkto140 22
 config work structure_con 23
 arch work pllclkto80 structure 23
 module work pllclkto80 23
-config work structure_con 24
-arch work pll125toclock structure 24
-module work pll125toclock 24
-arch work testvideotop rtl 25
-module work testvideotop 25
-config work structure_con 26
-arch work pllclkto34 structure 26
-module work pllclkto34 26
+arch work testvideotop rtl 24
+module work testvideotop 24
+config work structure_con 25
+arch work pllclkto34 structure 25
+module work pllclkto34 25

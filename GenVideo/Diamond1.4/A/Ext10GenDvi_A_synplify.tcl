@@ -42,9 +42,10 @@ set_option -update_models_cp 0
 set_option -resolve_multiple_driver 0
 
 
+set_option -seqshift_no_replicate 0
 
 #-- add_file options
-add_file -vhdl {/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd}
+add_file -vhdl {/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd}
 add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd}
 add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd}
 add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd}
@@ -70,7 +71,6 @@ add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_Cust
 add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd}
 add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd}
 add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto34.vhd}
-add_file -vhdl -lib "work" {/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd}
 
 #-- top module name
 set_option -top_module TestVideoTop

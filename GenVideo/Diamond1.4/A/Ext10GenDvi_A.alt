@@ -1,6 +1,6 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Fri Feb 19 01:47:36 2021 *
+NOTE DATE CREATED: Sun Apr 11 19:04:24 2021 *
 NOTE DESIGN NAME: TestVideoTop *
 NOTE DEVICE NAME: LFE3-70E-8FPBGA672 *
 NOTE PIN ASSIGNMENTS *
@@ -37,8 +37,8 @@ NOTE PINS PinTfpClkP : N5 : out *
 NOTE PINS PinDe : U1 : out *
 NOTE PINS PinHSync : T1 : out *
 NOTE PINS PinVSync : W3 : out *
-NOTE PINS PinClk : AC4 : out *
-NOTE PINS PinPortTx : G11 : out *
-NOTE PINS PinPortRx : B10 : in *
+NOTE PINS PinClk : T6 : out *
+NOTE PINS PinPortTx : B12 : out *
+NOTE PINS PinPortRx : A9 : in *
 NOTE CONFIGURATION MODE: SPI *
 NOTE COMPRESSION: off *

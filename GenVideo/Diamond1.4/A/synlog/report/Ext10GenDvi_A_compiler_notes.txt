@@ -1,9 +1,9 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
-@N:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":17:7:17:18|Top entity is set to TestVideoTop.
-@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":17:7:17:18|Synthesizing work.testvideotop.rtl.
-@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":138:10:138:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box.
-@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":177:10:177:12|Synthesizing work.dcs.syn_black_box.
+@N:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":19:7:19:18|Top entity is set to TestVideoTop.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":18:7:18:18|Synthesizing work.testvideotop.rtl.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":141:10:141:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box.
+@N: CD630 :"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":177:10:177:12|Synthesizing work.dcs.syn_black_box.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":8:8:8:12|Synthesizing work.mires.mires.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":8:8:8:17|Synthesizing work.simulacion.simulacion.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":6:7:6:12|Synthesizing work.dvi410.rtl.
@@ -27,13 +27,13 @@
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":29:7:29:10|Synthesizing work.ep32.behavioral.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":60:7:60:12|Synthesizing work.seqblk.behavioral.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd":14:7:14:16|Synthesizing work.pllclkto80.structure.
-@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1967:10:1967:16|Synthesizing work.ehxpllf.syn_black_box.
-@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1368:10:1368:12|Synthesizing work.vlo.syn_black_box.
+@N: CD630 :"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":1967:10:1967:16|Synthesizing work.ehxpllf.syn_black_box.
+@N: CD630 :"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":1368:10:1368:12|Synthesizing work.vlo.syn_black_box.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd":14:7:14:17|Synthesizing work.pllclkto140.structure.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto120.vhd":14:7:14:17|Synthesizing work.pllclkto120.structure.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto25.vhd":14:7:14:16|Synthesizing work.pllclkto25.structure.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to159.vhd":14:7:14:17|Synthesizing work.pll125to159.structure.
-@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd":14:7:14:19|Synthesizing work.pll125toclock.structure.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":66:10:66:22|Synthesizing work.pll125toclock.syn_black_box.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd":14:7:14:20|Synthesizing work.pll125to100x50.structure.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(6) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(7) is always 0.
@@ -48,97 +48,29 @@
 @N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":16:3:16:5|Input HBP is unused.
 @N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":21:3:21:5|Input VBP is unused.
 @N: CL135 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":26:2:26:3|Found sequential shift srst2 with address depth of 3 words and data bit width of 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(4) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(6) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(7) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(9) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(10) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(11) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HPolSyncCHoix is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VPolSyncChoix is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(0) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(0) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(1) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(0) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(3) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(1) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(2) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(3) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(5) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(5) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(7) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(4) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(6) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(8) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(0) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(1) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(2) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(4) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(6) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(9) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(10) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(11) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(0) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(5) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(9) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(10) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(11) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(1) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(4) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(7) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(9) is always 0.
-@N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":13:2:13:4|Input clk is unused.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(9) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(1) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit mireID(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(6) is always 1.
 @N|Running in 64-bit mode
 

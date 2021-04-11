@@ -1,12 +1,38 @@
+i PinTfpClkP_i_nogcc
+m 0 0
+u 57 222
+n ckid0_0 {t:umires.RGB[23].C} Clock source is invalid for GCC
+p {t:nogcc_PinTfpClkP.Q[0]}{t:umires.PinTfpClkP_i_nogcc}{p:umires.PinTfpClkP_i_nogcc}{t:umires.RGB[23].C}
+e ckid0_0 {t:umires.RGB[23].C} dffr
+d ckid0_0 {t:nogcc_PinTfpClkP.Q[0]} lat Clock source is invalid for GCC
 i uPll.CLKOK_i
 m 0 0
-u 86 524
-n ckid0_0 {t:uDvi.U_conf.form_hsz[11:0].C} Black box on clock path
+u 87 631
 p {t:uPll.PLLInst_0.CLKOK}{t:uPll.CLKOK_inferred_clock.I[0]}{t:uPll.CLKOK_inferred_clock.OUT[0]}{p:uPll.CLKOK}{t:uPll.CLKOK}{t:Timer[31:0].C}
 e ckid0_1 {t:Timer[31:0].C} sdffr
-d ckid0_0,ckid0_1 {t:uPll.PLLInst_0.CLKOK} EHXPLLF Black box on clock path
+c ckid0_1 {t:uPll.PLLInst_0.CLKOK} EHXPLLF Unsupported/too complex instance on clock path
+i uSimulacion.Reloj1hz_i
+m 0 0
+u 2 7
+n ckid0_2 {t:uSimulacion.VFPChoix_1[1:0].C} Derived clock on input (not legal for GCC)
+p {t:uSimulacion.Reloj1hz.Q[0]}{t:uSimulacion.Reloj1hz_derived_clock.I[0]}{t:uSimulacion.Reloj1hz_derived_clock.OUT[0]}{t:uSimulacion.VFPChoix_1[1:0].C}
+e ckid0_2 {t:uSimulacion.VFPChoix_1[1:0].C} dff
+d ckid0_3 {t:uSimulacion.Reloj1hz.Q[0]} dffe Derived clock on input (not legal for GCC)
+i un74_relojsistema_buf
+m 0 0
+u 2 2
+n ckid0_4 {t:nogcc_PinTfpClkP.C} Clock source is invalid for GCC
+p {t:un74_relojsistema.OUT}{t:nogcc_PinTfpClkP.C}
+e ckid0_4 {t:nogcc_PinTfpClkP.C} lat
+d ckid0_4 {t:un74_relojsistema.OUT} or Clock source is invalid for GCC
+i uSimulacion.HPolSyncCHoix
+m 0 0
+u 0 0
 i uPll.LOCK
 m 0 0
 u 0 0
-d ckid0_2 {t:uPll.PLLInst_0.LOCK} EHXPLLF Black box on clock path
+i uPll.CLKOP
+m 0 0
+u 0 0
 l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

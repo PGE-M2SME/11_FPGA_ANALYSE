@@ -126,6 +126,7 @@ begin
 								--end if;
 								
 if (choixMire = X"1") then 
+
  if (  (intHCnt > Horizontal/17 and intHCnt <= (Horizontal*8)/17) and   ( (intVCnt > (Vertical/17) and intVCnt <= (Vertical*8)/17)    or  (  intVCnt > (Vertical*9)/17      and  intVCnt <= (Vertical*16)/17 ))  )   then
 	 datR <= X"00";
 	 datG <= X"00";

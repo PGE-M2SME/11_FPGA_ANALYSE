@@ -1,8 +1,8 @@
-/usr/local/diamond/3.11_x64/synpbase/bin/syn_nfilter  -link  -top  TestVideoTop  -multisrs  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs  -osyn  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_mult.srs  -log  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_multi_srs_gen.srr 
-relcom:/usr/local/diamond/3.11_x64/synpbase/bin/syn_nfilter -link -top TestVideoTop -multisrs ../synwork/Ext10GenDvi_A_comp.srs -osyn ../synwork/Ext10GenDvi_A_mult.srs -log ../synlog/Ext10GenDvi_A_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:../synwork/Ext10GenDvi_A_comp.srs|io:i|time:1613697753|size:89875|exec:0|csum:57B4DA3195B2545495417565C24F4802
-file:../synwork/Ext10GenDvi_A_mult.srs|io:o|time:1613697756|size:12199|exec:0|csum:
-file:../synlog/Ext10GenDvi_A_multi_srs_gen.srr|io:o|time:1613697756|size:1253|exec:0|csum:
-file:/usr/local/diamond/3.11_x64/synpbase/linux_a_64/syn_nfilter|io:i|time:1554136095|size:13311896|exec:1|csum:98436EBE5B2063E67A0107F26BF96360
-file:/usr/local/diamond/3.11_x64/synpbase/bin/syn_nfilter|io:i|time:1554135608|size:366|exec:1|csum:FA02E240C38072139DDDFB111F4F0C5E
+/usr/local/diamond/3.12/synpbase/bin/syn_nfilter  -link  -top  TestVideoTop  -multisrs  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs  -osyn  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_mult.srs  -log  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_multi_srs_gen.srr 
+relcom:/usr/local/diamond/3.12/synpbase/bin/syn_nfilter -link -top TestVideoTop -multisrs ../synwork/Ext10GenDvi_A_comp.srs -osyn ../synwork/Ext10GenDvi_A_mult.srs -log ../synlog/Ext10GenDvi_A_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/Ext10GenDvi_A_comp.srs|io:i|time:1618167586|size:97715|exec:0|csum:D989BA5156EFD14680F44AE21F18F134
+file:../synwork/Ext10GenDvi_A_mult.srs|io:o|time:1618167588|size:13632|exec:0|csum:
+file:../synlog/Ext10GenDvi_A_multi_srs_gen.srr|io:o|time:1618167588|size:1301|exec:0|csum:
+file:/usr/local/diamond/3.12/synpbase/linux_a_64/syn_nfilter|io:i|time:1604079997|size:12412832|exec:1|csum:9F6E9E3B45455C3F00D6AE6E69BE2F11
+file:/usr/local/diamond/3.12/synpbase/bin/syn_nfilter|io:i|time:1604079555|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

@@ -14,13 +14,13 @@ Performance Grade:      8
 PACKAGE:          FPBGA672
 Package Status:                     Final          Version 1.65
 
-Fri Feb 19 01:45:45 2021
+Sun Apr 11 19:02:31 2021
 
 Pinout by Port Name:
 +------------+----------+---------------+---------+------------------------------------------------------------------------------+
 | Port Name  | Pin/Bank | Buffer Type   | Site    | Properties                                                                   |
 +------------+----------+---------------+---------+------------------------------------------------------------------------------+
-| PinClk     | AC4/6    | LVCMOS33_OUT  | PB5B    | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinClk     | T6/6     | LVCMOS33_OUT  | PL64B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinClk125  | M3/7     | LVCMOS33_IN   | PL43E_C | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
 | PinDat[0]  | AE4/6    | LVCMOS33_OUT  | PB11A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinDat[10] | AC26/3   | LVCMOS33_OUT  | PR89A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
@@ -49,8 +49,8 @@ Pinout by Port Name:
 | PinDe      | U1/6     | LVCMOS33_OUT  | PL56B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinHSync   | T1/6     | LVCMOS33_OUT  | PL56A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinLedXv   | E23/8    | LVCMOS33_OUT  | PT143A  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinPortRx  | B10/0    | LVCMOS33_IN   | PT56B   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
-| PinPortTx  | G11/0    | LVCMOS33_OUT  | PT58B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinPortRx  | A9/0     | LVCMOS33_IN   | PT56A   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
+| PinPortTx  | B12/0    | LVCMOS33_OUT  | PT62B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinScl     | AA4/6    | LVCMOS33_OUT  | PL89B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinSda     | Y3/6     | LVCMOS33_BIDI | PL62A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA  |
 | PinTfpClkN | N6/6     | LVCMOS33_OUT  | PL46B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
@@ -97,7 +97,7 @@ Vtt by Bank:
 | A6/0            |     unused, PULL:UP |            |               | PT17B        | TDQ16                 |
 | A7/0            |     unused, PULL:UP |            |               | PT14B        | TDQ16                 |
 | A8/0            |     unused, PULL:UP |            |               | PT41A        | TDQ43                 |
-| A9/0            |     unused, PULL:UP |            |               | PT56A        | TDQ61                 |
+| A9/0            | PinPortRx           |            | LVCMOS33_IN   | PT56A        | TDQ61                 |
 | A10/0           |     unused, PULL:UP |            |               | PT59A        | TDQ61                 |
 | A11/0           |     unused, PULL:UP |            |               | PT59B        | TDQ61                 |
 | A12/0           |     unused, PULL:UP |            |               | PT65A        | TDQ70                 |
@@ -138,7 +138,7 @@ Vtt by Bank:
 | AC1/6           |     unused, PULL:UP |            |               | PL83B        | LDQ85                 |
 | AC2/6           |     unused, PULL:UP |            |               | PL86A        | LDQ85                 |
 | AC3/6           |     unused, PULL:UP |            |               | PL86B        | LDQ85                 |
-| AC4/6           | PinClk              |            | LVCMOS33_OUT  | PB5B         |                       |
+| AC4/6           |     unused, PULL:UP |            |               | PB5B         |                       |
 | AC9/51          |                     |            |               | PCSB_REFCLKP |                       |
 | AC10/51         |                     |            |               | PCSB_REFCLKN |                       |
 | AC17/50         |                     |            |               | PCSA_REFCLKP |                       |
@@ -203,9 +203,9 @@ Vtt by Bank:
 | B6/0            |     unused, PULL:UP |            |               | PT2A         | TDQ7                  |
 | B7/0            |     unused, PULL:UP |            |               | PT14A        | TDQ16                 |
 | B8/0            |     unused, PULL:UP |            |               | PT41B        | TDQ43                 |
-| B10/0           | PinPortRx           |            | LVCMOS33_IN   | PT56B        | TDQ61                 |
+| B10/0           |     unused, PULL:UP |            |               | PT56B        | TDQ61                 |
 | B11/0           |     unused, PULL:UP |            |               | PT62A        | TDQ61                 |
-| B12/0           |     unused, PULL:UP |            |               | PT62B        | TDQ61                 |
+| B12/0           | PinPortTx           |            | LVCMOS33_OUT  | PT62B        | TDQ61                 |
 | B13/0           |     unused, PULL:UP |            |               | PT65B        | TDQ70                 |
 | B15/1           |     unused, PULL:UP |            |               | PT74B        | TDQ79                 |
 | B16/1           |     unused, PULL:UP |            |               | PT77A        | TDQ79                 |
@@ -318,7 +318,7 @@ Vtt by Bank:
 | G8/0            |     unused, PULL:UP |            |               | PT19A        | TDQ16                 |
 | G9/0            |     unused, PULL:UP |            |               | PT43B        | TDQ43                 |
 | G10/0           |     unused, PULL:UP |            |               | PT43A        | TDQS43                |
-| G11/0           | PinPortTx           |            | LVCMOS33_OUT  | PT58B        | TDQ61                 |
+| G11/0           |     unused, PULL:UP |            |               | PT58B        | TDQ61                 |
 | G13/0           |     unused, PULL:UP |            |               | PT70B        | TDQ70                 |
 | G14/1           |     unused, PULL:UP |            |               | PT88A        | TDQS88                |
 | G16/1           |     unused, PULL:UP |            |               | PT103A       | TDQ106                |
@@ -596,7 +596,7 @@ Vtt by Bank:
 | T2/6            |     unused, PULL:UP |            |               | PL50A        | LDQ49                 |
 | T3/6            |     unused, PULL:UP |            |               | PL58A        | LDQS58                |
 | T5/6            |     unused, PULL:UP |            |               | PL64A        | LDQ67                 |
-| T6/6            |     unused, PULL:UP |            |               | PL64B        | LDQ67                 |
+| T6/6            | PinClk              |            | LVCMOS33_OUT  | PL64B        | LDQ67                 |
 | T7/6            |     unused, PULL:UP |            |               | PL61A        | LDQ58                 |
 | T8/6            |     unused, PULL:UP |            |               | PL61B        | LDQ58                 |
 | T20/3           |     unused, PULL:UP |            |               | PR52A        | VREF1_3/RDQ49         |
@@ -713,7 +713,7 @@ Vsupply by PCS Quad:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "PinClk"  SITE  "AC4";
+LOCATE  COMP  "PinClk"  SITE  "T6";
 LOCATE  COMP  "PinClk125"  SITE  "M3";
 LOCATE  COMP  "PinDat[0]"  SITE  "AE4";
 LOCATE  COMP  "PinDat[10]"  SITE  "AC26";
@@ -742,8 +742,8 @@ LOCATE  COMP  "PinDat[9]"  SITE  "AB26";
 LOCATE  COMP  "PinDe"  SITE  "U1";
 LOCATE  COMP  "PinHSync"  SITE  "T1";
 LOCATE  COMP  "PinLedXv"  SITE  "E23";
-LOCATE  COMP  "PinPortRx"  SITE  "B10";
-LOCATE  COMP  "PinPortTx"  SITE  "G11";
+LOCATE  COMP  "PinPortRx"  SITE  "A9";
+LOCATE  COMP  "PinPortTx"  SITE  "B12";
 LOCATE  COMP  "PinScl"  SITE  "AA4";
 LOCATE  COMP  "PinSda"  SITE  "Y3";
 LOCATE  COMP  "PinTfpClkN"  SITE  "N6";
@@ -751,18 +751,22 @@ LOCATE  COMP  "PinTfpClkP"  SITE  "N5";
 LOCATE  COMP  "PinVSync"  SITE  "W3";
 
 #PLL
+LOCATE  COMP  "uclock640x480/PLLInst_0"  SITE  "PLL_R79C5" ;
+#PLL
+LOCATE  COMP  "uclock/PLLInst_0"  SITE  "PLL_R70C5" ;
+#PLL
 LOCATE  COMP  "uPll/PLLInst_0"  SITE  "PLL_R43C5" ;
 
 
 
 
-PAR: Place And Route Diamond (64-bit) 3.11.3.469.
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Feb 19 01:45:45 2021
+Sun Apr 11 19:02:32 2021
 
 
 

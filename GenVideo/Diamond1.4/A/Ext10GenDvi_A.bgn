@@ -1,10 +1,10 @@
-BITGEN: Bitstream Generator Diamond (64-bit) 3.11.3.469
+BITGEN: Bitstream Generator Diamond (64-bit) 3.12.0.240.2
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Feb 19 01:46:44 2021
+Sun Apr 11 19:03:45 2021
 
 
 Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -path /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4 -path /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4 -g ES:No -e -s /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.sec -k /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.bek -gui -msgset /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml Ext10GenDvi_A.ncd Ext10GenDvi_A.prf 
@@ -16,7 +16,7 @@ Vendor:      LATTICE
 Device:      LFE3-70E
 Package:     FPBGA672
 Performance: 8
-Loading device for application Bitgen from file 'ep5c97x146.nph' in environment: /usr/local/diamond/3.11_x64/ispfpga.
+Loading device for application Bitgen from file 'ep5c97x146.nph' in environment: /usr/local/diamond/3.12/ispfpga.
 Package Status:                     Final          Version 1.65.
 Performance Hardware Data Status:   Final          Version 35.22.
 
@@ -67,6 +67,6 @@ Creating bit map...
 Bitstream Status: Final           Version 1.133 (Final).
  
 Saving bit stream in "Ext10GenDvi_A.bit".
-Total CPU Time: 51 secs 
-Total REAL Time: 52 secs 
-Peak Memory Usage: 1371 MB
+Total CPU Time: 38 secs 
+Total REAL Time: 40 secs 
+Peak Memory Usage: 1345 MB

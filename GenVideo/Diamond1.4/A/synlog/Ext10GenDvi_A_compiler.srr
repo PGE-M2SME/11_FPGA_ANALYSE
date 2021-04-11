@@ -1,74 +1,109 @@
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03L-SP1-1
-Install: /usr/local/diamond/3.11_x64/synpbase
+Build: Q-2020.03L-SP1
+Install: /usr/local/diamond/3.12/synpbase
 OS: CentOS Linux 7 (Core)
-Hostname: b663e0c4e5c9
+Hostname: ee788b037f06
+max virtual memory: unlimited (bytes)
+max user processes: unlimited
+max stack size: 8388608 (bytes)
+
 
 Implementation : A
-Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+Synopsys HDL Compiler, Version comp202003synp2, Build 184R, Built Oct 30 2020 10:19:07, @1018816
 
 @N|Running in 64-bit mode
+###########################################################[
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03L-SP1-1
-Install: /usr/local/diamond/3.11_x64/synpbase
+Build: Q-2020.03L-SP1
+Install: /usr/local/diamond/3.12/synpbase
 OS: CentOS Linux 7 (Core)
-Hostname: b663e0c4e5c9
+Hostname: ee788b037f06
+max virtual memory: unlimited (bytes)
+max user processes: unlimited
+max stack size: 8388608 (bytes)
+
 
 Implementation : A
-Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+Synopsys VHDL Compiler, Version comp202003synp2, Build 184R, Built Oct 30 2020 10:19:07, @1018816
 
 @N|Running in 64-bit mode
-@N:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":17:7:17:18|Top entity is set to TestVideoTop.
-Options changed - recompiling
+@N:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":19:7:19:18|Top entity is set to TestVideoTop.
+File /usr/local/diamond/3.12/synpbase/lib/vhd/misc.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/vga.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to159.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto25.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto120.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd changed - recompiling
+File /usr/local/diamond/3.12/synpbase/lib/lucent/ecp2m.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto34.vhd changed - recompiling
 @W: CD643 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":6:27:6:27|Ignoring use clause - pmi_components not found ...
 @W: CD645 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":7:8:7:15|Ignoring undefined library pmi_work
 VHDL syntax check successful!
-Options changed - recompiling
-@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":17:7:17:18|Synthesizing work.testvideotop.rtl.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startupddr3 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startupddr2 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startupsdr of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port startuppcs of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port ce1us of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port ce1ms of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":415:0:415:3|Port ce7 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD280 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":138:10:138:17|Unbound component pmi_fifo mapped to black box
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port almostfull of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port almostempty of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port full of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":509:0:509:9|Port empty of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
-@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":138:10:138:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box.
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd changed - recompiling
+File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd changed - recompiling
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":18:7:18:18|Synthesizing work.testvideotop.rtl.
+@W: CD280 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":66:10:66:22|Unbound component Pll125toclock mapped to black box
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port startupddr3 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port startupddr2 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port startupsdr of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port startuppcs of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port ce1us of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port ce1ms of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":418:0:418:3|Port ce7 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD280 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":141:10:141:17|Unbound component pmi_fifo mapped to black box
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":512:0:512:9|Port almostfull of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":512:0:512:9|Port almostempty of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":512:0:512:9|Port full of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":512:0:512:9|Port empty of entity work.pmi_fifo_work_testvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":141:10:141:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box.
 Post processing for work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box
 Running optimization stage 1 on pmi_fifo_work_testvideotop_rtl_0 .......
-@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":177:10:177:12|Synthesizing work.dcs.syn_black_box.
+@N: CD630 :"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":177:10:177:12|Synthesizing work.dcs.syn_black_box.
 Post processing for work.dcs.syn_black_box
-Running optimization stage 1 on DCS .......
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":332:10:332:21|Signal relojsistema is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:25:354:31|Signal salida2 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:34:354:40|Signal salida3 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:43:354:49|Signal salida4 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":354:52:354:58|Signal salida5 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":364:37:364:41|Signal clk20 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":371:7:371:14|Signal reloj1hz is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":372:8:372:18|Signal s_pinclk125 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":380:7:380:10|Signal datr is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":380:13:380:16|Signal datg is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":380:19:380:22|Signal datb is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":381:7:381:10|Signal fcnt is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":381:13:381:16|Signal hcnt is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":381:19:381:22|Signal vcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":357:25:357:31|Signal salida2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":357:34:357:40|Signal salida3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":357:43:357:49|Signal salida4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":357:52:357:58|Signal salida5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":362:7:362:15|Signal selection is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":367:37:367:41|Signal clk20 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":374:7:374:14|Signal reloj1hz is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":375:8:375:18|Signal s_pinclk125 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":383:7:383:10|Signal datr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":383:13:383:16|Signal datg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":383:19:383:22|Signal datb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":384:7:384:10|Signal fcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":384:13:384:16|Signal hcnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":384:19:384:22|Signal vcnt is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":8:8:8:12|Synthesizing work.mires.mires.
 @W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":31:7:31:12|Signal counti is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CD638 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":32:7:32:14|Signal vertical is undriven. Either assign the signal a value or remove the signal declaration.
@@ -232,12 +267,10 @@ Post processing for work.seqblk.behavioral
 Running optimization stage 1 on SeqBlk .......
 @W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":236:2:236:3|Sharing sequential element StartupDDR3. Add a syn_preserve attribute to the element to prevent sharing.
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd":14:7:14:16|Synthesizing work.pllclkto80.structure.
-@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1967:10:1967:16|Synthesizing work.ehxpllf.syn_black_box.
+@N: CD630 :"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":1967:10:1967:16|Synthesizing work.ehxpllf.syn_black_box.
 Post processing for work.ehxpllf.syn_black_box
-Running optimization stage 1 on EHXPLLF .......
-@N: CD630 :"/usr/local/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd":1368:10:1368:12|Synthesizing work.vlo.syn_black_box.
+@N: CD630 :"/usr/local/diamond/3.12/cae_library/synthesis/vhdl/ecp3.vhd":1368:10:1368:12|Synthesizing work.vlo.syn_black_box.
 Post processing for work.vlo.syn_black_box
-Running optimization stage 1 on VLO .......
 Post processing for work.pllclkto80.structure
 Running optimization stage 1 on PllClkto80 .......
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd":14:7:14:17|Synthesizing work.pllclkto140.structure.
@@ -252,34 +285,24 @@ Running optimization stage 1 on PllClkto25 .......
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to159.vhd":14:7:14:17|Synthesizing work.pll125to159.structure.
 Post processing for work.pll125to159.structure
 Running optimization stage 1 on Pll125to159 .......
-@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Pll125toclock.vhd":14:7:14:19|Synthesizing work.pll125toclock.structure.
-Post processing for work.pll125toclock.structure
+@N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":66:10:66:22|Synthesizing work.pll125toclock.syn_black_box.
+Post processing for work.pll125toclock.syn_black_box
 Running optimization stage 1 on Pll125toclock .......
 @N: CD630 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd":14:7:14:20|Synthesizing work.pll125to100x50.structure.
 Post processing for work.pll125to100x50.structure
 Running optimization stage 1 on Pll125to100x50 .......
 Post processing for work.testvideotop.rtl
 Running optimization stage 1 on TestVideoTop .......
-@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":332:10:332:21|Signal relojSistema is floating; a simulation mismatch is possible.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":598:0:598:4|Removing instance uDCS0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":593:0:593:4|Removing instance uDCS1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":411:0:411:7|Removing instance uclock34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":409:0:409:12|Removing instance uclock800x600 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":407:0:407:10|Removing instance uclock1680x because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":405:0:405:14|Removing instance uclock1400x1050 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":403:0:403:12|Removing instance uclock640x480 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":401:0:401:5|Removing instance uclock because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":398:0:398:8|Removing instance uPllclock because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL167 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":608:0:608:5|Input clk100 of instance umires is floating
-@W: CL167 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":523:0:523:3|Input clkdvi of instance uDvi is floating
+@W: CL240 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":362:7:362:15|Signal Selection is floating; a simulation mismatch is possible.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":601:0:601:4|Removing instance uDCS0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":596:0:596:4|Removing instance uDCS1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":401:0:401:8|Removing instance uPllclock because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 Running optimization stage 2 on Pll125to100x50 .......
 Running optimization stage 2 on Pll125toclock .......
 Running optimization stage 2 on Pll125to159 .......
 Running optimization stage 2 on PllClkto25 .......
 Running optimization stage 2 on PllClkto120 .......
 Running optimization stage 2 on PllClkto140 .......
-Running optimization stage 2 on VLO .......
-Running optimization stage 2 on EHXPLLF .......
 Running optimization stage 2 on PllClkto80 .......
 Running optimization stage 2 on SeqBlk .......
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(6) is always 0.
@@ -318,18 +341,6 @@ Running optimization stage 2 on I2cMasterCommands .......
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Register bit CmdStateD(2) is always 0.
 @W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":112:0:112:1|Pruning register bit 2 of CmdStateD(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @N: CL201 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":152:0:152:1|Trying to extract state machine for register State.
-Extracted state machine for register State
-State machine has 10 reachable states with original encodings of:
-   0000
-   0001
-   0010
-   0011
-   0100
-   0101
-   0110
-   0111
-   1000
-   1001
 @W: CL247 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":19:4:19:11|Input port bit 0 of deviceid(7 downto 0) is unused 
 Running optimization stage 2 on Dvi410Conf .......
 @W: CL246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":28:1:28:3|Input port bits 15 to 12 of dat(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
@@ -342,106 +353,68 @@ Running optimization stage 2 on Dvi410Timing .......
 Running optimization stage 2 on Dvi410Request .......
 Running optimization stage 2 on Dvi410 .......
 Running optimization stage 2 on simulacion .......
-@W: CL138 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Removing register 'mireID' because it is only assigned 0 or its original value.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(4) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(6) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(7) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(9) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(10) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(11) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HPolSyncCHoix is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VPolSyncChoix is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(0) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(0) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(1) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(0) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(3) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(1) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(2) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(3) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(5) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(5) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(7) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(4) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(6) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(8) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(0) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(1) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(2) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(4) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(6) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(9) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(10) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HLengthChoix(11) is always 1.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 11 to 7 of VResChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 1 of VResChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 11 to 5 of VLengthChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 2 of VLengthChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 11 to 10 of HResChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 8 of HResChoix(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 5 to 1 of HResChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 10 of HLengthChoix(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 7 of HLengthChoix(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 5 of HLengthChoix(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 0 of HLengthChoix(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 7 to 5 of HBPChoix(8 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 1 of HBPChoix(8 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 4 to 1 of HSyncPulseChoix(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 7 of HFPChoix(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 5 of HFPChoix(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 1 of HFPChoix(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 2 of VBPCHoix(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bits 3 to 2 of relojSistemaChoix(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 3 of mireID(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 3 of VSyncPulseChoix(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 3 of VFPChoix(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HFPChoix(0) is always 0.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(1) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(3) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(5) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(7) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(9) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(10) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(11) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(0) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(1) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(2) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(3) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(0) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HBPChoix(4) is always 1.
 @N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(4) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(5) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(6) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(7) is always 1.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(8) is always 0.
-@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VLengthChoix(9) is always 0.
-
-Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
-@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":253:1:253:2|Pruning unused register Reloj1hz. Make sure that there are no unused intermediate registers.
-@N: CL159 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":13:2:13:4|Input clk is unused.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HResChoix(9) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VBPCHoix(4) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit relojSistemaChoix(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VFPChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(2) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VSyncPulseChoix(1) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit mireID(1) is always 0.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit VResChoix(5) is always 1.
+@N: CL189 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Register bit HSyncPulseChoix(6) is always 1.
+@W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Sharing sequential element HLengthChoix. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Sharing sequential element HLengthChoix. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Sharing sequential element HPolSyncCHoix. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Sharing sequential element VPolSyncChoix. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register VBPCHoix(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register VLengthChoix(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL260 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning register bit 2 of VFPChoix(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register HResChoix(7 downto 6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register HFPChoix(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register HLengthChoix(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register HBPChoix(8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register HLengthChoix(11). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd":268:1:268:2|Pruning unused register HFPChoix(4). Make sure that there are no unused intermediate registers.
 Running optimization stage 2 on mires .......
 @W: CL247 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":12:1:12:2|Input port bit 11 of th(11 downto 0) is unused 
 @W: CL247 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":12:4:12:5|Input port bit 11 of tv(11 downto 0) is unused 
-Running optimization stage 2 on DCS .......
 Running optimization stage 2 on pmi_fifo_work_testvideotop_rtl_0 .......
 Running optimization stage 2 on TestVideoTop .......
 
@@ -450,38 +423,43 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:11s; Memory used current: 117MB peak: 128MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:07s; Memory used current: 204MB peak: 204MB)
 
-Process took 0h:00m:16s realtime, 0h:00m:11s cputime
+Process took 0h:00m:10s realtime, 0h:00m:07s cputime
 
 Process completed successfully.
-# Fri Feb 19 01:22:32 2021
+# Sun Apr 11 18:59:45 2021
 
 ###########################################################]
+###########################################################[
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03L-SP1-1
-Install: /usr/local/diamond/3.11_x64/synpbase
+Build: Q-2020.03L-SP1
+Install: /usr/local/diamond/3.12/synpbase
 OS: CentOS Linux 7 (Core)
-Hostname: b663e0c4e5c9
+Hostname: ee788b037f06
+max virtual memory: unlimited (bytes)
+max user processes: unlimited
+max stack size: 8388608 (bytes)
+
 
 Implementation : A
-Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:26:38
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 184R, Built Oct 30 2020 10:19:07, @1018816
 
 @N|Running in 64-bit mode
 File /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Feb 19 01:22:33 2021
+# Sun Apr 11 18:59:46 2021
 
 ###########################################################]
 
@@ -491,11 +469,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:12s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:07s; Memory used current: 55MB peak: 55MB)
 
-Process took 0h:00m:17s realtime, 0h:00m:12s cputime
+Process took 0h:00m:10s realtime, 0h:00m:07s cputime
 
 Process completed successfully.
-# Fri Feb 19 01:22:33 2021
+# Sun Apr 11 18:59:46 2021
 
 ###########################################################]

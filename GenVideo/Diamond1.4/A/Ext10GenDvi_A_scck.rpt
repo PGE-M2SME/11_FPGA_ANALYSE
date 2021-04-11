@@ -1,18 +1,22 @@
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2020 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03L-SP1-1
-Install: /usr/local/diamond/3.11_x64/synpbase
+Build: Q-2020.03L-SP1
+Install: /usr/local/diamond/3.12/synpbase
 OS: CentOS Linux 7 (Core)
-Hostname: b663e0c4e5c9
+Hostname: ee788b037f06
+max virtual memory: unlimited (bytes)
+max user processes: unlimited
+max stack size: 8388608 (bytes)
+
 
 Implementation : A
 
-# Written on Fri Feb 19 01:22:36 2021
+# Written on Sun Apr 11 18:59:49 2021
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      (none)
@@ -29,22 +33,20 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start                                   Requested     Requested     Clock        Clock                   Clock
-Level     Clock                                   Frequency     Period        Type         Group                   Load 
-------------------------------------------------------------------------------------------------------------------------
-0 -       System                                  200.0 MHz     5.000         system       system_clkgroup         0    
-                                                                                                                        
-0 -       Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0     588  
-========================================================================================================================
+          Start                                   Requested     Requested     Clock                                                  Clock                   Clock
+Level     Clock                                   Frequency     Period        Type                                                   Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     5.000         inferred                                               Inferred_clkgroup_0     695  
+1 .         simulacion|Reloj1hz_derived_clock     200.0 MHz     5.000         derived (from Pll125to100x50|CLKOK_inferred_clock)     Inferred_clkgroup_0     7    
+==================================================================================================================================================================
 
 
 Clock Load Summary
 ******************
 
-                                        Clock     Source                            Clock Pin        Non-clock Pin     Non-clock Pin         
-Clock                                   Load      Pin                               Seq Example      Seq Example       Comb Example          
----------------------------------------------------------------------------------------------------------------------------------------------
-System                                  0         -                                 -                -                 -                     
-                                                                                                                                             
-Pll125to100x50|CLKOK_inferred_clock     588       uPll.PLLInst_0.CLKOK(EHXPLLF)     RdLen[7:0].C     -                 uForth.m_clk.I[0](inv)
-=============================================================================================================================================
+                                        Clock     Source                              Clock Pin                           Non-clock Pin     Non-clock Pin         
+Clock                                   Load      Pin                                 Seq Example                         Seq Example       Comb Example          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pll125to100x50|CLKOK_inferred_clock     695       uPll.PLLInst_0.CLKOK(EHXPLLF)       RdLen[7:0].C                        -                 uForth.m_clk.I[0](inv)
+simulacion|Reloj1hz_derived_clock       7         uSimulacion.Reloj1hz.Q[0](dffe)     uSimulacion.temporizador[4:0].C     -                 -                     
+==================================================================================================================================================================
