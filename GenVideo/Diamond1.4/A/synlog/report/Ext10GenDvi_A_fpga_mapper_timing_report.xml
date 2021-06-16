@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_fpga_mapper.srr</data>
+<data>C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\synlog\Ext10GenDvi_A_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,27 +15,39 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>Pll125to100x50|CLKOK_inferred_clock</data>
+<data>Pll125to100x50_uniq_0|CLKOK_inferred_clock</data>
 <data>200.0 MHz</data>
-<data>61.3 MHz</data>
-<data>-11.323</data>
+<data>62.9 MHz</data>
+<data>-10.890</data>
 </row>
 <row>
-<data>TestVideoTop|PinTfpClkP_i_inferred_clock</data>
+<data>TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock</data>
 <data>200.0 MHz</data>
-<data>84.4 MHz</data>
-<data>-6.843</data>
+<data>65.1 MHz</data>
+<data>-10.369</data>
 </row>
 <row>
-<data>simulacion|Reloj1hz_derived_clock</data>
+<data>Top|PinClk125</data>
 <data>200.0 MHz</data>
-<data>536.9 MHz</data>
-<data>3.138</data>
+<data>156.6 MHz</data>
+<data>-1.385</data>
+</row>
+<row>
+<data>Top|SCLK</data>
+<data>200.0 MHz</data>
+<data>694.0 MHz</data>
+<data>3.559</data>
+</row>
+<row>
+<data>reveal_coretop|jtck_inferred_clock[0]</data>
+<data>200.0 MHz</data>
+<data>115.9 MHz</data>
+<data>-3.625</data>
 </row>
 <row>
 <data>System</data>
 <data>200.0 MHz</data>
-<data>318.9 MHz</data>
-<data>1.865</data>
+<data>276.5 MHz</data>
+<data>1.383</data>
 </row>
 </report_table>

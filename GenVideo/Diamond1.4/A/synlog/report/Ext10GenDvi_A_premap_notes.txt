@@ -1,20 +1,21 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "0" on instance HPolSync.
+@N: FX493 |Applying initial value "0" on instance VPolSync.
+@N: FX493 |Applying initial value "0000000000" on instance cptRST[9:0].
 @N: FX493 |Applying initial value "000000000000000000000000" on instance RGB[23:0].
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":408:0:408:14|Removing instance uclock1400x1050 (in view: work.TestVideoTop(rtl)) of type view:work.PllClkto120(structure) because it does not drive other instances.
-@N: BN115 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":412:0:412:12|Removing instance uclock800x600 (in view: work.TestVideoTop(rtl)) of type view:work.PllClkto80_1(structure) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":133:2:133:3|Removing sequential instance Ce7 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":167:0:167:1|Removing sequential instance Ce1ms (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":198:2:198:3|Removing sequential instance StartupPCS[1:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":214:2:214:3|Removing sequential instance StartupSDR (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":225:2:225:3|Removing sequential instance StartupDDR2 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":132:0:132:1|Removing sequential instance Done (in view: work.I2cMasterCommands(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing sequential instance FCnt[8:0] (in view: work.mires(mires)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":133:2:133:3|Removing sequential instance Cnt7[11:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":167:0:167:1|Removing sequential instance CntMs[9:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Removing sequential instance CntUs[5:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
-@N: BN362 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd":149:0:149:1|Removing sequential instance Ce (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":9920:16:9920:34|Removing instance C2 (in view: work.Spi_slave_uniq_0(ar)) of type view:work.SPI_out_uniq_0(ar) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6438:8:6438:9|Removing sequential instance Ce7 (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6469:8:6469:9|Removing sequential instance Ce1ms (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6498:8:6498:9|Removing sequential instance StartupPCS[1:0] (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6513:8:6513:9|Removing sequential instance StartupSDR (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6523:8:6523:9|Removing sequential instance StartupDDR2 (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7725:8:7725:9|Removing sequential instance Done (in view: work.I2cMasterCommands_uniq_0_ECP3_50_100(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6438:8:6438:9|Removing sequential instance Cnt7[11:0] (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6469:8:6469:9|Removing sequential instance CntMs[9:0] (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6453:8:6453:9|Removing sequential instance CntUs[5:0] (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6453:8:6453:9|Removing sequential instance Ce (in view: work.SeqBlk_uniq_0_50_115200(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: FX493 |Applying initial value "1" on instance State[10].
 @N: FX493 |Applying initial value "0" on instance State[9].
 @N: FX493 |Applying initial value "0" on instance State[8].
@@ -26,6 +27,6 @@
 @N: FX493 |Applying initial value "0" on instance State[2].
 @N: FX493 |Applying initial value "0" on instance State[1].
 @N: FX493 |Applying initial value "0" on instance State[0].
-@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist TestVideoTop 
-@N: MT611 :|Automatically generated clock TestVideoTop|PinTfpClkP_inferred_clock is not used and is being removed
+@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist Top 
+@N: MT611 :|Automatically generated clock TestVideoTop_uniq_0|PinTfpClkP_inferred_clock is not used and is being removed
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

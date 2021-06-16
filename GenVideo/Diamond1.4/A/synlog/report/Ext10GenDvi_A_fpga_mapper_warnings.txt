@@ -1,156 +1,226 @@
-@W: BN114 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto80.vhd":68:4:68:12|Removing instance uclock34.PLLInst_0 (in view: work.TestVideoTop(rtl)) of black box view:work.EHXPLLF(syn_black_box) because it does not drive other instances.
-@W: BN114 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto140.vhd":68:4:68:12|Removing instance uclock1680x.PLLInst_0 (in view: work.TestVideoTop(rtl)) of black box view:work.EHXPLLF(syn_black_box) because it does not drive other instances.
-@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.tload_1[1:0] (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.spush_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.spopp_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.rload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.aload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":290:1:290:4|ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_pol[1] because it is equivalent to instance uDvi.U_conf.form_pol[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[11] because it is equivalent to instance uDvi.U_conf.form_hln[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hln[7] because it is equivalent to instance uDvi.U_conf.form_hln[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hln[3] because it is equivalent to instance uDvi.U_conf.form_hln[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hln[2] because it is equivalent to instance uDvi.U_conf.form_hln[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hln[1] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[11] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[3] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[2] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[1] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[0] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[2] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[1] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[0] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[11] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[8] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[5] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[4] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[3] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[2] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[1] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[0] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[0] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[11] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[2] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[11] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[3] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[2] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[1] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[0] because it is equivalent to instance uDvi.U_conf.form_hln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[1] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[2] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[3] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[4] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[5] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[8] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":153:2:153:3|Removing instance uDvi.DviResH[11] because it is equivalent to instance uDvi.DviResH[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[9] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[6] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[9] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[9] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[7] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[5] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[7] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[5] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[3] because it is equivalent to instance uDvi.U_conf.form_vss[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[6] because it is equivalent to instance uDvi.U_conf.form_vss[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[1] because it is equivalent to instance uDvi.U_conf.form_hse[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[4] because it is equivalent to instance uDvi.U_conf.form_hln[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[7] because it is equivalent to instance uDvi.U_conf.form_hln[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[6] because it is equivalent to instance uDvi.U_conf.form_hln[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[2] because it is equivalent to instance uDvi.U_conf.form_hln[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[10] because it is equivalent to instance uDvi.U_conf.form_vss[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[10] because it is equivalent to instance uDvi.U_conf.form_vss[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[4] because it is equivalent to instance uDvi.U_conf.form_hse[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[7] because it is equivalent to instance uDvi.U_conf.form_hse[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[4] because it is equivalent to instance uDvi.U_conf.form_hse[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[8] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[6] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hln[11] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[10] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[10] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[6] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[5] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[8] because it is equivalent to instance uDvi.U_conf.form_vln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hln[10] because it is equivalent to instance uDvi.U_conf.form_vln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[4] because it is equivalent to instance uDvi.U_conf.form_hss[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[5] because it is equivalent to instance uDvi.U_conf.form_hss[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[9] because it is equivalent to instance uDvi.U_conf.form_hss[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[9] because it is equivalent to instance uDvi.U_conf.form_hss[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hsz[10] because it is equivalent to instance uDvi.U_conf.form_vln[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[1] because it is equivalent to instance uDvi.U_conf.form_hln[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[8] because it is equivalent to instance uDvi.U_conf.form_hss[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[4] because it is equivalent to instance uDvi.U_conf.form_hse[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[7] because it is equivalent to instance uDvi.U_conf.form_hse[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hss[10] because it is equivalent to instance uDvi.U_conf.form_vss[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[10] because it is equivalent to instance uDvi.U_conf.form_vss[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[3] because it is equivalent to instance uDvi.U_conf.form_vln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vsz[8] because it is equivalent to instance uDvi.U_conf.form_vln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[9] because it is equivalent to instance uDvi.U_conf.form_vln[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vln[0] because it is equivalent to instance uDvi.U_conf.form_hln[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[6] because it is equivalent to instance uMaster.DeviceIdR[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[5] because it is equivalent to instance uMaster.DeviceIdR[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[7] because it is equivalent to instance uMaster.DeviceIdR[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[3] because it is equivalent to instance uMaster.DeviceIdR[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing instance uMaster.DeviceIdR[2] because it is equivalent to instance uMaster.DeviceIdR[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[7] because it is equivalent to instance umires.DatG[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[5] because it is equivalent to instance umires.DatG[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[5] because it is equivalent to instance umires.DatB[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[4] because it is equivalent to instance umires.DatG[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[4] because it is equivalent to instance umires.DatB[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[2] because it is equivalent to instance umires.DatG[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[2] because it is equivalent to instance umires.DatB[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[1] because it is equivalent to instance umires.DatG[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[1] because it is equivalent to instance umires.DatB[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[0] because it is equivalent to instance umires.DatG[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[0] because it is equivalent to instance umires.DatB[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[8] because it is equivalent to instance umires.RGB[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[16] because it is equivalent to instance umires.RGB[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[9] because it is equivalent to instance umires.RGB[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[1] because it is equivalent to instance umires.RGB[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[18] because it is equivalent to instance umires.RGB[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[2] because it is equivalent to instance umires.RGB[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[20] because it is equivalent to instance umires.RGB[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[4] because it is equivalent to instance umires.RGB[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[21] because it is equivalent to instance umires.RGB[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[5] because it is equivalent to instance umires.RGB[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[23] because it is equivalent to instance umires.RGB[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[6] because it is equivalent to instance umires.DatB[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatG[3] because it is equivalent to instance umires.DatB[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[3] because it is equivalent to instance umires.RGB[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[6] because it is equivalent to instance umires.RGB[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[4] because it is equivalent to instance uDvi.U_conf.form_hln[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[6] because it is equivalent to instance uDvi.U_conf.form_hln[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[3] because it is equivalent to instance uDvi.U_conf.form_hln[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[7] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[5] because it is equivalent to instance uDvi.U_conf.form_hln[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[8] because it is equivalent to instance uDvi.U_conf.form_hse[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_hse[5] because it is equivalent to instance uDvi.U_conf.form_hln[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vss[0] because it is equivalent to instance uDvi.U_conf.form_hln[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":226:2:226:3|Removing instance uDvi.U_conf.form_vse[9] because it is equivalent to instance uDvi.U_conf.form_hss[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[16] because it is equivalent to instance uDvi.PinTfpDat[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[8] because it is equivalent to instance uDvi.PinTfpDat[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[17] because it is equivalent to instance uDvi.PinTfpDat[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[9] because it is equivalent to instance uDvi.PinTfpDat[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[18] because it is equivalent to instance uDvi.PinTfpDat[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[10] because it is equivalent to instance uDvi.PinTfpDat[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[11] because it is equivalent to instance uDvi.PinTfpDat[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[4] because it is equivalent to instance uDvi.PinTfpDat[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[20] because it is equivalent to instance uDvi.PinTfpDat[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[5] because it is equivalent to instance uDvi.PinTfpDat[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[21] because it is equivalent to instance uDvi.PinTfpDat[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[6] because it is equivalent to instance uDvi.PinTfpDat[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[23] because it is equivalent to instance uDvi.PinTfpDat[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[6] because it is equivalent to instance umires.DatB[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.DatR[3] because it is equivalent to instance umires.DatB[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[19] because it is equivalent to instance umires.RGB[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd":55:2:55:3|Removing instance umires.RGB[22] because it is equivalent to instance umires.RGB[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[3] because it is equivalent to instance uDvi.PinTfpDat[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":199:2:199:3|Removing instance uDvi.PinTfpDat[22] because it is equivalent to instance uDvi.PinTfpDat[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing instance uDvi.U_gen_req.bnd1[3] because it is equivalent to instance uDvi.U_gen_req.bnd1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":32:2:32:3|Removing instance uDvi.U_gen_req.bnd1[2] because it is equivalent to instance uDvi.U_gen_req.bnd1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":512:0:512:9|Blackbox pmi_fifo_work_testvideotop_rtl_0 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":194:0:194:9|Blackbox pmi_fifo_work_testvideotop_rtl_1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":229:0:229:8|Blackbox pmi_ram_dq_work_testvideotop_rtl_0 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto25.vhd":68:4:68:12|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT420 |Found inferred clock Pll125to100x50|CLKOK_inferred_clock with period 5.00ns. Please declare a user-defined clock on net uPll.Clk50.
-@W: MT420 |Found inferred clock TestVideoTop|PinTfpClkP_i_inferred_clock with period 5.00ns. Please declare a user-defined clock on net PinTfpClkP_i.
+@W: BN132 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":9770:17:9770:18|Removing sequential instance TOPvideo.nogcc_PinTfpClkP because it is equivalent to instance TOPvideo.PinTfpClkP. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":5400:16:5400:17|ROM EtatSuivant_cnst[0:21] (in view: work.decodage_generation_uniq_0(arch)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":5400:16:5400:17|ROM EtatSuivant_cnst[0:21] (in view: work.decodage_generation_uniq_0(arch)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6764:12:6764:15|ROM decode\.tload_1[1:0] (in view: work.ep32_uniq_0_work_top_rtl_0layer0(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6764:12:6764:15|ROM decode\.spush_1 (in view: work.ep32_uniq_0_work_top_rtl_0layer0(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6764:12:6764:15|ROM decode\.spopp_1 (in view: work.ep32_uniq_0_work_top_rtl_0layer0(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6764:12:6764:15|ROM decode\.rload_1 (in view: work.ep32_uniq_0_work_top_rtl_0layer0(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6764:12:6764:15|ROM decode\.aload_1 (in view: work.ep32_uniq_0_work_top_rtl_0layer0(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6764:12:6764:15|ROM decode\.addr_sel_1 (in view: work.ep32_uniq_0_work_top_rtl_0layer0(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MO160 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":5439:8:5439:9|Register bit EtatPresent[0] (in view view:work.decodage_generation_uniq_0(arch)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7860:8:7860:9|Removing instance TOPvideo.uMaster.DeviceIdR[6] because it is equivalent to instance TOPvideo.uMaster.DeviceIdR[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7860:8:7860:9|Removing instance TOPvideo.uMaster.DeviceIdR[5] because it is equivalent to instance TOPvideo.uMaster.DeviceIdR[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7860:8:7860:9|Removing instance TOPvideo.uMaster.DeviceIdR[7] because it is equivalent to instance TOPvideo.uMaster.DeviceIdR[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7860:8:7860:9|Removing instance TOPvideo.uMaster.DeviceIdR[3] because it is equivalent to instance TOPvideo.uMaster.DeviceIdR[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7860:8:7860:9|Removing instance TOPvideo.uMaster.DeviceIdR[2] because it is equivalent to instance TOPvideo.uMaster.DeviceIdR[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net HPolSyncCHoix_1
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[0]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[1]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[2]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net VPolSyncChoix_1
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net I_518.t1
+@W: BN241 |Unable to finish printing loop, loop close not found
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[0]
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[2]
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[3]
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[1]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HBPChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HFPChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net HLengthChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net HPolSyncCHoix_1
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net HResChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net HSyncPulseChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[0]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[1]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[2]
+@W: BN137 :|Found combinational loop during mapping at net mireID_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net VBPCHoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VFPChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net VLengthChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net VPolSyncChoix_1
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[4]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[5]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[6]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[7]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[8]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[9]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[10]
+@W: BN137 :|Found combinational loop during mapping at net VResChoix_1[11]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[0]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[1]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[2]
+@W: BN137 :|Found combinational loop during mapping at net VSyncPulseChoix_1[3]
+@W: BN137 :|Found combinational loop during mapping at net I_518.t1
+@W: BN241 |Unable to finish printing loop, loop close not found
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[0]
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[2]
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[3]
+@W: BN137 :|Found combinational loop during mapping at net relojSistemaChoix[1]
+@W: MT246 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":9687:4:9687:13|Blackbox pmi_fifo_8s_16s_16s_0s_252s_4s_noreg_ECP3_pmi_fifo_LUT_2_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":7375:4:7375:12|Blackbox pmi_ram_dq_Z1_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":6314:4:6314:12|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cypri\documents\git\pge\11_fpga_generation\genvideo\diamond1.4\a\reveal_workspace\tmpreveal\top_rvl_top.vhd":224:4:224:8|Blackbox jtagconn16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":1192:8:1192:20|Blackbox pmi_ram_dp_Z4_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":1192:8:1192:20|Blackbox pmi_ram_dp_Z6_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":1161:8:1161:21|Blackbox pmi_distributed_dpram_64s_6s_2s_reg_none_binary_ECP3_pmi_distributed_dpram_8_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":2162:8:2162:13|Blackbox pmi_ram_dp_Z10_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock reveal_coretop|jtck_inferred_clock[0] with period 5.00ns. Please declare a user-defined clock on net top_reveal_coretop_instance.jtck[0].
+@W: MT420 |Found inferred clock Top|PinClk125 with period 5.00ns. Please declare a user-defined clock on port PinClk125.
+@W: MT420 |Found inferred clock Top|SCLK with period 5.00ns. Please declare a user-defined clock on port SCLK.
+@W: MT420 |Found inferred clock Pll125to100x50_uniq_0|CLKOK_inferred_clock with period 5.00ns. Please declare a user-defined clock on net TOPvideo.uPll.Clk50.
+@W: MT420 |Found inferred clock TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock with period 5.00ns. Please declare a user-defined clock on net TOPvideo.PinTfpClkP_c.

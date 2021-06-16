@@ -11,8 +11,8 @@ use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 use ieee.numeric_std.all;
 
-library ecp2m;
-use ecp2m.components.all;
+--library ecp2m;
+--use ecp2m.components.all;
 
 
 entity TestVideoTop is port(
@@ -25,7 +25,25 @@ entity TestVideoTop is port(
      PinDat : out std_logic_vector(23 downto 0);
 
      PinSda : inout std_logic;
-     PinScl : out std_logic);
+     PinScl : out std_logic;
+	 
+	 
+	 
+     HLengthChoix  		           :     in std_logic_vector(11 downto 0);	--	Total number of pixel clocks in a row
+	 HResChoix       	           :    in   std_logic_vector(11 downto 0); 		--	Horiztonal display width in pixels
+	 HFPChoix 	   		           :    in  std_logic_vector(7 downto 0);			--	Horiztonal front porch width in pixels
+	 HSyncPulseChoix               :    in std_logic_vector(7 downto 0);		--	Horiztonal sync pulse width in pixels
+	 HBPChoix      		  	       :    in std_logic_vector(8 downto 0);		--	Horiztonal back porch width in pixels
+	 HPolSyncCHoix 		           :    in   std_logic;												--	Horizontal sync pulse polarity (1 = positive, 0 = negative)		
+	 VLengthChoix 			       :    in  std_logic_vector(11 downto 0);		--	Total number of pixel clocks in column
+	 VResChoix    		  	       :    in  std_logic_vector(11 downto 0); 		--	Vertical display width in pixels
+	 VFPChoix 				       :    in std_logic_vector(3 downto 0);				--	Vertical front porch width in pixels
+	 VSyncPulseChoix 		       :    in std_logic_vector(3 downto 0);		--	Vertical sync pulse width in pixels
+	 VBPCHoix           	 	   :   in std_logic_vector(5 downto 0);	       --	Vertical back porch width in pixels
+	 VPolSyncChoix   		       :   in std_logic;			--	Vertical sync pulse polarity (1 = positive, 0 = negative)
+	 relojSistemaChoix 	           :   in std_logic_vector (3 downto 0);           ----- pixel_clock
+	 dataDispo            		   : 	in std_logic;				-----------------pulse lecture
+	 mireID                       : 	in std_logic_vector (3 downto 0));--------------------mire choix
 	 
 end TestVideoTop;
 
@@ -320,24 +338,26 @@ component mires
 
 ---------------------------------------------------------------SENALES PARA SIMULACION -------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	signal  HLengthChoix  		: std_logic_vector(11 downto 0);		--	Total number of pixel clocks in a row
-	signal 	HResChoix       	: std_logic_vector(11 downto 0); 		--	Horiztonal display width in pixels
-	signal 	HFPChoix 	   		: std_logic_vector(7 downto 0);			--	Horiztonal front porch width in pixels
-	signal  HSyncPulseChoix     		: std_logic_vector(7 downto 0);		--	Horiztonal sync pulse width in pixels
-	signal 	HBPChoix      		: std_logic_vector(8 downto 0);		--	Horiztonal back porch width in pixels
-	signal 	HPolSyncCHoix 	: std_logic;												--	Horizontal sync pulse polarity (1 = positive, 0 = negative)		
-	signal  VLengthChoix 	: std_logic_vector(11 downto 0);		--	Total number of pixel clocks in column
-	signal  VResChoix      	: std_logic_vector(11 downto 0); 		--	Vertical display width in pixels
-	signal 	VFPChoix 			 : std_logic_vector(3 downto 0);				--	Vertical front porch width in pixels
-	signal 	VSyncPulseChoix : std_logic_vector(3 downto 0);		--	Vertical sync pulse width in pixels
-	signal 	VBPCHoix            : std_logic_vector(5 downto 0);	       --	Vertical back porch width in pixels
-	signal 	VPolSyncChoix   	: std_logic;			--	Vertical sync pulse polarity (1 = positive, 0 = negative)
+-- MODIF CYP	
+	
+--	signal  HLengthChoix  		: std_logic_vector(11 downto 0);		--	Total number of pixel clocks in a row
+--	signal 	HResChoix       	: std_logic_vector(11 downto 0); 		--	Horiztonal display width in pixels
+--	signal 	HFPChoix 	   		: std_logic_vector(7 downto 0);			--	Horiztonal front porch width in pixels
+--	signal  HSyncPulseChoix     		: std_logic_vector(7 downto 0);		--	Horiztonal sync pulse width in pixels
+--	signal 	HBPChoix      		: std_logic_vector(8 downto 0);		--	Horiztonal back porch width in pixels
+--	signal 	HPolSyncCHoix 	: std_logic;												--	Horizontal sync pulse polarity (1 = positive, 0 = negative)		
+--	signal  VLengthChoix 	: std_logic_vector(11 downto 0);		--	Total number of pixel clocks in column
+--	signal  VResChoix      	: std_logic_vector(11 downto 0); 		--	Vertical display width in pixels
+--	signal 	VFPChoix 			 : std_logic_vector(3 downto 0);				--	Vertical front porch width in pixels
+--	signal 	VSyncPulseChoix : std_logic_vector(3 downto 0);		--	Vertical sync pulse width in pixels
+--	signal 	VBPCHoix            : std_logic_vector(5 downto 0);	       --	Vertical back porch width in pixels
+--	signal 	VPolSyncChoix   	: std_logic;			--	Vertical sync pulse polarity (1 = positive, 0 = negative)
 	signal   relojSistema : std_logic;
-	signal relojSistemaChoix : std_logic_vector  (3 downto 0);   ----- pixel_clock
-	signal dataDispo : std_logic;			-----------------pulse lecture
-	signal mireID 			: std_logic_vector (3 downto 0 );--------------------mire choix
+--	signal relojSistemaChoix : std_logic_vector  (3 downto 0);   ----- pixel_clock
+--	signal dataDispo : std_logic;			-----------------pulse lecture
+--	signal mireID 			: std_logic_vector (3 downto 0 );--------------------mire choix
 	signal choixMire 		:std_logic_vector (3 downto 0);
-    signal  HLength	 	: std_logic_vector(11 downto 0);		--	Total number of pixel clocks in a row
+   signal  HLength	 	: std_logic_vector(11 downto 0);		--	Total number of pixel clocks in a row
 	signal 	HRes		: std_logic_vector(11 downto 0); 			--	Horiztonal display width in pixels
 	signal 	HFP			: std_logic_vector(7 downto 0);				--	Horiztonal front porch width in pixels
 	signal  HSyncPulse	: std_logic_vector(7 downto 0);			--	Horiztonal sync pulse width in pixels
@@ -525,7 +545,7 @@ DviConfWe <= '1' ;--when ((PpWe = '1') and (PpAdd = X"21")) else '0';
 
 uDvi : Dvi410 generic map(FPGA_FAMILY=>"ECP3") 
               port map(
-				  HLength=>HLength, HRes=>HRes, VRes=>VRes, HFP=>HFP, HSyncPulse=>HSyncPulse, HBP=> HBP, HPolSync=>HPolSync,VLength=>VLength, VFP=> VFP, VSyncPulse=>VSyncPulse, VBP=> VBP, VPolSync=>VPolSync,  --descomentar esta parte 
+				  HLength=>HLength, HRes=>HRes, VRes=>VRes, HFP=>HFP, HSyncPulse=>HSyncPulse, HBP=> HBP, HPolSync=>'1',VLength=>VLength, VFP=> VFP, VSyncPulse=>VSyncPulse, VBP=> VBP, VPolSync=>'1',  --descomentar esta parte 
 				-- HLength=>HLengthChoix, HRes=>HResChoix, VRes=>VResCHoix, HFP=>HFPChoix, HSyncPulse=>HSyncPulseChoix, HBP=> HBPChoix, HPolSync=>HPolSyncChoix,VLength=>VLengthChoix, VFP=> VFPChoix, VSyncPulse=>VSyncPulseChoix, VBP=> VBPChoix, VPolSync=>VPolSyncChoix,
                    SysClk=>Clk50, SRst=>SRst, 
                    ConfWe=>DviConfWe, DviResH=>Resolution,
@@ -539,27 +559,27 @@ uDvi : Dvi410 generic map(FPGA_FAMILY=>"ECP3")
 				   PinTfpVs=>PinVSync, PinTfpHs=>PinHSync, PinTfpDe=>PinDe,
                    PinTfpClk=>PinClk, PinTfpDat=>PinDat, axeH => tH, axeV => tV);
 				   
-				   
-uSimulacion : simulacion 
- PORT MAP(
+-- MODIF CYP				   
+--uSimulacion : simulacion 
+ --PORT MAP(
 -----------------------------------------------CHANGEMENT AU 02/08/2021------------------------------	
-		clk                           => Clk50,
-        HLengthChoix  	=> HLengthChoix, --	Total number of pixel clocks in a row
-	  	HResChoix       	=>  HResChoix,		--	Horiztonal display width in pixels
-	  	HFPChoix 	   		 => HFPChoix,		--	Horiztonal front porch width in pixels
-	     HSyncPulseChoix    => 	HSyncPulseChoix,    --	Horiztonal sync pulse width in pixels
-	  	HBPChoix      		  	=>  HBPChoix,	--	Horiztonal back porch width in pixels
-	  	HPolSyncCHoix 		=> 	HPolSyncCHoix,										--	Horizontal sync pulse polarity (1 = positive, 0 = negative)		
-	    VLengthChoix 			=> 	VLengthChoix, --	Total number of pixel clocks in column
-	    VResChoix    		  	=>   VResChoix,		--	Vertical display width in pixels
-	  	VFPChoix 				=> 	VFPChoix,		--	Vertical front porch width in pixels
-	  	VSyncPulseChoix 	    =>	  VSyncPulseChoix,     --	Vertical sync pulse width in pixels
-	  	VBPCHoix           	    =>	  VBPCHoix,      --	Vertical back porch width in pixels
-	  	VPolSyncChoix   	    =>        VPolSyncChoix,		--	Vertical sync pulse polarity (1 = positive, 0 = negative)
-	    relojSistemaChoix 	=>      relojSistemaChoix,   ----- pixel_clock
-	    dataDispo            		=>   dataDispo,			-----------------pulse lecture
-		mireID                      =>     mireID--------------------mire choix
- );
+--		clk                           => Clk50,
+--        HLengthChoix  	=> HLengthChoix, --	Total number of pixel clocks in a row
+--	  	HResChoix       	=>  HResChoix,		--	Horiztonal display width in pixels
+--	  	HFPChoix 	   		 => HFPChoix,		--	Horiztonal front porch width in pixels
+--	     HSyncPulseChoix    => 	HSyncPulseChoix,    --	Horiztonal sync pulse width in pixels
+--	  	HBPChoix      		  	=>  HBPChoix,	--	Horiztonal back porch width in pixels
+--	  	HPolSyncCHoix 		=> 	HPolSyncCHoix,										--	Horizontal sync pulse polarity (1 = positive, 0 = negative)		
+--	    VLengthChoix 			=> 	VLengthChoix, --	Total number of pixel clocks in column
+--	    VResChoix    		  	=>   VResChoix,		--	Vertical display width in pixels
+--	  	VFPChoix 				=> 	VFPChoix,		--	Vertical front porch width in pixels
+--	  	VSyncPulseChoix 	    =>	  VSyncPulseChoix,     --	Vertical sync pulse width in pixels
+--	  	VBPCHoix           	    =>	  VBPCHoix,      --	Vertical back porch width in pixels
+--	  	VPolSyncChoix   	    =>        VPolSyncChoix,		--	Vertical sync pulse polarity (1 = positive, 0 = negative)
+--	    relojSistemaChoix 	=>      relojSistemaChoix,   ----- pixel_clock
+--	    dataDispo            		=>   dataDispo,			-----------------pulse lecture
+--		mireID                      =>     mireID--------------------mire choix
+ --);
 			 
 			 
 			 -------------------------------------------------------DCS8				  
@@ -843,6 +863,7 @@ umires : mires port map (
 
 
 PinTfpClkP <= relojSistema;
+
 PinTfpClkN <= not (relojSistema);
 
 

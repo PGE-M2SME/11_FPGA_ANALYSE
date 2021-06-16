@@ -6,22 +6,43 @@
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 631 clock pin(s) of sequential element(s)
-3 gated/generated clock tree(s) driving 231 clock pin(s) of sequential element(s)
-0 instances converted, 231 sequential instances remain driven by gated/generated clocks
+4 non-gated/non-generated clock tree(s) driving 1655 clock pin(s) of sequential element(s)
+21 gated/generated clock tree(s) driving 330 clock pin(s) of sequential element(s)
+0 instances converted, 330 sequential instances remain driven by gated/generated clocks
 
-============================== Non-Gated/Non-Generated Clocks ==============================
-Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance
---------------------------------------------------------------------------------------------
-@KP:ckid0_1       uPll.PLLInst_0.CLKOK     EHXPLLF                631        Timer[31:0]    
-============================================================================================
-======================================================================== Gated/Generated Clocks ========================================================================
-Clock Tree ID     Driving Element               Drive Element Type     Unconverted Fanout     Sample Instance                 Explanation                               
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       nogcc_PinTfpClkP.Q[0]         lat                    222                    umires.RGB[23]                  Clock source is invalid for GCC           
-@KP:ckid0_2       uSimulacion.Reloj1hz.Q[0]     dffe                   7                      uSimulacion.VFPChoix_1[1:0]     Derived clock on input (not legal for GCC)
-@KP:ckid0_4       un74_relojsistema.OUT         or                     2                      nogcc_PinTfpClkP                Clock source is invalid for GCC           
-========================================================================================================================================================================
+========================================= Non-Gated/Non-Generated Clocks ==========================================
+Clock Tree ID     Driving Element                            Drive Element Type     Fanout     Sample Instance     
+-------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       PinClk125                                  port                   509        uDecodeur.cptRST[9] 
+@KP:ckid0_1       top_reveal_coretop_instance.jtag0.jtck     jtagconn16             536        ENCRYPTED           
+@KP:ckid0_2       SCLK                                       port                   8          SPI.C1.dataq[7:0]   
+@KP:ckid0_4       TOPvideo.uPll.PLLInst_0.CLKOK              EHXPLLF                602        TOPvideo.Timer[31:0]
+===================================================================================================================
+==================================================================== Gated/Generated Clocks ====================================================================
+Clock Tree ID     Driving Element                    Drive Element Type     Unconverted Fanout     Sample Instance               Explanation                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_3       TOPvideo.nogcc_PinTfpClkP.Q[0]     lat                    231                    TOPvideo.umires.RGB[23]       Clock source is invalid for GCC
+@KP:ckid0_5       TOPvideo.un74_relojsistema.OUT     or                     2                      TOPvideo.nogcc_PinTfpClkP     Clock source is invalid for GCC
+@KP:ckid0_6       uDecodeur.un7_etatsuivant.OUT      and                    4                      uDecodeur.PClock[3]           Clock source is invalid for GCC
+@KP:ckid0_7       uDecodeur.un9_etatsuivant.OUT      and                    4                      uDecodeur.Mire_ID[3]          Clock source is invalid for GCC
+@KP:ckid0_8       uDecodeur.un11_etatsuivant.OUT     and                    8                      uDecodeur.iHLength[7]         Clock source is invalid for GCC
+@KP:ckid0_9       uDecodeur.un13_etatsuivant.OUT     and                    4                      uDecodeur.iHLength[11]        Clock source is invalid for GCC
+@KP:ckid0_10      uDecodeur.un15_etatsuivant.OUT     and                    8                      uDecodeur.iHRes[7]            Clock source is invalid for GCC
+@KP:ckid0_11      uDecodeur.un17_etatsuivant.OUT     and                    4                      uDecodeur.iHRes[11]           Clock source is invalid for GCC
+@KP:ckid0_12      uDecodeur.un19_etatsuivant.OUT     and                    8                      uDecodeur.HFP[7]              Clock source is invalid for GCC
+@KP:ckid0_13      uDecodeur.un21_etatsuivant.OUT     and                    8                      uDecodeur.HSyncPulse[7]       Clock source is invalid for GCC
+@KP:ckid0_14      uDecodeur.un23_etatsuivant.OUT     and                    8                      uDecodeur.iHBP[7]             Clock source is invalid for GCC
+@KP:ckid0_15      uDecodeur.un29_etatsuivant.OUT     and                    8                      uDecodeur.iVLength[7]         Clock source is invalid for GCC
+@KP:ckid0_16      uDecodeur.un31_etatsuivant.OUT     and                    4                      uDecodeur.iVLength[11]        Clock source is invalid for GCC
+@KP:ckid0_17      uDecodeur.un33_etatsuivant.OUT     and                    8                      uDecodeur.iVRes[7]            Clock source is invalid for GCC
+@KP:ckid0_18      uDecodeur.un35_etatsuivant.OUT     and                    4                      uDecodeur.iVRes[11]           Clock source is invalid for GCC
+@KP:ckid0_19      uDecodeur.un37_etatsuivant.OUT     and                    4                      uDecodeur.VFP[3]              Clock source is invalid for GCC
+@KP:ckid0_20      uDecodeur.un39_etatsuivant.OUT     and                    4                      uDecodeur.VSyncPulse[3]       Clock source is invalid for GCC
+@KP:ckid0_21      uDecodeur.un41_etatsuivant.OUT     and                    6                      uDecodeur.VBP[5]              Clock source is invalid for GCC
+@KP:ckid0_22      uDecodeur.un43_etatsuivant.OUT     and                    1                      uDecodeur.VPolSync            Clock source is invalid for GCC
+@KP:ckid0_23      uDecodeur.un27_etatsuivant.OUT     and                    1                      uDecodeur.HPolSync            Clock source is invalid for GCC
+@KP:ckid0_24      uDecodeur.un25_etatsuivant.OUT     and                    1                      uDecodeur.iHBP[8]             Clock source is invalid for GCC
+================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######

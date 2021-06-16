@@ -1,0 +1,16 @@
+#Start recording tcl command: 4/12/2021 19:39:50
+#Project Location: C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4; Project name: Ext10GenDvi
+prj_project open "C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/Ext10GenDvi.ldf"
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Synthesis -impl A
+prj_run Export -impl A -task Bitgen
+#Stop recording: 4/12/2021 20:54:06

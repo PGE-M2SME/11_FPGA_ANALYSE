@@ -1,0 +1,182 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/test.rvl" Date="2021-04-15">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/VHDL" Synthesis="synplify" DeviceFamily="LatticeECP3" DesignName="Ext10GenDvi"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="354344330" Name="Top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="pinclk125" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="4096"/>
+            <Capture Mode="0" MinSamplesPerTrig="128"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_Top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="udecodeur/etatpresent">
+                    <Sig Type="SIG" Name="udecodeur/etatpresent:0"/>
+                    <Sig Type="SIG" Name="udecodeur/etatpresent:1"/>
+                    <Sig Type="SIG" Name="udecodeur/etatpresent:2"/>
+                    <Sig Type="SIG" Name="udecodeur/etatpresent:3"/>
+                    <Sig Type="SIG" Name="udecodeur/etatpresent:4"/>
+                </Bus>
+                <Bus Name="udecodeur/etatsuivant">
+                    <Sig Type="SIG" Name="udecodeur/etatsuivant:0"/>
+                    <Sig Type="SIG" Name="udecodeur/etatsuivant:1"/>
+                    <Sig Type="SIG" Name="udecodeur/etatsuivant:2"/>
+                    <Sig Type="SIG" Name="udecodeur/etatsuivant:3"/>
+                    <Sig Type="SIG" Name="udecodeur/etatsuivant:4"/>
+                </Bus>
+                <Sig Type="SIG" Name="udecodeur/data_valid_out"/>
+                <Bus Name="udecodeur/data_out">
+                    <Sig Type="SIG" Name="udecodeur/data_out:0"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:1"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:2"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:3"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:4"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:5"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:6"/>
+                    <Sig Type="SIG" Name="udecodeur/data_out:7"/>
+                </Bus>
+                <Bus Name="hbpchoix">
+                    <Sig Type="SIG" Name="hbpchoix:0"/>
+                    <Sig Type="SIG" Name="hbpchoix:1"/>
+                    <Sig Type="SIG" Name="hbpchoix:2"/>
+                    <Sig Type="SIG" Name="hbpchoix:3"/>
+                    <Sig Type="SIG" Name="hbpchoix:4"/>
+                    <Sig Type="SIG" Name="hbpchoix:5"/>
+                    <Sig Type="SIG" Name="hbpchoix:6"/>
+                    <Sig Type="SIG" Name="hbpchoix:7"/>
+                    <Sig Type="SIG" Name="hbpchoix:8"/>
+                </Bus>
+                <Bus Name="hfpchoix">
+                    <Sig Type="SIG" Name="hfpchoix:0"/>
+                    <Sig Type="SIG" Name="hfpchoix:1"/>
+                    <Sig Type="SIG" Name="hfpchoix:2"/>
+                    <Sig Type="SIG" Name="hfpchoix:3"/>
+                    <Sig Type="SIG" Name="hfpchoix:4"/>
+                    <Sig Type="SIG" Name="hfpchoix:5"/>
+                    <Sig Type="SIG" Name="hfpchoix:6"/>
+                    <Sig Type="SIG" Name="hfpchoix:7"/>
+                </Bus>
+                <Bus Name="hlengthchoix">
+                    <Sig Type="SIG" Name="hlengthchoix:0"/>
+                    <Sig Type="SIG" Name="hlengthchoix:1"/>
+                    <Sig Type="SIG" Name="hlengthchoix:2"/>
+                    <Sig Type="SIG" Name="hlengthchoix:3"/>
+                    <Sig Type="SIG" Name="hlengthchoix:4"/>
+                    <Sig Type="SIG" Name="hlengthchoix:5"/>
+                    <Sig Type="SIG" Name="hlengthchoix:6"/>
+                    <Sig Type="SIG" Name="hlengthchoix:7"/>
+                    <Sig Type="SIG" Name="hlengthchoix:8"/>
+                    <Sig Type="SIG" Name="hlengthchoix:9"/>
+                    <Sig Type="SIG" Name="hlengthchoix:10"/>
+                    <Sig Type="SIG" Name="hlengthchoix:11"/>
+                </Bus>
+                <Sig Type="SIG" Name="hpolsyncchoix"/>
+                <Bus Name="hreschoix">
+                    <Sig Type="SIG" Name="hreschoix:0"/>
+                    <Sig Type="SIG" Name="hreschoix:1"/>
+                    <Sig Type="SIG" Name="hreschoix:2"/>
+                    <Sig Type="SIG" Name="hreschoix:3"/>
+                    <Sig Type="SIG" Name="hreschoix:4"/>
+                    <Sig Type="SIG" Name="hreschoix:5"/>
+                    <Sig Type="SIG" Name="hreschoix:6"/>
+                    <Sig Type="SIG" Name="hreschoix:7"/>
+                    <Sig Type="SIG" Name="hreschoix:8"/>
+                    <Sig Type="SIG" Name="hreschoix:9"/>
+                    <Sig Type="SIG" Name="hreschoix:10"/>
+                    <Sig Type="SIG" Name="hreschoix:11"/>
+                </Bus>
+                <Bus Name="hsyncpulsechoix">
+                    <Sig Type="SIG" Name="hsyncpulsechoix:0"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:1"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:2"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:3"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:4"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:5"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:6"/>
+                    <Sig Type="SIG" Name="hsyncpulsechoix:7"/>
+                </Bus>
+                <Bus Name="mireid">
+                    <Sig Type="SIG" Name="mireid:0"/>
+                    <Sig Type="SIG" Name="mireid:1"/>
+                    <Sig Type="SIG" Name="mireid:2"/>
+                    <Sig Type="SIG" Name="mireid:3"/>
+                </Bus>
+                <Bus Name="vbpchoix">
+                    <Sig Type="SIG" Name="vbpchoix:0"/>
+                    <Sig Type="SIG" Name="vbpchoix:1"/>
+                    <Sig Type="SIG" Name="vbpchoix:2"/>
+                    <Sig Type="SIG" Name="vbpchoix:3"/>
+                    <Sig Type="SIG" Name="vbpchoix:4"/>
+                    <Sig Type="SIG" Name="vbpchoix:5"/>
+                </Bus>
+                <Bus Name="vfpchoix">
+                    <Sig Type="SIG" Name="vfpchoix:0"/>
+                    <Sig Type="SIG" Name="vfpchoix:1"/>
+                    <Sig Type="SIG" Name="vfpchoix:2"/>
+                    <Sig Type="SIG" Name="vfpchoix:3"/>
+                </Bus>
+                <Bus Name="vlengthchoix">
+                    <Sig Type="SIG" Name="vlengthchoix:0"/>
+                    <Sig Type="SIG" Name="vlengthchoix:1"/>
+                    <Sig Type="SIG" Name="vlengthchoix:2"/>
+                    <Sig Type="SIG" Name="vlengthchoix:3"/>
+                    <Sig Type="SIG" Name="vlengthchoix:4"/>
+                    <Sig Type="SIG" Name="vlengthchoix:5"/>
+                    <Sig Type="SIG" Name="vlengthchoix:6"/>
+                    <Sig Type="SIG" Name="vlengthchoix:7"/>
+                    <Sig Type="SIG" Name="vlengthchoix:8"/>
+                    <Sig Type="SIG" Name="vlengthchoix:9"/>
+                    <Sig Type="SIG" Name="vlengthchoix:10"/>
+                    <Sig Type="SIG" Name="vlengthchoix:11"/>
+                </Bus>
+                <Sig Type="SIG" Name="vpolsyncchoix"/>
+                <Bus Name="vreschoix">
+                    <Sig Type="SIG" Name="vreschoix:0"/>
+                    <Sig Type="SIG" Name="vreschoix:1"/>
+                    <Sig Type="SIG" Name="vreschoix:2"/>
+                    <Sig Type="SIG" Name="vreschoix:3"/>
+                    <Sig Type="SIG" Name="vreschoix:4"/>
+                    <Sig Type="SIG" Name="vreschoix:5"/>
+                    <Sig Type="SIG" Name="vreschoix:6"/>
+                    <Sig Type="SIG" Name="vreschoix:7"/>
+                    <Sig Type="SIG" Name="vreschoix:8"/>
+                    <Sig Type="SIG" Name="vreschoix:9"/>
+                    <Sig Type="SIG" Name="vreschoix:10"/>
+                    <Sig Type="SIG" Name="vreschoix:11"/>
+                </Bus>
+                <Bus Name="vsyncpulsechoix">
+                    <Sig Type="SIG" Name="vsyncpulsechoix:0"/>
+                    <Sig Type="SIG" Name="vsyncpulsechoix:1"/>
+                    <Sig Type="SIG" Name="vsyncpulsechoix:2"/>
+                    <Sig Type="SIG" Name="vsyncpulsechoix:3"/>
+                </Bus>
+                <Bus Name="udecodeur/cpt">
+                    <Sig Type="SIG" Name="udecodeur/cpt:0"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:1"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:2"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:3"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:4"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:5"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:6"/>
+                    <Sig Type="SIG" Name="udecodeur/cpt:7"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="(BUS)mireid[3:0],"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="(BUS)udecodeur/etatpresent[4:0],"/>
+                <TU Serialbits="0" Type="0" ID="3" Sig="(BUS)udecodeur/etatsuivant[4:0],"/>
+                <TU Serialbits="0" Type="0" ID="4" Sig="udecodeur/fronth,"/>
+                <TU Serialbits="0" Type="0" ID="5" Sig="(BUS)udecodeur/cpt[7:0],"/>
+                <TU Serialbits="0" Type="0" ID="6" Sig="spi/ss,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="2" Resource="1"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="3" Resource="1"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="4" Resource="1"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="5" Resource="0"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="6" Resource="0"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

@@ -1,28 +1,28 @@
-#OPTIONS:"|-mixedhdl|-modhint|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/_verilog_hintfile|-top|work.pmi_ram_dq|-top|work.jtagconn16|-top|work.testvideotop_la0|-top|work.pmi_fifo|-mpparams|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/_mh_params|-layerid|1|-orig_srs|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4|-I|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/|-I|/usr/local/diamond/3.11_x64/synpbase/lib|-v2001|-devicelib|/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v|-devicelib|/usr/local/diamond/3.11_x64/synpbase/lib/lucent/pmi_def.v|-encrypt|-pro|-dup|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/linux_a_64/c_ver":1554136090
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/_verilog_hintfile":1613510012
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/ecp3.v":1554135386
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/lucent/pmi_def.v":1554135386
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/hypermods.v":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/umr_capim.v":1531398332
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_objects.v":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/synpbase/lib/vlog/scemi_pipes.svh":1554135527
-#CUR:"/usr/local/diamond/3.11_x64/cae_library/synthesis/verilog/pmi_def.v":1557826072
-#CUR:"/usr/local/diamond/3.11_x64/module/reveal/src/ertl/ertl.v":1493235271
-#CUR:"/usr/local/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v":1385424153
-#CUR:"/usr/local/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/wb2sci.v":1384215546
-#CUR:"/usr/local/diamond/3.11_x64/module/reveal/src/ertl/JTAG_SOFT.v":1459373099
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/testvideotop_la0_trig_gen.v":1613510005
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/testvideotop_la0_gen.v":1613510005
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\synwork\\_verilog_hintfile|-top|work.pmi_ram_dq|-top|work.pmi_fifo|-top|work.jtagconn16|-top|work.top_la0|-mpparams|C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\synwork\\Ext10GenDvi_A_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4|-I|C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\|-I|C:\\lscc\\diamond\\3.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp3.v|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-dup|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1603963122
+#CUR:"C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\synwork\\_verilog_hintfile":1618493106
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp3.v":1603963254
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1603963254
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\verilog\\pmi_def.v":1606287228
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\ertl\\ertl.v":1493202872
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\rvl_j2w_module\\rvl_j2w_module.v":1385391754
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\rvl_j2w_module\\wb2sci.v":1384183146
+#CUR:"C:\\lscc\\diamond\\3.12\\module\\reveal\\src\\ertl\\JTAG_SOFT.v":1459340700
+#CUR:"C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\reveal_workspace\\tmpreveal\\top_la0_trig_gen.v":1618493104
+#CUR:"C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\reveal_workspace\\tmpreveal\\top_la0_gen.v":1618493104
 #numinternalfiles:6
 #defaultlanguage:verilog
-0			"/usr/local/diamond/3.11_x64/cae_library/synthesis/verilog/pmi_def.v" verilog
-1			"/usr/local/diamond/3.11_x64/module/reveal/src/ertl/ertl.v" verilog
-2			"/usr/local/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v" verilog
-3			"/usr/local/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/wb2sci.v" verilog
-4			"/usr/local/diamond/3.11_x64/module/reveal/src/ertl/JTAG_SOFT.v" verilog
-5			"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/testvideotop_la0_trig_gen.v" verilog
-6			"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/testvideotop_la0_gen.v" verilog
+0			"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v" verilog
+1			"C:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v" verilog
+2			"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\rvl_j2w_module.v" verilog
+3			"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\wb2sci.v" verilog
+4			"C:\lscc\diamond\3.12\module\reveal\src\ertl\JTAG_SOFT.v" verilog
+5			"C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\reveal_workspace\tmpreveal\top_la0_trig_gen.v" verilog
+6			"C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\reveal_workspace\tmpreveal\top_la0_gen.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 0
@@ -79,19 +79,19 @@ module work rvl_serial_tu 1
 module work rvl_te 1
 module work rvl_decode 1
 module work rvl_tm 1
-module work rvl_jtag2wb 2
 module work rvl_j2w 2
+module work rvl_jtag2wb 2
 module work jtaghub_if 2
 module work wb_control 2
 module work idata 2
 module work jtaghub16 2
 module work wb2sci 3
-module work jtag_cntl_soft 4
 module work JTAG_SOFT 4
+module work jtag_cntl_soft 4
 module work jtag_tap_cntl_soft 4
 module work jtag_inst_dec_soft 4
 module work jtag_logic_soft 4
 module work jtag_register_soft 4
-module work testvideotop_la0_trig 5
-module work testvideotop_la0 6
+module work top_la0_trig 5
+module work top_la0 6
 #Unbound instances to file Association.

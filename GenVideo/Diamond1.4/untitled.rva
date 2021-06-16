@@ -1,0 +1,217 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>mar. 13. avr. 09:30:37 2021</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE3-70E</DeviceName>
+  <DeviceID>0x01014043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>test.rvl</RVLFileName>
+  <RVSFileName>test.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatpresent" NodeType="1" PortIndex="0">
+     <BusRadix Radix="RVL_ENUM_udecodeur_etatpresent"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatpresent:0" NodeType="2" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatpresent:1" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatpresent:2" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatpresent:3" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatpresent:4" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatsuivant" NodeType="1" PortIndex="5">
+     <BusRadix Radix="RVL_ENUM_udecodeur_etatsuivant"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatsuivant:0" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatsuivant:1" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatsuivant:2" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatsuivant:3" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/etatsuivant:4" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_valid_out" NodeType="0" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out" NodeType="1" PortIndex="11">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:0" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:1" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:2" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:3" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:4" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:5" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:6" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/data_out:7" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix" NodeType="1" PortIndex="19">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="hbpchoix:0" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:1" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:2" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:3" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:4" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:5" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:6" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:7" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="hbpchoix:8" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix" NodeType="1" PortIndex="28">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="hfpchoix:0" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:1" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:2" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:3" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:4" NodeType="2" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:5" NodeType="2" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:6" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="hfpchoix:7" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix" NodeType="1" PortIndex="36">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:0" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:1" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:2" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:3" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:4" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:5" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:6" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:7" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:8" NodeType="2" PortIndex="44"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:9" NodeType="2" PortIndex="45"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:10" NodeType="2" PortIndex="46"/>
+    <TraceSignal IsHidden="false" Name="hlengthchoix:11" NodeType="2" PortIndex="47"/>
+    <TraceSignal IsHidden="false" Name="hpolsyncchoix" NodeType="0" PortIndex="48"/>
+    <TraceSignal IsHidden="false" Name="hreschoix" NodeType="1" PortIndex="49">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="hreschoix:0" NodeType="2" PortIndex="49"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:1" NodeType="2" PortIndex="50"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:2" NodeType="2" PortIndex="51"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:3" NodeType="2" PortIndex="52"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:4" NodeType="2" PortIndex="53"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:5" NodeType="2" PortIndex="54"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:6" NodeType="2" PortIndex="55"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:7" NodeType="2" PortIndex="56"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:8" NodeType="2" PortIndex="57"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:9" NodeType="2" PortIndex="58"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:10" NodeType="2" PortIndex="59"/>
+    <TraceSignal IsHidden="false" Name="hreschoix:11" NodeType="2" PortIndex="60"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix" NodeType="1" PortIndex="61">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:0" NodeType="2" PortIndex="61"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:1" NodeType="2" PortIndex="62"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:2" NodeType="2" PortIndex="63"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:3" NodeType="2" PortIndex="64"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:4" NodeType="2" PortIndex="65"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:5" NodeType="2" PortIndex="66"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:6" NodeType="2" PortIndex="67"/>
+    <TraceSignal IsHidden="false" Name="hsyncpulsechoix:7" NodeType="2" PortIndex="68"/>
+    <TraceSignal IsHidden="false" Name="mireid" NodeType="1" PortIndex="69">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="mireid:0" NodeType="2" PortIndex="69"/>
+    <TraceSignal IsHidden="false" Name="mireid:1" NodeType="2" PortIndex="70"/>
+    <TraceSignal IsHidden="false" Name="mireid:2" NodeType="2" PortIndex="71"/>
+    <TraceSignal IsHidden="false" Name="mireid:3" NodeType="2" PortIndex="72"/>
+    <TraceSignal IsHidden="false" Name="vbpchoix" NodeType="1" PortIndex="73">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="vbpchoix:0" NodeType="2" PortIndex="73"/>
+    <TraceSignal IsHidden="false" Name="vbpchoix:1" NodeType="2" PortIndex="74"/>
+    <TraceSignal IsHidden="false" Name="vbpchoix:2" NodeType="2" PortIndex="75"/>
+    <TraceSignal IsHidden="false" Name="vbpchoix:3" NodeType="2" PortIndex="76"/>
+    <TraceSignal IsHidden="false" Name="vbpchoix:4" NodeType="2" PortIndex="77"/>
+    <TraceSignal IsHidden="false" Name="vbpchoix:5" NodeType="2" PortIndex="78"/>
+    <TraceSignal IsHidden="false" Name="vfpchoix" NodeType="1" PortIndex="79">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="vfpchoix:0" NodeType="2" PortIndex="79"/>
+    <TraceSignal IsHidden="false" Name="vfpchoix:1" NodeType="2" PortIndex="80"/>
+    <TraceSignal IsHidden="false" Name="vfpchoix:2" NodeType="2" PortIndex="81"/>
+    <TraceSignal IsHidden="false" Name="vfpchoix:3" NodeType="2" PortIndex="82"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix" NodeType="1" PortIndex="83">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:0" NodeType="2" PortIndex="83"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:1" NodeType="2" PortIndex="84"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:2" NodeType="2" PortIndex="85"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:3" NodeType="2" PortIndex="86"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:4" NodeType="2" PortIndex="87"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:5" NodeType="2" PortIndex="88"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:6" NodeType="2" PortIndex="89"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:7" NodeType="2" PortIndex="90"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:8" NodeType="2" PortIndex="91"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:9" NodeType="2" PortIndex="92"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:10" NodeType="2" PortIndex="93"/>
+    <TraceSignal IsHidden="false" Name="vlengthchoix:11" NodeType="2" PortIndex="94"/>
+    <TraceSignal IsHidden="false" Name="vpolsyncchoix" NodeType="0" PortIndex="95"/>
+    <TraceSignal IsHidden="false" Name="vreschoix" NodeType="1" PortIndex="96">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="vreschoix:0" NodeType="2" PortIndex="96"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:1" NodeType="2" PortIndex="97"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:2" NodeType="2" PortIndex="98"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:3" NodeType="2" PortIndex="99"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:4" NodeType="2" PortIndex="100"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:5" NodeType="2" PortIndex="101"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:6" NodeType="2" PortIndex="102"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:7" NodeType="2" PortIndex="103"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:8" NodeType="2" PortIndex="104"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:9" NodeType="2" PortIndex="105"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:10" NodeType="2" PortIndex="106"/>
+    <TraceSignal IsHidden="false" Name="vreschoix:11" NodeType="2" PortIndex="107"/>
+    <TraceSignal IsHidden="false" Name="vsyncpulsechoix" NodeType="1" PortIndex="108">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="vsyncpulsechoix:0" NodeType="2" PortIndex="108"/>
+    <TraceSignal IsHidden="false" Name="vsyncpulsechoix:1" NodeType="2" PortIndex="109"/>
+    <TraceSignal IsHidden="false" Name="vsyncpulsechoix:2" NodeType="2" PortIndex="110"/>
+    <TraceSignal IsHidden="false" Name="vsyncpulsechoix:3" NodeType="2" PortIndex="111"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt" NodeType="1" PortIndex="112">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:0" NodeType="2" PortIndex="112"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:1" NodeType="2" PortIndex="113"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:2" NodeType="2" PortIndex="114"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:3" NodeType="2" PortIndex="115"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:4" NodeType="2" PortIndex="116"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:5" NodeType="2" PortIndex="117"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:6" NodeType="2" PortIndex="118"/>
+    <TraceSignal IsHidden="false" Name="udecodeur/cpt:7" NodeType="2" PortIndex="119"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="0" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

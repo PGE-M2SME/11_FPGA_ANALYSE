@@ -1,37 +1,211 @@
-i PinTfpClkP_i_nogcc
+i PinClk125
 m 0 0
-u 57 222
-n ckid0_0 {t:umires.RGB[23].C} Clock source is invalid for GCC
-p {t:nogcc_PinTfpClkP.Q[0]}{t:umires.PinTfpClkP_i_nogcc}{p:umires.PinTfpClkP_i_nogcc}{t:umires.RGB[23].C}
-e ckid0_0 {t:umires.RGB[23].C} dffr
-d ckid0_0 {t:nogcc_PinTfpClkP.Q[0]} lat Clock source is invalid for GCC
-i uPll.CLKOK_i
+u 134 509
+p {p:PinClk125}{t:uDecodeur.clk}{p:uDecodeur.clk}{t:uDecodeur.cptRST[9].C}
+e ckid0_0 {t:uDecodeur.cptRST[9].C} dffr
+c ckid0_0 {p:PinClk125} port Unsupported/too complex instance on clock path
+i top_reveal_coretop_instance.jtck_i[0]
 m 0 0
-u 87 631
-p {t:uPll.PLLInst_0.CLKOK}{t:uPll.CLKOK_inferred_clock.I[0]}{t:uPll.CLKOK_inferred_clock.OUT[0]}{p:uPll.CLKOK}{t:uPll.CLKOK}{t:Timer[31:0].C}
-e ckid0_1 {t:Timer[31:0].C} sdffr
-c ckid0_1 {t:uPll.PLLInst_0.CLKOK} EHXPLLF Unsupported/too complex instance on clock path
-i uSimulacion.Reloj1hz_i
+u 76 536
+p {t:top_reveal_coretop_instance.jtag0.jtck}{t:top_reveal_coretop_instance.jtck_inferred_clock[0].I[0]}{t:top_reveal_coretop_instance.jtck_inferred_clock[0].OUT[0]}{t:top_reveal_coretop_instance.core0.jtck}{p:top_reveal_coretop_instance.core0.jtck}{t:top_reveal_coretop_instance.core0.tm_u.jtck}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_1 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_1 {t:top_reveal_coretop_instance.jtag0.jtck} jtagconn16 Unsupported/too complex instance on clock path
+i SCLK
 m 0 0
-u 2 7
-n ckid0_2 {t:uSimulacion.VFPChoix_1[1:0].C} Derived clock on input (not legal for GCC)
-p {t:uSimulacion.Reloj1hz.Q[0]}{t:uSimulacion.Reloj1hz_derived_clock.I[0]}{t:uSimulacion.Reloj1hz_derived_clock.OUT[0]}{t:uSimulacion.VFPChoix_1[1:0].C}
-e ckid0_2 {t:uSimulacion.VFPChoix_1[1:0].C} dff
-d ckid0_3 {t:uSimulacion.Reloj1hz.Q[0]} dffe Derived clock on input (not legal for GCC)
-i un74_relojsistema_buf
+u 1 8
+p {p:SCLK}{t:SPI.SCLK}{p:SPI.SCLK}{t:SPI.C1.clk}{p:SPI.C1.clk}{t:SPI.C1.un1_clk.I[0]}{t:SPI.C1.un1_clk.OUT[0]}{t:SPI.C1.dataq[7:0].C}
+e ckid0_2 {t:SPI.C1.dataq[7:0].C} dffe
+c ckid0_2 {p:SCLK} port Unsupported/too complex instance on clock path
+i TOPvideo.PinTfpClkP_i_nogcc
+m 0 0
+u 58 231
+n ckid0_3 {t:TOPvideo.umires.RGB[23].C} Clock source is invalid for GCC
+p {t:TOPvideo.nogcc_PinTfpClkP.Q[0]}{t:TOPvideo.umires.PinTfpClkP_i_nogcc}{p:TOPvideo.umires.PinTfpClkP_i_nogcc}{t:TOPvideo.umires.RGB[23].C}
+e ckid0_3 {t:TOPvideo.umires.RGB[23].C} dffr
+d ckid0_3 {t:TOPvideo.nogcc_PinTfpClkP.Q[0]} lat Clock source is invalid for GCC
+i TOPvideo.uPll.CLKOK_i
+m 0 0
+u 84 602
+p {t:TOPvideo.uPll.PLLInst_0.CLKOK}{t:TOPvideo.uPll.CLKOK_inferred_clock.I[0]}{t:TOPvideo.uPll.CLKOK_inferred_clock.OUT[0]}{p:TOPvideo.uPll.CLKOK}{t:TOPvideo.uPll.CLKOK}{t:TOPvideo.Timer[31:0].C}
+e ckid0_4 {t:TOPvideo.Timer[31:0].C} sdffr
+c ckid0_4 {t:TOPvideo.uPll.PLLInst_0.CLKOK} EHXPLLF Unsupported/too complex instance on clock path
+i TOPvideo.un74_relojsistema_buf
 m 0 0
 u 2 2
-n ckid0_4 {t:nogcc_PinTfpClkP.C} Clock source is invalid for GCC
-p {t:un74_relojsistema.OUT}{t:nogcc_PinTfpClkP.C}
-e ckid0_4 {t:nogcc_PinTfpClkP.C} lat
-d ckid0_4 {t:un74_relojsistema.OUT} or Clock source is invalid for GCC
-i uSimulacion.HPolSyncCHoix
+n ckid0_5 {t:TOPvideo.nogcc_PinTfpClkP.C} Clock source is invalid for GCC
+p {t:TOPvideo.un74_relojsistema.OUT}{t:TOPvideo.nogcc_PinTfpClkP.C}
+e ckid0_5 {t:TOPvideo.nogcc_PinTfpClkP.C} lat
+d ckid0_5 {t:TOPvideo.un74_relojsistema.OUT} or Clock source is invalid for GCC
+i uDecodeur.un7_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_6 {t:uDecodeur.PClock[3].C} Clock source is invalid for GCC
+p {t:uDecodeur.un7_etatsuivant.OUT}{t:uDecodeur.PClock[3].C}
+e ckid0_6 {t:uDecodeur.PClock[3].C} lat
+d ckid0_6 {t:uDecodeur.un7_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un9_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_7 {t:uDecodeur.Mire_ID[3].C} Clock source is invalid for GCC
+p {t:uDecodeur.un9_etatsuivant.OUT}{t:uDecodeur.Mire_ID[3].C}
+e ckid0_7 {t:uDecodeur.Mire_ID[3].C} lat
+d ckid0_7 {t:uDecodeur.un9_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un11_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_8 {t:uDecodeur.iHLength[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un11_etatsuivant.OUT}{t:uDecodeur.iHLength[7].C}
+e ckid0_8 {t:uDecodeur.iHLength[7].C} lat
+d ckid0_8 {t:uDecodeur.un11_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un13_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_9 {t:uDecodeur.iHLength[11].C} Clock source is invalid for GCC
+p {t:uDecodeur.un13_etatsuivant.OUT}{t:uDecodeur.iHLength[11].C}
+e ckid0_9 {t:uDecodeur.iHLength[11].C} lat
+d ckid0_9 {t:uDecodeur.un13_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un15_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_10 {t:uDecodeur.iHRes[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un15_etatsuivant.OUT}{t:uDecodeur.iHRes[7].C}
+e ckid0_10 {t:uDecodeur.iHRes[7].C} lat
+d ckid0_10 {t:uDecodeur.un15_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un17_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_11 {t:uDecodeur.iHRes[11].C} Clock source is invalid for GCC
+p {t:uDecodeur.un17_etatsuivant.OUT}{t:uDecodeur.iHRes[11].C}
+e ckid0_11 {t:uDecodeur.iHRes[11].C} lat
+d ckid0_11 {t:uDecodeur.un17_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un19_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_12 {t:uDecodeur.HFP[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un19_etatsuivant.OUT}{t:uDecodeur.HFP[7].C}
+e ckid0_12 {t:uDecodeur.HFP[7].C} lat
+d ckid0_12 {t:uDecodeur.un19_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un21_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_13 {t:uDecodeur.HSyncPulse[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un21_etatsuivant.OUT}{t:uDecodeur.HSyncPulse[7].C}
+e ckid0_13 {t:uDecodeur.HSyncPulse[7].C} lat
+d ckid0_13 {t:uDecodeur.un21_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un23_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_14 {t:uDecodeur.iHBP[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un23_etatsuivant.OUT}{t:uDecodeur.iHBP[7].C}
+e ckid0_14 {t:uDecodeur.iHBP[7].C} lat
+d ckid0_14 {t:uDecodeur.un23_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un29_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_15 {t:uDecodeur.iVLength[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un29_etatsuivant.OUT}{t:uDecodeur.iVLength[7].C}
+e ckid0_15 {t:uDecodeur.iVLength[7].C} lat
+d ckid0_15 {t:uDecodeur.un29_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un31_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_16 {t:uDecodeur.iVLength[11].C} Clock source is invalid for GCC
+p {t:uDecodeur.un31_etatsuivant.OUT}{t:uDecodeur.iVLength[11].C}
+e ckid0_16 {t:uDecodeur.iVLength[11].C} lat
+d ckid0_16 {t:uDecodeur.un31_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un33_etatsuivant_buf
+m 0 0
+u 8 8
+n ckid0_17 {t:uDecodeur.iVRes[7].C} Clock source is invalid for GCC
+p {t:uDecodeur.un33_etatsuivant.OUT}{t:uDecodeur.iVRes[7].C}
+e ckid0_17 {t:uDecodeur.iVRes[7].C} lat
+d ckid0_17 {t:uDecodeur.un33_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un35_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_18 {t:uDecodeur.iVRes[11].C} Clock source is invalid for GCC
+p {t:uDecodeur.un35_etatsuivant.OUT}{t:uDecodeur.iVRes[11].C}
+e ckid0_18 {t:uDecodeur.iVRes[11].C} lat
+d ckid0_18 {t:uDecodeur.un35_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un37_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_19 {t:uDecodeur.VFP[3].C} Clock source is invalid for GCC
+p {t:uDecodeur.un37_etatsuivant.OUT}{t:uDecodeur.VFP[3].C}
+e ckid0_19 {t:uDecodeur.VFP[3].C} lat
+d ckid0_19 {t:uDecodeur.un37_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un39_etatsuivant_buf
+m 0 0
+u 4 4
+n ckid0_20 {t:uDecodeur.VSyncPulse[3].C} Clock source is invalid for GCC
+p {t:uDecodeur.un39_etatsuivant.OUT}{t:uDecodeur.VSyncPulse[3].C}
+e ckid0_20 {t:uDecodeur.VSyncPulse[3].C} lat
+d ckid0_20 {t:uDecodeur.un39_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un41_etatsuivant_buf
+m 0 0
+u 6 6
+n ckid0_21 {t:uDecodeur.VBP[5].C} Clock source is invalid for GCC
+p {t:uDecodeur.un41_etatsuivant.OUT}{t:uDecodeur.VBP[5].C}
+e ckid0_21 {t:uDecodeur.VBP[5].C} lat
+d ckid0_21 {t:uDecodeur.un41_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un43_etatsuivant_buf
+m 0 0
+u 1 1
+n ckid0_22 {t:uDecodeur.VPolSync.C} Clock source is invalid for GCC
+p {t:uDecodeur.un43_etatsuivant.OUT}{t:uDecodeur.VPolSync.C}
+e ckid0_22 {t:uDecodeur.VPolSync.C} latr
+d ckid0_22 {t:uDecodeur.un43_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un27_etatsuivant_buf
+m 0 0
+u 1 1
+n ckid0_23 {t:uDecodeur.HPolSync.C} Clock source is invalid for GCC
+p {t:uDecodeur.un27_etatsuivant.OUT}{t:uDecodeur.HPolSync.C}
+e ckid0_23 {t:uDecodeur.HPolSync.C} latr
+d ckid0_23 {t:uDecodeur.un27_etatsuivant.OUT} and Unable to find a clock in input cone
+i uDecodeur.un25_etatsuivant_buf
+m 0 0
+u 1 1
+n ckid0_24 {t:uDecodeur.iHBP[8].C} Clock source is invalid for GCC
+p {t:uDecodeur.un25_etatsuivant.OUT}{t:uDecodeur.iHBP[8].C}
+e ckid0_24 {t:uDecodeur.iHBP[8].C} lat
+d ckid0_24 {t:uDecodeur.un25_etatsuivant.OUT} and Unable to find a clock in input cone
+i top_reveal_coretop_instance.ip_enable[0]
 m 0 0
 u 0 0
-i uPll.LOCK
+i top_reveal_coretop_instance.jce2[0]
 m 0 0
 u 0 0
-i uPll.CLKOP
+i top_reveal_coretop_instance.jrstn[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jshift[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jtdi[0]
+m 0 0
+u 0 0
+i uDecodeur.cpt[4]
+m 0 0
+u 0 0
+i uDecodeur.cpt[3]
+m 0 0
+u 0 0
+i uDecodeur.cpt[1]
+m 0 0
+u 0 0
+i uDecodeur.cpt[0]
+m 0 0
+u 0 0
+i uDecodeur.cpt[2]
+m 0 0
+u 0 0
+i SPI.C1.dataq[3]
+m 0 0
+u 0 0
+i TOPvideo.uPll.LOCK
+m 0 0
+u 0 0
+i TOPvideo.uPll.CLKOP
 m 0 0
 u 0 0
 l 0 0 0 0 0

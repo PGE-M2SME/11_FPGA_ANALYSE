@@ -1,4 +1,43 @@
-	Link Summary for source view work.pmi_fifo_8s_16s_16s_0s_252s_4s_noreg_ECP3_pmi_fifo_LUT_6_layer1.verilog of instance uFifoRxRaw :
+	Link Summary for source view work.Pll125toclock.syn_black_box of instance uPllclock :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.DCS.syn_black_box of instance uDCS1 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.DCS.syn_black_box of instance uDCS0 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.pmi_fifo_8s_16s_16s_0s_252s_4s_noreg_ECP3_pmi_fifo_LUT_2_layer1.verilog of instance uFifoRxRaw :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.VLO.syn_black_box of instance scuba_vlo_inst :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.EHXPLLF.syn_black_box of instance PLLInst_0 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.VLO.syn_black_box of instance scuba_vlo_inst :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.EHXPLLF.syn_black_box of instance PLLInst_0 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.VLO.syn_black_box of instance scuba_vlo_inst :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.EHXPLLF.syn_black_box of instance PLLInst_0 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.VLO.syn_black_box of instance scuba_vlo_inst :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.EHXPLLF.syn_black_box of instance PLLInst_0 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.VLO.syn_black_box of instance scuba_vlo_inst :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.EHXPLLF.syn_black_box of instance PLLInst_0 :
 	============================
 		No Target View Link Candidates for this view
 	Link Summary for source view work.VLO.syn_black_box of instance scuba_vlo_inst :
@@ -16,6 +55,6 @@
 	Link Summary for source view work.pmi_ram_dq_Z1_layer1.verilog of instance uForthMem :
 	============================
 		No Target View Link Candidates for this view
-	Link Summary for source view work.pmi_fifo_8s_16s_16s_0s_252s_4s_noreg_ECP3_pmi_fifo_LUT_6_layer1.verilog of instance uFifoRxRaw :
+	Link Summary for source view work.pmi_fifo_8s_16s_16s_0s_252s_4s_noreg_ECP3_pmi_fifo_LUT_2_layer1.verilog of instance uFifoRxRaw :
 	============================
 		No Target View Link Candidates for this view

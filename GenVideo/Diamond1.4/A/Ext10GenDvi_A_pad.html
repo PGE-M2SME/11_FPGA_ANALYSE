@@ -2,7 +2,7 @@
 <HEAD><TITLE>PAD Specification File</TITLE>
 <STYLE TYPE="text/css">
 <!--
- body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
 -->
 </STYLE>
 </HEAD>
@@ -14,48 +14,53 @@ Performance Grade:      8
 PACKAGE:          FPBGA672
 Package Status:                     Final          Version 1.65
 
-Sun Apr 11 19:02:31 2021
+Thu Apr 15 15:27:53 2021
 
 Pinout by Port Name:
 +------------+----------+---------------+---------+------------------------------------------------------------------------------+
 | Port Name  | Pin/Bank | Buffer Type   | Site    | Properties                                                                   |
 +------------+----------+---------------+---------+------------------------------------------------------------------------------+
-| PinClk     | T6/6     | LVCMOS33_OUT  | PL64B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| MISO       | U1/6     | LVCMOS33_OUT  | PL56B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| MOSI       | N6/6     | LVCMOS33_IN   | PL46B   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
+| PinClk     | J4/7     | LVCMOS33_OUT  | PL28A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinClk125  | M3/7     | LVCMOS33_IN   | PL43E_C | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
-| PinDat[0]  | AE4/6    | LVCMOS33_OUT  | PB11A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[10] | AC26/3   | LVCMOS33_OUT  | PR89A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[11] | AC25/3   | LVCMOS33_OUT  | PR89B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[12] | AE25/3   | LVCMOS33_OUT  | PR95A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[13] | AF24/3   | LVCMOS33_OUT  | PR95B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[14] | AF23/3   | LVCMOS33_OUT  | PB140A  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[15] | AE23/3   | LVCMOS33_OUT  | PB140B  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[16] | V22/3    | LVCMOS33_OUT  | PR58B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[17] | V21/3    | LVCMOS33_OUT  | PR58A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[18] | Y24/3    | LVCMOS33_OUT  | PR80B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[19] | AA25/3   | LVCMOS33_OUT  | PR80A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[1]  | AF4/6    | LVCMOS33_OUT  | PB11B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[20] | AC24/3   | LVCMOS33_OUT  | PR92B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[21] | AB24/3   | LVCMOS33_OUT  | PR92A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[22] | AC23/3   | LVCMOS33_OUT  | PB137B  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[23] | AD23/3   | LVCMOS33_OUT  | PB137A  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[2]  | AD1/6    | LVCMOS33_OUT  | PL95A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[3]  | AD2/6    | LVCMOS33_OUT  | PL95B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[4]  | AA1/6    | LVCMOS33_OUT  | PL80A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[5]  | AA2/6    | LVCMOS33_OUT  | PL80B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[6]  | V1/6     | LVCMOS33_OUT  | PL59A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[7]  | U2/6     | LVCMOS33_OUT  | PL59B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[8]  | AA26/3   | LVCMOS33_OUT  | PR83A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDat[9]  | AB26/3   | LVCMOS33_OUT  | PR83B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinDe      | U1/6     | LVCMOS33_OUT  | PL56B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinHSync   | T1/6     | LVCMOS33_OUT  | PL56A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[0]  | AA26/3   | LVCMOS33_OUT  | PR83A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[10] | AA25/3   | LVCMOS33_OUT  | PR80A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[11] | Y24/3    | LVCMOS33_OUT  | PR80B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[12] | AB24/3   | LVCMOS33_OUT  | PR92A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[13] | AC24/3   | LVCMOS33_OUT  | PR92B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[14] | AD23/3   | LVCMOS33_OUT  | PB137A  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[15] | AC23/3   | LVCMOS33_OUT  | PB137B  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[16] | AE4/6    | LVCMOS33_OUT  | PB11A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[17] | AF4/6    | LVCMOS33_OUT  | PB11B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[18] | AD1/6    | LVCMOS33_OUT  | PL95A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[19] | AD2/6    | LVCMOS33_OUT  | PL95B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[1]  | AB26/3   | LVCMOS33_OUT  | PR83B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[20] | AA1/6    | LVCMOS33_OUT  | PL80A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[21] | AA2/6    | LVCMOS33_OUT  | PL80B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[22] | V1/6     | LVCMOS33_OUT  | PL59A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[23] | U2/6     | LVCMOS33_OUT  | PL59B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[2]  | AC26/3   | LVCMOS33_OUT  | PR89A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[3]  | AC25/3   | LVCMOS33_OUT  | PR89B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[4]  | AE25/3   | LVCMOS33_OUT  | PR95A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[5]  | AF24/3   | LVCMOS33_OUT  | PR95B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[6]  | AF23/3   | LVCMOS33_OUT  | PB140A  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[7]  | AE23/3   | LVCMOS33_OUT  | PB140B  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[8]  | V21/3    | LVCMOS33_OUT  | PR58A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDat[9]  | V22/3    | LVCMOS33_OUT  | PR58B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinDe      | T1/6     | LVCMOS33_OUT  | PL56A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinHSync   | W3/6     | LVCMOS33_OUT  | PL62B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 | PinLedXv   | E23/8    | LVCMOS33_OUT  | PT143A  | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinPortRx  | A9/0     | LVCMOS33_IN   | PT56A   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
-| PinPortTx  | B12/0    | LVCMOS33_OUT  | PT62B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinScl     | AA4/6    | LVCMOS33_OUT  | PL89B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinSda     | Y3/6     | LVCMOS33_BIDI | PL62A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA  |
-| PinTfpClkN | N6/6     | LVCMOS33_OUT  | PL46B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinTfpClkP | N5/6     | LVCMOS33_OUT  | PL46A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
-| PinVSync   | W3/6     | LVCMOS33_OUT  | PL62B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinPortRx  | D10/0    | LVCMOS33_IN   | PT38B   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
+| PinPortTx  | E10/0    | LVCMOS33_OUT  | PT40B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinScl     | AC2/6    | LVCMOS33_OUT  | PL86A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinSda     | AC3/6    | LVCMOS33_BIDI | PL86B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA  |
+| PinTfpClkN | U19/3    | LVCMOS33_OUT  | PR46B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinTfpClkP | U20/3    | LVCMOS33_OUT  | PR46A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| PinVSync   | Y3/6     | LVCMOS33_OUT  | PL62A   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
+| SCLK       | N5/6     | LVCMOS33_IN   | PL46A   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
+| SS         | AA3/6    | LVCMOS33_IN   | PL89A   | SLEW:FAST PULL:UP PCICLAMP:ON EQ_CAL:0 DIFFDRIVE:NA MULTDRIVE:NA             |
+| SS_out     | G1/7     | LVCMOS33_OUT  | PL35B   | DRIVE:12mA SLEW:SLOW PULL:UP PCICLAMP:ON DIFFDRIVE:NA MULTDRIVE:NA           |
 +------------+----------+---------------+---------+------------------------------------------------------------------------------+
 
 Vccio by Bank:
@@ -97,7 +102,7 @@ Vtt by Bank:
 | A6/0            |     unused, PULL:UP |            |               | PT17B        | TDQ16                 |
 | A7/0            |     unused, PULL:UP |            |               | PT14B        | TDQ16                 |
 | A8/0            |     unused, PULL:UP |            |               | PT41A        | TDQ43                 |
-| A9/0            | PinPortRx           |            | LVCMOS33_IN   | PT56A        | TDQ61                 |
+| A9/0            |     unused, PULL:UP |            |               | PT56A        | TDQ61                 |
 | A10/0           |     unused, PULL:UP |            |               | PT59A        | TDQ61                 |
 | A11/0           |     unused, PULL:UP |            |               | PT59B        | TDQ61                 |
 | A12/0           |     unused, PULL:UP |            |               | PT65A        | TDQ70                 |
@@ -111,18 +116,18 @@ Vtt by Bank:
 | A20/1           |     unused, PULL:UP |            |               | PT83B        | TDQ88                 |
 | A21/1           |     unused, PULL:UP |            |               | PT86A        | TDQ88                 |
 | A22/1           |     unused, PULL:UP |            |               | PT131B       | TDQ133                |
-| AA1/6           | PinDat[4]           | LOCATED    | LVCMOS33_OUT  | PL80A        | LDQ85                 |
-| AA2/6           | PinDat[5]           | LOCATED    | LVCMOS33_OUT  | PL80B        | LDQ85                 |
-| AA3/6           |     unused, PULL:UP |            |               | PL89A        | LDQ94                 |
-| AA4/6           | PinScl              | LOCATED    | LVCMOS33_OUT  | PL89B        | LDQ94                 |
+| AA1/6           | PinDat[20]          | LOCATED    | LVCMOS33_OUT  | PL80A        | LDQ85                 |
+| AA2/6           | PinDat[21]          | LOCATED    | LVCMOS33_OUT  | PL80B        | LDQ85                 |
+| AA3/6           | SS                  | LOCATED    | LVCMOS33_IN   | PL89A        | LDQ94                 |
+| AA4/6           |     unused, PULL:UP |            |               | PL89B        | LDQ94                 |
 | AA5/6           |     unused, PULL:UP |            |               | PL88B        | LDQ85                 |
 | AA7/6           |     unused, PULL:UP |            |               | PB4A         |                       |
 | AA20/3          |     unused, PULL:UP |            |               | PB145B       |                       |
 | AA22/3          |     unused, PULL:UP |            |               | PR94B        | RDQ94                 |
 | AA23/3          |     unused, PULL:UP |            |               | PR88B        | RDQ85                 |
 | AA24/3          |     unused, PULL:UP |            |               | PR88A        | RDQ85                 |
-| AA25/3          | PinDat[19]          | LOCATED    | LVCMOS33_OUT  | PR80A        | RDQ85                 |
-| AA26/3          | PinDat[8]           | LOCATED    | LVCMOS33_OUT  | PR83A        | RDQ85                 |
+| AA25/3          | PinDat[10]          | LOCATED    | LVCMOS33_OUT  | PR80A        | RDQ85                 |
+| AA26/3          | PinDat[0]           | LOCATED    | LVCMOS33_OUT  | PR83A        | RDQ85                 |
 | AB1/6           |     unused, PULL:UP |            |               | PL83A        | LDQ85                 |
 | AB3/6           |     unused, PULL:UP |            |               | PL92A        | LDQ94                 |
 | AB4/6           |     unused, PULL:UP |            |               | PL92B        | LDQ94                 |
@@ -133,22 +138,22 @@ Vtt by Bank:
 | AB21/3          |     unused, PULL:UP |            |               | PB139B       |                       |
 | AB22/3          |     unused, PULL:UP |            |               | PB143B       |                       |
 | AB23/3          |     unused, PULL:UP |            |               | PB143A       |                       |
-| AB24/3          | PinDat[21]          | LOCATED    | LVCMOS33_OUT  | PR92A        | RDQ94                 |
-| AB26/3          | PinDat[9]           | LOCATED    | LVCMOS33_OUT  | PR83B        | RDQ85                 |
+| AB24/3          | PinDat[12]          | LOCATED    | LVCMOS33_OUT  | PR92A        | RDQ94                 |
+| AB26/3          | PinDat[1]           | LOCATED    | LVCMOS33_OUT  | PR83B        | RDQ85                 |
 | AC1/6           |     unused, PULL:UP |            |               | PL83B        | LDQ85                 |
-| AC2/6           |     unused, PULL:UP |            |               | PL86A        | LDQ85                 |
-| AC3/6           |     unused, PULL:UP |            |               | PL86B        | LDQ85                 |
+| AC2/6           | PinScl              | LOCATED    | LVCMOS33_OUT  | PL86A        | LDQ85                 |
+| AC3/6           | PinSda              | LOCATED    | LVCMOS33_BIDI | PL86B        | LDQ85                 |
 | AC4/6           |     unused, PULL:UP |            |               | PB5B         |                       |
 | AC9/51          |                     |            |               | PCSB_REFCLKP |                       |
 | AC10/51         |                     |            |               | PCSB_REFCLKN |                       |
 | AC17/50         |                     |            |               | PCSA_REFCLKP |                       |
 | AC18/50         |                     |            |               | PCSA_REFCLKN |                       |
-| AC23/3          | PinDat[22]          | LOCATED    | LVCMOS33_OUT  | PB137B       |                       |
-| AC24/3          | PinDat[20]          | LOCATED    | LVCMOS33_OUT  | PR92B        | RDQ94                 |
-| AC25/3          | PinDat[11]          | LOCATED    | LVCMOS33_OUT  | PR89B        | RDQ94                 |
-| AC26/3          | PinDat[10]          | LOCATED    | LVCMOS33_OUT  | PR89A        | RDQ94                 |
-| AD1/6           | PinDat[2]           | LOCATED    | LVCMOS33_OUT  | PL95A        | LDQ94                 |
-| AD2/6           | PinDat[3]           | LOCATED    | LVCMOS33_OUT  | PL95B        | LDQ94                 |
+| AC23/3          | PinDat[15]          | LOCATED    | LVCMOS33_OUT  | PB137B       |                       |
+| AC24/3          | PinDat[13]          | LOCATED    | LVCMOS33_OUT  | PR92B        | RDQ94                 |
+| AC25/3          | PinDat[3]           | LOCATED    | LVCMOS33_OUT  | PR89B        | RDQ94                 |
+| AC26/3          | PinDat[2]           | LOCATED    | LVCMOS33_OUT  | PR89A        | RDQ94                 |
+| AD1/6           | PinDat[18]          | LOCATED    | LVCMOS33_OUT  | PL95A        | LDQ94                 |
+| AD2/6           | PinDat[19]          | LOCATED    | LVCMOS33_OUT  | PL95B        | LDQ94                 |
 | AD3/6           |     unused, PULL:UP |            |               | PB5A         |                       |
 | AD4/6           |     unused, PULL:UP |            |               | PB2A         |                       |
 | AD6/51          |                     |            |               | PCSB_HDINP3  |                       |
@@ -167,18 +172,18 @@ Vtt by Bank:
 | AD19/50         |                     |            |               | PCSA_HDINN1  |                       |
 | AD20/50         |                     |            |               | PCSA_HDINN0  |                       |
 | AD21/50         |                     |            |               | PCSA_HDINP0  |                       |
-| AD23/3          | PinDat[23]          | LOCATED    | LVCMOS33_OUT  | PB137A       |                       |
+| AD23/3          | PinDat[14]          | LOCATED    | LVCMOS33_OUT  | PB137A       |                       |
 | AD24/3          |     unused, PULL:UP |            |               | PR97A        | RDQ94                 |
 | AD25/3          |     unused, PULL:UP |            |               | PR86B        | RDQ85                 |
 | AD26/3          |     unused, PULL:UP |            |               | PR86A        | RDQ85                 |
 | AE2/6           |     unused, PULL:UP |            |               | PB8A         |                       |
 | AE3/6           |     unused, PULL:UP |            |               | PB2B         |                       |
-| AE4/6           | PinDat[0]           | LOCATED    | LVCMOS33_OUT  | PB11A        |                       |
-| AE23/3          | PinDat[15]          | LOCATED    | LVCMOS33_OUT  | PB140B       |                       |
+| AE4/6           | PinDat[16]          | LOCATED    | LVCMOS33_OUT  | PB11A        |                       |
+| AE23/3          | PinDat[7]           | LOCATED    | LVCMOS33_OUT  | PB140B       |                       |
 | AE24/3          |     unused, PULL:UP |            |               | PR97B        | RDQ94                 |
-| AE25/3          | PinDat[12]          | LOCATED    | LVCMOS33_OUT  | PR95A        | RDQ94                 |
+| AE25/3          | PinDat[4]           | LOCATED    | LVCMOS33_OUT  | PR95A        | RDQ94                 |
 | AF3/6           |     unused, PULL:UP |            |               | PB8B         |                       |
-| AF4/6           | PinDat[1]           | LOCATED    | LVCMOS33_OUT  | PB11B        |                       |
+| AF4/6           | PinDat[17]          | LOCATED    | LVCMOS33_OUT  | PB11B        |                       |
 | AF6/51          |                     |            |               | PCSB_HDOUTP3 |                       |
 | AF7/51          |                     |            |               | PCSB_HDOUTN3 |                       |
 | AF8/51          |                     |            |               | PCSB_HDOUTN2 |                       |
@@ -195,8 +200,8 @@ Vtt by Bank:
 | AF19/50         |                     |            |               | PCSA_HDOUTN1 |                       |
 | AF20/50         |                     |            |               | PCSA_HDOUTN0 |                       |
 | AF21/50         |                     |            |               | PCSA_HDOUTP0 |                       |
-| AF23/3          | PinDat[14]          | LOCATED    | LVCMOS33_OUT  | PB140A       |                       |
-| AF24/3          | PinDat[13]          | LOCATED    | LVCMOS33_OUT  | PR95B        | RDQ94                 |
+| AF23/3          | PinDat[6]           | LOCATED    | LVCMOS33_OUT  | PB140A       |                       |
+| AF24/3          | PinDat[5]           | LOCATED    | LVCMOS33_OUT  | PR95B        | RDQ94                 |
 | B2/7            |     unused, PULL:UP |            |               | PL8A         | LDQ13                 |
 | B3/7            |     unused, PULL:UP |            |               | PL8B         | LDQ13                 |
 | B4/0            |     unused, PULL:UP |            |               | PT7B         | TDQ7                  |
@@ -205,7 +210,7 @@ Vtt by Bank:
 | B8/0            |     unused, PULL:UP |            |               | PT41B        | TDQ43                 |
 | B10/0           |     unused, PULL:UP |            |               | PT56B        | TDQ61                 |
 | B11/0           |     unused, PULL:UP |            |               | PT62A        | TDQ61                 |
-| B12/0           | PinPortTx           |            | LVCMOS33_OUT  | PT62B        | TDQ61                 |
+| B12/0           |     unused, PULL:UP |            |               | PT62B        | TDQ61                 |
 | B13/0           |     unused, PULL:UP |            |               | PT65B        | TDQ70                 |
 | B15/1           |     unused, PULL:UP |            |               | PT74B        | TDQ79                 |
 | B16/1           |     unused, PULL:UP |            |               | PT77A        | TDQ79                 |
@@ -248,7 +253,7 @@ Vtt by Bank:
 | D6/0            |     unused, PULL:UP |            |               | PT5A         | TDQ7                  |
 | D8/0            |     unused, PULL:UP |            |               | PT8A         | TDQ7                  |
 | D9/0            |     unused, PULL:UP |            |               | PT38A        | TDQ43                 |
-| D10/0           |     unused, PULL:UP |            |               | PT38B        | TDQ43                 |
+| D10/0           | PinPortRx           |            | LVCMOS33_IN   | PT38B        | TDQ43                 |
 | D12/0           |     unused, PULL:UP |            |               | PT61A        | TDQS61                |
 | D13/0           |     unused, PULL:UP |            |               | PT73B        | PCLKC0_0/TDQ70        |
 | D14/1           |     unused, PULL:UP |            |               | PT76B        | PCLKC1_0/TDQ79        |
@@ -270,7 +275,7 @@ Vtt by Bank:
 | E7/40           |                     |            |               | TDO          |                       |
 | E8/0            |     unused, PULL:UP |            |               | PT16A        | TDQS16                |
 | E9/0            |     unused, PULL:UP |            |               | PT16B        | TDQ16                 |
-| E10/0           |     unused, PULL:UP |            |               | PT40B        | TDQ43                 |
+| E10/0           | PinPortTx           |            | LVCMOS33_OUT  | PT40B        | TDQ43                 |
 | E11/0           |     unused, PULL:UP |            |               | PT64A        | TDQ61                 |
 | E12/0           |     unused, PULL:UP |            |               | PT64B        | TDQ61                 |
 | E13/0           |     unused, PULL:UP |            |               | PT73A        | PCLKT0_0/TDQ70        |
@@ -309,7 +314,7 @@ Vtt by Bank:
 | F24/2           |     unused, PULL:UP |            |               | PR22A        | RDQS22                |
 | F25/2           |     unused, PULL:UP |            |               | PR25E_A      | RUM2_GPLLT_FB_A/RDQ22 |
 | F26/2           |     unused, PULL:UP |            |               | PR20B        | RDQ22                 |
-| G1/7            |     unused, PULL:UP |            |               | PL35B        | LDQ40                 |
+| G1/7            | SS_out              |            | LVCMOS33_OUT  | PL35B        | LDQ40                 |
 | G2/7            |     unused, PULL:UP |            |               | PL23A        | LDQ22                 |
 | G3/7            |     unused, PULL:UP |            |               | PL23B        | LDQ22                 |
 | G5/7            |     unused, PULL:UP |            |               | PL13A        | LDQS13                |
@@ -349,7 +354,7 @@ Vtt by Bank:
 | H26/2           |     unused, PULL:UP |            |               | PR23A        | RDQ22                 |
 | J1/7            |     unused, PULL:UP |            |               | PL38B        | LUM0_GDLLT_FB_B/LDQ40 |
 | J3/7            |     unused, PULL:UP |            |               | PL28B        | LDQ31                 |
-| J4/7            |     unused, PULL:UP |            |               | PL28A        | LDQ31                 |
+| J4/7            | PinClk              |            | LVCMOS33_OUT  | PL28A        | LDQ31                 |
 | J5/7            |     unused, PULL:UP |            |               | PL25B        | LDQ22                 |
 | J6/7            |     unused, PULL:UP |            |               | PL16B        | LDQ13                 |
 | J7/7            |     unused, PULL:UP |            |               | PL19B        | LDQ22                 |
@@ -403,8 +408,8 @@ Vtt by Bank:
 | N1/7            |     unused, PULL:UP |            |               | PL43E_B      | LUM0_GPLLT_FB_B/LDQ40 |
 | N3/6            |     unused, PULL:UP |            |               | PL49A        | LDQS49                |
 | N4/7            |     unused, PULL:UP |            |               | PL43B        | PCLKC7_0/LDQ40        |
-| N5/6            | PinTfpClkP          | LOCATED    | LVCMOS33_OUT  | PL46A        | PCLKT6_0/LDQ49        |
-| N6/6            | PinTfpClkN          | LOCATED    | LVCMOS33_OUT  | PL46B        | PCLKC6_0/LDQ49        |
+| N5/6            | SCLK                | LOCATED    | LVCMOS33_IN   | PL46A        | PCLKT6_0/LDQ49        |
+| N6/6            | MOSI                | LOCATED    | LVCMOS33_IN   | PL46B        | PCLKC6_0/LDQ49        |
 | N21/2           |     unused, PULL:UP |            |               | PR34B        | VREF2_2/RDQ31         |
 | N22/2           |     unused, PULL:UP |            |               | PR37B        | RUM0_GDLLT_IN_B/RDQ40 |
 | N23/2           |     unused, PULL:UP |            |               | PR37A        | RUM0_GDLLT_IN_A/RDQ40 |
@@ -592,11 +597,11 @@ Vtt by Bank:
 | R24/3           |     unused, PULL:UP |            |               | PR47B        | RDQ49                 |
 | R25/3           |     unused, PULL:UP |            |               | PR53A        | RDQ58                 |
 | R26/3           |     unused, PULL:UP |            |               | PR53B        | RDQ58                 |
-| T1/6            | PinHSync            | LOCATED    | LVCMOS33_OUT  | PL56A        | LDQ58                 |
+| T1/6            | PinDe               | LOCATED    | LVCMOS33_OUT  | PL56A        | LDQ58                 |
 | T2/6            |     unused, PULL:UP |            |               | PL50A        | LDQ49                 |
 | T3/6            |     unused, PULL:UP |            |               | PL58A        | LDQS58                |
 | T5/6            |     unused, PULL:UP |            |               | PL64A        | LDQ67                 |
-| T6/6            | PinClk              |            | LVCMOS33_OUT  | PL64B        | LDQ67                 |
+| T6/6            |     unused, PULL:UP |            |               | PL64B        | LDQ67                 |
 | T7/6            |     unused, PULL:UP |            |               | PL61A        | LDQ58                 |
 | T8/6            |     unused, PULL:UP |            |               | PL61B        | LDQ58                 |
 | T20/3           |     unused, PULL:UP |            |               | PR52A        | VREF1_3/RDQ49         |
@@ -605,23 +610,23 @@ Vtt by Bank:
 | T24/3           |     unused, PULL:UP |            |               | PR56B        | RDQ58                 |
 | T25/3           |     unused, PULL:UP |            |               | PR56A        | RDQ58                 |
 | T26/3           |     unused, PULL:UP |            |               | PR59A        | RDQ58                 |
-| U1/6            | PinDe               | LOCATED    | LVCMOS33_OUT  | PL56B        | LDQ58                 |
-| U2/6            | PinDat[7]           | LOCATED    | LVCMOS33_OUT  | PL59B        | LDQ58                 |
+| U1/6            | MISO                | LOCATED    | LVCMOS33_OUT  | PL56B        | LDQ58                 |
+| U2/6            | PinDat[23]          | LOCATED    | LVCMOS33_OUT  | PL59B        | LDQ58                 |
 | U3/6            |     unused, PULL:UP |            |               | PL50B        | LDQ49                 |
 | U4/6            |     unused, PULL:UP |            |               | PL61E_C      | LLM1_GPLLT_IN_A/LDQ58 |
 | U5/6            |     unused, PULL:UP |            |               | PL70E_D      | LLM2_GPLLT_IN_B/LDQ67 |
 | U6/6            |     unused, PULL:UP |            |               | PL70E_C      | LLM2_GPLLT_IN_A/LDQ67 |
 | U7/6            |     unused, PULL:UP |            |               | PL79E_C      | LLM3_GPLLT_IN_A/LDQ76 |
 | U8/6            |     unused, PULL:UP |            |               | PL79E_D      | LLM3_GPLLT_IN_B/LDQ76 |
-| U19/3           |     unused, PULL:UP |            |               | PR46B        | PCLKC3_0/RDQ49        |
-| U20/3           |     unused, PULL:UP |            |               | PR46A        | PCLKT3_0/RDQ49        |
+| U19/3           | PinTfpClkN          | LOCATED    | LVCMOS33_OUT  | PR46B        | PCLKC3_0/RDQ49        |
+| U20/3           | PinTfpClkP          | LOCATED    | LVCMOS33_OUT  | PR46A        | PCLKT3_0/RDQ49        |
 | U21/3           |     unused, PULL:UP |            |               | PR52B        | VREF2_3/RDQ49         |
 | U22/3           |     unused, PULL:UP |            |               | PR61B        | RDQ58                 |
 | U23/3           |     unused, PULL:UP |            |               | PR61A        | RDQ58                 |
 | U24/3           |     unused, PULL:UP |            |               | PR55A        | RDQ58                 |
 | U25/3           |     unused, PULL:UP |            |               | PR61E_A      | RLM1_GPLLT_FB_A/RDQ58 |
 | U26/3           |     unused, PULL:UP |            |               | PR59B        | RDQ58                 |
-| V1/6            | PinDat[6]           | LOCATED    | LVCMOS33_OUT  | PL59A        | LDQ58                 |
+| V1/6            | PinDat[22]          | LOCATED    | LVCMOS33_OUT  | PL59A        | LDQ58                 |
 | V3/6            |     unused, PULL:UP |            |               | PL65A        | LDQ67                 |
 | V4/6            |     unused, PULL:UP |            |               | PL65B        | LDQ67                 |
 | V5/6            |     unused, PULL:UP |            |               | PL61E_D      | LLM1_GPLLT_IN_B/LDQ58 |
@@ -630,14 +635,14 @@ Vtt by Bank:
 | V10/6           |     unused, PULL:UP |            |               | PB13A        |                       |
 | V17/3           |     unused, PULL:UP |            |               | PR79E_C      | RLM3_GPLLT_IN_A/RDQ76 |
 | V20/3           |     unused, PULL:UP |            |               | PR61E_C      | RLM1_GPLLT_IN_A/RDQ58 |
-| V21/3           | PinDat[17]          | LOCATED    | LVCMOS33_OUT  | PR58A        | RDQS58                |
-| V22/3           | PinDat[16]          | LOCATED    | LVCMOS33_OUT  | PR58B        | RDQ58                 |
+| V21/3           | PinDat[8]           | LOCATED    | LVCMOS33_OUT  | PR58A        | RDQS58                |
+| V22/3           | PinDat[9]           | LOCATED    | LVCMOS33_OUT  | PR58B        | RDQ58                 |
 | V23/3           |     unused, PULL:UP |            |               | PR79E_A      | RLM3_GPLLT_FB_A/RDQ76 |
 | V24/3           |     unused, PULL:UP |            |               | PR55B        | RDQ58                 |
 | V26/3           |     unused, PULL:UP |            |               | PR61E_B      | RLM1_GPLLT_FB_B/RDQ58 |
 | W1/6            |     unused, PULL:UP |            |               | PL61E_A      | LLM1_GPLLT_FB_A/LDQ58 |
 | W2/6            |     unused, PULL:UP |            |               | PL61E_B      | LLM1_GPLLT_FB_B/LDQ58 |
-| W3/6            | PinVSync            | LOCATED    | LVCMOS33_OUT  | PL62B        | LDQ67                 |
+| W3/6            | PinHSync            | LOCATED    | LVCMOS33_OUT  | PL62B        | LDQ67                 |
 | W4/6            |     unused, PULL:UP |            |               | PL70E_A      | LLM2_GPLLT_FB_A/LDQ67 |
 | W5/6            |     unused, PULL:UP |            |               | PL70E_B      | LLM2_GPLLT_FB_B/LDQ67 |
 | W6/6            |     unused, PULL:UP |            |               | PL85B        | LDQ85                 |
@@ -657,7 +662,7 @@ Vtt by Bank:
 | W26/3           |     unused, PULL:UP |            |               | PR70E_A      | RLM2_GPLLT_FB_A/RDQ67 |
 | Y1/6            |     unused, PULL:UP |            |               | PL79E_A      | LLM3_GPLLT_FB_A/LDQ76 |
 | Y2/6            |     unused, PULL:UP |            |               | PL79E_B      | LLM3_GPLLT_FB_B/LDQ76 |
-| Y3/6            | PinSda              | LOCATED    | LVCMOS33_BIDI | PL62A        | LDQ67                 |
+| Y3/6            | PinVSync            | LOCATED    | LVCMOS33_OUT  | PL62A        | LDQ67                 |
 | Y5/6            |     unused, PULL:UP |            |               | PL88A        | LDQ85                 |
 | Y6/6            |     unused, PULL:UP |            |               | PL94A        | LDQS94                |
 | Y7/6            |     unused, PULL:UP |            |               | PL94B        | LDQ94                 |
@@ -666,7 +671,7 @@ Vtt by Bank:
 | Y20/3           |     unused, PULL:UP |            |               | PR91B        | RDQ94                 |
 | Y21/3           |     unused, PULL:UP |            |               | PB145A       |                       |
 | Y22/3           |     unused, PULL:UP |            |               | PR94A        | RDQS94                |
-| Y24/3           | PinDat[18]          | LOCATED    | LVCMOS33_OUT  | PR80B        | RDQ85                 |
+| Y24/3           | PinDat[11]          | LOCATED    | LVCMOS33_OUT  | PR80B        | RDQ85                 |
 | Y25/3           |     unused, PULL:UP |            |               | PR70E_D      | RLM2_GPLLT_IN_B/RDQ67 |
 | Y26/3           |     unused, PULL:UP |            |               | PR70E_C      | RLM2_GPLLT_IN_A/RDQ67 |
 +-----------------+---------------------+------------+---------------+--------------+-----------------------+
@@ -713,49 +718,62 @@ Vsupply by PCS Quad:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "PinClk"  SITE  "T6";
+LOCATE  COMP  "MISO"  SITE  "U1";
+LOCATE  COMP  "MOSI"  SITE  "N6";
+LOCATE  COMP  "PinClk"  SITE  "J4";
 LOCATE  COMP  "PinClk125"  SITE  "M3";
-LOCATE  COMP  "PinDat[0]"  SITE  "AE4";
-LOCATE  COMP  "PinDat[10]"  SITE  "AC26";
-LOCATE  COMP  "PinDat[11]"  SITE  "AC25";
-LOCATE  COMP  "PinDat[12]"  SITE  "AE25";
-LOCATE  COMP  "PinDat[13]"  SITE  "AF24";
-LOCATE  COMP  "PinDat[14]"  SITE  "AF23";
-LOCATE  COMP  "PinDat[15]"  SITE  "AE23";
-LOCATE  COMP  "PinDat[16]"  SITE  "V22";
-LOCATE  COMP  "PinDat[17]"  SITE  "V21";
-LOCATE  COMP  "PinDat[18]"  SITE  "Y24";
-LOCATE  COMP  "PinDat[19]"  SITE  "AA25";
-LOCATE  COMP  "PinDat[1]"  SITE  "AF4";
-LOCATE  COMP  "PinDat[20]"  SITE  "AC24";
-LOCATE  COMP  "PinDat[21]"  SITE  "AB24";
-LOCATE  COMP  "PinDat[22]"  SITE  "AC23";
-LOCATE  COMP  "PinDat[23]"  SITE  "AD23";
-LOCATE  COMP  "PinDat[2]"  SITE  "AD1";
-LOCATE  COMP  "PinDat[3]"  SITE  "AD2";
-LOCATE  COMP  "PinDat[4]"  SITE  "AA1";
-LOCATE  COMP  "PinDat[5]"  SITE  "AA2";
-LOCATE  COMP  "PinDat[6]"  SITE  "V1";
-LOCATE  COMP  "PinDat[7]"  SITE  "U2";
-LOCATE  COMP  "PinDat[8]"  SITE  "AA26";
-LOCATE  COMP  "PinDat[9]"  SITE  "AB26";
-LOCATE  COMP  "PinDe"  SITE  "U1";
-LOCATE  COMP  "PinHSync"  SITE  "T1";
+LOCATE  COMP  "PinDat[0]"  SITE  "AA26";
+LOCATE  COMP  "PinDat[10]"  SITE  "AA25";
+LOCATE  COMP  "PinDat[11]"  SITE  "Y24";
+LOCATE  COMP  "PinDat[12]"  SITE  "AB24";
+LOCATE  COMP  "PinDat[13]"  SITE  "AC24";
+LOCATE  COMP  "PinDat[14]"  SITE  "AD23";
+LOCATE  COMP  "PinDat[15]"  SITE  "AC23";
+LOCATE  COMP  "PinDat[16]"  SITE  "AE4";
+LOCATE  COMP  "PinDat[17]"  SITE  "AF4";
+LOCATE  COMP  "PinDat[18]"  SITE  "AD1";
+LOCATE  COMP  "PinDat[19]"  SITE  "AD2";
+LOCATE  COMP  "PinDat[1]"  SITE  "AB26";
+LOCATE  COMP  "PinDat[20]"  SITE  "AA1";
+LOCATE  COMP  "PinDat[21]"  SITE  "AA2";
+LOCATE  COMP  "PinDat[22]"  SITE  "V1";
+LOCATE  COMP  "PinDat[23]"  SITE  "U2";
+LOCATE  COMP  "PinDat[2]"  SITE  "AC26";
+LOCATE  COMP  "PinDat[3]"  SITE  "AC25";
+LOCATE  COMP  "PinDat[4]"  SITE  "AE25";
+LOCATE  COMP  "PinDat[5]"  SITE  "AF24";
+LOCATE  COMP  "PinDat[6]"  SITE  "AF23";
+LOCATE  COMP  "PinDat[7]"  SITE  "AE23";
+LOCATE  COMP  "PinDat[8]"  SITE  "V21";
+LOCATE  COMP  "PinDat[9]"  SITE  "V22";
+LOCATE  COMP  "PinDe"  SITE  "T1";
+LOCATE  COMP  "PinHSync"  SITE  "W3";
 LOCATE  COMP  "PinLedXv"  SITE  "E23";
-LOCATE  COMP  "PinPortRx"  SITE  "A9";
-LOCATE  COMP  "PinPortTx"  SITE  "B12";
-LOCATE  COMP  "PinScl"  SITE  "AA4";
-LOCATE  COMP  "PinSda"  SITE  "Y3";
-LOCATE  COMP  "PinTfpClkN"  SITE  "N6";
-LOCATE  COMP  "PinTfpClkP"  SITE  "N5";
-LOCATE  COMP  "PinVSync"  SITE  "W3";
+LOCATE  COMP  "PinPortRx"  SITE  "D10";
+LOCATE  COMP  "PinPortTx"  SITE  "E10";
+LOCATE  COMP  "PinScl"  SITE  "AC2";
+LOCATE  COMP  "PinSda"  SITE  "AC3";
+LOCATE  COMP  "PinTfpClkN"  SITE  "U19";
+LOCATE  COMP  "PinTfpClkP"  SITE  "U20";
+LOCATE  COMP  "PinVSync"  SITE  "Y3";
+LOCATE  COMP  "SCLK"  SITE  "N5";
+LOCATE  COMP  "SS"  SITE  "AA3";
+LOCATE  COMP  "SS_out"  SITE  "G1";
 
 #PLL
-LOCATE  COMP  "uclock640x480/PLLInst_0"  SITE  "PLL_R79C5" ;
+LOCATE  COMP  "TOPvideo/uclock34/PLLInst_0"  SITE  "PLL_R79C5" ;
 #PLL
-LOCATE  COMP  "uclock/PLLInst_0"  SITE  "PLL_R70C5" ;
+LOCATE  COMP  "TOPvideo/uclock800x600/PLLInst_0"  SITE  "PLL_R70C5" ;
 #PLL
-LOCATE  COMP  "uPll/PLLInst_0"  SITE  "PLL_R43C5" ;
+LOCATE  COMP  "TOPvideo/uclock1680x/PLLInst_0"  SITE  "PLL_R61C5" ;
+#PLL
+LOCATE  COMP  "TOPvideo/uclock1400x1050/PLLInst_0"  SITE  "PLL_R25C5" ;
+#PLL
+LOCATE  COMP  "TOPvideo/uclock640x480/PLLInst_0"  SITE  "PLL_R79C142" ;
+#PLL
+LOCATE  COMP  "TOPvideo/uclock/PLLInst_0"  SITE  "PLL_R70C142" ;
+#PLL
+LOCATE  COMP  "TOPvideo/uPll/PLLInst_0"  SITE  "PLL_R43C5" ;
 
 
 
@@ -766,7 +784,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Apr 11 19:02:32 2021
+Thu Apr 15 15:27:53 2021
 
 
 

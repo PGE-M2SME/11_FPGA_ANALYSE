@@ -1,26 +1,76 @@
 
-fsm_encoding {9470471} onehot
+fsm_encoding {87470874701} onehot
 
-fsm_state_encoding {9470471} st_idle {00000000001}
+fsm_state_encoding {87470874701} st_idle {00000000001}
 
-fsm_state_encoding {9470471} st_start1 {00000000010}
+fsm_state_encoding {87470874701} st_start1 {00000000010}
 
-fsm_state_encoding {9470471} st_start2 {00000000100}
+fsm_state_encoding {87470874701} st_start2 {00000000100}
 
-fsm_state_encoding {9470471} st_stop1 {00000001000}
+fsm_state_encoding {87470874701} st_stop1 {00000001000}
 
-fsm_state_encoding {9470471} st_stop2 {00000010000}
+fsm_state_encoding {87470874701} st_stop2 {00000010000}
 
-fsm_state_encoding {9470471} st_stop3 {00000100000}
+fsm_state_encoding {87470874701} st_stop3 {00000100000}
 
-fsm_state_encoding {9470471} st_stop4 {00001000000}
+fsm_state_encoding {87470874701} st_stop4 {00001000000}
 
-fsm_state_encoding {9470471} st_xfer1 {00010000000}
+fsm_state_encoding {87470874701} st_xfer1 {00010000000}
 
-fsm_state_encoding {9470471} st_xfer2 {00100000000}
+fsm_state_encoding {87470874701} st_xfer2 {00100000000}
 
-fsm_state_encoding {9470471} st_xfer3 {01000000000}
+fsm_state_encoding {87470874701} st_xfer3 {01000000000}
 
-fsm_state_encoding {9470471} st_xfer4 {10000000000}
+fsm_state_encoding {87470874701} st_xfer4 {10000000000}
 
-fsm_registers {9470471} {State[0]}  {State[1]}  {State[2]}  {State[3]}  {State[4]}  {State[5]}  {State[6]}  {State[7]}  {State[8]}  {State[9]}  {State[10]} 
+fsm_registers {87470874701} {State[0]}  {State[1]}  {State[2]}  {State[3]}  {State[4]}  {State[5]}  {State[6]}  {State[7]}  {State[8]}  {State[9]}  {State[10]} 
+
+fsm_encoding {71040010402} sequential
+
+fsm_state_encoding {71040010402} 00 {00}
+
+fsm_state_encoding {71040010402} 01 {01}
+
+fsm_state_encoding {71040010402} 10 {10}
+
+fsm_registers {71040010402} {next_then_shift[1]}  {next_then_shift[0]} 
+
+fsm_encoding {71040010402} sequential
+
+fsm_state_encoding {71040010402} 00 {00}
+
+fsm_state_encoding {71040010402} 01 {01}
+
+fsm_state_encoding {71040010402} 10 {10}
+
+fsm_registers {71040010402} {next_then_shift[1]}  {next_then_shift[0]} 
+
+fsm_encoding {71040010402} sequential
+
+fsm_state_encoding {71040010402} 00 {00}
+
+fsm_state_encoding {71040010402} 01 {01}
+
+fsm_state_encoding {71040010402} 10 {10}
+
+fsm_registers {71040010402} {next_then_shift[1]}  {next_then_shift[0]} 
+
+fsm_encoding {71040010401} sequential
+
+fsm_state_encoding {71040010401} 00 {00}
+
+fsm_state_encoding {71040010401} 01 {01}
+
+fsm_state_encoding {71040010401} 10 {10}
+
+fsm_registers {71040010401} {next_then_shift[1]}  {next_then_shift[0]} 
+
+fsm_encoding {71040010401} sequential
+
+fsm_state_encoding {71040010401} 00 {00}
+
+fsm_state_encoding {71040010401} 01 {01}
+
+fsm_state_encoding {71040010401} 10 {10}
+
+fsm_registers {71040010401} {next_then_shift[1]}  {next_then_shift[0]} 

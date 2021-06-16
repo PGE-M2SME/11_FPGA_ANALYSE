@@ -1,25 +1,35 @@
-@P:  Worst Slack : -29.585
-@P:  Pll125to100x50|CLKOK_inferred_clock - Estimated Frequency : 61.3 MHz
-@P:  Pll125to100x50|CLKOK_inferred_clock - Requested Frequency : 200.0 MHz
-@P:  Pll125to100x50|CLKOK_inferred_clock - Estimated Period : 16.323
-@P:  Pll125to100x50|CLKOK_inferred_clock - Requested Period : 5.000
-@P:  Pll125to100x50|CLKOK_inferred_clock - Slack : -11.323
-@P:  TestVideoTop|PinTfpClkP_i_inferred_clock - Estimated Frequency : 84.4 MHz
-@P:  TestVideoTop|PinTfpClkP_i_inferred_clock - Requested Frequency : 200.0 MHz
-@P:  TestVideoTop|PinTfpClkP_i_inferred_clock - Estimated Period : 11.843
-@P:  TestVideoTop|PinTfpClkP_i_inferred_clock - Requested Period : 5.000
-@P:  TestVideoTop|PinTfpClkP_i_inferred_clock - Slack : -6.843
-@P:  simulacion|Reloj1hz_derived_clock - Estimated Frequency : 536.9 MHz
-@P:  simulacion|Reloj1hz_derived_clock - Requested Frequency : 200.0 MHz
-@P:  simulacion|Reloj1hz_derived_clock - Estimated Period : 1.862
-@P:  simulacion|Reloj1hz_derived_clock - Requested Period : 5.000
-@P:  simulacion|Reloj1hz_derived_clock - Slack : 3.138
-@P:  System - Estimated Frequency : 318.9 MHz
+@P:  Worst Slack : -32.349
+@P:  Pll125to100x50_uniq_0|CLKOK_inferred_clock - Estimated Frequency : 62.9 MHz
+@P:  Pll125to100x50_uniq_0|CLKOK_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  Pll125to100x50_uniq_0|CLKOK_inferred_clock - Estimated Period : 15.890
+@P:  Pll125to100x50_uniq_0|CLKOK_inferred_clock - Requested Period : 5.000
+@P:  Pll125to100x50_uniq_0|CLKOK_inferred_clock - Slack : -10.890
+@P:  TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock - Estimated Frequency : 65.1 MHz
+@P:  TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock - Estimated Period : 15.369
+@P:  TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock - Requested Period : 5.000
+@P:  TestVideoTop_uniq_0|PinTfpClkP_i_inferred_clock - Slack : -10.369
+@P:  Top|PinClk125 - Estimated Frequency : 156.6 MHz
+@P:  Top|PinClk125 - Requested Frequency : 200.0 MHz
+@P:  Top|PinClk125 - Estimated Period : 6.385
+@P:  Top|PinClk125 - Requested Period : 5.000
+@P:  Top|PinClk125 - Slack : -1.385
+@P:  Top|SCLK - Estimated Frequency : 694.0 MHz
+@P:  Top|SCLK - Requested Frequency : 200.0 MHz
+@P:  Top|SCLK - Estimated Period : 1.441
+@P:  Top|SCLK - Requested Period : 5.000
+@P:  Top|SCLK - Slack : 3.559
+@P:  reveal_coretop|jtck_inferred_clock[0] - Estimated Frequency : 115.9 MHz
+@P:  reveal_coretop|jtck_inferred_clock[0] - Requested Frequency : 200.0 MHz
+@P:  reveal_coretop|jtck_inferred_clock[0] - Estimated Period : 8.625
+@P:  reveal_coretop|jtck_inferred_clock[0] - Requested Period : 5.000
+@P:  reveal_coretop|jtck_inferred_clock[0] - Slack : -3.625
+@P:  System - Estimated Frequency : 276.5 MHz
 @P:  System - Requested Frequency : 200.0 MHz
-@P:  System - Estimated Period : 3.135
+@P:  System - Estimated Period : 3.617
 @P:  System - Requested Period : 5.000
-@P:  System - Slack : 1.865
-@P:  Total Area : 2072.0
+@P:  System - Slack : 1.383
+@P:  Total Area : 4102.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
@@ -39,4 +49,14 @@
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
-@P:  CPU Time : 0h:01m:19s
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:01m:27s

@@ -1,11 +1,3 @@
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":677:15:677:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":680:15:680:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":683:15:683:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":686:15:686:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":689:15:689:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":692:15:692:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":695:15:695:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":698:15:698:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":701:15:701:25|Constant width 9 does not match context width 6
-@E: CD395 :"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd":704:15:704:25|Constant width 9 does not match context width 6
+@E: CD395 :"C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\reveal_workspace\tmpreveal\Top_rvl_top.vhd":5454:26:5454:31|Constant width 12 does not match context width 25
+@E::Errors while synthesizing top module Top.
 

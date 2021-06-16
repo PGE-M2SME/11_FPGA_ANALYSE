@@ -1,18 +1,14 @@
 --
 -- Synopsys
--- Vhdl wrapper for top level design, written on Sun Apr 11 18:59:45 2021
+-- Vhdl wrapper for top level design, written on Thu Apr 15 15:25:16 2021
 --
 library ieee;
 use ieee.std_logic_1164.all;
-library ecp2m;
-use ecp2m.components.all;
 use ieee.numeric_std.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
-library work;
-use work.components.all;
 
-entity wrapper_for_TestVideoTop is
+entity wrapper_for_Top is
    port (
       PinClk125 : in std_logic;
       PinPortRx : in std_logic;
@@ -26,13 +22,18 @@ entity wrapper_for_TestVideoTop is
       PinTfpClkN : out std_logic;
       PinDat : out std_logic_vector(23 downto 0);
       PinSda : in std_logic;
-      PinScl : out std_logic
+      PinScl : out std_logic;
+      SCLK : in std_logic;
+      MOSI : in std_logic;
+      SS : in std_logic;
+      MISO : out std_logic;
+      SS_out : out std_logic
    );
-end wrapper_for_TestVideoTop;
+end wrapper_for_Top;
 
-architecture rtl of wrapper_for_TestVideoTop is
+architecture rtl of wrapper_for_Top is
 
-component TestVideoTop
+component Top
  port (
    PinClk125 : in std_logic;
    PinPortRx : in std_logic;
@@ -46,7 +47,12 @@ component TestVideoTop
    PinTfpClkN : out std_logic;
    PinDat : out std_logic_vector (23 downto 0);
    PinSda : inout std_logic;
-   PinScl : out std_logic
+   PinScl : out std_logic;
+   SCLK : in std_logic;
+   MOSI : in std_logic;
+   SS : in std_logic;
+   MISO : out std_logic;
+   SS_out : out std_logic
  );
 end component;
 
@@ -63,6 +69,11 @@ signal tmp_PinTfpClkN : std_logic;
 signal tmp_PinDat : std_logic_vector (23 downto 0);
 signal tmp_PinSda : std_logic;
 signal tmp_PinScl : std_logic;
+signal tmp_SCLK : std_logic;
+signal tmp_MOSI : std_logic;
+signal tmp_SS : std_logic;
+signal tmp_MISO : std_logic;
+signal tmp_SS_out : std_logic;
 
 begin
 
@@ -92,9 +103,19 @@ tmp_PinSda <= PinSda;
 
 PinScl <= tmp_PinScl;
 
+tmp_SCLK <= SCLK;
+
+tmp_MOSI <= MOSI;
+
+tmp_SS <= SS;
+
+MISO <= tmp_MISO;
+
+SS_out <= tmp_SS_out;
 
 
-u1:   TestVideoTop port map (
+
+u1:   Top port map (
 		PinClk125 => tmp_PinClk125,
 		PinPortRx => tmp_PinPortRx,
 		PinLedXv => tmp_PinLedXv,
@@ -107,6 +128,11 @@ u1:   TestVideoTop port map (
 		PinTfpClkN => tmp_PinTfpClkN,
 		PinDat => tmp_PinDat,
 		PinSda => tmp_PinSda,
-		PinScl => tmp_PinScl
+		PinScl => tmp_PinScl,
+		SCLK => tmp_SCLK,
+		MOSI => tmp_MOSI,
+		SS => tmp_SS,
+		MISO => tmp_MISO,
+		SS_out => tmp_SS_out
        );
 end rtl;

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<userSetting name="/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml" version="Diamond (64-bit) 3.12.0.240.2" date="Sun Apr 11 19:04:59 2021" vendor="Lattice Semiconductor Corporation" >
-  <msg mid="35921122" type="Error" />
+<userSetting name="C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/promote.xml" version="Diamond (64-bit) 3.12.0.240.2" date="Wed Jun 16 12:23:58 2021" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="35921504" type="Info" />
   <msg mid="35921067" type="Info" />
+  <msg mid="35921122" type="Error" />
   <msg mid="35921272" type="Error" />
   <msg mid="35921119" type="Error" />
   <msg mid="35921390" type="Warning" />

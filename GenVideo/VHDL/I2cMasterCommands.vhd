@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
-use work.pmi_components.all;
-library pmi_work;
+--use work.pmi_components.all;
+--library pmi_work;
 
 entity I2cMasterCommands is
 generic(FPGA_FAMILY : string := "XP2";

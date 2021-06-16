@@ -1,14 +1,14 @@
-#OPTIONS:"|-modgen|-top|MULT18X18C|-I|/usr/local/diamond/3.12/synpbase/lib|-devicelib|/usr/local/diamond/3.12/synpbase/lib/xilinx/unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/syntmp/MULT18X18C.param"
-#CUR:"/usr/local/diamond/3.12/synpbase/linux_a_64/c_ver":1604079996
-#CUR:"/usr/local/diamond/3.12/synpbase/lib/vlog/hypermods.v":1604079914
-#CUR:"/usr/local/diamond/3.12/synpbase/lib/vlog/umr_capim.v":1604079938
-#CUR:"/usr/local/diamond/3.12/synpbase/lib/vlog/scemi_objects.v":1604079915
-#CUR:"/usr/local/diamond/3.12/synpbase/lib/vlog/scemi_pipes.svh":1604079917
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/syntmp/MULT18X18C.v":1618167672
-#CUR:"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/syntmp/MULT18X18C.param":1618167672
+#OPTIONS:"|-modgen|-top|MULT18X18C|-I|C:\\lscc\\diamond\\3.12\\synpbase\\lib|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\xilinx\\unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\syntmp\\MULT18X18C.param"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1603963122
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603963390
+#CUR:"C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\syntmp\\MULT18X18C.v":1603963252
+#CUR:"C:\\Users\\cypri\\Documents\\GIT\\PGE\\11_FPGA_GENERATION\\GenVideo\\Diamond1.4\\A\\syntmp\\MULT18X18C.param":1618493207
 #numinternalfiles:4
 #defaultlanguage:verilog
-0			"/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/syntmp/MULT18X18C.v" verilog
+0			"C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\syntmp\MULT18X18C.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 #Dependency Lists(Users Of)

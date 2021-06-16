@@ -267,27 +267,27 @@ use ieee.numeric_std.all;
   BEGIN
  if(rising_edge(Reloj1Hz)) then
 
-		if(temporizador < 30 ) then
-		 	temporizador := temporizador + 1;		
+		--if(temporizador < 30 ) then
+		 --	temporizador := temporizador + 1;		
 			
-				if (temporizador < 15) then
-			mireID    	         <= X"4";	             ------------------------------MIRE ID		
-			HLengthChoix  	<=  HLength2;
-		    HResChoix  			<=      HRes2;
-		    HFPChoix 			<=  HFP2;
-	        HSyncPulseChoix  <=  HSyncPulse2;
-	     	HBPChoix      		<=     HBP2;
-	        HPolSyncCHoix   	<= HPolSync2;	
-	       VLengthChoix 		<=   VLength2;
-	        VResChoix         	<=   VRes2;
-	     	VFPChoix 			<=   VFP2;
-	 	   VSyncPulseChoix 	<= VSyncPulse2;
-	 	   VBPCHoix            	<=   VBP2;
-	    	VPolSyncChoix   	<=   VPolSync2;
-	        relojSistemaChoix  		<= X"0";	
+			--	if (temporizador < 15) then
+			--mireID    	         <= X"4";	             ------------------------------MIRE ID		
+			--HLengthChoix  	<=  HLength2;
+		   -- HResChoix  			<=      HRes2;
+		   -- HFPChoix 			<=  HFP2;
+	      --  HSyncPulseChoix  <=  HSyncPulse2;
+	     --	HBPChoix      		<=     HBP2;
+	     --   HPolSyncCHoix   	<= HPolSync2;	
+	     --  VLengthChoix 		<=   VLength2;
+	     --   VResChoix         	<=   VRes2;
+	     --	VFPChoix 			<=   VFP2;
+	 	 --  VSyncPulseChoix 	<= VSyncPulse2;
+	 	 --  VBPCHoix            	<=   VBP2;
+	    --	VPolSyncChoix   	<=   VPolSync2;
+	     --   relojSistemaChoix  		<= X"0";	
 				
 				else 		
-			mireID    		<= X"9";                        ------------------------------MIRE ID		
+			mireID    		<= X"8";                      ------------------------------MIRE ID		
 			HLengthChoix  	<=  HLength12;
 		    HResChoix  			<=      HRes12;
 		    HFPChoix 			<=  HFP12;
@@ -302,10 +302,10 @@ use ieee.numeric_std.all;
 	    	VPolSyncChoix   	<=   VPolSync12;
 	         relojSistemaChoix  		<= X"9";	
    
-				end if;
-		else 
-		temporizador :=0;
-		end if;
+		--		end if;
+		--else 
+		--temporizador :=0;
+		--end if;
 end if;
 end process;
 

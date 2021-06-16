@@ -1,0 +1,227 @@
+<Project ModBy="Analyzer" Name="C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/test.rvs" Date="2021-04-15">
+ <Core Name="Top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Bus Name="udecodeur/etatpresent" Radix="RVL_ENUM_udecodeur_etatpresent">
+     <Sig Name="udecodeur/etatpresent:0"/>
+     <Sig Name="udecodeur/etatpresent:1"/>
+     <Sig Name="udecodeur/etatpresent:2"/>
+     <Sig Name="udecodeur/etatpresent:3"/>
+     <Sig Name="udecodeur/etatpresent:4"/>
+    </Bus>
+    <Bus Name="udecodeur/etatsuivant" Radix="RVL_ENUM_udecodeur_etatsuivant">
+     <Sig Name="udecodeur/etatsuivant:0"/>
+     <Sig Name="udecodeur/etatsuivant:1"/>
+     <Sig Name="udecodeur/etatsuivant:2"/>
+     <Sig Name="udecodeur/etatsuivant:3"/>
+     <Sig Name="udecodeur/etatsuivant:4"/>
+    </Bus>
+    <Sig Name="udecodeur/data_valid_out"/>
+    <Bus Name="udecodeur/data_out" Radix="0">
+     <Sig Name="udecodeur/data_out:0"/>
+     <Sig Name="udecodeur/data_out:1"/>
+     <Sig Name="udecodeur/data_out:2"/>
+     <Sig Name="udecodeur/data_out:3"/>
+     <Sig Name="udecodeur/data_out:4"/>
+     <Sig Name="udecodeur/data_out:5"/>
+     <Sig Name="udecodeur/data_out:6"/>
+     <Sig Name="udecodeur/data_out:7"/>
+    </Bus>
+    <Bus Name="hbpchoix" Radix="0">
+     <Sig Name="hbpchoix:0"/>
+     <Sig Name="hbpchoix:1"/>
+     <Sig Name="hbpchoix:2"/>
+     <Sig Name="hbpchoix:3"/>
+     <Sig Name="hbpchoix:4"/>
+     <Sig Name="hbpchoix:5"/>
+     <Sig Name="hbpchoix:6"/>
+     <Sig Name="hbpchoix:7"/>
+     <Sig Name="hbpchoix:8"/>
+    </Bus>
+    <Bus Name="hfpchoix" Radix="0">
+     <Sig Name="hfpchoix:0"/>
+     <Sig Name="hfpchoix:1"/>
+     <Sig Name="hfpchoix:2"/>
+     <Sig Name="hfpchoix:3"/>
+     <Sig Name="hfpchoix:4"/>
+     <Sig Name="hfpchoix:5"/>
+     <Sig Name="hfpchoix:6"/>
+     <Sig Name="hfpchoix:7"/>
+    </Bus>
+    <Bus Name="hlengthchoix" Radix="0">
+     <Sig Name="hlengthchoix:0"/>
+     <Sig Name="hlengthchoix:1"/>
+     <Sig Name="hlengthchoix:2"/>
+     <Sig Name="hlengthchoix:3"/>
+     <Sig Name="hlengthchoix:4"/>
+     <Sig Name="hlengthchoix:5"/>
+     <Sig Name="hlengthchoix:6"/>
+     <Sig Name="hlengthchoix:7"/>
+     <Sig Name="hlengthchoix:8"/>
+     <Sig Name="hlengthchoix:9"/>
+     <Sig Name="hlengthchoix:10"/>
+     <Sig Name="hlengthchoix:11"/>
+    </Bus>
+    <Sig Name="hpolsyncchoix"/>
+    <Bus Name="hreschoix" Radix="0">
+     <Sig Name="hreschoix:0"/>
+     <Sig Name="hreschoix:1"/>
+     <Sig Name="hreschoix:2"/>
+     <Sig Name="hreschoix:3"/>
+     <Sig Name="hreschoix:4"/>
+     <Sig Name="hreschoix:5"/>
+     <Sig Name="hreschoix:6"/>
+     <Sig Name="hreschoix:7"/>
+     <Sig Name="hreschoix:8"/>
+     <Sig Name="hreschoix:9"/>
+     <Sig Name="hreschoix:10"/>
+     <Sig Name="hreschoix:11"/>
+    </Bus>
+    <Bus Name="hsyncpulsechoix" Radix="0">
+     <Sig Name="hsyncpulsechoix:0"/>
+     <Sig Name="hsyncpulsechoix:1"/>
+     <Sig Name="hsyncpulsechoix:2"/>
+     <Sig Name="hsyncpulsechoix:3"/>
+     <Sig Name="hsyncpulsechoix:4"/>
+     <Sig Name="hsyncpulsechoix:5"/>
+     <Sig Name="hsyncpulsechoix:6"/>
+     <Sig Name="hsyncpulsechoix:7"/>
+    </Bus>
+    <Bus Name="mireid" Radix="0">
+     <Sig Name="mireid:0"/>
+     <Sig Name="mireid:1"/>
+     <Sig Name="mireid:2"/>
+     <Sig Name="mireid:3"/>
+    </Bus>
+    <Bus Name="vbpchoix" Radix="0">
+     <Sig Name="vbpchoix:0"/>
+     <Sig Name="vbpchoix:1"/>
+     <Sig Name="vbpchoix:2"/>
+     <Sig Name="vbpchoix:3"/>
+     <Sig Name="vbpchoix:4"/>
+     <Sig Name="vbpchoix:5"/>
+    </Bus>
+    <Bus Name="vfpchoix" Radix="0">
+     <Sig Name="vfpchoix:0"/>
+     <Sig Name="vfpchoix:1"/>
+     <Sig Name="vfpchoix:2"/>
+     <Sig Name="vfpchoix:3"/>
+    </Bus>
+    <Bus Name="vlengthchoix" Radix="0">
+     <Sig Name="vlengthchoix:0"/>
+     <Sig Name="vlengthchoix:1"/>
+     <Sig Name="vlengthchoix:2"/>
+     <Sig Name="vlengthchoix:3"/>
+     <Sig Name="vlengthchoix:4"/>
+     <Sig Name="vlengthchoix:5"/>
+     <Sig Name="vlengthchoix:6"/>
+     <Sig Name="vlengthchoix:7"/>
+     <Sig Name="vlengthchoix:8"/>
+     <Sig Name="vlengthchoix:9"/>
+     <Sig Name="vlengthchoix:10"/>
+     <Sig Name="vlengthchoix:11"/>
+    </Bus>
+    <Sig Name="vpolsyncchoix"/>
+    <Bus Name="vreschoix" Radix="0">
+     <Sig Name="vreschoix:0"/>
+     <Sig Name="vreschoix:1"/>
+     <Sig Name="vreschoix:2"/>
+     <Sig Name="vreschoix:3"/>
+     <Sig Name="vreschoix:4"/>
+     <Sig Name="vreschoix:5"/>
+     <Sig Name="vreschoix:6"/>
+     <Sig Name="vreschoix:7"/>
+     <Sig Name="vreschoix:8"/>
+     <Sig Name="vreschoix:9"/>
+     <Sig Name="vreschoix:10"/>
+     <Sig Name="vreschoix:11"/>
+    </Bus>
+    <Bus Name="vsyncpulsechoix" Radix="0">
+     <Sig Name="vsyncpulsechoix:0"/>
+     <Sig Name="vsyncpulsechoix:1"/>
+     <Sig Name="vsyncpulsechoix:2"/>
+     <Sig Name="vsyncpulsechoix:3"/>
+    </Bus>
+    <Bus Name="udecodeur/cpt" Radix="0">
+     <Sig Name="udecodeur/cpt:0"/>
+     <Sig Name="udecodeur/cpt:1"/>
+     <Sig Name="udecodeur/cpt:2"/>
+     <Sig Name="udecodeur/cpt:3"/>
+     <Sig Name="udecodeur/cpt:4"/>
+     <Sig Name="udecodeur/cpt:5"/>
+     <Sig Name="udecodeur/cpt:6"/>
+     <Sig Name="udecodeur/cpt:7"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU2" ID="1" Value="0000" Radix="0"/>
+    <TU Operator="0" Name="TU3" ID="2" Value="etat2" Radix="RVL_ENUM_udecodeur_etatpresent"/>
+    <TU Operator="0" Name="TU4" ID="3" Value="etat1" Radix="RVL_ENUM_udecodeur_etatsuivant"/>
+    <TU Operator="0" Name="TU5" ID="4" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU6" ID="5" Value="0" Radix="2"/>
+    <TU Operator="0" Name="TU7" ID="6" Value="0" Radix="0"/>
+    <TE Enable="0" Expression="TU5" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="0" Expression="TU3" Name="TE3" ID="3"/>
+    <TE Enable="0" Expression="TU4" Name="TE4" ID="4"/>
+    <TE Enable="0" Expression="TU6" Name="TE5" ID="5"/>
+    <TE Enable="1" Expression="TU7" Name="TE6" ID="6"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+ <Token width="5" type="ENUM" name="RVL_ENUM_udecodeur_etatpresent">
+  <entry key="etat1" value="00000"/>
+  <entry key="etat2" value="00001"/>
+  <entry key="etat3" value="00010"/>
+  <entry key="etat4" value="00011"/>
+  <entry key="etat5" value="00100"/>
+  <entry key="etat6" value="00101"/>
+  <entry key="etat7" value="00110"/>
+  <entry key="etat8" value="00111"/>
+  <entry key="etat9" value="01000"/>
+  <entry key="etat10" value="01001"/>
+  <entry key="etat11" value="01010"/>
+  <entry key="etat12" value="01011"/>
+  <entry key="etat13" value="01100"/>
+  <entry key="etat14" value="01101"/>
+  <entry key="etat15" value="01110"/>
+  <entry key="etat16" value="01111"/>
+  <entry key="etat17" value="10000"/>
+  <entry key="etat18" value="10001"/>
+  <entry key="etat19" value="10010"/>
+  <entry key="etat20" value="10011"/>
+  <entry key="etat21" value="10100"/>
+  <entry key="etat22" value="10101"/>
+  <entry key="etat23" value="10110"/>
+ </Token>
+ <Token width="5" type="ENUM" name="RVL_ENUM_udecodeur_etatsuivant">
+  <entry key="etat1" value="00000"/>
+  <entry key="etat2" value="00001"/>
+  <entry key="etat3" value="00010"/>
+  <entry key="etat4" value="00011"/>
+  <entry key="etat5" value="00100"/>
+  <entry key="etat6" value="00101"/>
+  <entry key="etat7" value="00110"/>
+  <entry key="etat8" value="00111"/>
+  <entry key="etat9" value="01000"/>
+  <entry key="etat10" value="01001"/>
+  <entry key="etat11" value="01010"/>
+  <entry key="etat12" value="01011"/>
+  <entry key="etat13" value="01100"/>
+  <entry key="etat14" value="01101"/>
+  <entry key="etat15" value="01110"/>
+  <entry key="etat16" value="01111"/>
+  <entry key="etat17" value="10000"/>
+  <entry key="etat18" value="10001"/>
+  <entry key="etat19" value="10010"/>
+  <entry key="etat20" value="10011"/>
+  <entry key="etat21" value="10100"/>
+  <entry key="etat22" value="10101"/>
+  <entry key="etat23" value="10110"/>
+ </Token>
+</Project>

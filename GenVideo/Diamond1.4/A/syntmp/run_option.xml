@@ -2,8 +2,8 @@
 <!-- 
   Synopsys, Inc.
   Version Q-2020.03L-SP1
-  Project file /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/syntmp/run_option.xml
-  Written on Sun Apr 11 18:59:34 2021
+  Project file C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\syntmp\run_option.xml
+  Written on Thu Apr 15 15:25:05 2021
 
 
 --> 
@@ -11,7 +11,7 @@
      <option name="project_name" display_name="Project Name">proj_1</option>
      <option name="device_name" display_name="Device Name">A: Lattice ECP3 : LFE3_70E</option>
      <option name="impl_name" display_name="Implementation Name">A</option>
-     <option name="top_module" display_name="Top Module">TestVideoTop</option>
+     <option name="top_module" display_name="Top Module">Top</option>
      <option name="pipe" display_name="Pipelining">1</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">1</option>

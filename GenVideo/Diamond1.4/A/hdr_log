@@ -1,0 +1,258 @@
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Apr 12 20:18:45 2021
+
+
+Command Line:  synthesis -f Ext10GenDvi_A_lattice.synproj -gui -msgset C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/promote.xml 
+
+Synthesis options:
+The -a option is LatticeECP3.
+The -s option is 8.
+The -t option is FPBGA672.
+The -d option is LFE3-70E.
+Using package FPBGA672.
+Using performance grade 8.
+                                                          
+
+##########################################################
+
+### Lattice Family : LatticeECP3
+
+### Device  : LFE3-70E
+
+### Package : FPBGA672
+
+### Speed   : 8
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Timing
+Top-level module name = Top.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3 (default)
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = no
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.12/ispfpga/ep5c00/data (searchpath added)
+-p C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A (searchpath added)
+-p C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4 (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/TestVideoTop.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/I2cMasterCommands.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/I2CMasterDevice.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SeqBlk1204.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/IpxLpc/Pll125to100x50.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Main.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dv i410Request.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/vga.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/MIres/mires.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/IpxLpc/Pll125to159.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto25.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Simulacion/simulacion.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto120.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto140.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto80.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto34.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SPI/SPI_in.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SPI/SPI_out.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SPI/Spi_slave.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/decodage_generation.vhd
+VHDL design file = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Top.vhd
+NGD file = Ext10GenDvi_A.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp3.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A". VHDL-1504
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/testvideotop.vhd. VHDL-1481
+WARNING - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/testvideotop.vhd(15): 'components' is not compiled in library ecp2m. VHDL-1240
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/testvideotop.vhd(18): analyzing entity testvideotop. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/testvideotop.vhd(50): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmastercommands.vhd. VHDL-1481
+WARNING - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmastercommands.vhd(6): 'pmi_components' is not compiled in library work. VHDL-1240
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmastercommands.vhd(9): analyzing entity i2cmastercommands. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmastercommands.vhd(37): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmasterdevice.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmasterdevice.vhd(6): analyzing entity i2cmasterdevice. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/i2cmasterdevice.vhd(18): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/ep32tss.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/ep32tss.vhd(29): analyzing entity ep32. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/ep32tss.vhd(46): analyzing architecture behavioral. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/forth.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/forth.vhd(33): analyzing entity forth. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/forth.vhd(46): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/rx.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/rx.vhd(64): analyzing entity rx. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/rx.vhd(73): analyzing architecture behavioral. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/tx.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/tx.vhd(59): analyzing entity tx. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/tx.vhd(69): analyzing architecture behavioral. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/uarttss.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/uarttss.vhd(6): analyzing entity uart. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/forth120719/vhdl/uarttss.vhd(22): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/seqblk1204.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/seqblk1204.vhd(60): analyzing entity seqblk. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/seqblk1204.vhd(69): analyzing architecture behavioral. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/ipxlpc/pll125to100x50.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/ipxlpc/pll125to100x50.vhd(14): analyzing entity pll125to100x50. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/ipxlpc/pll125to100x50.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410cnt.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410cnt.vhd(6): analyzing entity dvi410cnt. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410cnt.vhd(16): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410conf.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410conf.vhd(6): analyzing entity dvi410conf. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410conf.vhd(42): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410main.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410main.vhd(6): analyzing entity dvi410. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410main.vhd(54): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dv i410request.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dv i410request.vhd(6): analyzing entity dvi410request. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dv i410request.vhd(21): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410sync.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410sync.vhd(6): analyzing entity dvi410sync. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410sync.vhd(20): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410timing.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410timing.vhd(6): analyzing entity dvi410timing. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/dvi410/dvi410timing.vhd(18): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/vga.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/vga.vhd(5): analyzing entity vga. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/vga.vhd(26): analyzing architecture vga. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/mires/mires.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/mires/mires.vhd(8): analyzing entity mires. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/mires/mires.vhd(27): analyzing architecture mires. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/ipxlpc/pll125to159.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/ipxlpc/pll125to159.vhd(14): analyzing entity pll125to159. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/ipxlpc/pll125to159.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto25.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto25.vhd(14): analyzing entity pllclkto25. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto25.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/simulacion/simulacion.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/simulacion/simulacion.vhd(8): analyzing entity simulacion. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/simulacion/simulacion.vhd(34): analyzing architecture simulacion. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto120.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto120.vhd(14): analyzing entity pllclkto120. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto120.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto140.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto140.vhd(14): analyzing entity pllclkto140. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto140.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto80.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto80.vhd(14): analyzing entity pllclkto80. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto80.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto34.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto34.vhd(14): analyzing entity pllclkto34. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/diamond1.4/pllclkto34.vhd(22): analyzing architecture structure. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_in.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_in.vhd(6): analyzing entity spi_in. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_in.vhd(15): analyzing architecture ar. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_out.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_out.vhd(6): analyzing entity spi_out. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_out.vhd(16): analyzing architecture ar. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_slave.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_slave.vhd(6): analyzing entity spi_slave. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/spi/spi_slave.vhd(19): analyzing architecture ar. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/decodage_generation.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/decodage_generation.vhd(5): analyzing entity decodage_generation. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/decodage_generation.vhd(27): analyzing architecture arch. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/top.vhd. VHDL-1481
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/top.vhd(9): analyzing entity top. VHDL-1012
+INFO - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/top.vhd(35): analyzing architecture rtl. VHDL-1010
+unit Top is not yet analyzed. VHDL-1485
+unit Top is not yet analyzed. VHDL-1485
+ERROR - synthesis: c:/users/cypri/documents/git/pge/11_fpga_generation/genvideo/vhdl/simulacion/simulacion.vhd(309): statement is not synthesizable since it does not hold i

@@ -13,11 +13,11 @@ operation = Commercial
 #design options
 [Design]
 title = Ext10GenDvi
-path = /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A
-core_generate = /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A
-search_path = /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4
-top = TestVideoTop
-lpf = /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf
+path = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A
+core_generate = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A
+search_path = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4
+top = Top
+lpf = C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/Ext10GenDvi.lpf
 synthesis = synplify
 
 #strategy options
@@ -25,32 +25,40 @@ VHDL2008 = false
 
 #HDLs options
 [HDLs]
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/vga.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/MIres/mires.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to159.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto25.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/PllClkto40.vhd = VHDL, work
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/VHDL/Simulacion/simulacion.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/TestVideoTop.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/I2cMasterCommands.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/I2CMasterDevice.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SeqBlk1204.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/IpxLpc/Pll125to100x50.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Main.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dv i410Request.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/vga.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/MIres/mires.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/IpxLpc/Pll125to159.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto25.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Simulacion/simulacion.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto120.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto140.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto80.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/PllClkto34.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SPI/SPI_in.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SPI/SPI_out.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/SPI/Spi_slave.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/decodage_generation.vhd = VHDL, work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/VHDL/Top.vhd = VHDL, work
 [HDL_Defines]
 SBP_SYNTHESIS=
 [HDL_Param]
 [Generated]
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/testvideotop_la0_trig_gen.v=Verilog
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/testvideotop_la0_gen.v=Verilog
-/home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/TestVideoTop_rvl_top.vhd=VHDL,work
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/top_la0_trig_gen.v=Verilog
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/top_la0_gen.v=Verilog
+C:/Users/cypri/Documents/GIT/PGE/11_FPGA_GENERATION/GenVideo/Diamond1.4/A/reveal_workspace/tmpreveal/Top_rvl_top.vhd=VHDL,work

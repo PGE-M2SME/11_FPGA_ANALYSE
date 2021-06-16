@@ -4,9 +4,9 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2021 2 16 21 15 0)
-      (program "SCUBA" (version "Diamond (64-bit) 3.11.3.469"))))
-      (comment "/usr/local/diamond/3.11_x64/ispfpga/bin/lin64/scuba -w -bus_exp 7 -bb -arch ep5c00 -pfu_fifo -type ebfifo -sync_mode -depth 16 -width 8 -pf 252 -pe 4 -n pmi_fifoLEn4252016168pd390150 -pmi ")
+      (timestamp 2021 4 15 15 26 56)
+      (program "SCUBA" (version "Diamond (64-bit) 3.12.0.240.2"))))
+      (comment "C:/lscc/diamond/3.12/ispfpga/bin/nt64/scuba -w -bus_exp 7 -bb -arch ep5c00 -pfu_fifo -type ebfifo -sync_mode -depth 16 -width 8 -pf 252 -pe 4 -n pmi_fifoLEn4252016168pd390150 -pmi ")
   (library ORCLIB
     (edifLevel 0)
     (technology

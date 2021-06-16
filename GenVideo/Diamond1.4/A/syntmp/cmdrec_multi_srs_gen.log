@@ -1,8 +1,7 @@
-/usr/local/diamond/3.12/synpbase/bin/syn_nfilter  -link  -top  TestVideoTop  -multisrs  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_comp.srs  -osyn  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synwork/Ext10GenDvi_A_mult.srs  -log  /home/diamond/SharedFolder/GENERACION_MANUAL/05_CustumerRelationship-master/ProjetsDiamonds/GenVideo/Diamond1.4/A/synlog/Ext10GenDvi_A_multi_srs_gen.srr 
-relcom:/usr/local/diamond/3.12/synpbase/bin/syn_nfilter -link -top TestVideoTop -multisrs ../synwork/Ext10GenDvi_A_comp.srs -osyn ../synwork/Ext10GenDvi_A_mult.srs -log ../synlog/Ext10GenDvi_A_multi_srs_gen.srr
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  Top  -multisrs  C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\synwork\Ext10GenDvi_A_comp.srs  -osyn  C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\synwork\Ext10GenDvi_A_mult.srs  -log  C:\Users\cypri\Documents\GIT\PGE\11_FPGA_GENERATION\GenVideo\Diamond1.4\A\synlog\Ext10GenDvi_A_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top Top -multisrs ..\synwork\Ext10GenDvi_A_comp.srs -osyn ..\synwork\Ext10GenDvi_A_mult.srs -log ..\synlog\Ext10GenDvi_A_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:../synwork/Ext10GenDvi_A_comp.srs|io:i|time:1618167586|size:97715|exec:0|csum:D989BA5156EFD14680F44AE21F18F134
-file:../synwork/Ext10GenDvi_A_mult.srs|io:o|time:1618167588|size:13632|exec:0|csum:
-file:../synlog/Ext10GenDvi_A_multi_srs_gen.srr|io:o|time:1618167588|size:1301|exec:0|csum:
-file:/usr/local/diamond/3.12/synpbase/linux_a_64/syn_nfilter|io:i|time:1604079997|size:12412832|exec:1|csum:9F6E9E3B45455C3F00D6AE6E69BE2F11
-file:/usr/local/diamond/3.12/synpbase/bin/syn_nfilter|io:i|time:1604079555|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0
+file:..\synwork\Ext10GenDvi_A_comp.srs|io:i|time:1618493120|size:312031|exec:0|csum:8FF30CA34BCDB446E9C5526F3D64FB60
+file:..\synwork\Ext10GenDvi_A_mult.srs|io:o|time:1618493121|size:8098|exec:0|csum:
+file:..\synlog\Ext10GenDvi_A_multi_srs_gen.srr|io:o|time:1618493121|size:1172|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603963122|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

@@ -1,0 +1,390 @@
+--=============================== entity and architecture dw_div===============================
+
+
+----------------------------------------------------------------------------------------------------
+--
+-- Title       : DW_div
+-- Design      : DW_div
+-- Author      : Selvam R / Harish M K
+-- Company     : Synplicity Software India Pvt. Ltd.
+--
+---------------------------------------------------------------------------------------------------
+-- Description : DW_div is a combinational integer divider with	both quotient and remainder outputs. 
+-- This component divides the dividend, a, by the divisor, b, to produce the quotient and remainder.
+-- Optionally, the remainder output computes the modulus.
+--
+-- The sign of the remainder is the sign of the A input.
+-- The sign of the modulus is the sign of the B input.
+--
+-- Revision History
+-- 04/17/12 (Selvam): Fixed logic issue for both Quotient and Remainder for the case of dividing with -1 (signed operation)
+---------------------------------------------------------------------------------------------------
+
+	
+library IEEE;
+use IEEE.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity DW_div is
+	generic(
+		a_width	 :POSITIVE	:=14;
+		b_width	 :POSITIVE	:=9;
+		tc_mode	 :NATURAL 	:=0;
+		rem_mode :NATURAL	:=1
+		);
+	port(
+		a 			: in std_logic_vector(a_width-1 downto 0);
+		b 			: in std_logic_vector(b_width-1 downto 0);
+		quotient	: out std_logic_vector(a_width-1 downto 0);
+		remainder	: out std_logic_vector(b_width-1 downto 0);
+		divide_by_0	: out std_logic
+		);
+end DW_div ;
+
+architecture rtl of DW_div is 
+
+-- Internal signal declarations
+signal param1, quot, quotient_2s, temp : std_logic_vector ( a_width - 1 downto 0 );
+signal param2, modl : std_logic_vector ( b_width - 1 downto 0 ); 
+
+-- Function to get the quotient and remainder. Shift/substract non restoring algorithm is implemented
+	
+function div ( a : std_logic_vector( a_width - 1 downto 0 ); b : std_logic_vector( b_width - 1 downto 0 ) ) return std_logic_vector;
+
+function div ( a : std_logic_vector( a_width - 1 downto 0 ); b : std_logic_vector( b_width - 1 downto 0 ) ) return std_logic_vector is
+
+variable sum : std_logic_vector( b_width downto 0 );
+variable dividend : std_logic_vector ( a_width - 1 downto 0 );
+variable rem_adjust : std_logic_vector ( b_width downto 0 );
+variable temp_b : std_logic_vector( b_width downto 0 );
+variable app_b : std_logic_vector ( b_width downto 0 );
+variable remd : std_logic_vector(b_width - 1 downto 0 ); 
+
+begin
+
+sum := ( others => '0' );
+dividend := a;
+sum(0) := a(a_width - 1);
+dividend := dividend( a_width - 2 downto 0 ) & '0';
+app_b := '0' &  b ;
+temp_b := not(app_b)  + '1';
+sum := sum + temp_b;
+dividend(0) := not ( sum(b_width) );
+for i in 0 to ( a_width - 2 ) loop
+	if ( sum(b_width) = '1' ) then
+		temp_b := '0' & b;
+	else
+		temp_b := not(app_b)  + '1';
+	end if;
+	sum := sum(b_width - 1 downto 0 ) & '0';
+	sum(0) := dividend( a_width - 1 );
+	dividend := dividend( a_width - 2 downto 0 ) & '0';
+	sum := sum + temp_b;
+	dividend(0) := not ( sum(b_width) );
+end loop;
+if ( sum(b_width) = '1' ) then
+	rem_adjust := sum + ( '0' & b );
+else
+	rem_adjust := sum;
+end if;
+remd := rem_adjust( b_width - 1 downto 0 );
+return ( dividend & remd );	
+
+end div;
+
+begin
+
+-- Output assignment
+
+process ( b )
+begin
+	if ( b = 0) then
+		divide_by_0 <= '1';
+	else
+		divide_by_0 <= '0';
+	end if;
+end process;   
+
+-- Internal signal assignment
+
+process ( a )
+begin
+	if ( tc_mode = 1 ) then
+		if ( a(a_width - 1) = '1' ) then
+			param1 <= not(a) + '1';
+		else
+			param1 <= a;
+		end if;
+	else
+		param1 <= a;
+	end if;
+end process;
+
+process (b)
+begin
+	if ( tc_mode = 1 ) then
+		if ( b(b_width - 1 ) = '1' ) then
+			param2 <= not(b) + 1;
+		else
+			param2 <= b;
+		end if;
+	else
+		param2 <= b;
+	end if;
+end process;
+
+
+process ( param1, param2 )
+variable quot_modl : std_logic_vector ( (a_width + b_width) - 1 downto 0 ); 
+begin	
+	quot_modl := div( param1, param2 );
+	quot <= quot_modl( (a_width + b_width) -1 downto b_width );
+	modl <= quot_modl( b_width - 1 downto 0 );
+end process;
+
+quotient_2s <= not(quot) + '1';
+
+
+process ( quot, quotient_2s, a, b )
+begin
+	if ( (a(a_width - 1 ) xor b(b_width - 1 )) = '1' ) then
+		temp <= quotient_2s; 
+	else
+		temp <= quot; 
+	end if;
+end process;
+
+
+-- Output assignment
+
+process ( a , b, modl )	
+variable temp1 : std_logic_vector ( b_width - 1 downto 0 ):= ( others => '1' );
+variable temp2 : std_logic_vector ( a_width - 1 downto 0 );
+variable temp2_0 : std_logic_vector ( a_width - 2 downto 0 ):= ( others => '0' );
+variable temp3 : std_logic_vector ( 1 downto 0 );
+begin 
+	temp3 := a(a_width - 1) & b(b_width - 1); 
+	temp2 := '1' & temp2_0;
+	if ( rem_mode = 1 ) then
+		if ( b = 0 ) then
+			remainder <= a( b_width - 1 downto 0 );
+		elsif ( tc_mode = 1 and b = temp1 and a = temp2 ) then	
+			-- remainder <= temp1;
+			   remainder <= ( others => '0');
+		elsif ( tc_mode = 1 and ( modl /= 0 ) and a(a_width - 1 ) = '1' ) then
+			remainder <= not(modl) + '1';
+		else
+			remainder <= modl;
+		end if;	 
+	elsif ( tc_mode = 1 ) then
+			if ( b = 0 ) then
+				remainder <= a( b_width - 1 downto 0 );
+			elsif ( b = temp1 and a = temp2 ) then
+				-- remainder <= temp1;
+				   remainder <= ( others => '0' );
+			else
+				case ( temp3 ) is 
+					when "00" =>
+					remainder <= modl;	 
+					
+					when "01" =>
+					if ( modl /= 0 ) then
+						remainder <= b + modl;
+					else
+						remainder <= modl;
+					end if;
+				
+					when "10" =>
+					if ( modl /= 0 ) then	  
+						remainder <= b - modl;
+					else
+						remainder <= modl;
+					end if;
+					
+					when "11" =>
+					if ( modl /= 0 ) then
+						remainder <= not(modl) + '1';
+					else
+						remainder <= modl;
+					end if;
+					
+					when others =>
+					null;
+				end case;
+			end if;
+		else
+			if ( b = 0 ) then
+				remainder <= a( b_width - 1 downto 0 );
+			else
+				remainder <= modl;
+			end if;
+		end if;
+	
+end process;
+
+-- Output assignment
+
+process ( a , b, temp, quot ) 
+variable temp1 : std_logic_vector ( b_width - 1 downto 0 ):= ( others => '1' );
+variable temp2 : std_logic_vector ( a_width - 1 downto 0 );
+variable temp2_0 : std_logic_vector ( a_width - 2 downto 0 ) := ( others => '0' );
+variable temp3 : std_logic_vector ( a_width - 1 downto 0 );
+variable temp3_1 : std_logic_vector ( a_width - 2 downto 0 ) := ( others => '1' );
+variable temp4 : std_logic_vector ( a_width - 1 downto 0 ):= ( others => '1' );
+
+begin 
+	temp2 := '1' & temp2_0;
+	temp3 := '0' & temp3_1;
+	if ( b /= 0 ) then
+		case ( tc_mode ) is
+			when 1 =>
+			if ( b = temp1 and a = temp2 ) then
+				-- quotient <= temp3; --This Results in mismatch
+				   quotient <= temp2; 
+			else
+				quotient <= temp;
+			end if;
+			
+			when 0 =>
+			quotient <= quot;
+			
+			when others =>
+			null;
+			
+		end case;
+	else
+		case ( tc_mode ) is
+			when 1 =>
+			if ( a(a_width - 1 ) = '1' ) then
+				quotient <= temp2;
+			else
+				quotient <= temp3; 
+			end if;	 
+			
+			when 0 =>
+			quotient <= temp4; 
+			
+			when others =>
+			null;
+		end case;
+	end if;	
+end process;
+
+end rtl;
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity SDIV is
+    generic(
+	    width  : integer := 17;
+	    rwidth  : integer := 17;
+	    awidth : integer := 9;
+	    bwidth : integer := 8);
+    port(
+	 	A: in std_logic_vector(awidth -1 downto 0);
+		B: in std_logic_vector(bwidth -1 downto 0);
+		DIVIDE : out std_logic_vector(width -1 downto 0);
+		REMAIND	: out std_logic_vector(rwidth-1 downto 0));
+end SDIV;
+
+
+architecture cell_level of SDIV is
+
+	component DW_div
+	generic(
+		a_width	 :POSITIVE;
+		b_width	 :POSITIVE;
+		tc_mode	 :NATURAL ;
+		rem_mode :NATURAL
+		);
+	port(
+		a 			: in std_logic_vector(a_width-1 downto 0);
+		b 			: in std_logic_vector(b_width-1 downto 0);
+		quotient	: out std_logic_vector(a_width-1 downto 0);
+		remainder	: out std_logic_vector(b_width-1 downto 0);
+		divide_by_0	: out std_logic
+		);
+	end component;
+
+begin
+
+	if_generate_plus: if (awidth >= bwidth) generate
+			signal q_aux  : std_logic_vector(awidth -1 downto 0);  
+			signal r_aux  : std_logic_vector(bwidth -1 downto 0);  
+	begin
+		mult1:  DW_div
+			generic map (
+				a_width => awidth,
+				b_width => bwidth,
+				tc_mode => 1,
+				rem_mode => 1
+			)
+			port map (
+				a => A,
+				b => B,
+				quotient => q_aux,
+				remainder => r_aux
+			);
+	
+	
+	 		if_generate_1: if (rwidth > bwidth) generate
+				REMAIND <= SXT(r_aux, rwidth);
+			end generate if_generate_1;
+	
+	 		if_generate_2: if (rwidth <= bwidth) generate
+				REMAIND <= r_aux(rwidth-1 downto 0);
+			end generate if_generate_2;
+	
+	 		if_generate_3: if (width > awidth) generate
+				DIVIDE <= SXT(q_aux, width );
+			end generate if_generate_3;
+	
+	 		if_generate_4: if (width <= awidth) generate
+				DIVIDE <= q_aux(width-1 downto 0);
+			end generate if_generate_4;
+	  end generate if_generate_plus;
+
+	 if_generate_malus: if (awidth < bwidth) generate
+		signal a_ext  : std_logic_vector(bwidth -1 downto 0);  	 	
+		signal q_aux  : std_logic_vector(bwidth -1 downto 0);  
+		signal r_aux  : std_logic_vector(bwidth -1 downto 0);  
+	 begin
+	 	a_ext <= SXT(A, bwidth);
+		mult1:  DW_div
+			generic map (
+				a_width => bwidth,
+				b_width => bwidth,
+				tc_mode => 1,
+				rem_mode => 1
+			)
+			port map (
+				a => a_ext,
+				b => B,
+				quotient => q_aux,
+				remainder => r_aux
+			);
+	
+	
+	 		if_generate_1: if (rwidth > bwidth) generate
+				REMAIND <= SXT(r_aux, rwidth);
+			end generate if_generate_1;
+	
+	 		if_generate_2: if (rwidth <= bwidth) generate
+				REMAIND <= r_aux(rwidth-1 downto 0);
+			end generate if_generate_2;
+	
+	 		if_generate_3: if (width > bwidth) generate
+				DIVIDE <= SXT(q_aux, width );
+			end generate if_generate_3;
+	
+	 		if_generate_4: if (width <= bwidth) generate
+				DIVIDE <= q_aux(width-1 downto 0);
+			end generate if_generate_4;
+	  end generate if_generate_malus;
+end cell_level;
+
+
